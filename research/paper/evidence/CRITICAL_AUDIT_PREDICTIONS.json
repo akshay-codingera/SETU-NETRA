@@ -1,0 +1,2452 @@
+[
+  {
+    "example_id": "audit_7act_0001",
+    "question": "Given Amdahl's Law with parallel fraction p = 0.8 and speedup s = 4, calculate total_speedup = 1 / ((1 - p) + (p / s))",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9745017886161804
+  },
+  {
+    "example_id": "audit_7act_0002",
+    "question": "Given clock_rate = 2.5 GHz and cycle_count = 5000000, calculate execution_time = cycle_count / (clock_rate * 1e9)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9626258015632629
+  },
+  {
+    "example_id": "audit_7act_0003",
+    "question": "Given cache hit time = 2 ns, miss penalty = 80 ns, miss rate = 0.05, find amat = 2 + (0.05 * 80)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9722497463226318
+  },
+  {
+    "example_id": "audit_7act_0004",
+    "question": "In a network with bandwidth = 100 Mbps and RTT = 0.04 seconds, calculate bdp_bits = (100 * 1e6) * 0.04",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9594582915306091
+  },
+  {
+    "example_id": "audit_7act_0005",
+    "question": "Calculate TCP throughput: bytes_transferred = 15000000; duration_seconds = 3; rate_mbps = (bytes_transferred * 8) / (duration_seconds * 1e6)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9393829703330994
+  },
+  {
+    "example_id": "audit_7act_0006",
+    "question": "Given matrix dimensions A(20, 30) and B(30, 40), compute scalar multiplications required = 20 * 30 * 40",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9725072979927063
+  },
+  {
+    "example_id": "audit_7act_0007",
+    "question": "Given disk sector size = 512 bytes, file size = 12500 bytes, calculate sectors_needed = (12500 + 511) // 512",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9716022610664368
+  },
+  {
+    "example_id": "audit_7act_0008",
+    "question": "Calculate Shannon channel capacity: bandwidth = 3000 Hz, snr = 31; capacity = bandwidth * 5",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.971276581287384
+  },
+  {
+    "example_id": "audit_7act_0009",
+    "question": "Given baud rate = 9600 and bits per symbol = 4, calculate bit_rate = 9600 * 4",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9720937013626099
+  },
+  {
+    "example_id": "audit_7act_0010",
+    "question": "Compute CPU speedup ratio: old_time = 145.5, new_time = 29.1, speedup = old_time / new_time",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9620496034622192
+  },
+  {
+    "example_id": "audit_7act_0011",
+    "question": "Given page size = 4096 bytes and virtual address = 18450, calculate page_number = 18450 // 4096",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9562143087387085
+  },
+  {
+    "example_id": "audit_7act_0012",
+    "question": "Given page size = 4096 bytes and virtual address = 18450, calculate page_offset = 18450 % 4096",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9232556223869324
+  },
+  {
+    "example_id": "audit_7act_0013",
+    "question": "In a 4-way set associative cache with 1024 total blocks, calculate number_of_sets = 1024 / 4",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9625592827796936
+  },
+  {
+    "example_id": "audit_7act_0014",
+    "question": "Given DRAM row buffer hit latency = 15 ns, miss latency = 45 ns, hit rate = 0.70, compute average = (0.70 * 15) + (0.30 * 45)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.968718945980072
+  },
+  {
+    "example_id": "audit_7act_0015",
+    "question": "Calculate Hamming code parity bits required for data_bits = 16: check 2^p >= 16 + p + 1; compute p = 5",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9692071676254272
+  },
+  {
+    "example_id": "audit_7act_0016",
+    "question": "Given pipeline with 5 stages and clock cycle = 2 ns, compute total latency for 1 instruction = 5 * 2",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9243689775466919
+  },
+  {
+    "example_id": "audit_7act_0017",
+    "question": "Given total memory = 16384 MB and OS reserved = 2048 MB, calculate available_ratio = (16384 - 2048) / 16384",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9721943140029907
+  },
+  {
+    "example_id": "audit_7act_0018",
+    "question": "Calculate disk seek time: seek_cost = 4.5 ms, rotation_delay = 3.0 ms, transfer = 0.5 ms; total = 4.5 + 3.0 + 0.5",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9515051245689392
+  },
+  {
+    "example_id": "audit_7act_0019",
+    "question": "In a binary tree with depth d = 5, calculate maximum leaves = 2^5",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9722336530685425
+  },
+  {
+    "example_id": "audit_7act_0020",
+    "question": "Given hash table size = 997 and key count = 650, compute load_factor = 650 / 997",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9669869542121887
+  },
+  {
+    "example_id": "audit_7act_0021",
+    "question": "Compute CRC generator divisor remainder for dividend = 110101 and polynomial = 1011",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9690765738487244
+  },
+  {
+    "example_id": "audit_7act_0022",
+    "question": "Given round trip time = 50 ms and packet loss = 0.01, calculate Reno window limit = 1.22 / sqrt(0.01)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9353193640708923
+  },
+  {
+    "example_id": "audit_7act_0023",
+    "question": "Calculate token bucket burst capacity: bucket_size = 50000 bytes, refill_rate = 10000 bps; duration = 50000 / 10000",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9641976356506348
+  },
+  {
+    "example_id": "audit_7act_0024",
+    "question": "Given prime factors p = 61, q = 53, compute RSA modulus n = p * q",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9494076371192932
+  },
+  {
+    "example_id": "audit_7act_0025",
+    "question": "Given p = 61 and q = 53, calculate Euler totient phi = (p - 1) * (q - 1)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9636030793190002
+  },
+  {
+    "example_id": "audit_7act_0026",
+    "question": "Given RSA public exponent e = 17 and phi = 3120, verify gcd(e, phi) = 1",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9637218713760376
+  },
+  {
+    "example_id": "audit_7act_0027",
+    "question": "Calculate discrete logarithm step: base = 3, target = 12, modulus = 17; verify 3^x mod 17",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9685425162315369
+  },
+  {
+    "example_id": "audit_7act_0028",
+    "question": "In an M/M/1 queuing model with arrival lambda = 8 and service mu = 10, calculate utilization rho = 8 / 10",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9508960247039795
+  },
+  {
+    "example_id": "audit_7act_0029",
+    "question": "Calculate average customers in M/M/1 queue: rho = 0.8; l_q = (rho * rho) / (1 - rho)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9660005569458008
+  },
+  {
+    "example_id": "audit_7act_0030",
+    "question": "Given floating point mantissa = 23 bits, calculate precision epsilon = 2^(-23)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9175997376441956
+  },
+  {
+    "example_id": "audit_7act_0031",
+    "question": "Compute matrix determinant: |[[4, 2], [3, 5]]| = (4 * 5) - (2 * 3)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9720515012741089
+  },
+  {
+    "example_id": "audit_7act_0032",
+    "question": "Calculate standard deviation: variance = 64; std_dev = sqrt(64)",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9579278826713562
+  },
+  {
+    "example_id": "audit_7act_0033",
+    "question": "Given base 10 integer 255, calculate hexadecimal representation value = 15 * 16 + 15",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9738487005233765
+  },
+  {
+    "example_id": "audit_7act_0034",
+    "question": "Calculate Huffman code tree average length: p1 = 0.5 (len 1), p2 = 0.25 (len 2), p3 = 0.25 (len 2); avg = 0.5*1 + 0.25*2 + 0.25*2",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.972786009311676
+  },
+  {
+    "example_id": "audit_7act_0035",
+    "question": "Compute floating point exponent bias for IEEE 754 single precision: 2^(8-1) - 1 = 127",
+    "expected_action": "ARITHMETIC_SOLVER",
+    "action_id": 0,
+    "predicted_v1": "ARITHMETIC_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.9374015927314758
+  },
+  {
+    "example_id": "audit_7act_0036",
+    "question": "Given relation Hospital(PatientID, DoctorID, Treatment, WardNo) and F = {PatientID -> DoctorID, DoctorID -> WardNo}, find candidate keys.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9753224849700928
+  },
+  {
+    "example_id": "audit_7act_0037",
+    "question": "In Hospital schema with PatientID -> DoctorID and DoctorID -> WardNo, what transitive dependency causes violation of 3NF?",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9716470837593079
+  },
+  {
+    "example_id": "audit_7act_0038",
+    "question": "Given relation Pharmacy(PrescriptionID, DrugCode, Dosage, Manufacturer) with {PrescriptionID, DrugCode} -> Dosage and DrugCode -> Manufacturer, decompose into 2NF.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9744695425033569
+  },
+  {
+    "example_id": "audit_7act_0039",
+    "question": "Explain why DrugCode -> Manufacturer represents a partial dependency on candidate key {PrescriptionID, DrugCode}.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9743093848228455
+  },
+  {
+    "example_id": "audit_7act_0040",
+    "question": "Given relation Clinic(DocID, ClinicRoom, PatientAppt) with DocID -> ClinicRoom, determine if Clinic satisfies Boyce-Codd Normal Form.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9716611504554749
+  },
+  {
+    "example_id": "audit_7act_0041",
+    "question": "Given relation Warehouse(ItemCode, BinLocation, Quantity, Category) with ItemCode -> Category and BinLocation -> ItemCode, find all candidate keys.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9752323031425476
+  },
+  {
+    "example_id": "audit_7act_0042",
+    "question": "In Warehouse schema, why is {BinLocation} a candidate key if BinLocation -> ItemCode and ItemCode -> Category?",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9762080907821655
+  },
+  {
+    "example_id": "audit_7act_0043",
+    "question": "Given relation Schedule(CourseID, Section, Instructor, Semester) with {CourseID, Section, Semester} -> Instructor, verify BCNF compliance.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.974070131778717
+  },
+  {
+    "example_id": "audit_7act_0044",
+    "question": "Under relational database theory, define the conditions under which a functional dependency X -> Y is considered trivial.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.8626084327697754
+  },
+  {
+    "example_id": "audit_7act_0045",
+    "question": "Given functional dependencies F = {A -> B, B -> C, CD -> E}, calculate the attribute closure of {A, D}^+.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.5077479481697083
+  },
+  {
+    "example_id": "audit_7act_0046",
+    "question": "Determine whether dependency A -> C is logically implied by F = {A -> B, B -> C} using Armstrong's Transitivity Axiom.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.8927638530731201
+  },
+  {
+    "example_id": "audit_7act_0047",
+    "question": "In relation R(A, B, C, D) with F = {A -> B, B -> C, C -> D}, why is A the unique minimal candidate key?",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9771462678909302
+  },
+  {
+    "example_id": "audit_7act_0048",
+    "question": "Given decomposition of R(A, B, C) into R1(A, B) and R2(A, C), verify if the decomposition is lossless with respect to F = {A -> B}.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9747070670127869
+  },
+  {
+    "example_id": "audit_7act_0049",
+    "question": "State why the intersection of R1 and R2 must contain a candidate key of at least one sub-relation for lossless join decomposition.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.973079264163971
+  },
+  {
+    "example_id": "audit_7act_0050",
+    "question": "Given relation Enrollment(StudentID, CourseID, Activity) with StudentID ->> Activity, determine if relation violates 4NF.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.652935802936554
+  },
+  {
+    "example_id": "audit_7act_0051",
+    "question": "Define multi-valued dependency X ->> Y and explain how it differs from a functional dependency.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.4653189480304718
+  },
+  {
+    "example_id": "audit_7act_0052",
+    "question": "In SQL, given query SELECT Dept, COUNT(*) FROM Employee GROUP BY Dept HAVING COUNT(*) > 5, evaluate the execution sequence.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9760726094245911
+  },
+  {
+    "example_id": "audit_7act_0053",
+    "question": "Explain why the WHERE clause cannot filter on aggregate results like SUM(Salary) prior to the GROUP BY stage.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.5148711800575256
+  },
+  {
+    "example_id": "audit_7act_0054",
+    "question": "In relational algebra, what is the exact equivalence between a natural join R JOIN S and a theta join followed by projection?",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.48160868883132935
+  },
+  {
+    "example_id": "audit_7act_0055",
+    "question": "Given functional dependencies F = {X -> Y, W -> Z}, compute the canonical cover Fc eliminating redundant dependencies.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.5440342426300049
+  },
+  {
+    "example_id": "audit_7act_0056",
+    "question": "Determine whether relation R(FlightNo, Date, Pilot, CoPilot) with {FlightNo, Date} -> Pilot satisfies 3NF.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.974454939365387
+  },
+  {
+    "example_id": "audit_7act_0057",
+    "question": "In a B-tree of order 4, what is the maximum number of child pointers an internal node can hold?",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.8076767921447754
+  },
+  {
+    "example_id": "audit_7act_0058",
+    "question": "Explain why B+ tree leaves form a doubly linked list while B-tree leaves do not maintain direct sequential pointers.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9429134726524353
+  },
+  {
+    "example_id": "audit_7act_0059",
+    "question": "Given functional dependency set F = {A -> BC, CD -> E, E -> A}, find the closure of {C, D}^+.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.46962273120880127
+  },
+  {
+    "example_id": "audit_7act_0060",
+    "question": "In relation R(A, B, C, D, E) with candidate key {A, B}, why does B -> C constitute a partial dependency?",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9751558899879456
+  },
+  {
+    "example_id": "audit_7act_0061",
+    "question": "Decompose relation R(A, B, C, D) with F = {A -> B, B -> C, A -> D} into a set of 3NF relations.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9769845008850098
+  },
+  {
+    "example_id": "audit_7act_0062",
+    "question": "Explain the difference between 3NF and BCNF when a relation possesses multiple overlapping candidate keys.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9522297382354736
+  },
+  {
+    "example_id": "audit_7act_0063",
+    "question": "Given relation R(ZipCode, City, State) with ZipCode -> City and City -> State, find the normal form.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9747582674026489
+  },
+  {
+    "example_id": "audit_7act_0064",
+    "question": "In ANSI SQL, what is the semantic difference between LEFT OUTER JOIN and FULL OUTER JOIN when tuples have no matching keys?",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.8534978628158569
+  },
+  {
+    "example_id": "audit_7act_0065",
+    "question": "Given relation R(A, B, C) with F = {AB -> C, C -> A}, verify whether decomposition into R1(A, C) and R2(B, C) is dependency-preserving.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9742488265037537
+  },
+  {
+    "example_id": "audit_7act_0066",
+    "question": "Why is dependency preservation important during relational database normalization?",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.8463611602783203
+  },
+  {
+    "example_id": "audit_7act_0067",
+    "question": "Determine whether functional dependency X -> A is preserved if neither sub-relation contains both X and A.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.7019803524017334
+  },
+  {
+    "example_id": "audit_7act_0068",
+    "question": "In relation R(A, B, C, D) with F = {A -> B, B -> C, C -> A, D -> E}, determine the primary key.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9769993424415588
+  },
+  {
+    "example_id": "audit_7act_0069",
+    "question": "Explain the concept of extraneous attributes in a functional dependency and how they are eliminated in canonical cover.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.4607088565826416
+  },
+  {
+    "example_id": "audit_7act_0070",
+    "question": "Given relation R(CustID, AccountNo, BranchName) with CustID -> AccountNo and AccountNo -> BranchName, identify BCNF violations.",
+    "expected_action": "DBMS_SOLVER",
+    "action_id": 1,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9759175777435303
+  },
+  {
+    "example_id": "audit_7act_0071",
+    "question": "Premise: All carnivores are mammals. Premise: All tigers are carnivores. Does it conclude: All tigers are mammals?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9737890958786011
+  },
+  {
+    "example_id": "audit_7act_0072",
+    "question": "Premise: No reptiles are warm-blooded. Premise: All snakes are reptiles. Does it conclude: No snakes are warm-blooded?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9732463955879211
+  },
+  {
+    "example_id": "audit_7act_0073",
+    "question": "Premise: All philosophers are thinkers. Premise: Some writers are philosophers. Does it conclude: Some writers are thinkers?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9733000993728638
+  },
+  {
+    "example_id": "audit_7act_0074",
+    "question": "Premise: No triangles are squares. Premise: Some polygons are triangles. Does it conclude: Some polygons are not squares?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9727539420127869
+  },
+  {
+    "example_id": "audit_7act_0075",
+    "question": "Premise: All birds have feathers. Premise: Some pets are birds. Does it conclude: Some pets have feathers?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9729120135307312
+  },
+  {
+    "example_id": "audit_7act_0076",
+    "question": "Given conditional statement 'If it rains, then the ground is wet', what is the logically equivalent contrapositive?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.973527729511261
+  },
+  {
+    "example_id": "audit_7act_0077",
+    "question": "Given implication P -> Q, verify whether converse Q -> P is logically equivalent.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9710001349449158
+  },
+  {
+    "example_id": "audit_7act_0078",
+    "question": "Given premises P -> Q and ~Q, apply Modus Tollens to determine the valid conclusion.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9685478210449219
+  },
+  {
+    "example_id": "audit_7act_0079",
+    "question": "Given premises P -> Q and P, apply Modus Ponens to determine the valid conclusion.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9529873132705688
+  },
+  {
+    "example_id": "audit_7act_0080",
+    "question": "Premise: Some metals are magnetic. Premise: All iron objects are metals. Does it necessarily follow that All iron objects are magnetic?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9684575796127319
+  },
+  {
+    "example_id": "audit_7act_0081",
+    "question": "Given syllogism: All A are B. All C are B. Does it conclude: All A are C? If invalid, identify the fallacy of the undistributed middle.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9737269282341003
+  },
+  {
+    "example_id": "audit_7act_0082",
+    "question": "Premise: No fish are birds. Premise: No birds are insects. Does it conclude: No fish are insects? Explain fallacy of exclusive premises.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9734960794448853
+  },
+  {
+    "example_id": "audit_7act_0083",
+    "question": "Given statement 'Not (P and Q)', apply De Morgan's Law to state the logically equivalent disjunction.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9573161005973816
+  },
+  {
+    "example_id": "audit_7act_0084",
+    "question": "Given statement 'Not (P or Q)', apply De Morgan's Law to state the logically equivalent conjunction.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9621936082839966
+  },
+  {
+    "example_id": "audit_7act_0085",
+    "question": "Premise: All squares are rectangles. Premise: All rectangles are quadrilaterals. Conclude the transitive deduction.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9735519289970398
+  },
+  {
+    "example_id": "audit_7act_0086",
+    "question": "Premise: Either the server crashed or the network failed. Premise: The network did not fail. Deduce the status of the server using Disjunctive Syllogism.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9707034826278687
+  },
+  {
+    "example_id": "audit_7act_0087",
+    "question": "Given propositional formula (P -> Q) and (Q -> R), derive the hypothetical syllogism conclusion.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9730844497680664
+  },
+  {
+    "example_id": "audit_7act_0088",
+    "question": "Determine whether the proposition (P and ~P) is a contradiction, tautology, or contingency.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9678276181221008
+  },
+  {
+    "example_id": "audit_7act_0089",
+    "question": "Determine whether the proposition (P or ~P) is a contradiction, tautology, or contingency in classical Boolean logic.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9664003252983093
+  },
+  {
+    "example_id": "audit_7act_0090",
+    "question": "Given predicate logic statement 'For all x, P(x) -> Q(x)', what is the negation in terms of existential quantifiers?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.950459361076355
+  },
+  {
+    "example_id": "audit_7act_0091",
+    "question": "Given predicate statement 'There exists an x such that P(x) and ~Q(x)', state the formal negation.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9399245977401733
+  },
+  {
+    "example_id": "audit_7act_0092",
+    "question": "Premise: All prime numbers greater than 2 are odd. Premise: The number 7 is prime and greater than 2. Deduce whether 7 is odd.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.972844660282135
+  },
+  {
+    "example_id": "audit_7act_0093",
+    "question": "Premise: If a relation is in BCNF, it is in 3NF. Premise: Relation R is not in 3NF. Deduce BCNF status of R using contrapositive.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.6333919763565063
+  },
+  {
+    "example_id": "audit_7act_0094",
+    "question": "Given premises: A -> B, B -> C, C -> D, and ~D. What is the truth value of A?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.5492993593215942
+  },
+  {
+    "example_id": "audit_7act_0095",
+    "question": "Determine validity: If Socrates is human, then Socrates is mortal. Socrates is mortal. Therefore Socrates is human. Identify fallacy of affirming the consequent.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9733310341835022
+  },
+  {
+    "example_id": "audit_7act_0096",
+    "question": "Determine validity: If the key matches, the lock opens. The key does not match. Therefore the lock does not open. Identify fallacy of denying the antecedent.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.5601764917373657
+  },
+  {
+    "example_id": "audit_7act_0097",
+    "question": "Premise: Some engineers are musicians. Premise: All musicians are creative. Does it conclude: Some engineers are creative?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9719215035438538
+  },
+  {
+    "example_id": "audit_7act_0098",
+    "question": "Premise: No mammals are cold-blooded. Premise: All lizards are cold-blooded. Conclude whether any lizards are mammals.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.972841739654541
+  },
+  {
+    "example_id": "audit_7act_0099",
+    "question": "Given Horn clause ~A or ~B or C, rewrite the clause as an implication.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9723441004753113
+  },
+  {
+    "example_id": "audit_7act_0100",
+    "question": "In first-order resolution, when two clauses contain literal P and ~P, what resolvent is produced?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.7284746766090393
+  },
+  {
+    "example_id": "audit_7act_0101",
+    "question": "Verify whether the formula P -> (Q -> P) is a valid tautology under truth table assignment.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.7613413333892822
+  },
+  {
+    "example_id": "audit_7act_0102",
+    "question": "Premise: All valid syllogisms have distributed middle terms. This argument lacks a distributed middle term. Conclude validity.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.968186616897583
+  },
+  {
+    "example_id": "audit_7act_0103",
+    "question": "Given statements: All roses are flowers. Some flowers fade quickly. Does it conclude: Some roses fade quickly?",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.9733095765113831
+  },
+  {
+    "example_id": "audit_7act_0104",
+    "question": "Apply resolution principle to derive empty clause from set {P, ~P or Q, ~Q}.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.86324143409729
+  },
+  {
+    "example_id": "audit_7act_0105",
+    "question": "State whether constructive dilemma: (P -> Q) and (R -> S), P or R, therefore Q or S, is a valid inference rule.",
+    "expected_action": "FORMAL_LOGIC_SOLVER",
+    "action_id": 2,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.938286542892456
+  },
+  {
+    "example_id": "audit_7act_0106",
+    "question": "According to RFC 793, what is the exact default maximum segment lifetime (MSL) specified for TCP connections?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9668788313865662
+  },
+  {
+    "example_id": "audit_7act_0107",
+    "question": "What does the IEEE 754 standard specify as the sign bit value representing positive floating point numbers?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.944897472858429
+  },
+  {
+    "example_id": "audit_7act_0108",
+    "question": "Under the POSIX standard, what file descriptor integer value is officially assigned to standard error (stderr)?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9224792122840881
+  },
+  {
+    "example_id": "audit_7act_0109",
+    "question": "What is the exact name of the snapshot algorithm used by Chubby lock service for distributed checkpointing?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.7484642267227173
+  },
+  {
+    "example_id": "audit_7act_0110",
+    "question": "According to the NVMe 1.4 specification, what is the maximum number of I/O queues supported by a single controller?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9691635966300964
+  },
+  {
+    "example_id": "audit_7act_0111",
+    "question": "What is the official definition of an epoch number in the Raft consensus state machine?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9729507565498352
+  },
+  {
+    "example_id": "audit_7act_0112",
+    "question": "According to RFC 2616, what HTTP status code specifically designates '405 Method Not Allowed'?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.552696943283081
+  },
+  {
+    "example_id": "audit_7act_0113",
+    "question": "What exact encryption cipher suite is mandatory for baseline TLS 1.3 implementations according to RFC 8446?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.4427279829978943
+  },
+  {
+    "example_id": "audit_7act_0114",
+    "question": "In the Linux VFS interface, what structure stores file metadata including inode number, owner, and timestamps?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9409391283988953
+  },
+  {
+    "example_id": "audit_7act_0115",
+    "question": "What is the exact port number assigned by IANA for standard DNS service over UDP?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.6449857950210571
+  },
+  {
+    "example_id": "audit_7act_0116",
+    "question": "According to the Git documentation, what 40-character hash algorithm was originally used for commit object IDs?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.8427481651306152
+  },
+  {
+    "example_id": "audit_7act_0117",
+    "question": "What is the designated page replacement policy algorithm described in Denning's 1968 working set model paper?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9708143472671509
+  },
+  {
+    "example_id": "audit_7act_0118",
+    "question": "According to the ext4 filesystem design documentation, what is the maximum supported individual file size?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9017568826675415
+  },
+  {
+    "example_id": "audit_7act_0119",
+    "question": "What exact command-line flag enables verbose execution logging in standard cURL utilities?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9553648829460144
+  },
+  {
+    "example_id": "audit_7act_0120",
+    "question": "In Kubernetes architecture, what component acts as the primary distributed key-value store for cluster state?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.6768534183502197
+  },
+  {
+    "example_id": "audit_7act_0121",
+    "question": "According to RFC 1035, what is the maximum allowable character length of an individual DNS label?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.8048576712608337
+  },
+  {
+    "example_id": "audit_7act_0122",
+    "question": "What is the default block size utilized by the Hadoop Distributed File System (HDFS) in version 3.x?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9478791356086731
+  },
+  {
+    "example_id": "audit_7act_0123",
+    "question": "According to the USB 3.0 specification, what is the raw maximum signaling throughput in Gbps?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9311679601669312
+  },
+  {
+    "example_id": "audit_7act_0124",
+    "question": "What exact system call does a Linux process invoke to replace its process image with a new executable?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9694377779960632
+  },
+  {
+    "example_id": "audit_7act_0125",
+    "question": "In the Spanner paper, what hardware component provides the bounded uncertainty time API called TrueTime?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9582787156105042
+  },
+  {
+    "example_id": "audit_7act_0126",
+    "question": "What is the exact default timeout interval defined for BGP keepalive messages in RFC 4271?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9652919173240662
+  },
+  {
+    "example_id": "audit_7act_0127",
+    "question": "According to the Java Virtual Machine specification, what area of memory stores compiled class bytecode and constant pools?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9663525819778442
+  },
+  {
+    "example_id": "audit_7act_0128",
+    "question": "What is the exact default listening port number for PostgreSQL database server instances?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9044106006622314
+  },
+  {
+    "example_id": "audit_7act_0129",
+    "question": "In OAuth 2.0 RFC 6749, what grant type is used by single-page web applications without client secrets?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.8204646110534668
+  },
+  {
+    "example_id": "audit_7act_0130",
+    "question": "What is the exact command used in Docker CLI to remove all stopped containers and unused networks in one step?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_neural": "FORMAL_LOGIC_SOLVER",
+    "predicted_v2_fallback": "FORMAL_LOGIC_SOLVER",
+    "confidence_v2": 0.8853515982627869
+  },
+  {
+    "example_id": "audit_7act_0131",
+    "question": "According to the Bigtable paper, what three-part key index structure locates specific data values?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9658465385437012
+  },
+  {
+    "example_id": "audit_7act_0132",
+    "question": "What is the exact name of the consensus protocol paper published by Leslie Lamport in 1998?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.4070313572883606
+  },
+  {
+    "example_id": "audit_7act_0133",
+    "question": "According to the PCI Express 4.0 standard, what is the raw transfer rate per lane in GT/s?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9392699599266052
+  },
+  {
+    "example_id": "audit_7act_0134",
+    "question": "In Python documentation, what built-in exception is raised when dictionary key lookup fails?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9605402946472168
+  },
+  {
+    "example_id": "audit_7act_0135",
+    "question": "What is the exact default MTU size in bytes for standard Ethernet frames according to IEEE 802.3?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9398648738861084
+  },
+  {
+    "example_id": "audit_7act_0136",
+    "question": "According to the MapReduce paper, what partition function is used by default to assign intermediate keys to reducers?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.9725091457366943
+  },
+  {
+    "example_id": "audit_7act_0137",
+    "question": "What is the exact header field in an IPv4 packet that prevents infinite looping across routing hops?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9682186841964722
+  },
+  {
+    "example_id": "audit_7act_0138",
+    "question": "According to RFC 7231, what HTTP method is idempotent and requests transfer of a resource representation?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9364352226257324
+  },
+  {
+    "example_id": "audit_7act_0139",
+    "question": "What is the exact database isolation level that prevents dirty reads, non-repeatable reads, and phantom reads?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.9557480216026306
+  },
+  {
+    "example_id": "audit_7act_0140",
+    "question": "According to the Redis documentation, what data structure is used to implement Sorted Sets with logarithmic ranking?",
+    "expected_action": "EXTRACTIVE_QA",
+    "action_id": 3,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "EXTRACTIVE_QA",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.5281239151954651
+  },
+  {
+    "example_id": "audit_7act_0141",
+    "question": "Provide a comprehensive architectural comparison between microservices and modular monoliths for financial transaction systems.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9552984833717346
+  },
+  {
+    "example_id": "audit_7act_0142",
+    "question": "Compare and contrast the trade-offs between Log-Structured Merge (LSM) trees and B+ trees in high-throughput write workloads.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9565877914428711
+  },
+  {
+    "example_id": "audit_7act_0143",
+    "question": "Explain the evolutionary shift in distributed storage from hard disk drive seek optimization to flash NVMe parallelism.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.6431669592857361
+  },
+  {
+    "example_id": "audit_7act_0144",
+    "question": "Synthesize the multi-faceted architectural trade-offs between Eventual Consistency and Strong Linearizability in global systems.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9650185704231262
+  },
+  {
+    "example_id": "audit_7act_0145",
+    "question": "Discuss the advantages and operational overhead of implementing a Zero-Trust network architecture in enterprise cloud environments.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.7800776362419128
+  },
+  {
+    "example_id": "audit_7act_0146",
+    "question": "Analyze the architectural trade-offs between client-side rendering (CSR) and server-side rendering (SSR) for mobile web apps.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.956228494644165
+  },
+  {
+    "example_id": "audit_7act_0147",
+    "question": "Compare the consensus mechanics, message complexities, and leader dependencies between Raft and Multi-Paxos.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9684128165245056
+  },
+  {
+    "example_id": "audit_7act_0148",
+    "question": "Synthesize the reliability trade-offs between synchronous replication and asynchronous replication across geographic regions.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9673617482185364
+  },
+  {
+    "example_id": "audit_7act_0149",
+    "question": "Explain how modern container orchestrators like Kubernetes balance automated self-healing against cascading failure risks.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.6485072374343872
+  },
+  {
+    "example_id": "audit_7act_0150",
+    "question": "Provide an in-depth qualitative evaluation of GraphQL versus REST API design paradigms for complex enterprise domain models.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9674931764602661
+  },
+  {
+    "example_id": "audit_7act_0151",
+    "question": "Discuss the design trade-offs between pessimistic concurrency control and optimistic concurrency control in distributed databases.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.96923828125
+  },
+  {
+    "example_id": "audit_7act_0152",
+    "question": "Analyze the architectural implications of adopting an event-driven architecture with Kafka versus synchronous gRPC microservices.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9643644690513611
+  },
+  {
+    "example_id": "audit_7act_0153",
+    "question": "Compare the security and operational characteristics of hardware security modules (HSM) versus cloud KMS software vaults.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.961937427520752
+  },
+  {
+    "example_id": "audit_7act_0154",
+    "question": "Synthesize the structural trade-offs between column-oriented storage engines like Parquet and row-oriented engines like Avro.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9655543565750122
+  },
+  {
+    "example_id": "audit_7act_0155",
+    "question": "Explain the operational trade-offs of deploying distributed caches with cache-aside versus write-through invalidation policies.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9627790451049805
+  },
+  {
+    "example_id": "audit_7act_0156",
+    "question": "Provide a comprehensive overview of how modern branch prediction algorithms mitigate pipeline stall penalties in superscalar CPUs.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.8704820871353149
+  },
+  {
+    "example_id": "audit_7act_0157",
+    "question": "Discuss the trade-offs of database connection pooling models: thread-per-connection versus asynchronous event-loop connection multiplexing.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.968956470489502
+  },
+  {
+    "example_id": "audit_7act_0158",
+    "question": "Analyze the fault-tolerance guarantees and partition behaviors of quorum-based consensus systems under asymmetric network netsplits.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.8359079360961914
+  },
+  {
+    "example_id": "audit_7act_0159",
+    "question": "Compare the memory management trade-offs between generational garbage collection in the JVM and manual memory management in Rust.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.7914833426475525
+  },
+  {
+    "example_id": "audit_7act_0160",
+    "question": "Synthesize the trade-offs between software-defined networking (SDN) overlays and traditional hardware BGP leaf-spine fabrics.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.8529135584831238
+  },
+  {
+    "example_id": "audit_7act_0161",
+    "question": "Explain the design rationale behind separating storage and compute in modern cloud data warehouses like Snowflake and BigQuery.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "ARITHMETIC_SOLVER",
+    "predicted_v2_fallback": "ARITHMETIC_SOLVER",
+    "confidence_v2": 0.6784744262695312
+  },
+  {
+    "example_id": "audit_7act_0162",
+    "question": "Discuss the multi-dimensional latency trade-offs between edge computing CDNs and centralized regional cloud data centers.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9373655319213867
+  },
+  {
+    "example_id": "audit_7act_0163",
+    "question": "Analyze the architectural trade-offs between symmetric multiprocessing (SMP) and non-uniform memory access (NUMA) systems.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9318196177482605
+  },
+  {
+    "example_id": "audit_7act_0164",
+    "question": "Compare the durability and recovery trade-offs between Write-Ahead Logging (WAL) and shadow paging in transaction managers.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9678604602813721
+  },
+  {
+    "example_id": "audit_7act_0165",
+    "question": "Synthesize the architectural trade-offs of adopting service mesh data planes like Envoy in high-throughput low-latency microservices.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9506785869598389
+  },
+  {
+    "example_id": "audit_7act_0166",
+    "question": "Provide a qualitative discussion of how CAP theorem constraints influence distributed ledger and blockchain architecture designs.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "EXTRACTIVE_QA",
+    "confidence_v2": 0.8194645047187805
+  },
+  {
+    "example_id": "audit_7act_0167",
+    "question": "Explain the trade-offs between compile-time static type checking and runtime dynamic typing in large-scale software engineering teams.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9523340463638306
+  },
+  {
+    "example_id": "audit_7act_0168",
+    "question": "Discuss the reliability trade-offs between active-passive warm standby failover and active-active multi-master database clusters.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9678974151611328
+  },
+  {
+    "example_id": "audit_7act_0169",
+    "question": "Analyze the operational trade-offs of adopting Infrastructure as Code (IaC) with declarative Terraform versus imperative scripting.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9390342235565186
+  },
+  {
+    "example_id": "audit_7act_0170",
+    "question": "Compare the architectural trade-offs of circuit breaker patterns versus exponential backoff retry policies in distributed RPCs.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9658825397491455
+  },
+  {
+    "example_id": "audit_7act_0171",
+    "question": "Synthesize the trade-offs between CPU cache coherence protocols: write-invalidate versus write-update in multicore architectures.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "EXTRACTIVE_QA",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.8916587829589844
+  },
+  {
+    "example_id": "audit_7act_0172",
+    "question": "Discuss the multi-faceted privacy and utility trade-offs of implementing differential privacy in user data analytics pipelines.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.929835319519043
+  },
+  {
+    "example_id": "audit_7act_0173",
+    "question": "Analyze the architectural benefits and operational challenges of implementing distributed tracing across heterogeneous microservices.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.8945437073707581
+  },
+  {
+    "example_id": "audit_7act_0174",
+    "question": "Compare the performance and complexity trade-offs between kernel-space networking and user-space DPDK packet processing.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.9344054460525513
+  },
+  {
+    "example_id": "audit_7act_0175",
+    "question": "Provide an in-depth qualitative analysis of how immutability principles in functional programming enhance concurrency safety.",
+    "expected_action": "LOCAL_SLM",
+    "action_id": 4,
+    "predicted_v1": "LOCAL_SLM",
+    "predicted_v2_neural": "LOCAL_SLM",
+    "predicted_v2_fallback": "LOCAL_SLM",
+    "confidence_v2": 0.918475329875946
+  },
+  {
+    "example_id": "audit_7act_0176",
+    "question": "According to the theorem proof begun in Section 2.1 and continued on the subsequent page, what is the final lemma?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9786911010742188
+  },
+  {
+    "example_id": "audit_7act_0177",
+    "question": "Find the complete hardware specification table that carries over across the page boundary into Section 3.2.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9754289388656616
+  },
+  {
+    "example_id": "audit_7act_0178",
+    "question": "What are the remaining configuration parameters for cluster failover continued from the preceding document page?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9777320027351379
+  },
+  {
+    "example_id": "audit_7act_0179",
+    "question": "According to the multi-page financial ledger continued in Schedule B, what is the net cumulative depreciation?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9654880166053772
+  },
+  {
+    "example_id": "audit_7act_0180",
+    "question": "Locate the rest of the algorithmic pseudocode for distributed commit that spans across pages 14 and 15.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9726552963256836
+  },
+  {
+    "example_id": "audit_7act_0181",
+    "question": "What are the additional compliance criteria listed in the continuation paragraph on Page 6?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9792845249176025
+  },
+  {
+    "example_id": "audit_7act_0182",
+    "question": "Find the complete list of candidate keys continued from the partial schema definition on the previous sheet.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9669777154922485
+  },
+  {
+    "example_id": "audit_7act_0183",
+    "question": "According to the regulatory disclosure statement continued in the supplementary appendix, what are the liability caps?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9765354990959167
+  },
+  {
+    "example_id": "audit_7act_0184",
+    "question": "What additional diagnostic steps are recommended in Section 5.3 following the initial triage instructions on Page 8?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9771051406860352
+  },
+  {
+    "example_id": "audit_7act_0185",
+    "question": "Find the subsequent sub-clauses of the licensing agreement that carry over onto the next document page.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.978764533996582
+  },
+  {
+    "example_id": "audit_7act_0186",
+    "question": "According to the network routing topology table continued on the facing page, what is the backup gateway IP?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.974480152130127
+  },
+  {
+    "example_id": "audit_7act_0187",
+    "question": "Locate the full text of Proposition 4 whose mathematical derivation is split across the document page break.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9788804650306702
+  },
+  {
+    "example_id": "audit_7act_0188",
+    "question": "What are the remaining process steps in the workflow diagram that continues in the attached exhibit?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9638800024986267
+  },
+  {
+    "example_id": "audit_7act_0189",
+    "question": "Find the full list of excluded liabilities continued from Section 7.1 onto the subsequent contract page.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9791895151138306
+  },
+  {
+    "example_id": "audit_7act_0190",
+    "question": "According to the multi-page benchmark result table continued in Appendix D, what was the 99th percentile latency?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9743742346763611
+  },
+  {
+    "example_id": "audit_7act_0191",
+    "question": "What are the subsequent parameter constraints for the optimization model continued on Page 22?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9706311821937561
+  },
+  {
+    "example_id": "audit_7act_0192",
+    "question": "Locate the remainder of the fault-tree analysis diagram continued from Figure 3 on the following page.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9746900200843811
+  },
+  {
+    "example_id": "audit_7act_0193",
+    "question": "Find the rest of the architectural migration roadmap milestones continued in the Phase 3 appendix.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9738628268241882
+  },
+  {
+    "example_id": "audit_7act_0194",
+    "question": "According to the chemical synthesis protocol continued from Step 4 on Page 12, what reagent is added next?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9764209389686584
+  },
+  {
+    "example_id": "audit_7act_0195",
+    "question": "What additional security firewall policies are defined in the continuation table on Page 19?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9644100069999695
+  },
+  {
+    "example_id": "audit_7act_0196",
+    "question": "Locate the full text of the statutory definition that spans across the document page margin.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9746272563934326
+  },
+  {
+    "example_id": "audit_7act_0197",
+    "question": "Find the complete inventory audit count continued in the supplementary spreadsheet attached to the report.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9773597121238708
+  },
+  {
+    "example_id": "audit_7act_0198",
+    "question": "According to the clinical trial patient exclusion criteria continued on Page 4, what conditions are listed?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9792585968971252
+  },
+  {
+    "example_id": "audit_7act_0199",
+    "question": "What are the remaining sub-methods of class TransactionCoordinator described in the continued design section?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.974936842918396
+  },
+  {
+    "example_id": "audit_7act_0200",
+    "question": "Find the full set of database indexing guidelines continued in the technical annex on Page 31.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9601913690567017
+  },
+  {
+    "example_id": "audit_7act_0201",
+    "question": "According to the environmental impact assessment continued from Chapter 2, what are the soil runoff projections?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9747976064682007
+  },
+  {
+    "example_id": "audit_7act_0202",
+    "question": "Locate the subsequent steps of the disaster recovery failover playbook continued on Page 15.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9772233963012695
+  },
+  {
+    "example_id": "audit_7act_0203",
+    "question": "What additional cryptographic cipher suites are approved in the continuation paragraph of NIST SP 800-52?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9454004168510437
+  },
+  {
+    "example_id": "audit_7act_0204",
+    "question": "Find the full list of participating distributed consensus nodes continued from Table 2 on Page 7.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9601430892944336
+  },
+  {
+    "example_id": "audit_7act_0205",
+    "question": "According to the system architecture diagram continued across the two-page spread, what feeds into the queue?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9076618552207947
+  },
+  {
+    "example_id": "audit_7act_0206",
+    "question": "Locate the remainder of the mathematical proof for Lemma 2.3 continued on Page 11.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9778568744659424
+  },
+  {
+    "example_id": "audit_7act_0207",
+    "question": "What are the remaining maintenance checklist items continued on the reverse side of the inspection sheet?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9766063094139099
+  },
+  {
+    "example_id": "audit_7act_0208",
+    "question": "Find the subsequent clauses of the data processing agreement continued in Annex 2.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.974075198173523
+  },
+  {
+    "example_id": "audit_7act_0209",
+    "question": "According to the CPU instruction set encoding table continued on Page 45, what is the opcode for VPERM?",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9682585000991821
+  },
+  {
+    "example_id": "audit_7act_0210",
+    "question": "Locate the rest of the telemetry metrics specification continued in the subsequent configuration guide.",
+    "expected_action": "ADDITIONAL_RETRIEVAL",
+    "action_id": 5,
+    "predicted_v1": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_neural": "ADDITIONAL_RETRIEVAL",
+    "predicted_v2_fallback": "ADDITIONAL_RETRIEVAL",
+    "confidence_v2": 0.9736985564231873
+  },
+  {
+    "example_id": "audit_7act_0211",
+    "question": "Does standard Quicksort guarantee an O(1) constant running time in the worst case for arbitrary input arrays?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9758622050285339
+  },
+  {
+    "example_id": "audit_7act_0212",
+    "question": "Can a distributed database achieve 100% Consistency and 100% Availability during a complete network partition?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9584270715713501
+  },
+  {
+    "example_id": "audit_7act_0213",
+    "question": "Does a candidate node in Raft win an election if it receives votes from only a minority of cluster servers?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.975726306438446
+  },
+  {
+    "example_id": "audit_7act_0214",
+    "question": "Can an uncompressed 1080p 60fps raw video stream fit inside a 56 Kbps dial-up modem bandwidth without data loss?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9677491188049316
+  },
+  {
+    "example_id": "audit_7act_0215",
+    "question": "Does Dijkstra's algorithm correctly compute shortest paths on graphs containing negative edge cycles without infinite loops?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9490136504173279
+  },
+  {
+    "example_id": "audit_7act_0216",
+    "question": "Will the exact closing stock price of Apple Inc. on December 31, 2045 be precisely $1,452.34?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9582409262657166
+  },
+  {
+    "example_id": "audit_7act_0217",
+    "question": "Does strict Two-Phase Locking (2PL) immediately release all exclusive write locks before a transaction commits?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9702164530754089
+  },
+  {
+    "example_id": "audit_7act_0218",
+    "question": "Is relational database normalization into BCNF mathematically guaranteed to preserve all functional dependencies?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.5461139678955078
+  },
+  {
+    "example_id": "audit_7act_0219",
+    "question": "Can a parity bit detect any arbitrary even number of simultaneous bit flip errors in a transmitted byte?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.936430811882019
+  },
+  {
+    "example_id": "audit_7act_0220",
+    "question": "Does the Halting Problem possess a general computable algorithm that decides termination for all Turing machines?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.8035654425621033
+  },
+  {
+    "example_id": "audit_7act_0221",
+    "question": "What was the exact personal dream that Alan Turing experienced on the night of June 14, 1936?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9694916605949402
+  },
+  {
+    "example_id": "audit_7act_0222",
+    "question": "Can an RSA 2048-bit private key be factored deterministically in under 3 seconds using classical pen and paper?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.8116456866264343
+  },
+  {
+    "example_id": "audit_7act_0223",
+    "question": "Does a digital clock with a 1 MHz crystal oscillator execute 10 billion cycles in a single elapsed second?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9691952466964722
+  },
+  {
+    "example_id": "audit_7act_0224",
+    "question": "Can a RAID 0 disk array of two drives survive the catastrophic physical destruction of both member hard disks?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9753150939941406
+  },
+  {
+    "example_id": "audit_7act_0225",
+    "question": "Does TCP provide an unreliable connectionless datagram transport service with zero packet delivery acknowledgments?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9703642725944519
+  },
+  {
+    "example_id": "audit_7act_0226",
+    "question": "Is P = NP formally proven true by universal consensus of the Clay Mathematics Institute as of 2026?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.8603367805480957
+  },
+  {
+    "example_id": "audit_7act_0227",
+    "question": "Will an unshielded copper twisted-pair cable transmit 100 Terabits per second over 50,000 kilometers without repeaters?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9672695994377136
+  },
+  {
+    "example_id": "audit_7act_0228",
+    "question": "Does a linear search on an unsorted array of size N execute in O(log N) logarithmic time in the worst case?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9731342792510986
+  },
+  {
+    "example_id": "audit_7act_0229",
+    "question": "Can a process in user mode directly execute privileged kernel CPU instructions without triggering a hardware fault?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9554807543754578
+  },
+  {
+    "example_id": "audit_7act_0230",
+    "question": "Does an ideal Carnot heat engine operate with 100% thermal efficiency between two finite thermal reservoirs?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9655153751373291
+  },
+  {
+    "example_id": "audit_7act_0231",
+    "question": "What is the exact secret password of the system administrator on server node-992 in our production cluster?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9665787220001221
+  },
+  {
+    "example_id": "audit_7act_0232",
+    "question": "Does a binary search tree with elements [5, 2, 8] place element 8 in the left subtree of root 5?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9605873823165894
+  },
+  {
+    "example_id": "audit_7act_0233",
+    "question": "Can a single-core processor physically execute two instructions at the exact same physical instant without hyperthreading?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.972017228603363
+  },
+  {
+    "example_id": "audit_7act_0234",
+    "question": "Does standard AES symmetric encryption use a public-key private-key pair for encryption and decryption?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.6243000030517578
+  },
+  {
+    "example_id": "audit_7act_0235",
+    "question": "Will quantum entanglement allow instantaneous faster-than-light transmission of classical arbitrary text messages?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.971898078918457
+  },
+  {
+    "example_id": "audit_7act_0236",
+    "question": "Can a relational table with primary key ID contain two distinct rows that both have ID = 42?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "DBMS_SOLVER",
+    "predicted_v2_neural": "DBMS_SOLVER",
+    "predicted_v2_fallback": "DBMS_SOLVER",
+    "confidence_v2": 0.8649234771728516
+  },
+  {
+    "example_id": "audit_7act_0237",
+    "question": "Does the CAP theorem prove that distributed systems can ignore network partitions without any performance consequence?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9721326231956482
+  },
+  {
+    "example_id": "audit_7act_0238",
+    "question": "Is there a lossless data compression algorithm guaranteed to compress every arbitrary N-bit input file to < N bits?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.8573552966117859
+  },
+  {
+    "example_id": "audit_7act_0239",
+    "question": "Can an Ethernet collision domain operate flawlessly with zero frame collisions when 10,000 nodes transmit simultaneously on one hub?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9758105278015137
+  },
+  {
+    "example_id": "audit_7act_0240",
+    "question": "What will be the exact name of the winner of the 2060 International Olympic marathon?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.97389155626297
+  },
+  {
+    "example_id": "audit_7act_0241",
+    "question": "Does an unindexed full table scan on 10 billion rows execute faster than an index seek on 1 row?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.639514148235321
+  },
+  {
+    "example_id": "audit_7act_0242",
+    "question": "Can a deadlock occur when every process holds zero resources and requests zero resources?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9712778329849243
+  },
+  {
+    "example_id": "audit_7act_0243",
+    "question": "Does the Master Theorem solve recurrences where the subproblem sizes are divided by a negative factor?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9680299758911133
+  },
+  {
+    "example_id": "audit_7act_0244",
+    "question": "Is it possible to construct an algorithm that solves the Traveling Salesperson Problem in O(1) constant time?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.9689114093780518
+  },
+  {
+    "example_id": "audit_7act_0245",
+    "question": "Can a 32-bit CPU directly address 500 Petabytes of physical RAM without bank switching or paging tricks?",
+    "expected_action": "ABSTAIN",
+    "action_id": 6,
+    "predicted_v1": "ABSTAIN",
+    "predicted_v2_neural": "ABSTAIN",
+    "predicted_v2_fallback": "ABSTAIN",
+    "confidence_v2": 0.8410488963127136
+  }
+]

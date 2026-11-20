@@ -1,0 +1,298 @@
+{
+  "doc_id": "synth_0145",
+  "page_id": "synth_0145_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "NATIONAL INSTITUTE OF TECHNOLOGY: CORE ENGINEERING EXAM",
+      "bbox": [
+        59.0,
+        65.0,
+        775.0,
+        80.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART I: OBJECTIVE CORE CONCEPTS",
+      "bbox": [
+        60.0,
+        107.0,
+        346.0,
+        119.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        150.0,
+        399.0,
+        164.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        174.0,
+        265.0,
+        223.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "A. 11",
+      "bbox": [
+        80.0,
+        234.0,
+        109.0,
+        243.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "B. 15",
+      "bbox": [
+        80.0,
+        250.0,
+        109.0,
+        259.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "C. 9",
+      "bbox": [
+        80.0,
+        266.0,
+        102.0,
+        275.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "D. 21",
+      "bbox": [
+        80.0,
+        282.0,
+        109.0,
+        291.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "QUESTION",
+      "text": "Q2. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        319.0,
+        399.0,
+        333.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        343.0,
+        265.0,
+        392.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "A. 11",
+      "bbox": [
+        80.0,
+        403.0,
+        109.0,
+        412.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "B. 15",
+      "bbox": [
+        80.0,
+        419.0,
+        109.0,
+        428.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "C. 9",
+      "bbox": [
+        80.0,
+        435.0,
+        102.0,
+        444.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "D. 21",
+      "bbox": [
+        80.0,
+        451.0,
+        109.0,
+        460.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "QUESTION",
+      "text": "Q3. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        487.0,
+        1054.0,
+        501.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "(A) 112x112",
+      "bbox": [
+        80.0,
+        516.0,
+        149.0,
+        528.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(B) 110x110",
+      "bbox": [
+        80.0,
+        535.0,
+        149.0,
+        547.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "(C) 114x114",
+      "bbox": [
+        80.0,
+        554.0,
+        149.0,
+        566.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(D) 111x111",
+      "bbox": [
+        80.0,
+        573.0,
+        149.0,
+        585.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "QUESTION",
+      "text": "Q4. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        616.0,
+        1054.0,
+        630.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "A. 112x112",
+      "bbox": [
+        80.0,
+        645.0,
+        144.0,
+        654.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "B. 110x110",
+      "bbox": [
+        80.0,
+        661.0,
+        144.0,
+        670.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "C. 114x114",
+      "bbox": [
+        80.0,
+        677.0,
+        144.0,
+        686.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "D. 111x111",
+      "bbox": [
+        80.0,
+        693.0,
+        144.0,
+        702.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 80
+}

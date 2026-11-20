@@ -1,0 +1,370 @@
+{
+  "doc_id": "synth_0241",
+  "page_id": "synth_0241_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "ADVANCED DEGREE EXAMINATION: DISTRIBUTED COMPUTING",
+      "bbox": [
+        59.0,
+        65.0,
+        801.0,
+        82.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART I: OBJECTIVE CORE CONCEPTS",
+      "bbox": [
+        60.0,
+        108.0,
+        356.0,
+        120.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        145.0,
+        574.0,
+        179.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] 112x112",
+      "bbox": [
+        80.0,
+        193.0,
+        145.0,
+        204.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] 110x110",
+      "bbox": [
+        80.0,
+        210.0,
+        145.0,
+        221.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] 114x114",
+      "bbox": [
+        80.0,
+        227.0,
+        146.0,
+        238.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "[D] 111x111",
+      "bbox": [
+        80.0,
+        244.0,
+        146.0,
+        255.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        284.0,
+        525.0,
+        315.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "A. Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        79.0,
+        328.0,
+        481.0,
+        340.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "B. Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        345.0,
+        405.0,
+        357.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "C. Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        362.0,
+        406.0,
+        374.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "D. Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        379.0,
+        354.0,
+        391.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q3. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        423.0,
+        395.0,
+        437.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        447.0,
+        281.0,
+        496.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(A) 11",
+      "bbox": [
+        80.0,
+        506.0,
+        113.0,
+        517.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "(B) 15",
+      "bbox": [
+        80.0,
+        523.0,
+        113.0,
+        534.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(C) 9",
+      "bbox": [
+        80.0,
+        540.0,
+        107.0,
+        551.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q4. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        620.0,
+        145.0,
+        1134.0,
+        179.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(A) 112x112",
+      "bbox": [
+        640.0,
+        193.0,
+        707.0,
+        204.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(B) 110x110",
+      "bbox": [
+        640.0,
+        210.0,
+        707.0,
+        221.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(C) 114x114",
+      "bbox": [
+        640.0,
+        227.0,
+        708.0,
+        238.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "QUESTION",
+      "text": "Q5. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        620.0,
+        264.0,
+        1098.0,
+        298.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "A. Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        639.0,
+        311.0,
+        964.0,
+        323.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "B. Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        640.0,
+        328.0,
+        946.0,
+        338.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "C. Immediate commit without write-ahead log flush",
+      "bbox": [
+        640.0,
+        343.0,
+        913.0,
+        355.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "QUESTION",
+      "text": "Q6. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        620.0,
+        381.0,
+        1133.0,
+        415.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "OPTION",
+      "text": "(A) Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        640.0,
+        428.0,
+        984.0,
+        440.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "OPTION",
+      "text": "(B) Deadlock across CPU instruction decoders",
+      "bbox": [
+        640.0,
+        445.0,
+        892.0,
+        457.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "(C) Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        640.0,
+        462.0,
+        946.0,
+        474.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "(D) Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        640.0,
+        479.0,
+        928.0,
+        491.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 150
+}

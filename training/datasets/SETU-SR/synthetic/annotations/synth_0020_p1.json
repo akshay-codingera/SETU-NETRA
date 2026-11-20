@@ -1,0 +1,274 @@
+{
+  "doc_id": "synth_0020",
+  "page_id": "synth_0020_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "NATIONAL INSTITUTE OF TECHNOLOGY: CORE ENGINEERING EXAM",
+      "bbox": [
+        60.0,
+        65.0,
+        861.0,
+        82.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION C: ALGORITHMIC COMPLEXITY & REASONING",
+      "bbox": [
+        60.0,
+        100.0,
+        491.0,
+        112.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        143.0,
+        1051.0,
+        157.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] 112x112",
+      "bbox": [
+        80.0,
+        171.0,
+        145.0,
+        182.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] 110x110",
+      "bbox": [
+        80.0,
+        188.0,
+        145.0,
+        199.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] 114x114",
+      "bbox": [
+        80.0,
+        205.0,
+        146.0,
+        216.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "[D] 111x111",
+      "bbox": [
+        80.0,
+        222.0,
+        146.0,
+        233.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        262.0,
+        395.0,
+        276.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        286.0,
+        281.0,
+        335.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[A] 11",
+      "bbox": [
+        80.0,
+        345.0,
+        111.0,
+        356.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "[B] 15",
+      "bbox": [
+        80.0,
+        362.0,
+        111.0,
+        373.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "[C] 9",
+      "bbox": [
+        80.0,
+        379.0,
+        105.0,
+        390.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "[D] 21",
+      "bbox": [
+        80.0,
+        396.0,
+        112.0,
+        407.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "QUESTION",
+      "text": "Q3. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        441.0,
+        1051.0,
+        455.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "A. 112x112",
+      "bbox": [
+        79.0,
+        469.0,
+        142.0,
+        478.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "B. 110x110",
+      "bbox": [
+        80.0,
+        484.0,
+        142.0,
+        493.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "C. 114x114",
+      "bbox": [
+        80.0,
+        499.0,
+        143.0,
+        508.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q4. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        534.0,
+        677.0,
+        548.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "A. (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        79.0,
+        562.0,
+        216.0,
+        573.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "B. (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        579.0,
+        165.0,
+        590.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "C. (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        596.0,
+        185.0,
+        607.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "D. ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        80.0,
+        613.0,
+        224.0,
+        624.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 100
+}

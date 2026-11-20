@@ -1,0 +1,1166 @@
+{
+  "uniform_short": {
+    "ROUND_ROBIN": {
+      "scheduler": "ROUND_ROBIN",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 171.77,
+      "latency_stats": {
+        "mean": 5.0,
+        "p50": 5.0,
+        "p95": 5.0,
+        "p99": 5.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.08,
+        "p50": 0.07,
+        "p95": 0.17,
+        "p99": 0.2
+      },
+      "scheduling_overhead_us": {
+        "mean": 41.71,
+        "p50": 32.4,
+        "p95": 66.5,
+        "p99": 307.8
+      },
+      "wall_time_sec": 0.175,
+      "system": {
+        "cpu_percent": 15.0,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4056.8
+      }
+    },
+    "RANDOM": {
+      "scheduler": "RANDOM",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 170.5,
+      "latency_stats": {
+        "mean": 5.0,
+        "p50": 5.0,
+        "p95": 5.0,
+        "p99": 5.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.12,
+        "p50": 0.07,
+        "p95": 0.55,
+        "p99": 0.84
+      },
+      "scheduling_overhead_us": {
+        "mean": 41.57,
+        "p50": 40.1,
+        "p95": 68.6,
+        "p99": 80.3
+      },
+      "wall_time_sec": 0.176,
+      "system": {
+        "cpu_percent": 13.2,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4060.8
+      }
+    },
+    "LEAST_OUTSTANDING": {
+      "scheduler": "LEAST_OUTSTANDING",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 166.19,
+      "latency_stats": {
+        "mean": 5.0,
+        "p50": 5.0,
+        "p95": 5.0,
+        "p99": 5.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.09,
+        "p50": 0.08,
+        "p95": 0.17,
+        "p99": 0.19
+      },
+      "scheduling_overhead_us": {
+        "mean": 56.97,
+        "p50": 54.9,
+        "p95": 92.7,
+        "p99": 122.6
+      },
+      "wall_time_sec": 0.181,
+      "system": {
+        "cpu_percent": 16.3,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4060.6
+      }
+    },
+    "SECT": {
+      "scheduler": "SECT",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 170.55,
+      "latency_stats": {
+        "mean": 5.0,
+        "p50": 5.0,
+        "p95": 5.0,
+        "p99": 5.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.07,
+        "p50": 0.07,
+        "p95": 0.14,
+        "p99": 0.23
+      },
+      "scheduling_overhead_us": {
+        "mean": 96.77,
+        "p50": 85.2,
+        "p95": 188.7,
+        "p99": 419.0
+      },
+      "wall_time_sec": 0.176,
+      "system": {
+        "cpu_percent": 16.3,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4060.6
+      }
+    },
+    "CAPACITY_AWARE": {
+      "scheduler": "CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 166.14,
+      "latency_stats": {
+        "mean": 5.0,
+        "p50": 5.0,
+        "p95": 5.0,
+        "p99": 5.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.06,
+        "p50": 0.05,
+        "p95": 0.15,
+        "p99": 0.17
+      },
+      "scheduling_overhead_us": {
+        "mean": 105.55,
+        "p50": 86.3,
+        "p95": 254.1,
+        "p99": 338.5
+      },
+      "wall_time_sec": 0.181,
+      "system": {
+        "cpu_percent": 11.7,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4061.1
+      }
+    },
+    "RESILIENT_CAPACITY_AWARE": {
+      "scheduler": "RESILIENT_CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 146.47,
+      "latency_stats": {
+        "mean": 5.0,
+        "p50": 5.0,
+        "p95": 5.0,
+        "p99": 5.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.16,
+        "p50": 0.12,
+        "p95": 0.41,
+        "p99": 1.01
+      },
+      "scheduling_overhead_us": {
+        "mean": 2.2,
+        "p50": 1.8,
+        "p95": 3.2,
+        "p99": 11.0
+      },
+      "wall_time_sec": 0.205,
+      "system": {
+        "cpu_percent": 12.4,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4062.9
+      }
+    }
+  },
+  "mixed_short_long": {
+    "ROUND_ROBIN": {
+      "scheduler": "ROUND_ROBIN",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 90.8,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 5.0,
+        "p95": 30.0,
+        "p99": 30.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.08,
+        "p50": 0.07,
+        "p95": 0.16,
+        "p99": 0.38
+      },
+      "scheduling_overhead_us": {
+        "mean": 48.96,
+        "p50": 31.8,
+        "p95": 81.4,
+        "p99": 414.0
+      },
+      "wall_time_sec": 0.33,
+      "system": {
+        "cpu_percent": 9.9,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4064.8
+      }
+    },
+    "RANDOM": {
+      "scheduler": "RANDOM",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 87.47,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 5.0,
+        "p95": 30.0,
+        "p99": 30.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.16,
+        "p50": 0.08,
+        "p95": 0.55,
+        "p99": 0.86
+      },
+      "scheduling_overhead_us": {
+        "mean": 49.92,
+        "p50": 34.3,
+        "p95": 58.6,
+        "p99": 470.4
+      },
+      "wall_time_sec": 0.343,
+      "system": {
+        "cpu_percent": 12.6,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4064.3
+      }
+    },
+    "LEAST_OUTSTANDING": {
+      "scheduler": "LEAST_OUTSTANDING",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 92.05,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 5.0,
+        "p95": 30.0,
+        "p99": 30.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.06,
+        "p50": 0.05,
+        "p95": 0.16,
+        "p99": 0.23
+      },
+      "scheduling_overhead_us": {
+        "mean": 40.47,
+        "p50": 36.4,
+        "p95": 82.8,
+        "p99": 107.0
+      },
+      "wall_time_sec": 0.326,
+      "system": {
+        "cpu_percent": 11.2,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4069.5
+      }
+    },
+    "SECT": {
+      "scheduler": "SECT",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 87.22,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 5.0,
+        "p95": 30.0,
+        "p99": 30.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.1,
+        "p50": 0.08,
+        "p95": 0.25,
+        "p99": 0.55
+      },
+      "scheduling_overhead_us": {
+        "mean": 118.96,
+        "p50": 107.5,
+        "p95": 167.4,
+        "p99": 456.5
+      },
+      "wall_time_sec": 0.344,
+      "system": {
+        "cpu_percent": 10.3,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4070.0
+      }
+    },
+    "CAPACITY_AWARE": {
+      "scheduler": "CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 89.43,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 5.0,
+        "p95": 30.0,
+        "p99": 30.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.07,
+        "p50": 0.05,
+        "p95": 0.18,
+        "p99": 0.19
+      },
+      "scheduling_overhead_us": {
+        "mean": 136.25,
+        "p50": 96.0,
+        "p95": 539.2,
+        "p99": 550.4
+      },
+      "wall_time_sec": 0.335,
+      "system": {
+        "cpu_percent": 13.7,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4070.5
+      }
+    },
+    "RESILIENT_CAPACITY_AWARE": {
+      "scheduler": "RESILIENT_CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 90.29,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 5.0,
+        "p95": 30.0,
+        "p99": 30.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.06,
+        "p50": 0.05,
+        "p95": 0.11,
+        "p99": 0.2
+      },
+      "scheduling_overhead_us": {
+        "mean": 1.14,
+        "p50": 1.1,
+        "p95": 1.7,
+        "p99": 2.7
+      },
+      "wall_time_sec": 0.332,
+      "system": {
+        "cpu_percent": 12.3,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4063.6
+      }
+    }
+  },
+  "burst": {
+    "ROUND_ROBIN": {
+      "scheduler": "ROUND_ROBIN",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 291.93,
+      "latency_stats": {
+        "mean": 8.0,
+        "p50": 8.0,
+        "p95": 8.0,
+        "p99": 8.0
+      },
+      "queue_wait_stats": {
+        "mean": 27.81,
+        "p50": 34.91,
+        "p95": 46.98,
+        "p99": 48.43
+      },
+      "scheduling_overhead_us": {
+        "mean": 21.48,
+        "p50": 21.3,
+        "p95": 41.5,
+        "p99": 54.5
+      },
+      "wall_time_sec": 0.103,
+      "system": {
+        "cpu_percent": 11.4,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4068.4
+      }
+    },
+    "RANDOM": {
+      "scheduler": "RANDOM",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 330.69,
+      "latency_stats": {
+        "mean": 8.0,
+        "p50": 8.0,
+        "p95": 8.0,
+        "p99": 8.0
+      },
+      "queue_wait_stats": {
+        "mean": 25.41,
+        "p50": 29.91,
+        "p95": 43.79,
+        "p99": 44.5
+      },
+      "scheduling_overhead_us": {
+        "mean": 23.84,
+        "p50": 17.9,
+        "p95": 34.8,
+        "p99": 164.4
+      },
+      "wall_time_sec": 0.091,
+      "system": {
+        "cpu_percent": 15.7,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4055.6
+      }
+    },
+    "LEAST_OUTSTANDING": {
+      "scheduler": "LEAST_OUTSTANDING",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 346.33,
+      "latency_stats": {
+        "mean": 8.0,
+        "p50": 8.0,
+        "p95": 8.0,
+        "p99": 8.0
+      },
+      "queue_wait_stats": {
+        "mean": 26.03,
+        "p50": 33.42,
+        "p95": 41.97,
+        "p99": 42.35
+      },
+      "scheduling_overhead_us": {
+        "mean": 13.84,
+        "p50": 11.8,
+        "p95": 24.8,
+        "p99": 30.4
+      },
+      "wall_time_sec": 0.087,
+      "system": {
+        "cpu_percent": 11.9,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4061.0
+      }
+    },
+    "SECT": {
+      "scheduler": "SECT",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 201.01,
+      "latency_stats": {
+        "mean": 8.0,
+        "p50": 8.0,
+        "p95": 8.0,
+        "p99": 8.0
+      },
+      "queue_wait_stats": {
+        "mean": 39.19,
+        "p50": 17.25,
+        "p95": 118.93,
+        "p99": 127.19
+      },
+      "scheduling_overhead_us": {
+        "mean": 76.08,
+        "p50": 76.0,
+        "p95": 118.1,
+        "p99": 122.5
+      },
+      "wall_time_sec": 0.149,
+      "system": {
+        "cpu_percent": 12.1,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4065.3
+      }
+    },
+    "CAPACITY_AWARE": {
+      "scheduler": "CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 197.45,
+      "latency_stats": {
+        "mean": 8.0,
+        "p50": 8.0,
+        "p95": 8.0,
+        "p99": 8.0
+      },
+      "queue_wait_stats": {
+        "mean": 35.92,
+        "p50": 33.23,
+        "p95": 88.96,
+        "p99": 96.19
+      },
+      "scheduling_overhead_us": {
+        "mean": 81.4,
+        "p50": 76.0,
+        "p95": 157.0,
+        "p99": 185.9
+      },
+      "wall_time_sec": 0.152,
+      "system": {
+        "cpu_percent": 13.6,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4068.0
+      }
+    },
+    "RESILIENT_CAPACITY_AWARE": {
+      "scheduler": "RESILIENT_CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 257.68,
+      "latency_stats": {
+        "mean": 8.0,
+        "p50": 8.0,
+        "p95": 8.0,
+        "p99": 8.0
+      },
+      "queue_wait_stats": {
+        "mean": 31.05,
+        "p50": 34.85,
+        "p95": 60.91,
+        "p99": 61.28
+      },
+      "scheduling_overhead_us": {
+        "mean": 0.79,
+        "p50": 0.8,
+        "p95": 1.1,
+        "p99": 1.2
+      },
+      "wall_time_sec": 0.116,
+      "system": {
+        "cpu_percent": 13.6,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4070.7
+      }
+    }
+  },
+  "uneven_worker_capacity": {
+    "ROUND_ROBIN": {
+      "scheduler": "ROUND_ROBIN",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 92.02,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.09,
+        "p50": 0.07,
+        "p95": 0.25,
+        "p99": 0.46
+      },
+      "scheduling_overhead_us": {
+        "mean": 49.44,
+        "p50": 38.2,
+        "p95": 109.0,
+        "p99": 285.6
+      },
+      "wall_time_sec": 0.326,
+      "system": {
+        "cpu_percent": 10.8,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4066.4
+      }
+    },
+    "RANDOM": {
+      "scheduler": "RANDOM",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 91.76,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.08,
+        "p50": 0.09,
+        "p95": 0.12,
+        "p99": 0.14
+      },
+      "scheduling_overhead_us": {
+        "mean": 43.95,
+        "p50": 34.4,
+        "p95": 105.1,
+        "p99": 181.8
+      },
+      "wall_time_sec": 0.327,
+      "system": {
+        "cpu_percent": 17.4,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4037.6
+      }
+    },
+    "LEAST_OUTSTANDING": {
+      "scheduler": "LEAST_OUTSTANDING",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 93.19,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.06,
+        "p50": 0.05,
+        "p95": 0.14,
+        "p99": 0.21
+      },
+      "scheduling_overhead_us": {
+        "mean": 33.51,
+        "p50": 26.6,
+        "p95": 50.1,
+        "p99": 129.5
+      },
+      "wall_time_sec": 0.322,
+      "system": {
+        "cpu_percent": 15.7,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4052.3
+      }
+    },
+    "SECT": {
+      "scheduler": "SECT",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 88.47,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.11,
+        "p50": 0.09,
+        "p95": 0.23,
+        "p99": 0.38
+      },
+      "scheduling_overhead_us": {
+        "mean": 127.99,
+        "p50": 133.8,
+        "p95": 219.9,
+        "p99": 259.1
+      },
+      "wall_time_sec": 0.339,
+      "system": {
+        "cpu_percent": 13.1,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4053.5
+      }
+    },
+    "CAPACITY_AWARE": {
+      "scheduler": "CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 89.9,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.07,
+        "p50": 0.06,
+        "p95": 0.12,
+        "p99": 0.31
+      },
+      "scheduling_overhead_us": {
+        "mean": 129.55,
+        "p50": 114.1,
+        "p95": 229.3,
+        "p99": 417.9
+      },
+      "wall_time_sec": 0.334,
+      "system": {
+        "cpu_percent": 13.3,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4055.7
+      }
+    },
+    "RESILIENT_CAPACITY_AWARE": {
+      "scheduler": "RESILIENT_CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 90.55,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.09,
+        "p50": 0.07,
+        "p95": 0.22,
+        "p99": 0.31
+      },
+      "scheduling_overhead_us": {
+        "mean": 1.65,
+        "p50": 1.4,
+        "p95": 2.6,
+        "p99": 7.5
+      },
+      "wall_time_sec": 0.331,
+      "system": {
+        "cpu_percent": 10.5,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4055.9
+      }
+    }
+  },
+  "worker_degradation": {
+    "ROUND_ROBIN": {
+      "scheduler": "ROUND_ROBIN",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 89.85,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.09,
+        "p50": 0.06,
+        "p95": 0.24,
+        "p99": 0.3
+      },
+      "scheduling_overhead_us": {
+        "mean": 51.82,
+        "p50": 37.4,
+        "p95": 196.5,
+        "p99": 211.8
+      },
+      "wall_time_sec": 0.334,
+      "system": {
+        "cpu_percent": 11.9,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4054.7
+      }
+    },
+    "RANDOM": {
+      "scheduler": "RANDOM",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 74.96,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.09,
+        "p50": 0.08,
+        "p95": 0.27,
+        "p99": 0.42
+      },
+      "scheduling_overhead_us": {
+        "mean": 35.91,
+        "p50": 31.8,
+        "p95": 70.5,
+        "p99": 121.3
+      },
+      "wall_time_sec": 0.4,
+      "system": {
+        "cpu_percent": 16.3,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4058.9
+      }
+    },
+    "LEAST_OUTSTANDING": {
+      "scheduler": "LEAST_OUTSTANDING",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 89.86,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.1,
+        "p50": 0.08,
+        "p95": 0.2,
+        "p99": 0.21
+      },
+      "scheduling_overhead_us": {
+        "mean": 71.94,
+        "p50": 59.4,
+        "p95": 148.4,
+        "p99": 184.8
+      },
+      "wall_time_sec": 0.334,
+      "system": {
+        "cpu_percent": 16.2,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4041.3
+      }
+    },
+    "SECT": {
+      "scheduler": "SECT",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 92.63,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.05,
+        "p50": 0.04,
+        "p95": 0.09,
+        "p99": 0.12
+      },
+      "scheduling_overhead_us": {
+        "mean": 67.33,
+        "p50": 59.0,
+        "p95": 120.7,
+        "p99": 218.1
+      },
+      "wall_time_sec": 0.324,
+      "system": {
+        "cpu_percent": 14.0,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4053.7
+      }
+    },
+    "CAPACITY_AWARE": {
+      "scheduler": "CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 87.69,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.1,
+        "p50": 0.08,
+        "p95": 0.19,
+        "p99": 0.43
+      },
+      "scheduling_overhead_us": {
+        "mean": 146.3,
+        "p50": 129.4,
+        "p95": 296.1,
+        "p99": 370.6
+      },
+      "wall_time_sec": 0.342,
+      "system": {
+        "cpu_percent": 10.7,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4055.9
+      }
+    },
+    "RESILIENT_CAPACITY_AWARE": {
+      "scheduler": "RESILIENT_CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 89.74,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.1,
+        "p50": 0.08,
+        "p95": 0.3,
+        "p99": 0.33
+      },
+      "scheduling_overhead_us": {
+        "mean": 2.1,
+        "p50": 1.7,
+        "p95": 4.9,
+        "p99": 8.0
+      },
+      "wall_time_sec": 0.334,
+      "system": {
+        "cpu_percent": 10.8,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4063.2
+      }
+    }
+  },
+  "worker_failure_and_recovery": {
+    "ROUND_ROBIN": {
+      "scheduler": "ROUND_ROBIN",
+      "total_requests": 30,
+      "success_count": 28,
+      "failure_count": 2,
+      "timeout_count": 0,
+      "throughput_req_sec": 91.01,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.1,
+        "p50": 0.08,
+        "p95": 0.14,
+        "p99": 0.58
+      },
+      "scheduling_overhead_us": {
+        "mean": 37.04,
+        "p50": 33.5,
+        "p95": 61.9,
+        "p99": 72.1
+      },
+      "wall_time_sec": 0.33,
+      "system": {
+        "cpu_percent": 14.7,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4064.9
+      }
+    },
+    "RANDOM": {
+      "scheduler": "RANDOM",
+      "total_requests": 30,
+      "success_count": 28,
+      "failure_count": 2,
+      "timeout_count": 0,
+      "throughput_req_sec": 89.8,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.13,
+        "p50": 0.09,
+        "p95": 0.31,
+        "p99": 0.75
+      },
+      "scheduling_overhead_us": {
+        "mean": 45.57,
+        "p50": 40.4,
+        "p95": 87.5,
+        "p99": 113.5
+      },
+      "wall_time_sec": 0.334,
+      "system": {
+        "cpu_percent": 22.7,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4044.8
+      }
+    },
+    "LEAST_OUTSTANDING": {
+      "scheduler": "LEAST_OUTSTANDING",
+      "total_requests": 30,
+      "success_count": 23,
+      "failure_count": 7,
+      "timeout_count": 0,
+      "throughput_req_sec": 92.79,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.06,
+        "p50": 0.05,
+        "p95": 0.12,
+        "p99": 0.14
+      },
+      "scheduling_overhead_us": {
+        "mean": 37.76,
+        "p50": 31.8,
+        "p95": 84.2,
+        "p99": 92.6
+      },
+      "wall_time_sec": 0.323,
+      "system": {
+        "cpu_percent": 11.8,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4071.0
+      }
+    },
+    "SECT": {
+      "scheduler": "SECT",
+      "total_requests": 30,
+      "success_count": 21,
+      "failure_count": 9,
+      "timeout_count": 0,
+      "throughput_req_sec": 88.5,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.11,
+        "p50": 0.07,
+        "p95": 0.25,
+        "p99": 0.5
+      },
+      "scheduling_overhead_us": {
+        "mean": 134.6,
+        "p50": 88.1,
+        "p95": 296.9,
+        "p99": 1158.9
+      },
+      "wall_time_sec": 0.339,
+      "system": {
+        "cpu_percent": 12.1,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4073.8
+      }
+    },
+    "CAPACITY_AWARE": {
+      "scheduler": "CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 24,
+      "failure_count": 6,
+      "timeout_count": 0,
+      "throughput_req_sec": 90.22,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.09,
+        "p50": 0.08,
+        "p95": 0.17,
+        "p99": 0.17
+      },
+      "scheduling_overhead_us": {
+        "mean": 139.72,
+        "p50": 119.2,
+        "p95": 315.7,
+        "p99": 340.2
+      },
+      "wall_time_sec": 0.333,
+      "system": {
+        "cpu_percent": 14.1,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4078.5
+      }
+    },
+    "RESILIENT_CAPACITY_AWARE": {
+      "scheduler": "RESILIENT_CAPACITY_AWARE",
+      "total_requests": 30,
+      "success_count": 30,
+      "failure_count": 0,
+      "timeout_count": 0,
+      "throughput_req_sec": 85.45,
+      "latency_stats": {
+        "mean": 10.0,
+        "p50": 10.0,
+        "p95": 10.0,
+        "p99": 10.0
+      },
+      "queue_wait_stats": {
+        "mean": 0.08,
+        "p50": 0.07,
+        "p95": 0.17,
+        "p99": 0.18
+      },
+      "scheduling_overhead_us": {
+        "mean": 1.36,
+        "p50": 1.3,
+        "p95": 2.1,
+        "p99": 2.3
+      },
+      "wall_time_sec": 0.351,
+      "system": {
+        "cpu_percent": 11.8,
+        "ram_percent": 74.0,
+        "avail_ram_mb": 4078.5
+      }
+    }
+  }
+}

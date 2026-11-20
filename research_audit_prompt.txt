@@ -1,0 +1,2335 @@
+<USER_REQUEST>
+# MASTER TASK: COMPLETE SETU-NETRA RESEARCH CODEBASE, IMPLEMENTATION AND EXPERIMENTAL EVIDENCE AUDIT
+
+## ROLE AND RESPONSIBILITY
+
+Act as a Senior Software Architect, Computer Science Research Scientist, Machine Learning Engineer, Experimental Validation Engineer, Statistical Reviewer, Distributed Systems Researcher, Reproducibility Auditor, and IEEE Publication Reviewer.
+
+You are conducting a comprehensive technical and experimental audit of the existing SETU-NETRA research project.
+
+Your task is to investigate the complete implementation, experimental evidence, benchmark results, evaluation methodology, runtime architecture, figures, and existing IEEE research manuscript.
+
+This is a research evidence collection and verification assignment.
+
+It is NOT a request to redesign the system, rewrite working modules, retrain every model, or manufacture improved results.
+
+You must inspect the existing implementation first, understand how it works, collect evidence, verify the reported findings, identify discrepancies, and produce a consolidated research audit.
+
+**Complete this investigation as one coordinated audit execution. Do not divide it into separate prompts or ask the researcher to perform individual evidence-collection tasks.**
+
+If an artifact is inaccessible, record it as missing and continue with the available evidence.
+
+---
+
+# PART I — ABSOLUTE OPERATING RULES
+
+## 1. Preserve the Existing Project
+
+The existing SETU-NETRA implementation is the primary object of investigation.
+
+Follow these restrictions:
+
+1. Inspect before modifying anything.
+2. Do not rewrite working modules.
+3. Do not delete files.
+4. Do not rename existing research artifacts.
+5. Do not overwrite datasets.
+6. Do not modify trained model checkpoints.
+7. Do not retrain existing models.
+8. Do not change model configurations.
+9. Do not change production application behavior.
+10. Do not silently regenerate or replace experimental results.
+11. Do not change benchmark values to make them look better.
+12. Do not fabricate data or test outcomes.
+13. Do not present planned capabilities as implemented capabilities.
+14. Do not describe synthetic experiments as real-world validation.
+15. Do not treat a successful test assertion as proof of production reliability.
+
+You may execute existing tests and read-only diagnostic commands after inspecting their possible side effects.
+
+If an operation could modify the application, checkpoints, source files, datasets, or existing experiment records, do not perform it.
+
+All newly generated audit artifacts must be written into a new, isolated directory:
+
+`research_audit/`
+
+Do not overwrite existing contents. If the directory already exists, create a uniquely named audit subdirectory.
+
+For example:
+
+`research_audit/complete_audit_YYYYMMDD_HHMMSS/`
+
+The audit may include newly generated copies of derived metrics, evidence indexes, reconciliation tables, and plots, but original experimental artifacts must remain untouched.
+
+## 2. Evidence Hierarchy
+
+Use the following hierarchy when determining whether a claim is supported.
+
+**Level 1 — Direct implementation evidence**
+
+Actual source code, executable functions, classes, configurations, API routes, data structures, checkpoints, and execution paths.
+
+**Level 2 — Raw experimental evidence**
+
+Per-query predictions, evaluation traces, request-level logs, confusion matrices, raw timing records, benchmark outputs, and test results.
+
+**Level 3 — Derived experimental evidence**
+
+Aggregated JSON summaries, statistical calculations, plots, tables, and reports that can be independently reconstructed.
+
+**Level 4 — Research documentation**
+
+README files, milestone reports, design documents, experimental descriptions, and existing manuscript claims.
+
+A higher-level claim must not contradict lower-level evidence without an explicit explanation.
+
+An existing report or Antigravity completion message does not automatically establish that something was implemented or experimentally validated.
+
+## 3. Evidence Classification
+
+Classify every significant claim using exactly one of these categories:
+
+- VERIFIED IMPLEMENTED: Supported by inspected source code.
+- VERIFIED EXECUTED: Supported by an actual execution trace or test output.
+- VERIFIED EXPERIMENTALLY: Supported by inspected experimental records and reproducible calculations.
+- REPORTED: Present in an existing report but not independently reproduced.
+- PARTIALLY VERIFIED: Some evidence exists, but an important part remains unconfirmed.
+- PROPOSED: Intended architecture or future functionality without verified implementation.
+- UNSUPPORTED: No sufficient evidence was found.
+- CONTRADICTED: Available evidence conflicts with the claim.
+
+Keep implementation status separate from experimental-validation status.
+
+For example, a scheduler may be implemented but not adequately evaluated. An experiment may have been executed but may use an inadequate sample size.
+
+These are different findings and must be reported separately.
+
+---
+
+# PART II — COMPLETE PROJECT INVENTORY
+
+## 4. Inspect the Entire Project
+
+Begin by identifying the actual SETU-NETRA project root.
+
+Recursively inventory the relevant project files and directories.
+
+Inspect:
+
+- Python source files.
+- Other programming languages.
+- Application entry points.
+- Backend modules.
+- Frontend modules, if present.
+- API routes.
+- Model implementations.
+- Model checkpoints.
+- Dataset directories.
+- Training scripts.
+- Evaluation scripts.
+- Test suites.
+- Configuration files.
+- Dependency manifests.
+- Environment files, without exposing secrets.
+- Runtime logs.
+- Benchmark outputs.
+- JSON experiment records.
+- Image and PDF assets.
+- Research documentation.
+- Architecture diagrams.
+- Plot-generation scripts.
+- Git history and repository state.
+
+Inspect files by their actual content, not merely their filenames.
+
+Create a complete file inventory with:
+
+- Relative path.
+- File type.
+- File size.
+- Modification timestamp where available.
+- Relevant module or experiment.
+- Whether the file was inspected.
+- Whether it provides implementation or experimental evidence.
+- Whether it is relevant to the manuscript.
+
+Do not dump irrelevant virtual environments, caches, build outputs, or dependency internals into the report. Record their presence and exclude them from the substantive inventory.
+
+## 5. Establish Repository and Execution Context
+
+Collect:
+
+- Git branch.
+- Current commit.
+- Git working-tree status.
+- Latest relevant commit.
+- Existing uncommitted changes.
+- Python version.
+- Operating system.
+- CPU model.
+- Logical processor count.
+- Physical memory.
+- Available memory.
+- Storage information where relevant.
+- Installed relevant dependencies.
+- PyTorch version.
+- NumPy version.
+- scikit-learn version.
+- sentence-transformers version.
+- EasyOCR version.
+- FastAPI version, if applicable.
+- Ollama availability and configured models, if applicable.
+- Relevant runtime configuration.
+
+Identify hardware differences between:
+
+- The reported research target.
+- The machine used for each experiment.
+- The machine used for the present audit.
+
+Do not assume every experiment used the same hardware simply because they belong to the same project.
+
+Do not reveal API keys, passwords, tokens, private environment values, or credentials in generated reports.
+
+## 6. Build the Actual Architecture and Dependency Map
+
+Identify the real application entry points.
+
+Trace the relationships between:
+
+- Document ingestion.
+- File validation.
+- Image preprocessing.
+- OCR.
+- Text extraction.
+- Block construction.
+- Coordinate normalization.
+- Document layout reconstruction.
+- Structural relationship prediction.
+- Retrieval.
+- Evidence evaluation.
+- Reasoning policy selection.
+- Adaptive model routing.
+- Worker scheduling.
+- Specialized solvers.
+- Local model inference.
+- Citation verification.
+- Answer generation.
+- Abstention.
+- API response delivery.
+
+For each important component identify:
+
+- Source file.
+- Class or function.
+- Input schema.
+- Output schema.
+- Called dependencies.
+- Calling components.
+- Configuration source.
+- Error-handling mechanisms.
+- Associated tests.
+- Related benchmark.
+- Relevant checkpoint.
+
+Construct an actual implementation call graph or data-flow diagram.
+
+Do not generate a theoretical architecture and label it as the implemented architecture.
+
+Explicitly separate the following:
+
+A. Document-intelligence architecture.
+
+B. Reasoning and model-routing architecture.
+
+C. Runtime worker-scheduling architecture.
+
+D. Full-system execution architecture.
+
+Determine how these four areas interact.
+
+---
+
+# PART III — R1: SR-EDGENET AUDIT
+
+## 7. Implementation Verification
+
+Identify the real SR-EdgeNet implementation.
+
+Inspect:
+
+- Model class.
+- Architecture.
+- Text embedding inputs.
+- Frozen MiniLM implementation.
+- Spatial feature construction.
+- Pairwise block representation.
+- Feature dimensions.
+- Fusion mechanism.
+- Classifier.
+- Loss function.
+- Optimizer.
+- Training procedure.
+- Checkpoint loading.
+- Prediction implementation.
+- Inference preprocessing.
+- Dataset generation.
+- Dataset loading.
+- Evaluation implementation.
+
+Previously reported architectural information:
+
+- Four structural classes:
+  - PARENT_OF
+  - OPTION_OF
+  - CONTINUATION_OF
+  - NONE
+- 384-dimensional MiniLM input embeddings.
+- 15-dimensional spatial features.
+- Reported classifier parameter count: 414,088.
+- Checkpoint: `models/structure/sr_edge_net.pt`.
+
+Verify every value.
+
+Inspect the exact checkpoint-loading path and establish whether the full inference pipeline actually uses the checkpoint.
+
+## 8. SETU-SR Dataset Audit
+
+Investigate the reported 47,557 directed edges across 470 document units.
+
+Investigate all dataset sources, including:
+
+- FUNSD.
+- Synthetic MCQ documents.
+- Real in-domain document images.
+- Project documents.
+- Human-verified examples.
+
+Inspect:
+
+- Original source provenance.
+- Synthetic generator.
+- Random seeds.
+- Label mapping.
+- Relationship construction.
+- Negative-example generation.
+- Duplicate examples.
+- Document IDs.
+- Train/validation/test separation.
+- Document-level leakage.
+- Near-duplicate leakage.
+- Topic leakage.
+- Class distribution.
+- Dataset versioning.
+
+Previously reported splits:
+
+- Training: 36,346 edges, 349 document units.
+- Validation: 6,584 edges, 75 units.
+- Synthetic test: 4,423 edges, 25 units.
+- In-domain test: 204 edges, 21 units.
+
+Recompute all totals.
+
+Verify whether document IDs are genuinely disjoint.
+
+Verify the exact provenance of the 204 in-domain examples.
+
+Identify synthetic label-generation shortcuts that may allow the model to learn generator patterns instead of generalizable document relationships.
+
+## 9. R1 Experimental Verification
+
+Recompute from the actual predictions:
+
+- Accuracy.
+- Per-class precision.
+- Per-class recall.
+- Per-class F1.
+- Macro F1.
+- Confusion matrix.
+- Class support.
+- Classification errors.
+
+Investigate these previously reported results:
+
+- Synthetic test accuracy: 99.46%.
+- Synthetic macro F1: 0.9909.
+- Real in-domain accuracy and macro F1, which have appeared differently across reports.
+- Synthetic-only versus combined-training results.
+- Spatial baseline comparison.
+
+Investigate the discrepancy between the current IEEE manuscript, earlier R1 reports, and the more recent audit results.
+
+In particular:
+
+1. Resolve why the SR-EdgeNet confusion matrix in one figure differs from the previously supplied audit matrix.
+2. Resolve whether 65.69% real accuracy and its associated macro F1 correspond to the same checkpoint and experiment.
+3. Identify whether the 42.65%, 45.10%, and 65.69% values belong to different training configurations.
+4. Establish which dataset and checkpoint produced each result.
+5. Establish whether XY-Cut and SR-EdgeNet were evaluated using the same ground-truth relation labels and test samples.
+
+Do not combine incomparable metrics.
+
+Inspect the reported 0.011–0.012 ms per-edge latency.
+
+Determine whether this includes:
+
+- Embedding generation.
+- OCR.
+- Coordinate preprocessing.
+- Pair formation.
+- Classifier inference.
+- Graph construction.
+
+Do not call isolated classifier latency full document-processing latency.
+
+---
+
+# PART IV — R2: ER-SP AUDIT
+
+## 10. Implementation Verification
+
+Inspect the actual ER-SP implementation.
+
+Verify:
+
+- Model class.
+- Input tensor dimensions.
+- Question and passage representations.
+- MiniLM embeddings.
+- Interaction tensor construction.
+- Attention pooling.
+- Multi-passage aggregation.
+- Classification head.
+- Loss function.
+- Training configuration.
+- Optimizer.
+- Checkpoint loading.
+- Prediction pipeline.
+- Confidence calculation.
+- Calibration implementation.
+- Abstention integration.
+
+Previously reported architecture:
+
+- Five classes:
+  - SUFFICIENT
+  - PARTIALLY_SUFFICIENT
+  - CONTRADICTORY
+  - IRRELEVANT
+  - UNVERIFIABLE
+- 1,537-dimensional interaction representation.
+- Reported parameter count: 560,134.
+- Checkpoint: `models/evidence/er_sp.pt`.
+
+Verify every detail against the actual implementation.
+
+## 11. SETU-ER Dataset Audit
+
+Investigate the reported SETU-ER v1.1.0 dataset containing 2,252 records.
+
+Previously reported split:
+
+- Training: 1,560.
+- Validation: 340.
+- Unseen-topic test: 340.
+- In-domain gold evaluation: 12.
+
+Inspect:
+
+- Dataset construction.
+- Topic allocation.
+- Question provenance.
+- Passage provenance.
+- Ground-truth labels.
+- Human verification records.
+- Synthetic generation.
+- Label balance.
+- Duplicate questions.
+- Similar passages.
+- Topic leakage.
+- Template leakage.
+- Train/test overlap.
+- Real in-domain examples.
+
+Verify whether the gold labels were independently assigned.
+
+Distinguish genuinely independently annotated evidence from automatically generated labels.
+
+## 12. ER-SP Metric and Confusion-Matrix Reconciliation
+
+Recompute:
+
+- Accuracy.
+- Macro precision.
+- Macro recall.
+- Macro F1.
+- Per-class precision.
+- Per-class recall.
+- Per-class F1.
+- Confusion matrix.
+- ECE.
+- Brier score, if appropriate.
+- Abstention metrics.
+
+Investigate the previously reported results:
+
+- Accuracy: 86.18%.
+- Macro F1: 0.8553.
+- Contradiction precision: 100%.
+- Contradiction recall: 95.59%.
+- Contradiction F1: 0.9774.
+- ECE: 0.0889.
+- Abstention F1: 0.9318.
+
+### Critical known discrepancy
+
+At least two ER-SP confusion-matrix representations have been supplied.
+
+One representation shows no PARTIALLY_SUFFICIENT-to-CONTRADICTORY errors and full UNVERIFIABLE recall.
+
+Another visual heatmap shows a nonzero PARTIALLY_SUFFICIENT-to-CONTRADICTORY cell, approximately 95.6% contradiction recall, and substantially lower UNVERIFIABLE recall.
+
+The reported contradiction precision in the accompanying table does not appear consistent with the latter matrix.
+
+Do not select whichever matrix looks better.
+
+Inspect the actual evaluation prediction records and identify:
+
+- Which matrix corresponds to which checkpoint.
+- Which dataset was evaluated.
+- Which model version was used.
+- Whether any class ordering changed.
+- Whether normalization or plotting introduced the discrepancy.
+- Whether the prediction file was regenerated.
+- Which result is authoritative.
+
+Regenerate all matrices from the authoritative prediction records in the isolated audit directory.
+
+## 13. ER-SP Baseline and Latency Audit
+
+Inspect the cosine-threshold and lexical-rule baselines.
+
+Verify:
+
+- Threshold selection methodology.
+- Whether thresholds were tuned on the test set.
+- Whether baseline labels use equivalent information.
+- Whether each method uses identical test examples.
+- Whether all methods are compared using the same averaging conventions.
+
+Investigate the reported 0.450 ms inference latency.
+
+Identify what it includes and excludes.
+
+---
+
+# PART V — R3: CM-RP AUDIT
+
+## 14. Implementation Verification
+
+Inspect:
+
+- CM-RP model classes.
+- Policy network.
+- Predictor.
+- Dispatcher.
+- Context feature construction.
+- Feature normalization.
+- Historical state.
+- Hardware telemetry.
+- Action masking.
+- Probability distribution.
+- Confidence calculation.
+- Threshold handling.
+- Training and evaluation scripts.
+- Checkpoints.
+
+Previously reported context representation:
+
+- Question embedding: 384 dimensions.
+- Structural features: 8 dimensions.
+- Evidence features: 8 dimensions.
+- Domain and symbolic features: 11 dimensions.
+- Hardware telemetry: 5 dimensions.
+- Historical policy features: 7 dimensions.
+- Total: 423 dimensions.
+
+Verify the actual feature order and dimensions.
+
+Previously reported seven actions:
+
+1. ARITHMETIC_SOLVER
+2. DBMS_SOLVER
+3. FORMAL_LOGIC_SOLVER
+4. EXTRACTIVE_QA
+5. LOCAL_SLM
+6. ADDITIONAL_RETRIEVAL
+7. ABSTAIN
+
+Verify that each action maps to an actual execution subsystem.
+
+## 15. CM-RP Dataset and Checkpoint Audit
+
+Inspect:
+
+- SETU-CM dataset.
+- Training and validation files.
+- Test examples.
+- Topic separation.
+- Data provenance.
+- Label generation.
+- Human verification.
+- Class distribution.
+- Duplicate questions.
+- Model versions.
+- Training logs.
+- Checkpoint metadata.
+
+Checkpoint files to inspect without changing:
+
+- `models/policy/cm_rp.pt`
+- `models/policy/cm_rp_v2.pt`
+
+Verify their hashes, sizes, metadata and loading paths.
+
+Do not overwrite or retrain either checkpoint.
+
+## 16. CM-RP Historical Result Reconciliation
+
+Investigate all known reported versions and figures:
+
+- Earlier R3 unseen-topic accuracy: 57.65%.
+- Later reported CM-RP v1 result: 81.18%.
+- CM-RP v2 pure neural, without fallback: 90.00% in the earlier R4 comparison.
+- CM-RP v2 with rule fallback: 93.53% in the earlier R4 report.
+- Independent seven-action evaluation:
+  - N = 245.
+  - Seven actions.
+  - 35 examples per action.
+  - Reported pure neural accuracy: 94.29%.
+  - Macro F1: 0.9433.
+- CM-RP v1 independent benchmark accuracy: 91.02%.
+- CM-RP v2 pure neural independent benchmark accuracy: 94.29%.
+- CM-RP v2 rule-fallback independent benchmark accuracy: 88.16%.
+
+Do not treat all these numbers as results from the same test set.
+
+Build a version-to-dataset-to-checkpoint-to-metric table.
+
+Identify what explains the differences where evidence exists.
+
+Otherwise classify the discrepancy as unresolved.
+
+## 17. Seven-Action Benchmark Verification
+
+Locate the independent test file:
+
+`test_7action_independent.jsonl`
+
+If the filename differs, find the actual corresponding artifact and record its path.
+
+Verify:
+
+- Exactly 245 records.
+- Exactly 35 examples per action.
+- Seven ground-truth classes.
+- All seven predicted classes.
+- No missing predictions.
+- No duplicate IDs.
+- No training overlap.
+- No near-duplicate leakage.
+- No test-label leakage into features.
+- Label correctness and verification evidence.
+- Prediction-to-query alignment.
+
+Recalculate the complete 7×7 confusion matrix.
+
+Use rows as ground-truth classes and columns as predicted classes.
+
+Verify the supplied matrix:
+
+ARITHMETIC_SOLVER:
+[34, 1, 0, 0, 0, 0, 0]
+
+DBMS_SOLVER:
+[1, 32, 2, 0, 0, 0, 0]
+
+FORMAL_LOGIC_SOLVER:
+[0, 0, 35, 0, 0, 0, 0]
+
+EXTRACTIVE_QA:
+[0, 4, 1, 29, 1, 0, 0]
+
+LOCAL_SLM:
+[1, 0, 0, 0, 34, 0, 0]
+
+ADDITIONAL_RETRIEVAL:
+[0, 0, 0, 0, 0, 35, 0]
+
+ABSTAIN:
+[0, 3, 0, 0, 0, 0, 32]
+
+Verify the corresponding macro metrics and per-class metrics.
+
+Check the distinction between:
+
+- Zero support.
+- Zero recall.
+- Zero precision.
+- Zero off-diagonal errors.
+
+Verify the pure-neural and rule-fallback prediction records separately.
+
+Determine whether all seven test classes were independently and correctly labelled.
+
+Do not claim broad generalization solely because each action has 35 examples.
+
+---
+
+# PART VI — R4 FULL-SYSTEM INTEGRATION AUDIT
+
+## 18. Integrated Pipeline Verification
+
+Locate:
+
+`IntegratedSetuNetraPipeline`
+
+or the actual corresponding integration class.
+
+Inspect the complete end-to-end flow.
+
+Previously reported sequence:
+
+1. Document ingestion.
+2. OCR.
+3. Block framing.
+4. SR-EdgeNet structural prediction.
+5. Hybrid retrieval.
+6. ER-SP evidence evaluation.
+7. CM-RP policy dispatch.
+8. Specialized execution.
+9. CitationVerifier source audit.
+10. Response delivery.
+
+Verify actual execution order.
+
+For each stage identify:
+
+- Function or class.
+- Source path.
+- Input.
+- Output.
+- Error handling.
+- Checkpoint dependency.
+- Whether it is executed in the real pipeline.
+- Whether it is bypassed under fallback conditions.
+
+Determine whether all R1–R3 checkpoints are loaded and active in the actual integrated evaluation.
+
+Identify any hardcoded results, mock components, dummy contexts, test doubles or placeholder outputs.
+
+## 19. Grounded-Context Ablation Audit
+
+Investigate the 50-query grounded-context benchmark.
+
+Known configurations:
+
+- C1: Baseline RAG — 44%.
+- C2: Baseline plus SR-EdgeNet — 42%.
+- C3: Baseline plus ER-SP — 24%.
+- C4: Baseline plus CM-RP v2 — 72%.
+- C5: SR-EdgeNet plus ER-SP — 44%.
+- C6: Complete R4 with placeholder context — 70%.
+- C6: Complete R4 with grounded context — 92%.
+
+Previously reported complete-system results:
+
+- Accuracy: 92%.
+- Abstention F1: 0.9524.
+- Grounding score: 0.946.
+
+Investigate the actual configuration and underlying records for each result.
+
+### Placeholder-context investigation
+
+The earlier audit reports that C6 was initially evaluated with dummy passages:
+
+`["Sample document passage context"]`
+
+The CitationVerifier then refused unsupported responses, and these refusals were counted as errors.
+
+Verify this exact cause in the benchmark scripts and raw traces.
+
+Determine whether the grounded re-evaluation used:
+
+- Authentic source documents.
+- Correct source passages.
+- Consistent citation metadata.
+- Correct answer labels.
+- The same question set.
+- The same scoring rules.
+- The same model checkpoints.
+- The same policy configuration.
+
+Do not describe the 70% to 92% difference as a fair controlled comparison unless these conditions are sufficiently matched.
+
+## 20. Paired Statistical Testing
+
+If C4 and C6 used the same 50 questions and ground-truth labels, inspect their query-level predictions.
+
+Calculate:
+
+- C4 correct / C6 correct.
+- C4 correct / C6 incorrect.
+- C4 incorrect / C6 correct.
+- C4 incorrect / C6 incorrect.
+
+Use McNemar's test for paired binary correctness outcomes where appropriate.
+
+Report:
+
+- Test statistic.
+- Exact or asymptotic p-value.
+- Continuity correction, if used.
+- Effect size.
+- Confidence interval where appropriate.
+- Number of discordant pairs.
+
+For accuracy differences, calculate suitable confidence intervals.
+
+If paired data are unavailable, explicitly state that significance could not be verified.
+
+Never copy `p < 0.01` or another significance statement from a report without independently inspecting the necessary evidence.
+
+## 21. Full-Pipeline Latency
+
+Separate:
+
+- OCR latency.
+- Image preprocessing.
+- Embedding latency.
+- Retrieval latency.
+- SR-EdgeNet inference.
+- ER-SP inference.
+- CM-RP inference.
+- Solver execution.
+- Citation verification.
+- Response delivery.
+- Queue waiting.
+- Scheduler dispatch.
+- Complete end-to-end latency.
+
+Investigate the reported 1.510 ms decision-stage latency and the later 24.44 ms end-to-end figure.
+
+Determine precisely what each measurement covers.
+
+Do not compare these two measurements without accounting for their measurement boundaries.
+
+---
+
+# PART VII — ADAPTIVEMODELROUTER AUDIT
+
+## 22. Router Implementation
+
+Locate the actual `AdaptiveModelRouter` implementation.
+
+Investigate:
+
+- Classification logic.
+- Task categories.
+- Embedding or rule-based features.
+- Model selection.
+- Confidence thresholds.
+- Unsupported task rejection.
+- SLA-aware fallback.
+- Degraded model fallback.
+- Hardware constraints.
+- Error handling.
+- Router-to-scheduler interface.
+- Router-to-inference interface.
+
+Identify whether this router is independent of CM-RP or is integrated with it.
+
+Explain their exact relationship using actual code.
+
+Do not automatically merge them into one neural policy.
+
+## 23. Routing Benchmark Audit
+
+Inspect:
+
+`routing_evaluation_summary.json`
+
+Previously reported metadata:
+
+- 20 labelled test cases.
+- Eight routing categories.
+- 100% overall routing accuracy.
+- 100% macro F1.
+- 100% unsupported-task rejection accuracy.
+- 100% SLA fallback accuracy.
+- Mean decision latency: 64.95 μs.
+
+Verify all values.
+
+Check:
+
+- Class support.
+- Test-set design.
+- Label origin.
+- Test independence.
+- Duplicate cases.
+- Whether examples were derived from routing rules.
+- Whether any expected decisions were hardcoded.
+- Whether the benchmark and router share rule definitions.
+- Whether the confusion matrix matches per-class metrics.
+
+The test set is very small and uneven.
+
+Explicitly state the limitations of this evaluation.
+
+Do not interpret 100% on 20 samples as proof of universal routing accuracy.
+
+---
+
+# PART VIII — SCHEDULER AND RUNTIME ORCHESTRATION AUDIT
+
+## 24. Inspect All Six Scheduling Algorithms
+
+Identify and inspect all six actual implementations:
+
+1. ROUND_ROBIN
+2. RANDOM
+3. LEAST_OUTSTANDING
+4. SECT
+5. CAPACITY_AWARE
+6. RESILIENT_CAPACITY_AWARE
+
+For each algorithm identify:
+
+- Implementation file.
+- Class or function.
+- Scheduling mechanism.
+- Selection criteria.
+- Queue behavior.
+- Worker selection.
+- Capacity representation.
+- Runtime complexity, where meaningful.
+- Telemetry dependence.
+- Failure handling.
+- Timeout handling.
+- Retry behavior.
+- Backpressure behavior.
+- Configuration options.
+- Relevant tests.
+
+Explain the technical distinction between the algorithms.
+
+Do not invent what SECT means. Recover its exact expansion and implementation from the source.
+
+## 25. RESILIENT_CAPACITY_AWARE
+
+Conduct a detailed audit of the resilient scheduler.
+
+Investigate:
+
+- Worker health states.
+- Capacity estimates.
+- Worker availability.
+- Worker registration.
+- Worker deregistration.
+- Failure detection.
+- Dead-worker handling.
+- Failover selection.
+- Request reassignment.
+- Correlation-ID preservation.
+- Task idempotency.
+- Duplicate execution prevention.
+- Retry eligibility.
+- Retry limits.
+- Circuit breaker state transitions.
+- Recovery logic.
+- Telemetry freshness.
+- Timeout propagation.
+- Queue saturation.
+- Request rejection.
+- Backpressure.
+
+Construct a state-transition description of the circuit breaker and worker recovery process.
+
+Identify whether the implementation uses actual independent workers, simulated workers, controlled test doubles, or a hybrid approach.
+
+Do not claim distributed multi-host execution if the implementation only uses local worker objects or simulated failures.
+
+## 26. Scheduler Microbenchmark Audit
+
+Inspect:
+
+`scheduler_microbenchmarks_summary.json`
+
+Previously reported metadata:
+
+- Six schedulers.
+- Eight workload profiles.
+- 1,920 submitted requests.
+- Five warm-up requests in metadata.
+- Two repetitions.
+
+Verify every field from the raw JSON.
+
+Inspect all eight profiles, including:
+
+- Uniform short.
+- Uniform long.
+- Mixed sizes.
+- Burst.
+- Unequal worker capacity.
+- Queue saturation.
+- Worker failure and recovery.
+- Any other profile actually present.
+
+For every scheduler and workload collect:
+
+- Submitted requests.
+- Completed requests.
+- Failed requests.
+- Rejected requests.
+- Timed-out requests.
+- Success rate.
+- Throughput.
+- Latency distribution.
+- Queue waiting time.
+- Dispatch overhead.
+- CPU utilization.
+- RAM utilization.
+- Available memory.
+
+Recompute all percentages from the counts.
+
+Verify the 1,920 total and the per-scheduler/per-workload sample counts.
+
+Investigate the reported failure-and-recovery results:
+
+- Round Robin: 90%.
+- Random: 92.5%.
+- Least Outstanding: 70%.
+- SECT: 85%.
+- Capacity Aware: 70%.
+- Resilient Capacity Aware: 100%.
+
+Confirm that the last value corresponds to completed requests and not merely accepted or retried requests.
+
+Investigate queue saturation separately.
+
+The previous report indicates that the resilient scheduler may reject requests under saturation rather than allowing execution failures.
+
+Distinguish:
+
+- Completion rate.
+- Acceptance rate.
+- Rejection rate.
+- Failure rate.
+- Timeout rate.
+- Throughput among completed tasks.
+- Admission control behavior.
+
+Do not label controlled rejection as successful request completion.
+
+## 27. Scheduler Benchmark Statistical Adequacy
+
+Assess:
+
+- Number of repetitions.
+- Requests per repetition.
+- Variance across repetitions.
+- Workload consistency.
+- Request duration realism.
+- Worker capacity realism.
+- Failure timing.
+- Failure frequency.
+- Warm-up behavior.
+- Measurement instrumentation.
+- System interference.
+- Random seed controls.
+
+Determine whether the reported confidence intervals are based on enough independent observations.
+
+Do not assume 40 requests equal 40 independent repetitions.
+
+Recommend a more rigorous repeated-experiment protocol where needed.
+
+---
+
+# PART IX — RELIABILITY AND FAULT-INJECTION AUDIT
+
+## 28. Reliability Test Suite
+
+Inspect:
+
+`reliability_evaluation_summary.json`
+
+Previously reported results:
+
+- Six reliability tests.
+- Six passed.
+- Zero failed.
+- 100% test pass rate.
+
+Inspect each test:
+
+1. Worker crash and failover.
+2. Execution and queue timeouts.
+3. Queue saturation backpressure.
+4. Circuit breaker trip and recovery.
+5. Non-idempotent task retry prevention.
+6. Stale telemetry detection.
+
+For every test identify:
+
+- Actual test function.
+- Preconditions.
+- Fault injected.
+- Expected behavior.
+- Observed behavior.
+- Assertions.
+- Execution logs.
+- Request and worker identifiers.
+- Relevant timings.
+
+Investigate:
+
+- Worker failover latency.
+- Correlation-ID preservation.
+- Timeout propagation.
+- Duplicate execution risk.
+- Retry suppression.
+- Recovery confirmation.
+- Telemetry freshness thresholds.
+
+A passing assertion does not imply the task itself succeeded.
+
+For example, a timeout test may correctly pass because an execution timeout was detected.
+
+Explain the semantics of each passing result.
+
+## 29. Reliability Claims
+
+Assess whether the evidence supports claims about:
+
+- Fault tolerance.
+- Resilience.
+- Idempotency.
+- Exactly-once execution.
+- At-least-once execution.
+- Retry safety.
+- Circuit breaking.
+- Failure recovery.
+- Graceful degradation.
+- Backpressure.
+
+Do not claim exactly-once semantics unless the actual execution and persistence design supports them.
+
+Separate:
+
+- Successful controlled fault-injection tests.
+- Demonstrated runtime resilience.
+- Production-grade availability.
+- Distributed fault tolerance.
+
+These are not interchangeable.
+
+---
+
+# PART X — REAL LOCAL INFERENCE AUDIT
+
+## 30. Model Inventory and Inference
+
+Inspect:
+
+`real_inference_benchmarks_summary.json`
+
+Investigate all available models, including:
+
+- EasyOCR / CRAFT / CRNN.
+- all-MiniLM-L6-v2.
+- Offline semantic hash.
+- Grounded extractive QA.
+- SmolLM2-135M-Instruct.
+- Qwen 3.5 2B.
+- Any additional model found in the source records.
+
+For each model inspect:
+
+- Model identifier.
+- Checkpoint or model source.
+- Quantization.
+- Runtime.
+- Device.
+- Model-load time.
+- Cold latency.
+- Warm latency.
+- P50.
+- P90.
+- P95.
+- P99.
+- Throughput.
+- Error rate.
+- Timeout rate.
+- CPU usage.
+- RAM usage.
+- Generated tokens per second, if applicable.
+- Number of measured iterations.
+
+Verify that the recorded throughput is mathematically consistent with the timing methodology.
+
+Determine whether the model actually performed the intended task or merely executed a lightweight test call.
+
+## 31. EasyOCR Failure
+
+Investigate the reported:
+
+- 100% error rate.
+- Approximately 4.5-second warm latency.
+- 0.22 requests/s.
+
+Inspect raw errors and logs.
+
+Determine:
+
+- Whether the model failed to load.
+- Whether inference failed.
+- Whether an image decoding problem occurred.
+- Whether a dependency error occurred.
+- Whether requests were evaluated against valid inputs.
+- Whether the measured latency includes loading or preprocessing.
+- Whether the failure belongs to the benchmark harness rather than EasyOCR itself.
+
+Do not present failed benchmark execution as successful OCR performance.
+
+Preserve the failure as an experimental finding.
+
+## 32. Missing Qwen 3.5 2B Evidence
+
+The supplied execution-frontier graph includes Qwen 3.5 2B.
+
+However, its corresponding raw record was not present in the previously supplied real-inference JSON.
+
+Investigate:
+
+- Model availability.
+- Ollama model identifier.
+- Local runtime configuration.
+- Model size and quantization.
+- Actual inference logs.
+- Token generation.
+- CPU usage.
+- RAM usage.
+- Load time.
+- Warm latency.
+- Measurement sample count.
+- Error handling.
+- Graph-generation source.
+
+Find the original evidence if it exists.
+
+If it does not exist, classify the Qwen graph values as unsupported.
+
+Do not generate replacement measurements or fabricate a benchmark record.
+
+---
+
+# PART XI — DOCUMENT QA, RETRIEVAL AND CITATION VERIFICATION
+
+## 33. QA Evaluation
+
+Inspect:
+
+`qa_quality_evaluation_summary.json`
+
+Previously reported evaluation:
+
+- Eight evaluated questions.
+- Five supported.
+- Three unsupported.
+- MRR: 0.80.
+- Recall@1: 0.60.
+- Recall@3: 1.00.
+- Exact Match: 0.38.
+- Token F1: 0.53.
+- Citation Precision: 0.38.
+- Citation Completeness: 0.38.
+- Unsupported Abstention Accuracy: 100%.
+- Observed Hallucination Rate: 0%.
+
+Verify every metric.
+
+Inspect the question-level data.
+
+Determine:
+
+- How questions were selected.
+- How correct answers were defined.
+- How source passages were annotated.
+- How citations were judged.
+- How unsupported queries were identified.
+- Whether answer generation was evaluated.
+- Whether citation verification was evaluated independently.
+- Whether any labels were derived from the same heuristics being tested.
+
+## 34. Retrieval Evaluation
+
+Verify:
+
+- BM25 implementation.
+- Dense retrieval.
+- Embedding model.
+- Similarity function.
+- Reciprocal Rank Fusion.
+- Candidate K.
+- Passage granularity.
+- Document provenance.
+- Source coordinates.
+- Retrieval ranking.
+- Recall@K.
+- Precision@K.
+- MRR.
+
+Investigate the retrieval-window trade-off graph.
+
+Verify whether the reported 100% recall at K=3 is supported by the actual eight-query evaluation.
+
+If the graph uses a separate benchmark, locate that benchmark.
+
+Do not use one experiment's sample size to describe another experiment.
+
+## 35. CitationVerifier Audit
+
+Inspect the actual CitationVerifier implementation.
+
+Investigate:
+
+- Citation token parsing.
+- Document identifiers.
+- Page identifiers.
+- Block coordinates.
+- Text overlap.
+- Polarity alignment.
+- Evidence containment.
+- Citation completeness.
+- Unsupported response refusal.
+- Failure modes.
+- False acceptance.
+- False rejection.
+
+Determine whether the citation checks validate true semantic support or only lexical/structural overlap.
+
+Do not use "hallucination elimination" as a claim unless the evaluation protocol genuinely establishes it.
+
+Distinguish:
+
+- Unsupported response abstention.
+- Citation precision.
+- Citation completeness.
+- Factual answer correctness.
+- Hallucination detection.
+
+## 36. Small-Sample Statistical Interpretation
+
+The QA suite contains only eight questions, including three unsupported questions.
+
+Calculate suitable confidence intervals for reported proportions.
+
+Explain the consequences of the small sample.
+
+For zero observed hallucinations, state the observed rate and uncertainty.
+
+Do not imply that observing zero errors in eight cases establishes a zero population error rate.
+
+Likewise, interpret 100% unsupported-abstention accuracy using its actual denominator.
+
+---
+
+# PART XII — FIGURE, GRAPH AND PLOT-GENERATION AUDIT
+
+## 37. Inspect Every Relevant Figure
+
+Locate all image, SVG, PDF and figure-generation assets.
+
+Inspect:
+
+- Figure files.
+- Plot scripts.
+- CSV inputs.
+- JSON inputs.
+- Hardcoded graph values.
+- Labels.
+- Axes.
+- Units.
+- Legends.
+- Captions.
+- Figure numbering.
+- Manuscript references.
+
+Do not assume a figure is correct because it looks professional.
+
+Every plotted value must be traceable to a raw result or independently derived metric.
+
+## 38. Previously Supplied Graphs Requiring Review
+
+Investigate these known assets, if available:
+
+### Scheduler and runtime figures
+
+- `failure_recovery_comparison(1).png`
+- `latency_percentiles(1).png`
+- `queue_wait_comparison(1).png`
+- `routing_confusion_matrix(1).png`
+- `throughput_comparison(1).png`
+- `worker_utilization(1).png`
+- `cpu_ram_utilization(1).png`
+
+Previous audit concerns:
+
+1. The graph named `worker_utilization` appears to show scheduling dispatch overhead rather than worker utilization.
+2. The worker failure graph may incorrectly associate the 85% result with Capacity Aware instead of SECT.
+3. The claim that 100% of requests were retried after a circuit-breaker event requires direct evidence.
+4. The latency-percentile plot may use identical P95 and P99 values because of limited observations.
+5. The queue-wait and throughput plots must be reconciled against each workload profile, not only one aggregated value.
+
+Verify all these points.
+
+### Document QA and model figures
+
+- `qa_retrieval_citations(1).png`
+- `fig3_hallucination_elimination.png`
+- `fig5_model_execution_frontier.png`
+- `fig6_hardware_resource_footprint.png`
+- `fig7_retrieval_window_tradeoff.png`
+- `fig1_latency_collapse.png`
+- `fig2_citation_precision_surge.png`
+
+Previous audit concerns:
+
+1. The hallucination-elimination title overstates what a small QA benchmark establishes.
+2. The Qwen execution-frontier point lacks a supplied matching raw benchmark record.
+3. OCR failure must not be plotted as successful inference.
+4. Hardware working-set numbers require raw resource measurements.
+5. The retrieval-window graph requires its own source dataset.
+6. The latency-collapse figure requires its original benchmark records.
+7. The citation-precision surge and ANOVA statistics require raw repeated observations and a valid statistical design.
+
+Determine which concerns are confirmed and which remain unresolved.
+
+### R1–R4 manuscript figures
+
+Inspect:
+
+- The conceptual platform illustration.
+- `architecture_pipeline.png`.
+- `confusion_matrices.svg`.
+- `ablation_barchart.svg`.
+- Real document execution trace.
+- Any alternative confusion-matrix versions.
+
+Previously identified issues:
+
+1. The ER-SP heatmap does not match the earlier audited confusion matrix.
+2. The SR-EdgeNet heatmap does not match the previously supplied audit matrix.
+3. The CM-RP 7×7 matrix must match the independent 245-example benchmark.
+4. The ablation chart should distinguish placeholder and grounded-context configurations.
+5. The architecture diagram must show R4 integration explicitly.
+6. Hardware-masking details must match the code.
+7. Experimental results must not be embedded as if they were architectural components.
+
+## 39. Figure Validation Requirements
+
+For every figure generate a reconciliation record:
+
+- Figure filename.
+- Figure number.
+- Figure title.
+- Related experiment.
+- Underlying data file.
+- Plot-generation script.
+- Actual source values.
+- Recomputed source values.
+- Axis and unit correctness.
+- Label correctness.
+- Sample size.
+- Figure consistency.
+- Publication status.
+
+Assign one status:
+
+- APPROVED.
+- APPROVED WITH QUALIFICATION.
+- REQUIRES CORRECTION.
+- REQUIRES REGENERATION.
+- UNSUPPORTED.
+- OBSOLETE.
+
+Do not change original figures.
+
+If a corrected figure is needed, generate a separate replacement in the audit output directory and explain the changes.
+
+---
+
+# PART XIII — EXISTING IEEE MANUSCRIPT AUDIT
+
+## 40. Inspect the Complete Research Manuscript
+
+Locate the current IEEE paper draft, including any supplied version such as:
+
+`IEEE_SETU_NETRA_PAPER(2).pdf`
+
+Inspect every page.
+
+Check:
+
+- Title.
+- Author details.
+- Affiliations.
+- Email.
+- Abstract.
+- Index Terms.
+- Introduction.
+- Related Work.
+- Research Evolution.
+- Methodology.
+- Mathematical formulations.
+- Datasets.
+- Experimental methodology.
+- Results.
+- Confusion matrices.
+- Ablation.
+- Limitations.
+- Conclusion.
+- References.
+- Figures.
+- Tables.
+- Captions.
+- Typography.
+- Page layout.
+
+Inspect the rendered PDF pages and embedded figures, not only extracted text.
+
+## 41. Author and Publication Metadata
+
+Determine whether the following information is valid:
+
+- Author name.
+- IEEE membership designation.
+- Laboratory name.
+- Department.
+- Institution.
+- Email.
+- Publication venue.
+- Acceptance information.
+- Manuscript dates.
+
+Identify unverified or placeholder metadata.
+
+Do not fabricate institutional affiliations, IEEE membership, acceptance status, publication venues, or funding information.
+
+## 42. Manuscript-to-Evidence Reconciliation
+
+Build a complete claim-to-evidence table.
+
+For every major manuscript claim include:
+
+- Manuscript page.
+- Section.
+- Exact claim.
+- Related component.
+- Supporting source file.
+- Supporting implementation location.
+- Supporting experiment.
+- Raw result.
+- Recomputed result.
+- Verification status.
+- Recommended action.
+
+Investigate known manuscript discrepancies, including:
+
+- R1 real-data accuracy and F1.
+- SR-EdgeNet confusion matrices.
+- ER-SP contradiction precision and confusion matrices.
+- CM-RP v1 historical performance.
+- CM-RP v2 pure-neural and fallback performance.
+- Complete R4 grounded-context accuracy.
+- Grounded-context versus placeholder-context comparison.
+- End-to-end latency boundaries.
+- Hardware measurements.
+- Scheduler resilience claims.
+- QA citation quality.
+- Local-model inference values.
+- Unsupported Qwen figures.
+- Reference authenticity.
+
+Do not silently select the most impressive result.
+
+## 43. Related Work and Reference Audit
+
+Inspect every cited publication.
+
+Verify:
+
+- Authors.
+- Publication title.
+- Publication year.
+- Conference or journal.
+- Volume and issue where applicable.
+- Page range.
+- DOI or publication identifier.
+
+Determine whether a reference is genuine and correctly cited.
+
+Identify suspicious, incomplete, irrelevant or unverifiable citations.
+
+Specifically inspect any reference that appears to describe SETU-NETRA's own CM-RP implementation as though it were an independent published paper.
+
+Do not invent replacements.
+
+Recommend genuine literature only when it can be verified.
+
+## 44. IEEE Formatting Audit
+
+Identify:
+
+- Wrong template claims.
+- Incorrect venue headers.
+- False acceptance statements.
+- Placeholder funding details.
+- Missing disclosures.
+- Incorrect author formatting.
+- Readability issues.
+- Small fonts.
+- Overflowing tables.
+- Broken captions.
+- Unbalanced columns.
+- Unreadable figures.
+
+Do not modify the manuscript in this audit.
+
+Produce a list of required corrections for later LaTeX preparation.
+
+---
+
+# PART XIV — CONTRIBUTION AND NOVELTY ASSESSMENT
+
+## 45. Evaluate Actual Research Contributions
+
+Assess the following proposed contributions separately:
+
+### Contribution A — Learned structural relationship reconstruction
+
+SR-EdgeNet predicts directed semantic relationships among OCR document blocks.
+
+Assess:
+
+- Actual implementation.
+- Mathematical mechanism.
+- Dataset.
+- Baselines.
+- Synthetic and real performance.
+- Domain generalization.
+- Novelty relative to document layout and graph-based methods.
+
+### Contribution B — Evidence relevance and sufficiency prediction
+
+ER-SP predicts evidence states before answer generation.
+
+Assess:
+
+- Actual implementation.
+- Epistemic classes.
+- Dataset provenance.
+- Contradiction detection.
+- Calibration.
+- Abstention behavior.
+- Baselines.
+- Novelty relative to retrieval confidence, NLI and evidence verification.
+
+### Contribution C — Contextual multi-strategy reasoning policy
+
+CM-RP selects between seven execution strategies using document, evidence, domain, hardware and history features.
+
+Assess:
+
+- Actual policy design.
+- State representation.
+- Action space.
+- Learning procedure.
+- Hardware masking.
+- Independent evaluation.
+- Comparison with rule-based routing.
+- Novelty relative to adaptive model routing.
+
+### Contribution D — Integrated neuro-symbolic document intelligence
+
+R4 combines structural, epistemic and policy components with specialized execution and source verification.
+
+Assess:
+
+- Actual integration.
+- End-to-end behavior.
+- Controlled ablation.
+- Grounded-context validity.
+- Execution trace.
+- Latency.
+- Evidence verification.
+- Research novelty relative to existing RAG and neuro-symbolic systems.
+
+### Contribution E — Adaptive runtime orchestration
+
+AdaptiveModelRouter and the worker scheduling layer provide task dispatch, worker selection, capacity awareness, failure handling and recovery.
+
+Assess:
+
+- Whether this is integrated with the document intelligence pipeline.
+- Whether it is a separate runtime subsystem.
+- Whether it contributes to the same research hypothesis.
+- Whether the scheduler's behavior is experimentally supported.
+- Whether the resilient scheduler is sufficiently different from existing scheduling algorithms.
+
+Do not assume all five contributions are novel.
+
+Classify each as:
+
+- Implemented engineering contribution.
+- Experimentally validated contribution.
+- Potential methodological contribution.
+- Incremental integration.
+- Proposed contribution.
+- Insufficiently supported contribution.
+
+---
+
+# PART XV — REPRODUCIBILITY AND EXPERIMENTAL QUALITY
+
+## 46. Global Reproducibility Audit
+
+Assess every significant experiment for:
+
+- Source code availability.
+- Dataset availability.
+- Dataset version.
+- Dataset provenance.
+- Random seeds.
+- Model checkpoint.
+- Hyperparameters.
+- Environment.
+- Hardware.
+- Warm-up.
+- Repetition count.
+- Evaluation sample size.
+- Test independence.
+- Statistical methods.
+- Raw prediction records.
+- Raw latency records.
+- Plot-generation scripts.
+- Exact command used.
+- Expected result.
+- Actual result.
+
+Identify whether another researcher could reproduce the result using the current project.
+
+Assign:
+
+- HIGH reproducibility.
+- MODERATE reproducibility.
+- LOW reproducibility.
+- NOT REPRODUCIBLE FROM AVAILABLE EVIDENCE.
+
+Provide the reason for every classification.
+
+## 47. Metric Verification Standards
+
+Use correct metric definitions.
+
+For classification:
+
+- Accuracy.
+- Per-class precision.
+- Per-class recall.
+- Per-class F1.
+- Macro F1.
+- Weighted F1.
+- Confusion matrix.
+- Support.
+
+For evidence evaluation:
+
+- Contradiction precision and recall.
+- Abstention precision and recall.
+- Calibration.
+- Brier score, where applicable.
+- ECE.
+
+For retrieval:
+
+- Precision@K.
+- Recall@K.
+- MRR.
+- Ranking metrics.
+
+For QA:
+
+- Exact Match.
+- Token F1.
+- Citation precision.
+- Citation completeness.
+- Unsupported abstention accuracy.
+
+For runtime scheduling:
+
+- Submitted requests.
+- Accepted requests.
+- Completed requests.
+- Failed requests.
+- Rejected requests.
+- Timed-out requests.
+- Completion rate.
+- Throughput.
+- Queue waiting time.
+- Dispatch overhead.
+- Latency percentiles.
+
+For hardware:
+
+- CPU utilization.
+- Working-set memory.
+- Peak process memory.
+- Available system memory.
+- Checkpoint size.
+- Model load time.
+- Inference latency.
+
+For every percentage, identify its denominator.
+
+For every latency, identify the measured operation.
+
+For every throughput, identify the measurement interval and request count.
+
+For every confidence interval, identify the unit of analysis and statistical procedure.
+
+Do not use request counts as a substitute for independent experimental repetitions.
+
+## 48. Sample-Size Adequacy
+
+Evaluate the adequacy of:
+
+- N = 8 QA evaluation.
+- N = 20 AdaptiveModelRouter evaluation.
+- N = 12 in-domain ER-SP evaluation.
+- N = 35 per CM-RP action.
+- N = 50 ablation benchmark.
+- N = 204 R1 in-domain edges.
+- Two scheduler repetitions.
+- Six reliability tests.
+
+Explain what conclusions are justified at each sample size.
+
+Where appropriate, calculate confidence intervals.
+
+Identify where bootstrapping, repeated trials, additional annotation or larger independent test sets would be necessary.
+
+Do not automatically apply parametric statistical tests where their assumptions are not satisfied.
+
+---
+
+# PART XVI — ADDITIONAL EXPERIMENT RECOMMENDATIONS
+
+## 49. Identify the Exact Additional Experiments Needed
+
+After auditing the implementation and evidence, determine what still needs to be done.
+
+Do not recommend arbitrary experiments.
+
+Each proposed experiment must address a specific weakness discovered during this audit.
+
+For every recommendation specify:
+
+1. Research question.
+2. Hypothesis.
+3. Existing weakness.
+4. Exact dataset or workload.
+5. Dataset construction methodology.
+6. Number of examples or trials.
+7. Sampling and splitting strategy.
+8. Baselines.
+9. Independent variables.
+10. Controlled variables.
+11. Metrics.
+12. Statistical analysis.
+13. Expected output files.
+14. Required scripts.
+15. Acceptance criteria.
+16. Approximate computational requirements.
+17. Risks and limitations.
+
+Prioritize additional experiments.
+
+Suggested areas to investigate include:
+
+### R1
+
+- Larger independently annotated real documents.
+- Perspective and rotation robustness.
+- XY-Cut comparison using identical ground truth.
+- Synthetic-to-real generalization.
+- Relationship-classification error analysis.
+
+### R2
+
+- Larger real evidence benchmark.
+- Independent contradiction annotation.
+- Multi-hop sufficiency evaluation.
+- Calibration and selective prediction.
+- False acceptance and false rejection analysis.
+
+### R3
+
+- Independent seven-action benchmark expansion.
+- Unseen-domain and adversarial query testing.
+- Per-class policy reliability.
+- Rule fallback comparison.
+- Hardware-mask boundary testing.
+- Confidence calibration.
+
+### R4
+
+- Repeated grounded-context evaluations.
+- Paired statistical comparison.
+- Document-level end-to-end evaluation.
+- Evidence leakage checks.
+- Real-world failure analysis.
+- Full pipeline latency.
+
+### AdaptiveModelRouter
+
+- Larger stratified routing dataset.
+- Unseen task categories.
+- Confidence calibration.
+- Unsupported-task adversarial tests.
+- SLA fallback testing.
+
+### Scheduler
+
+- Larger repeated workload runs.
+- More realistic worker heterogeneity.
+- Burst and saturation testing.
+- Multiple failure-injection timings.
+- Worker recovery under sustained load.
+- Duplicate execution and retry safety.
+- Queue admission and fairness evaluation.
+
+### Inference and QA
+
+- Qwen 3.5 2B source evidence recovery or reproducible measurement.
+- EasyOCR failure diagnosis.
+- Larger document QA benchmark.
+- Citation precision and completeness improvement.
+- Unsupported evidence evaluation.
+- End-to-end latency distribution.
+- Resource footprint under concurrent inference.
+
+Do not execute experiments that retrain or modify preserved checkpoints during this audit.
+
+For any new experiment that is necessary, provide a complete plan but do not run it unless it is already a non-destructive, pre-existing evaluation.
+
+---
+
+# PART XVII — CONSOLIDATED AUDIT OUTPUTS
+
+## 50. Required Output Directory
+
+Generate all outputs in:
+
+`research_audit/complete_audit_YYYYMMDD_HHMMSS/`
+
+The directory must contain the following deliverables.
+
+### Deliverable 1 — MASTER_AUDIT_REPORT.md
+
+The central human-readable report.
+
+Required sections:
+
+1. Executive Summary.
+2. Scope and Audit Methodology.
+3. Repository and Environment Inventory.
+4. System Architecture.
+5. R1 Implementation and Experimental Audit.
+6. R2 Implementation and Experimental Audit.
+7. R3 Implementation and Experimental Audit.
+8. R4 Integration and Experimental Audit.
+9. AdaptiveModelRouter Audit.
+10. Scheduler Implementation Audit.
+11. RESILIENT_CAPACITY_AWARE Audit.
+12. Reliability and Fault-Injection Audit.
+13. Local Inference Audit.
+14. Document QA and Retrieval Audit.
+15. Citation Verification and Abstention Audit.
+16. Figure and Graph Audit.
+17. IEEE Manuscript Audit.
+18. Research Contribution Assessment.
+19. Statistical and Reproducibility Assessment.
+20. Missing Evidence.
+21. Contradictions.
+22. Additional Experiments.
+23. Final Research Readiness Assessment.
+
+Each important finding must identify the source path and relevant code location or record.
+
+### Deliverable 2 — COMPLETE_AUDIT.json
+
+Create one consolidated machine-readable JSON report.
+
+Recommended top-level structure:
+
+{
+  "audit_metadata": {},
+  "repository": {},
+  "environment": {},
+  "architecture": {},
+  "implementation_inventory": [],
+  "r1_sr_edge_net": {},
+  "r2_er_sp": {},
+  "r3_cm_rp": {},
+  "r4_integration": {},
+  "adaptive_model_router": {},
+  "schedulers": {},
+  "resilient_capacity_aware": {},
+  "reliability_tests": {},
+  "real_inference": {},
+  "document_qa": {},
+  "retrieval": {},
+  "citation_verification": {},
+  "metric_reconciliation": [],
+  "confusion_matrix_audit": [],
+  "figure_audit": [],
+  "manuscript_audit": {},
+  "research_contributions": [],
+  "reproducibility": {},
+  "missing_evidence": [],
+  "contradictions": [],
+  "limitations": [],
+  "additional_experiments": [],
+  "final_assessment": {}
+}
+
+Use valid JSON.
+
+Do not place explanatory comments inside JSON.
+
+Every significant claim must have a verification status and evidence references.
+
+### Deliverable 3 — IMPLEMENTATION_INVENTORY.csv
+
+Columns:
+
+- component
+- file_path
+- class_or_function
+- responsibility
+- dependencies
+- inputs
+- outputs
+- checkpoint
+- configuration
+- related_tests
+- implementation_status
+- evidence_reference
+
+### Deliverable 4 — EXPERIMENT_RECONCILIATION.csv
+
+Columns:
+
+- experiment_id
+- component
+- dataset
+- checkpoint
+- version
+- metric
+- reported_value
+- recalculated_value
+- sample_count
+- denominator
+- evaluation_protocol
+- status
+- source_file
+- notes
+
+### Deliverable 5 — FIGURE_AUDIT.csv
+
+Columns:
+
+- figure_path
+- experiment
+- displayed_metric
+- raw_source
+- expected_value
+- displayed_value
+- sample_count
+- consistency
+- required_action
+- status
+
+### Deliverable 6 — MISSING_EVIDENCE.md
+
+List every missing item.
+
+For each item explain:
+
+- What is missing.
+- Which research claim depends on it.
+- Why it matters.
+- Where it would normally be located.
+- What exact evidence is required.
+
+### Deliverable 7 — RESEARCH_CONTRIBUTION_MATRIX.md
+
+Assess every contribution in terms of:
+
+- Implementation.
+- Experimental verification.
+- Baseline strength.
+- Statistical confidence.
+- Novelty evidence.
+- Limitations.
+- Publication readiness.
+
+### Deliverable 8 — REPRODUCIBILITY_REPORT.md
+
+Document:
+
+- Environment.
+- Commands.
+- Dependencies.
+- Hardware.
+- Checkpoints.
+- Datasets.
+- Random seeds.
+- Evaluation protocol.
+- Execution logs.
+- Reproducibility limitations.
+
+### Deliverable 9 — ADDITIONAL_EXPERIMENT_PLAN.md
+
+Provide the prioritized additional experiment plan.
+
+Include exact methodologies, data requirements, evaluation criteria and expected outputs.
+
+### Deliverable 10 — AUDIT_EVIDENCE_INDEX.json
+
+Create a structured evidence index.
+
+Each record should include:
+
+- Unique evidence ID.
+- Claim.
+- Evidence type.
+- File path.
+- Source location.
+- Related component.
+- Associated experiment.
+- Verification status.
+- Hash where applicable.
+
+### Deliverable 11 — AUDIT_EXECUTION_LOG.md
+
+Record:
+
+- Commands executed.
+- Tests executed.
+- Start and completion status.
+- Exit codes.
+- Logs.
+- Files inspected.
+- Files generated.
+- Any operation skipped because it could modify the original project.
+
+### Deliverable 12 — CHECKPOINT_PRESERVATION.json
+
+Before and after the audit, verify the hashes and file sizes of all existing model checkpoints.
+
+At minimum inspect:
+
+- `models/structure/sr_edge_net.pt`
+- `models/evidence/er_sp.pt`
+- `models/policy/cm_rp.pt`
+- `models/policy/cm_rp_v2.pt`
+
+Also identify other checkpoints and preserve their hashes.
+
+The before/after values must match.
+
+If they do not, report the discrepancy. Do not silently restore or overwrite a checkpoint.
+
+---
+
+# PART XVIII — FINAL RESEARCH READINESS DECISION
+
+## 51. Classify the Overall Research Status
+
+Provide separate verdicts for:
+
+- Repository inspection.
+- Architecture verification.
+- R1 implementation.
+- R1 experimental validity.
+- R2 implementation.
+- R2 experimental validity.
+- R3 implementation.
+- R3 experimental validity.
+- R4 integration.
+- R4 experimental validity.
+- AdaptiveModelRouter.
+- Scheduler implementation.
+- Scheduler experimental validity.
+- Fault-recovery implementation.
+- Reliability experimental validity.
+- Local inference evaluation.
+- Document QA.
+- Citation verification.
+- Figure integrity.
+- Manuscript integrity.
+- Reproducibility.
+
+Use:
+
+- PASS.
+- PASS WITH LIMITATIONS.
+- PARTIAL.
+- FAIL.
+- NOT VERIFIED.
+
+A global passing verdict must not conceal a failing component.
+
+## 52. Determine Publication Readiness
+
+Provide one final overall decision:
+
+A. NOT READY — substantial implementation or evidence gaps remain.
+
+B. TECHNICALLY READY, EXPERIMENTALLY INCOMPLETE — core implementation exists, but important experiments require completion.
+
+C. EXPERIMENTALLY SUPPORTED, MANUSCRIPT NEEDS CORRECTION — sufficient validated evidence exists, but publication work remains.
+
+D. READY FOR IEEE MANUSCRIPT FINALIZATION — critical evidence, metrics, figures and reproducibility checks have been completed.
+
+Do not select D simply because all requested files were generated.
+
+Explain the decision using the audit evidence.
+
+## 53. Final Recommendations
+
+At the end of the report, provide:
+
+1. What is genuinely implemented.
+2. What has been experimentally validated.
+3. What remains reported but unverified.
+4. What is contradicted by evidence.
+5. What should be removed or qualified from the manuscript.
+6. What additional experiments are mandatory.
+7. What additional experiments are optional.
+8. What figures can be retained.
+9. What figures must be regenerated.
+10. What claims need rewriting.
+11. What the final research contribution should be.
+12. The exact next research milestone.
+
+---
+
+# PART XIX — EXECUTION AND COMMUNICATION REQUIREMENTS
+
+## 54. Complete the Audit in One Coordinated Execution
+
+Do not stop after inspecting the project tree.
+
+Do not return a generic summary.
+
+Do not ask the researcher to provide individual files that are already accessible within the project.
+
+Follow the complete audit scope.
+
+If the audit is too large for a single uninterrupted tool operation, preserve progress in the isolated audit directory and continue through all available sections without losing evidence.
+
+Do not claim completion when significant sections remain uninspected.
+
+If something is unavailable, record it and continue.
+
+## 55. Evidence-Based Reporting
+
+For every significant conclusion include:
+
+- Exact file path.
+- Relevant source location, function or class.
+- Experiment identifier.
+- Dataset or workload.
+- Checkpoint.
+- Raw evidence.
+- Recalculated result.
+- Verification status.
+
+Use line numbers where available.
+
+Where a result comes from a command execution, include the command and its exit code.
+
+Where a result cannot be reproduced, explicitly state why.
+
+## 56. Final Response to the Researcher
+
+When the audit is finished, provide a concise but technically substantive completion summary.
+
+Include:
+
+1. Audit output directory.
+2. Main report path.
+3. Consolidated JSON path.
+4. Key verified findings.
+5. Important contradictions.
+6. Missing evidence.
+7. Checkpoint-preservation result.
+8. Research-readiness decision.
+9. Highest-priority additional experiments.
+
+Do not merely say "everything passed".
+
+Do not say the research is ready for publication unless the evidence supports it.
+
+---
+
+# FINAL DIRECTIVE
+
+The purpose of this audit is to establish exactly what SETU-NETRA has achieved, what the current codebase genuinely implements, what the experiments actually demonstrate, and what remains necessary to produce a defensible research publication.
+
+Treat every model, dataset, scheduler, runtime component, benchmark, graph and manuscript claim as something that must be verified.
+
+Preserve failures and negative results.
+
+Reconstruct the research history accurately.
+
+Do not fabricate scientific contributions.
+
+Do not inflate benchmark performance.
+
+Do not confuse a functioning prototype with a validated research method.
+
+Do not confuse component-level evaluation with end-to-end evaluation.
+
+Do not confuse routing accuracy with scheduling performance.
+
+Do not confuse fault-injection success with production reliability.
+
+Do not confuse evidence overlap with semantic entailment.
+
+**The final objective is a complete, traceable, reproducible research evidence base from which the final SETU-NETRA IEEE LaTeX manuscript and PDF can be prepared with scientific confidence.**
+
+Begin with repository preservation and complete project inventory, then execute the entire audit scope.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-20T04:50:53+05:30.
+</ADDITIONAL_METADATA>

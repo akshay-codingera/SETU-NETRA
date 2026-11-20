@@ -1,0 +1,250 @@
+{
+  "doc_id": "synth_0090",
+  "page_id": "synth_0090_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "TECHNICAL EVALUATION BENCH: DATABASE & OS ARCHITECTURE",
+      "bbox": [
+        60.0,
+        66.0,
+        834.0,
+        82.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        109.0,
+        397.0,
+        123.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        147.0,
+        399.0,
+        161.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        171.0,
+        265.0,
+        220.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "A. 11",
+      "bbox": [
+        80.0,
+        230.0,
+        107.0,
+        239.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "B. 15",
+      "bbox": [
+        80.0,
+        245.0,
+        106.0,
+        254.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "C. 9",
+      "bbox": [
+        80.0,
+        260.0,
+        100.0,
+        269.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "D. 21",
+      "bbox": [
+        80.0,
+        275.0,
+        107.0,
+        284.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "QUESTION",
+      "text": "Q2. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        319.0,
+        723.0,
+        333.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[A] O(N log N)",
+      "bbox": [
+        80.0,
+        347.0,
+        156.0,
+        359.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "[B] O(N^2)",
+      "bbox": [
+        80.0,
+        365.0,
+        137.0,
+        376.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "[C] O(N)",
+      "bbox": [
+        80.0,
+        382.0,
+        125.0,
+        393.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q3. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        424.0,
+        959.0,
+        438.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[A] 1NF",
+      "bbox": [
+        80.0,
+        452.0,
+        122.0,
+        463.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "[B] 2NF",
+      "bbox": [
+        80.0,
+        469.0,
+        121.0,
+        480.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        513.0,
+        750.0,
+        527.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(A) Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        541.0,
+        372.0,
+        553.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "(B) Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        559.0,
+        355.0,
+        570.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(C) Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        576.0,
+        328.0,
+        588.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(D) Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        594.0,
+        313.0,
+        606.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 70
+}

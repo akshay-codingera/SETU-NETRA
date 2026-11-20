@@ -1,0 +1,370 @@
+{
+  "doc_id": "synth_0210",
+  "page_id": "synth_0210_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "TECHNICAL EVALUATION BENCH: DATABASE & OS ARCHITECTURE",
+      "bbox": [
+        60.0,
+        64.0,
+        784.0,
+        80.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART I: OBJECTIVE CORE CONCEPTS",
+      "bbox": [
+        60.0,
+        106.0,
+        356.0,
+        118.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        140.0,
+        516.0,
+        174.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        189.0,
+        248.0,
+        202.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        209.0,
+        186.0,
+        222.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        229.0,
+        212.0,
+        242.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q2. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        275.0,
+        573.0,
+        309.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        79.0,
+        323.0,
+        475.0,
+        337.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        343.0,
+        367.0,
+        354.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "C. Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        360.0,
+        433.0,
+        374.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "D. Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        380.0,
+        410.0,
+        394.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q3. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        426.0,
+        575.0,
+        460.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "[A] 1NF",
+      "bbox": [
+        80.0,
+        475.0,
+        128.0,
+        488.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[B] 2NF",
+      "bbox": [
+        80.0,
+        495.0,
+        128.0,
+        508.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "[C] 3NF",
+      "bbox": [
+        80.0,
+        515.0,
+        129.0,
+        528.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "[D] BCNF",
+      "bbox": [
+        80.0,
+        535.0,
+        140.0,
+        548.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "QUESTION",
+      "text": "Q4. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        620.0,
+        140.0,
+        1132.0,
+        174.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "A. Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        639.0,
+        188.0,
+        1131.0,
+        219.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "B. Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        640.0,
+        225.0,
+        1006.0,
+        239.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "C. Manage hardware interrupts generated by peripheral bus controllers",
+      "bbox": [
+        640.0,
+        245.0,
+        1091.0,
+        259.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "QUESTION",
+      "text": "Q5. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        620.0,
+        283.0,
+        1135.0,
+        317.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "(A) 1NF",
+      "bbox": [
+        640.0,
+        332.0,
+        690.0,
+        345.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "(B) 2NF",
+      "bbox": [
+        640.0,
+        352.0,
+        690.0,
+        365.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "(C) 3NF",
+      "bbox": [
+        640.0,
+        372.0,
+        691.0,
+        385.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "QUESTION",
+      "text": "Q6. Consider the following recursive Python function:",
+      "bbox": [
+        620.0,
+        412.0,
+        955.0,
+        426.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        629.0,
+        436.0,
+        841.0,
+        485.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "OPTION",
+      "text": "(A) 11",
+      "bbox": [
+        640.0,
+        496.0,
+        679.0,
+        509.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "OPTION",
+      "text": "(B) 15",
+      "bbox": [
+        640.0,
+        516.0,
+        679.0,
+        529.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "(C) 9",
+      "bbox": [
+        640.0,
+        536.0,
+        672.0,
+        549.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "(D) 21",
+      "bbox": [
+        640.0,
+        556.0,
+        680.0,
+        569.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 97
+}

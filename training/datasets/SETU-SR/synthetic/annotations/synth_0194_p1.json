@@ -1,0 +1,382 @@
+{
+  "doc_id": "synth_0194",
+  "page_id": "synth_0194_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "NATIONAL INSTITUTE OF TECHNOLOGY: CORE ENGINEERING EXAM",
+      "bbox": [
+        60.0,
+        63.0,
+        718.0,
+        78.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION B: SYSTEM ARCHITECTURE & ENGINEERING",
+      "bbox": [
+        60.0,
+        96.0,
+        404.0,
+        107.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        130.0,
+        536.0,
+        158.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "A. (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        171.0,
+        215.0,
+        184.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "B. (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        189.0,
+        166.0,
+        202.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "QUESTION",
+      "text": "Q2. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        232.0,
+        356.0,
+        245.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        254.0,
+        279.0,
+        298.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "(A) 11",
+      "bbox": [
+        80.0,
+        307.0,
+        113.0,
+        320.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(B) 15",
+      "bbox": [
+        80.0,
+        325.0,
+        113.0,
+        338.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(C) 9",
+      "bbox": [
+        80.0,
+        343.0,
+        105.0,
+        356.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(D) 21",
+      "bbox": [
+        80.0,
+        361.0,
+        114.0,
+        374.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q3. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        405.0,
+        546.0,
+        436.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "(A) Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        449.0,
+        419.0,
+        462.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "(B) Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        467.0,
+        404.0,
+        480.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(C) Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        485.0,
+        374.0,
+        498.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "(D) Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        503.0,
+        346.0,
+        516.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "QUESTION",
+      "text": "Q4. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        620.0,
+        130.0,
+        1123.0,
+        161.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "(A) 1NF",
+      "bbox": [
+        640.0,
+        174.0,
+        681.0,
+        187.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(B) 2NF",
+      "bbox": [
+        640.0,
+        192.0,
+        681.0,
+        205.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(C) 3NF",
+      "bbox": [
+        640.0,
+        210.0,
+        680.0,
+        223.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(D) BCNF",
+      "bbox": [
+        640.0,
+        228.0,
+        690.0,
+        241.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "QUESTION",
+      "text": "Q5. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        620.0,
+        274.0,
+        1110.0,
+        305.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        640.0,
+        318.0,
+        988.0,
+        331.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        640.0,
+        336.0,
+        892.0,
+        348.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        640.0,
+        353.0,
+        963.0,
+        366.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "[D] Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        640.0,
+        371.0,
+        938.0,
+        384.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "QUESTION",
+      "text": "Q6. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        620.0,
+        408.0,
+        1122.0,
+        439.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "OPTION",
+      "text": "A. Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        640.0,
+        452.0,
+        1114.0,
+        465.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "B. Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        640.0,
+        470.0,
+        969.0,
+        483.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "C. Manage hardware interrupts generated by peripheral bus controllers",
+      "bbox": [
+        640.0,
+        488.0,
+        1042.0,
+        501.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 31,
+      "block_type": "OPTION",
+      "text": "D. Maintain execution state frames during thread context switching",
+      "bbox": [
+        640.0,
+        506.0,
+        1021.0,
+        519.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 142
+}

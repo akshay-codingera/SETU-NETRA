@@ -1,0 +1,250 @@
+{
+  "doc_id": "synth_0037",
+  "page_id": "synth_0037_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "SEMESTER ASSESSMENT: THEORETICAL COMPUTER SCIENCE",
+      "bbox": [
+        60.0,
+        66.0,
+        735.0,
+        81.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION A: FOUNDATIONAL PRINCIPLES",
+      "bbox": [
+        60.0,
+        106.0,
+        383.0,
+        118.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        148.0,
+        723.0,
+        162.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] O(N log N)",
+      "bbox": [
+        80.0,
+        177.0,
+        159.0,
+        189.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] O(N^2)",
+      "bbox": [
+        80.0,
+        196.0,
+        139.0,
+        208.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "QUESTION",
+      "text": "Q2. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        237.0,
+        750.0,
+        251.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "(A) Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        266.0,
+        414.0,
+        278.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "(B) Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        285.0,
+        392.0,
+        297.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(C) Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        304.0,
+        363.0,
+        316.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(D) Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        323.0,
+        346.0,
+        335.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q3. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        370.0,
+        1054.0,
+        384.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "[A] 112x112",
+      "bbox": [
+        80.0,
+        399.0,
+        149.0,
+        411.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "[B] 110x110",
+      "bbox": [
+        80.0,
+        418.0,
+        149.0,
+        430.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[C] 114x114",
+      "bbox": [
+        80.0,
+        437.0,
+        149.0,
+        449.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "[D] 111x111",
+      "bbox": [
+        80.0,
+        456.0,
+        149.0,
+        468.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        496.0,
+        1054.0,
+        510.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(A) 112x112",
+      "bbox": [
+        80.0,
+        525.0,
+        149.0,
+        537.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "(B) 110x110",
+      "bbox": [
+        80.0,
+        544.0,
+        149.0,
+        556.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(C) 114x114",
+      "bbox": [
+        80.0,
+        563.0,
+        149.0,
+        575.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(D) 111x111",
+      "bbox": [
+        80.0,
+        582.0,
+        149.0,
+        594.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 127
+}

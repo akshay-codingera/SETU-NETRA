@@ -1,0 +1,250 @@
+{
+  "doc_id": "synth_0092",
+  "page_id": "synth_0092_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "NATIONAL INSTITUTE OF TECHNOLOGY: CORE ENGINEERING EXAM",
+      "bbox": [
+        59.0,
+        67.0,
+        915.0,
+        84.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION B: SYSTEM ARCHITECTURE & ENGINEERING",
+      "bbox": [
+        60.0,
+        105.0,
+        484.0,
+        117.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        149.0,
+        633.0,
+        161.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "A. O(N log N)",
+      "bbox": [
+        80.0,
+        175.0,
+        151.0,
+        187.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "B. O(N^2)",
+      "bbox": [
+        80.0,
+        193.0,
+        132.0,
+        204.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "C. O(N)",
+      "bbox": [
+        80.0,
+        210.0,
+        120.0,
+        221.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "D. O(2^N)",
+      "bbox": [
+        80.0,
+        227.0,
+        133.0,
+        238.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        268.0,
+        657.0,
+        280.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "[A] Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        294.0,
+        372.0,
+        306.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[B] Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        312.0,
+        355.0,
+        323.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "[C] Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        329.0,
+        328.0,
+        341.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "[D] Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        347.0,
+        313.0,
+        359.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q3. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        391.0,
+        827.0,
+        403.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "(A) 1NF",
+      "bbox": [
+        80.0,
+        417.0,
+        122.0,
+        428.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(B) 2NF",
+      "bbox": [
+        80.0,
+        434.0,
+        121.0,
+        445.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "(C) 3NF",
+      "bbox": [
+        80.0,
+        451.0,
+        121.0,
+        462.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(D) BCNF",
+      "bbox": [
+        80.0,
+        468.0,
+        132.0,
+        479.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q4. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        60.0,
+        509.0,
+        691.0,
+        521.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(A) Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        80.0,
+        535.0,
+        480.0,
+        547.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(B) Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        80.0,
+        553.0,
+        364.0,
+        565.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 80
+}

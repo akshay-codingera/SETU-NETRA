@@ -1,0 +1,394 @@
+{
+  "doc_id": "synth_0218",
+  "page_id": "synth_0218_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "MIDTERM EXAMINATION: COMPUTER SYSTEMS & NETWORKS",
+      "bbox": [
+        60.0,
+        62.0,
+        687.0,
+        79.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION C: ALGORITHMIC COMPLEXITY & REASONING",
+      "bbox": [
+        60.0,
+        99.0,
+        417.0,
+        110.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        137.0,
+        508.0,
+        169.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "A. O(N log N)",
+      "bbox": [
+        80.0,
+        182.0,
+        153.0,
+        195.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "B. O(N^2)",
+      "bbox": [
+        80.0,
+        200.0,
+        135.0,
+        213.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "C. O(N)",
+      "bbox": [
+        80.0,
+        218.0,
+        120.0,
+        231.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "D. O(2^N)",
+      "bbox": [
+        80.0,
+        236.0,
+        136.0,
+        249.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        283.0,
+        391.0,
+        296.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        305.0,
+        279.0,
+        349.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[A] 11",
+      "bbox": [
+        80.0,
+        358.0,
+        113.0,
+        370.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "[B] 15",
+      "bbox": [
+        80.0,
+        375.0,
+        113.0,
+        387.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "[C] 9",
+      "bbox": [
+        80.0,
+        392.0,
+        105.0,
+        404.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q3. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        429.0,
+        574.0,
+        461.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "A. 1NF",
+      "bbox": [
+        80.0,
+        475.0,
+        117.0,
+        484.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "B. 2NF",
+      "bbox": [
+        80.0,
+        490.0,
+        117.0,
+        499.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "C. 3NF",
+      "bbox": [
+        80.0,
+        505.0,
+        116.0,
+        514.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "D. BCNF",
+      "bbox": [
+        80.0,
+        520.0,
+        126.0,
+        529.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q4. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        620.0,
+        137.0,
+        1120.0,
+        150.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        629.0,
+        159.0,
+        874.0,
+        205.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(A) GROUP BY",
+      "bbox": [
+        640.0,
+        214.0,
+        719.0,
+        227.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(B) HAVING",
+      "bbox": [
+        640.0,
+        232.0,
+        706.0,
+        245.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "QUESTION",
+      "text": "Q5. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        620.0,
+        269.0,
+        1068.0,
+        301.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "[A] O(N log N)",
+      "bbox": [
+        640.0,
+        314.0,
+        717.0,
+        327.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "[B] O(N^2)",
+      "bbox": [
+        640.0,
+        332.0,
+        699.0,
+        345.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "[C] O(N)",
+      "bbox": [
+        640.0,
+        350.0,
+        684.0,
+        363.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "[D] O(2^N)",
+      "bbox": [
+        640.0,
+        368.0,
+        700.0,
+        381.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "QUESTION",
+      "text": "Q6. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        620.0,
+        415.0,
+        1120.0,
+        428.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        629.0,
+        437.0,
+        874.0,
+        483.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "A. GROUP BY",
+      "bbox": [
+        640.0,
+        493.0,
+        715.0,
+        502.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "B. HAVING",
+      "bbox": [
+        640.0,
+        508.0,
+        702.0,
+        517.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 31,
+      "block_type": "OPTION",
+      "text": "C. WHERE",
+      "bbox": [
+        640.0,
+        523.0,
+        697.0,
+        532.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 32,
+      "block_type": "OPTION",
+      "text": "D. SELECT",
+      "bbox": [
+        640.0,
+        538.0,
+        696.0,
+        547.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 110
+}

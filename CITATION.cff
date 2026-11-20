@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use or reference SETU-NETRA in your research or application, please cite it as below."
+title: "SETU-NETRA: Adaptive Neuro-Symbolic Framework for Document Understanding, Evidence Sufficiency Assessment, and Context-Aware Reasoning"
+authors:
+  - family-names: "Butola"
+    given-names: "Akshay"
+    orcid: ""
+date-released: 2026-11-20
+version: "1.0.0"
+repository-code: "https://github.com/akshay-codingera/SETU-NETRA"
+license: "Apache-2.0"
+keywords:
+  - document-intelligence
+  - ocr-reconstruction
+  - neuro-symbolic-reasoning
+  - evidence-verification
+  - local-first-slm

@@ -1,0 +1,274 @@
+{
+  "doc_id": "synth_0133",
+  "page_id": "synth_0133_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "TECHNICAL EVALUATION BENCH: DATABASE & OS ARCHITECTURE",
+      "bbox": [
+        60.0,
+        64.0,
+        784.0,
+        80.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION B: SYSTEM ARCHITECTURE & ENGINEERING",
+      "bbox": [
+        60.0,
+        108.0,
+        501.0,
+        120.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        152.0,
+        673.0,
+        165.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        179.0,
+        445.0,
+        192.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        198.0,
+        350.0,
+        211.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        217.0,
+        405.0,
+        230.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "[D] Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        236.0,
+        385.0,
+        249.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        275.0,
+        673.0,
+        288.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(A) Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        302.0,
+        445.0,
+        315.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(B) Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        321.0,
+        350.0,
+        334.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(C) Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        340.0,
+        405.0,
+        353.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "(D) Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        359.0,
+        385.0,
+        372.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q3. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        397.0,
+        765.0,
+        410.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[A] Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        424.0,
+        526.0,
+        437.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "[B] Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        443.0,
+        432.0,
+        456.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "[C] Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        462.0,
+        429.0,
+        475.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[D] Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        481.0,
+        378.0,
+        494.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q4. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        528.0,
+        969.0,
+        541.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(A) 112x112",
+      "bbox": [
+        80.0,
+        555.0,
+        150.0,
+        568.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(B) 110x110",
+      "bbox": [
+        80.0,
+        574.0,
+        150.0,
+        587.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(C) 114x114",
+      "bbox": [
+        80.0,
+        593.0,
+        150.0,
+        606.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "(D) 111x111",
+      "bbox": [
+        80.0,
+        612.0,
+        150.0,
+        625.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 135
+}

@@ -1,0 +1,226 @@
+{
+  "doc_id": "synth_0140",
+  "page_id": "synth_0140_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: SECTION A: FOUNDATIONAL PRINCIPLES",
+      "bbox": [
+        60.0,
+        62.0,
+        410.0,
+        72.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q5. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        97.0,
+        514.0,
+        110.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        119.0,
+        314.0,
+        165.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "A. GROUP BY",
+      "bbox": [
+        80.0,
+        175.0,
+        155.0,
+        184.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "B. HAVING",
+      "bbox": [
+        80.0,
+        190.0,
+        142.0,
+        199.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "QUESTION",
+      "text": "Q6. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        231.0,
+        356.0,
+        244.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        253.0,
+        279.0,
+        297.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "[A] 11",
+      "bbox": [
+        80.0,
+        306.0,
+        113.0,
+        318.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "[B] 15",
+      "bbox": [
+        80.0,
+        323.0,
+        113.0,
+        335.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[C] 9",
+      "bbox": [
+        80.0,
+        340.0,
+        105.0,
+        352.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "[D] 21",
+      "bbox": [
+        80.0,
+        357.0,
+        114.0,
+        369.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q7. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        393.0,
+        637.0,
+        406.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        419.0,
+        424.0,
+        432.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        437.0,
+        328.0,
+        447.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "C. Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        452.0,
+        399.0,
+        465.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q8. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        60.0,
+        490.0,
+        704.0,
+        503.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(A) Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        80.0,
+        516.0,
+        558.0,
+        529.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "(B) Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        80.0,
+        534.0,
+        413.0,
+        547.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 65
+}

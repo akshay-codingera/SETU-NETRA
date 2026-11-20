@@ -1,0 +1,3812 @@
+{
+  "total_documents": 250,
+  "total_edges": 34174,
+  "class_distribution": {
+    "PARENT_OF": 2845,
+    "OPTION_OF": 8167,
+    "CONTINUATION_OF": 2687,
+    "NONE": 20475
+  },
+  "documents": [
+    {
+      "doc_id": "synth_0001",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0001_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0002",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 75,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 75,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0002_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0003",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 70,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 70,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0003_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0004",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 117,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0004_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0005",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 154,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 112,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0005_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 42,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0005_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0006",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 125,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 125,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0006_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0007",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0007_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0008",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 100,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0008_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0009",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 117,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0009_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0010",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 150,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 55,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0010_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 95,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0010_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0011",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 75,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 75,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0011_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0012",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 92,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 92,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0012_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0013",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 82,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 82,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0013_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0014",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0014_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0015",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 252,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 127,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0015_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 125,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0015_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0016",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 92,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 92,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0016_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0017",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 117,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0017_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0018",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 122,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 122,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0018_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0019",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 95,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 95,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0019_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0020",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 207,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0020_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 19,
+          "edges_count": 107,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0020_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0021",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 107,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 107,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0021_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0022",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 137,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 137,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0022_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0023",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 47,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 47,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0023_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0024",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0024_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0025",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 110,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 55,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0025_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 19,
+          "edges_count": 55,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0025_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0026",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 100,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0026_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0027",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 92,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 92,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0027_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0028",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 122,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 122,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0028_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0029",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 90,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 90,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0029_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0030",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 167,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 77,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0030_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 18,
+          "edges_count": 90,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0030_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0031",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 50,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 24,
+          "edges_count": 50,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0031_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0032",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 100,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0032_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0033",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 105,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0033_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0034",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 92,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 92,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0034_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0035",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 179,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 82,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0035_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 97,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0035_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0036",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 135,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 135,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0036_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0037",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 127,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 127,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0037_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0038",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 117,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0038_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0039",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 137,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 137,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0039_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0040",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 219,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 97,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0040_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 122,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0040_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0041",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 132,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 132,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0041_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0042",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 120,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 120,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0042_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0043",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 65,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 65,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0043_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0044",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 97,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 97,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0044_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0045",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 192,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 25,
+          "edges_count": 120,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0045_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 72,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0045_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0046",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 80,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 80,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0046_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0047",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 107,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 107,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0047_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0048",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 127,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 127,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0048_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0049",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 87,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 87,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0049_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0050",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 162,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 95,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0050_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 18,
+          "edges_count": 67,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0050_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0051",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 90,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 90,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0051_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0052",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 102,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 102,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0052_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0053",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 127,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 127,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0053_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0054",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 120,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 120,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0054_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0055",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 177,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0055_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 21,
+          "edges_count": 92,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0055_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0056",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 80,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 80,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0056_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0057",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 102,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 102,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0057_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0058",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 32,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 32,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0058_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0059",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 102,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 102,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0059_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0060",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 210,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0060_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 19,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0060_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0061",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 100,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0061_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0062",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 85,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0062_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0063",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0063_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0064",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 85,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0064_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0065",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 199,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 102,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0065_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 19,
+          "edges_count": 97,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0065_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0066",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 132,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 132,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0066_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0067",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 97,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 24,
+          "edges_count": 97,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0067_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0068",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 102,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 102,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0068_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0069",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 137,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 137,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0069_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0070",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 192,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 107,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0070_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 19,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0070_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0071",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 77,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 77,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0071_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0072",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 130,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0072_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0073",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 77,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 77,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0073_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0074",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 125,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 125,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0074_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0075",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 152,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 102,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0075_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 22,
+          "edges_count": 50,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0075_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0076",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 77,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 77,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0076_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0077",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 85,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0077_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0078",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 112,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 112,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0078_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0079",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 100,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0079_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0080",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 207,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0080_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 22,
+          "edges_count": 102,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0080_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0081",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 70,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 70,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0081_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0082",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 87,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 87,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0082_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0083",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 112,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 112,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0083_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0084",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 77,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 77,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0084_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0085",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 200,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 90,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0085_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 22,
+          "edges_count": 110,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0085_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0086",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 100,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0086_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0087",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 85,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0087_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0088",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 122,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 122,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0088_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0089",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 105,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0089_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0090",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 172,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 70,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0090_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 21,
+          "edges_count": 102,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0090_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0091",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 67,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 17,
+          "edges_count": 67,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0091_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0092",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 80,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 80,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0092_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0093",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 87,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 87,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0093_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0094",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 67,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 17,
+          "edges_count": 67,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0094_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0095",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 194,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 122,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0095_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 72,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0095_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0096",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 137,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 137,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0096_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0097",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 97,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 97,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0097_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0098",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 72,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 72,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0098_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0099",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 77,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 77,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0099_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0100",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 237,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0100_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 21,
+          "edges_count": 120,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0100_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0101",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 92,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 92,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0101_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0102",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 65,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 65,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0102_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0103",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 50,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 24,
+          "edges_count": 50,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0103_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0104",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 127,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 127,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0104_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0105",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 197,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0105_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 112,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0105_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0106",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 87,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 87,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0106_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0107",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 67,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 67,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0107_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0108",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 117,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0108_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0109",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0109_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0110",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 205,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0110_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 19,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0110_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0111",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 62,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 17,
+          "edges_count": 62,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0111_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0112",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0112_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0113",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 72,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 17,
+          "edges_count": 72,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0113_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0114",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 100,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0114_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0115",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 147,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 72,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0115_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 18,
+          "edges_count": 75,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0115_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0116",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 95,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 95,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0116_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0117",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 95,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 95,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0117_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0118",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 97,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 97,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0118_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0119",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 102,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 102,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0119_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0120",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 187,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 72,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0120_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0120_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0121",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 130,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0121_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0122",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 82,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 82,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0122_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0123",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 57,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 57,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0123_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0124",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 100,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0124_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0125",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 177,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 120,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0125_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 23,
+          "edges_count": 57,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0125_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0126",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0126_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0127",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 125,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 125,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0127_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0128",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 92,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 92,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0128_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0129",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 112,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 112,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0129_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0130",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 167,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 82,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0130_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 21,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0130_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0131",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 85,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 24,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0131_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0132",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 82,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 82,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0132_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0133",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 135,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 135,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0133_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0134",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 132,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 132,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0134_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0135",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 132,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 24,
+          "edges_count": 52,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0135_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 20,
+          "edges_count": 80,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0135_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0136",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 80,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 23,
+          "edges_count": 80,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0136_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0137",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 92,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 92,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0137_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0138",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 90,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 90,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0138_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0139",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 112,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 112,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0139_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0140",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 190,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 125,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0140_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 18,
+          "edges_count": 65,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0140_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0141",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 130,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 22,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0141_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0142",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 90,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 90,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0142_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0143",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 82,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 82,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0143_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0144",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 85,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 85,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0144_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0145",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 170,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 24,
+          "edges_count": 80,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0145_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 21,
+          "edges_count": 90,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0145_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0146",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 107,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 107,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0146_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0147",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 105,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0147_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0148",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 127,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 20,
+          "edges_count": 127,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0148_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0149",
+      "num_pages": 1,
+      "num_columns": 1,
+      "total_edges": 120,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 19,
+          "edges_count": 120,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0149_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0150",
+      "num_pages": 2,
+      "num_columns": 1,
+      "total_edges": 247,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 18,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0150_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 21,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0150_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0151",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 132,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 132,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0151_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0152",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 140,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 140,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0152_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0153",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 145,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 145,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0153_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0154",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 110,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 110,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0154_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0155",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 295,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 155,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0155_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 28,
+          "edges_count": 140,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0155_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0156",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 182,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 182,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0156_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0157",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 135,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 135,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0157_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0158",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 152,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 152,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0158_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0159",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 157,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 157,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0159_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0160",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 284,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 34,
+          "edges_count": 137,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0160_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 27,
+          "edges_count": 147,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0160_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0161",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 172,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 172,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0161_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0162",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 147,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 147,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0162_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0163",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 105,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 35,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0163_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0164",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 132,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 26,
+          "edges_count": 132,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0164_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0165",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 292,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0165_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 30,
+          "edges_count": 162,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0165_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0166",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 132,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 26,
+          "edges_count": 132,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0166_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0167",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 107,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 107,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0167_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0168",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 157,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 157,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0168_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0169",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 195,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 195,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0169_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0170",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 212,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 95,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0170_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 30,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0170_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0171",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 117,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 27,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0171_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0172",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 150,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 27,
+          "edges_count": 150,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0172_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0173",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 70,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 70,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0173_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0174",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 160,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 33,
+          "edges_count": 160,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0174_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0175",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 292,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 140,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0175_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 30,
+          "edges_count": 152,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0175_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0176",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 140,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 140,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0176_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0177",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 170,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 170,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0177_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0178",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 165,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 28,
+          "edges_count": 165,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0178_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0179",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 155,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 155,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0179_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0180",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 299,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 167,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0180_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 29,
+          "edges_count": 132,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0180_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0181",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 185,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 185,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0181_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0182",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 117,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 33,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0182_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0183",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 175,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 175,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0183_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0184",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 90,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 28,
+          "edges_count": 90,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0184_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0185",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 217,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 112,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0185_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 30,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0185_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0186",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 130,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0186_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0187",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 145,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 145,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0187_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0188",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 152,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 27,
+          "edges_count": 152,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0188_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0189",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 142,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 142,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0189_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0190",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 272,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 34,
+          "edges_count": 160,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0190_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 31,
+          "edges_count": 112,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0190_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0191",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 105,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 105,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0191_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0192",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 160,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 160,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0192_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0193",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 165,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 33,
+          "edges_count": 165,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0193_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0194",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 142,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 142,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0194_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0195",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 240,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 33,
+          "edges_count": 140,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0195_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 27,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0195_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0196",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 160,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 160,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0196_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0197",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 92,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 92,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0197_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0198",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 162,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 162,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0198_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0199",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 142,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 142,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0199_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0200",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 297,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 182,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0200_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 29,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0200_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0201",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 145,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 145,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0201_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0202",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 127,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 25,
+          "edges_count": 127,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0202_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0203",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 82,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 28,
+          "edges_count": 82,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0203_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0204",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 147,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 147,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0204_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0205",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 225,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 95,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0205_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 28,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0205_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0206",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 137,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 27,
+          "edges_count": 137,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0206_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0207",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 127,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 27,
+          "edges_count": 127,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0207_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0208",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 155,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 155,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0208_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0209",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 125,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 125,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0209_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0210",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 214,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 97,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0210_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 27,
+          "edges_count": 117,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0210_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0211",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 33,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0211_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0212",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 140,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 140,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0212_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0213",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 162,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 162,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0213_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0214",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 130,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0214_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0215",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 220,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 120,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0215_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 33,
+          "edges_count": 100,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0215_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0216",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 157,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 157,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0216_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0217",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 150,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 27,
+          "edges_count": 150,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0217_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0218",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 110,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 110,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0218_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0219",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 165,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 165,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0219_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0220",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 235,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 140,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0220_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 28,
+          "edges_count": 95,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0220_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0221",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 172,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 172,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0221_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0222",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 130,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0222_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0223",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 115,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 115,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0223_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0224",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 182,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 182,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0224_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0225",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 272,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 28,
+          "edges_count": 152,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0225_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 32,
+          "edges_count": 120,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0225_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0226",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 90,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 28,
+          "edges_count": 90,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0226_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0227",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 175,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 175,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0227_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0228",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 150,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 33,
+          "edges_count": 150,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0228_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0229",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 137,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 137,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0229_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0230",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 275,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 145,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0230_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 28,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0230_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0231",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 152,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 28,
+          "edges_count": 152,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0231_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0232",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 110,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 21,
+          "edges_count": 110,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0232_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0233",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 135,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 135,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0233_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0234",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 150,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 150,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0234_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0235",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 242,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 112,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0235_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 31,
+          "edges_count": 130,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0235_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0236",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 147,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 147,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0236_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0237",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 167,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 167,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0237_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0238",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 160,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 160,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0238_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0239",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 135,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 28,
+          "edges_count": 135,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0239_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0240",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 304,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 34,
+          "edges_count": 162,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0240_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 31,
+          "edges_count": 142,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0240_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0241",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 150,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 150,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0241_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0242",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 182,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 32,
+          "edges_count": 182,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0242_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0243",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 170,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 170,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0243_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0244",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 160,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 160,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0244_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0245",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 347,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 30,
+          "edges_count": 177,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0245_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 32,
+          "edges_count": 170,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0245_p2.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0246",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 182,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 182,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0246_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0247",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 107,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 107,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0247_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0248",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 157,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 33,
+          "edges_count": 157,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0248_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0249",
+      "num_pages": 1,
+      "num_columns": 2,
+      "total_edges": 142,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 29,
+          "edges_count": 142,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0249_p1.png"
+        }
+      ]
+    },
+    {
+      "doc_id": "synth_0250",
+      "num_pages": 2,
+      "num_columns": 2,
+      "total_edges": 297,
+      "pages": [
+        {
+          "page_num": 1,
+          "blocks_count": 31,
+          "edges_count": 127,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0250_p1.png"
+        },
+        {
+          "page_num": 2,
+          "blocks_count": 32,
+          "edges_count": 170,
+          "image_path": "training/datasets/SETU-SR/synthetic\\images\\synth_0250_p2.png"
+        }
+      ]
+    }
+  ]
+}

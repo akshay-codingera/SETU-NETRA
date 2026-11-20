@@ -1,0 +1,286 @@
+{
+  "doc_id": "synth_0102",
+  "page_id": "synth_0102_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "SEMESTER ASSESSMENT: THEORETICAL COMPUTER SCIENCE",
+      "bbox": [
+        60.0,
+        67.0,
+        821.0,
+        84.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION B: SYSTEM ARCHITECTURE & ENGINEERING",
+      "bbox": [
+        60.0,
+        110.0,
+        476.0,
+        122.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        155.0,
+        369.0,
+        168.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        178.0,
+        265.0,
+        227.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "A. 11",
+      "bbox": [
+        80.0,
+        237.0,
+        107.0,
+        246.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "B. 15",
+      "bbox": [
+        80.0,
+        252.0,
+        106.0,
+        261.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "C. 9",
+      "bbox": [
+        80.0,
+        267.0,
+        100.0,
+        276.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "D. 21",
+      "bbox": [
+        80.0,
+        282.0,
+        107.0,
+        291.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "QUESTION",
+      "text": "Q2. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        320.0,
+        744.0,
+        333.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "A. Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        347.0,
+        441.0,
+        359.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "B. Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        365.0,
+        363.0,
+        377.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "C. Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        383.0,
+        362.0,
+        395.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "D. Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        401.0,
+        322.0,
+        413.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "QUESTION",
+      "text": "Q3. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        445.0,
+        369.0,
+        458.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        468.0,
+        265.0,
+        517.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "[A] 11",
+      "bbox": [
+        80.0,
+        527.0,
+        112.0,
+        538.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[B] 15",
+      "bbox": [
+        80.0,
+        544.0,
+        111.0,
+        555.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[C] 9",
+      "bbox": [
+        80.0,
+        561.0,
+        105.0,
+        572.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[D] 21",
+      "bbox": [
+        80.0,
+        578.0,
+        112.0,
+        589.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "QUESTION",
+      "text": "Q4. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        622.0,
+        664.0,
+        635.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(A) O(N log N)",
+      "bbox": [
+        80.0,
+        649.0,
+        156.0,
+        661.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "(B) O(N^2)",
+      "bbox": [
+        80.0,
+        667.0,
+        137.0,
+        678.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "(C) O(N)",
+      "bbox": [
+        80.0,
+        684.0,
+        125.0,
+        695.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 65
+}

@@ -1,0 +1,370 @@
+{
+  "doc_id": "synth_0162",
+  "page_id": "synth_0162_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "SEMESTER ASSESSMENT: THEORETICAL COMPUTER SCIENCE",
+      "bbox": [
+        60.0,
+        65.0,
+        858.0,
+        84.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION C: ALGORITHMIC COMPLEXITY & REASONING",
+      "bbox": [
+        60.0,
+        111.0,
+        491.0,
+        123.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        148.0,
+        535.0,
+        183.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] O(N log N)",
+      "bbox": [
+        80.0,
+        197.0,
+        162.0,
+        210.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] O(N^2)",
+      "bbox": [
+        80.0,
+        216.0,
+        141.0,
+        229.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] O(N)",
+      "bbox": [
+        80.0,
+        235.0,
+        128.0,
+        248.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q2. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        277.0,
+        535.0,
+        312.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "(A) O(N log N)",
+      "bbox": [
+        80.0,
+        326.0,
+        162.0,
+        339.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(B) O(N^2)",
+      "bbox": [
+        80.0,
+        345.0,
+        141.0,
+        358.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(C) O(N)",
+      "bbox": [
+        80.0,
+        364.0,
+        128.0,
+        377.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(D) O(2^N)",
+      "bbox": [
+        80.0,
+        383.0,
+        141.0,
+        396.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q3. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        423.0,
+        569.0,
+        458.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "A. 112x112",
+      "bbox": [
+        79.0,
+        472.0,
+        146.0,
+        482.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "B. 110x110",
+      "bbox": [
+        80.0,
+        488.0,
+        146.0,
+        498.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "C. 114x114",
+      "bbox": [
+        80.0,
+        504.0,
+        146.0,
+        514.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "D. 111x111",
+      "bbox": [
+        80.0,
+        520.0,
+        146.0,
+        530.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "QUESTION",
+      "text": "Q4. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        620.0,
+        148.0,
+        1095.0,
+        183.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[A] O(N log N)",
+      "bbox": [
+        640.0,
+        197.0,
+        722.0,
+        210.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[B] O(N^2)",
+      "bbox": [
+        640.0,
+        216.0,
+        701.0,
+        229.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "[C] O(N)",
+      "bbox": [
+        640.0,
+        235.0,
+        688.0,
+        248.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "[D] O(2^N)",
+      "bbox": [
+        640.0,
+        254.0,
+        701.0,
+        267.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "QUESTION",
+      "text": "Q5. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        620.0,
+        297.0,
+        1091.0,
+        332.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "A. (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        639.0,
+        346.0,
+        795.0,
+        359.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "B. (P & Q) -> ~P",
+      "bbox": [
+        640.0,
+        365.0,
+        738.0,
+        378.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "C. (P | Q) -> (P & Q)",
+      "bbox": [
+        640.0,
+        384.0,
+        759.0,
+        397.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "D. ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        640.0,
+        403.0,
+        803.0,
+        416.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "QUESTION",
+      "text": "Q6. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        620.0,
+        450.0,
+        1101.0,
+        485.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        629.0,
+        494.0,
+        895.0,
+        546.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "A. GROUP BY",
+      "bbox": [
+        639.0,
+        556.0,
+        726.0,
+        566.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "B. HAVING",
+      "bbox": [
+        640.0,
+        572.0,
+        707.0,
+        582.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 147
+}

@@ -1,0 +1,250 @@
+{
+  "doc_id": "synth_0014",
+  "page_id": "synth_0014_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "TECHNICAL EVALUATION BENCH: DATABASE & OS ARCHITECTURE",
+      "bbox": [
+        60.0,
+        62.0,
+        724.0,
+        79.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        104.0,
+        371.0,
+        117.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        144.0,
+        731.0,
+        157.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "(A) Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        170.0,
+        414.0,
+        180.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(B) Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        185.0,
+        396.0,
+        195.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "QUESTION",
+      "text": "Q2. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        229.0,
+        717.0,
+        242.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "A. O(N log N)",
+      "bbox": [
+        80.0,
+        255.0,
+        148.0,
+        265.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "B. O(N^2)",
+      "bbox": [
+        80.0,
+        270.0,
+        129.0,
+        280.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "C. O(N)",
+      "bbox": [
+        80.0,
+        285.0,
+        116.0,
+        295.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "D. O(2^N)",
+      "bbox": [
+        80.0,
+        300.0,
+        130.0,
+        310.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q3. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        337.0,
+        1025.0,
+        350.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "[A] 112x112",
+      "bbox": [
+        80.0,
+        363.0,
+        139.0,
+        373.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "[B] 110x110",
+      "bbox": [
+        80.0,
+        378.0,
+        139.0,
+        388.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[C] 114x114",
+      "bbox": [
+        80.0,
+        393.0,
+        138.0,
+        403.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "[D] 111x111",
+      "bbox": [
+        80.0,
+        408.0,
+        140.0,
+        418.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        452.0,
+        692.0,
+        465.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        477.0,
+        409.0,
+        488.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        493.0,
+        320.0,
+        501.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "C. Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        506.0,
+        384.0,
+        516.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "D. Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        521.0,
+        369.0,
+        531.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 115
+}

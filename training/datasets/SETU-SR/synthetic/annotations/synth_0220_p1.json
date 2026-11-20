@@ -1,0 +1,370 @@
+{
+  "doc_id": "synth_0220",
+  "page_id": "synth_0220_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "MIDTERM EXAMINATION: COMPUTER SYSTEMS & NETWORKS",
+      "bbox": [
+        60.0,
+        66.0,
+        768.0,
+        82.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        102.0,
+        434.0,
+        117.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        146.0,
+        562.0,
+        176.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "A. Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        190.0,
+        441.0,
+        202.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "B. Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        208.0,
+        363.0,
+        220.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "C. Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        226.0,
+        362.0,
+        238.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "D. Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        244.0,
+        322.0,
+        256.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        284.0,
+        574.0,
+        317.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(A) 1NF",
+      "bbox": [
+        80.0,
+        331.0,
+        122.0,
+        342.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(B) 2NF",
+      "bbox": [
+        80.0,
+        348.0,
+        121.0,
+        359.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(C) 3NF",
+      "bbox": [
+        80.0,
+        365.0,
+        121.0,
+        376.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "(D) BCNF",
+      "bbox": [
+        80.0,
+        382.0,
+        132.0,
+        393.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q3. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        60.0,
+        418.0,
+        572.0,
+        451.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "(A) Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        80.0,
+        465.0,
+        480.0,
+        477.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(B) Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        80.0,
+        483.0,
+        364.0,
+        495.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        620.0,
+        146.0,
+        1091.0,
+        159.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        629.0,
+        169.0,
+        881.0,
+        223.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[A] GROUP BY",
+      "bbox": [
+        640.0,
+        233.0,
+        722.0,
+        244.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[B] HAVING",
+      "bbox": [
+        640.0,
+        250.0,
+        708.0,
+        261.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "[C] WHERE",
+      "bbox": [
+        640.0,
+        267.0,
+        702.0,
+        278.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "[D] SELECT",
+      "bbox": [
+        640.0,
+        284.0,
+        704.0,
+        295.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "QUESTION",
+      "text": "Q5. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        620.0,
+        327.0,
+        1129.0,
+        360.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "A. Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        640.0,
+        374.0,
+        927.0,
+        386.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "B. Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        640.0,
+        392.0,
+        910.0,
+        401.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "C. Immediate commit without write-ahead log flush",
+      "bbox": [
+        640.0,
+        407.0,
+        883.0,
+        419.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "D. Optimistic non-blocking concurrency control",
+      "bbox": [
+        640.0,
+        425.0,
+        868.0,
+        437.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "QUESTION",
+      "text": "Q6. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        620.0,
+        470.0,
+        1132.0,
+        503.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "OPTION",
+      "text": "A. Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        640.0,
+        517.0,
+        1035.0,
+        529.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "B. Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        640.0,
+        535.0,
+        919.0,
+        547.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "C. Manage hardware interrupts generated by peripheral bus controllers",
+      "bbox": [
+        640.0,
+        553.0,
+        973.0,
+        565.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 140
+}

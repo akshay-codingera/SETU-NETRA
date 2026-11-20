@@ -1,0 +1,250 @@
+{
+  "doc_id": "synth_0126",
+  "page_id": "synth_0126_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "NATIONAL INSTITUTE OF TECHNOLOGY: CORE ENGINEERING EXAM",
+      "bbox": [
+        60.0,
+        64.0,
+        821.0,
+        81.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION A: FOUNDATIONAL PRINCIPLES",
+      "bbox": [
+        60.0,
+        109.0,
+        383.0,
+        121.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        147.0,
+        832.0,
+        161.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "(A) Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        174.0,
+        486.0,
+        186.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(B) Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        191.0,
+        410.0,
+        203.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "(C) Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        208.0,
+        411.0,
+        220.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "(D) Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        225.0,
+        359.0,
+        237.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        266.0,
+        677.0,
+        280.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(A) (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        294.0,
+        221.0,
+        305.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(B) (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        311.0,
+        170.0,
+        322.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(C) (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        328.0,
+        190.0,
+        339.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q3. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        373.0,
+        722.0,
+        387.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "(A) O(N log N)",
+      "bbox": [
+        80.0,
+        401.0,
+        157.0,
+        412.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "(B) O(N^2)",
+      "bbox": [
+        80.0,
+        418.0,
+        138.0,
+        429.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(C) O(N)",
+      "bbox": [
+        80.0,
+        435.0,
+        126.0,
+        446.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        480.0,
+        721.0,
+        494.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        507.0,
+        422.0,
+        519.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        524.0,
+        330.0,
+        536.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        541.0,
+        384.0,
+        553.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "[D] Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        558.0,
+        366.0,
+        570.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 115
+}

@@ -1,0 +1,156 @@
+{
+  "anova_exact_match": {
+    "metric": "Exact_Match",
+    "sample_size_n": 100,
+    "df_numerator": 1,
+    "df_denominator": 99,
+    "main_effect_routing": {
+      "contrast_mean": 0.0,
+      "f_statistic": NaN,
+      "p_value": NaN,
+      "partial_eta_squared": 0.0,
+      "significant_at_05": false
+    },
+    "main_effect_scheduling": {
+      "contrast_mean": 0.0,
+      "f_statistic": NaN,
+      "p_value": NaN,
+      "partial_eta_squared": 0.0,
+      "significant_at_05": false
+    },
+    "interaction_effect": {
+      "contrast_mean": 0.0,
+      "f_statistic": NaN,
+      "p_value": NaN,
+      "partial_eta_squared": 0.0,
+      "significant_at_05": false
+    }
+  },
+  "anova_token_f1": {
+    "metric": "Token_F1",
+    "sample_size_n": 100,
+    "df_numerator": 1,
+    "df_denominator": 99,
+    "main_effect_routing": {
+      "contrast_mean": 0.07358899999999999,
+      "f_statistic": 11.6754,
+      "p_value": 0.0009201987508918718,
+      "partial_eta_squared": 0.1055,
+      "significant_at_05": true
+    },
+    "main_effect_scheduling": {
+      "contrast_mean": 0.0,
+      "f_statistic": NaN,
+      "p_value": NaN,
+      "partial_eta_squared": 0.0,
+      "significant_at_05": false
+    },
+    "interaction_effect": {
+      "contrast_mean": 0.0,
+      "f_statistic": NaN,
+      "p_value": NaN,
+      "partial_eta_squared": 0.0,
+      "significant_at_05": false
+    }
+  },
+  "anova_citation_precision": {
+    "metric": "Citation_Precision",
+    "sample_size_n": 100,
+    "df_numerator": 1,
+    "df_denominator": 99,
+    "main_effect_routing": {
+      "contrast_mean": 0.72,
+      "f_statistic": 231.5957,
+      "p_value": 1.1408340456410658e-27,
+      "partial_eta_squared": 0.7005,
+      "significant_at_05": true
+    },
+    "main_effect_scheduling": {
+      "contrast_mean": 0.0,
+      "f_statistic": NaN,
+      "p_value": NaN,
+      "partial_eta_squared": 0.0,
+      "significant_at_05": false
+    },
+    "interaction_effect": {
+      "contrast_mean": 0.0,
+      "f_statistic": NaN,
+      "p_value": NaN,
+      "partial_eta_squared": 0.0,
+      "significant_at_05": false
+    }
+  },
+  "anova_total_latency": {
+    "metric": "Total_Latency_ms",
+    "sample_size_n": 100,
+    "df_numerator": 1,
+    "df_denominator": 99,
+    "main_effect_routing": {
+      "contrast_mean": -4101.56875,
+      "f_statistic": 142.1265,
+      "p_value": 7.545431172716266e-21,
+      "partial_eta_squared": 0.5894,
+      "significant_at_05": true
+    },
+    "main_effect_scheduling": {
+      "contrast_mean": 1612.5948500000002,
+      "f_statistic": 28.7422,
+      "p_value": 5.414871321187991e-07,
+      "partial_eta_squared": 0.225,
+      "significant_at_05": true
+    },
+    "interaction_effect": {
+      "contrast_mean": -3595.4585,
+      "f_statistic": 37.007,
+      "p_value": 2.225798977720755e-08,
+      "partial_eta_squared": 0.2721,
+      "significant_at_05": true
+    }
+  },
+  "mcnemar_exact_match": {
+    "a_vs_c": {
+      "statistic_chi2": 0.0,
+      "p_value": 1.0,
+      "contingency_table": {
+        "both_correct": 0,
+        "cond1_only": 0,
+        "cond2_only": 0,
+        "both_incorrect": 100
+      },
+      "significant_at_05": false,
+      "note": "Zero discordant pairs; distributions are identical."
+    },
+    "a_vs_d": {
+      "statistic_chi2": 0.0,
+      "p_value": 1.0,
+      "contingency_table": {
+        "both_correct": 0,
+        "cond1_only": 0,
+        "cond2_only": 0,
+        "both_incorrect": 100
+      },
+      "significant_at_05": false,
+      "note": "Zero discordant pairs; distributions are identical."
+    }
+  },
+  "wilcoxon_token_f1": {
+    "a_vs_c": {
+      "metric": "Token_F1",
+      "statistic": 935.5,
+      "p_value": 0.001026787264403032,
+      "mean_difference": -0.07358899999999999,
+      "median_difference": -0.034450000000000036,
+      "significant_at_05": true
+    }
+  },
+  "wilcoxon_latency": {
+    "a_vs_d": {
+      "metric": "Total_Latency_ms",
+      "statistic": 0.0,
+      "p_value": 3.896559845095909e-18,
+      "mean_difference": 2488.9739,
+      "median_difference": 2887.265,
+      "significant_at_05": true
+    }
+  }
+}

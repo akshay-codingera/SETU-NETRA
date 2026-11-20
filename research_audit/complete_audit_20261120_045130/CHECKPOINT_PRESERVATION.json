@@ -1,0 +1,139 @@
+{
+  "audit_session": "complete_audit_20261120_045130",
+  "pre_audit_timestamp": "2026-11-19 23:23:14 UTC",
+  "pre_audit_checkpoints": {
+    "models/structure/sr_edge_net.pt": {
+      "file_path": "models/structure/sr_edge_net.pt",
+      "normalized_path": "models\\structure\\sr_edge_net.pt",
+      "size_bytes": 5005767,
+      "sha256": "cc1ab954c43930d104c6eb820c7f492f59c341965723815327c38ae97fc39ad6",
+      "verified_at": "2026-11-19 23:23:14 UTC",
+      "status": "EXISTING_READ_ONLY"
+    },
+    "models/structure/sr_edge_net_funsd_only.pt": {
+      "file_path": "models/structure/sr_edge_net_funsd_only.pt",
+      "normalized_path": "models\\structure\\sr_edge_net_funsd_only.pt",
+      "size_bytes": 5007217,
+      "sha256": "a3aea3819f9700905b04fbb9fd1374f50a9c448c234e7f3a2bb57ddaeb0e31c5",
+      "verified_at": "2026-11-19 23:23:14 UTC",
+      "status": "EXISTING_READ_ONLY"
+    },
+    "models/structure/sr_edge_net_synth_only.pt": {
+      "file_path": "models/structure/sr_edge_net_synth_only.pt",
+      "normalized_path": "models\\structure\\sr_edge_net_synth_only.pt",
+      "size_bytes": 5007217,
+      "sha256": "235366a3e8e29180ea89929c7c7713a5842955bccd96dee7e8cf8d84057c77df",
+      "verified_at": "2026-11-19 23:23:14 UTC",
+      "status": "EXISTING_READ_ONLY"
+    },
+    "models/evidence/er_sp.pt": {
+      "file_path": "models/evidence/er_sp.pt",
+      "normalized_path": "models\\evidence\\er_sp.pt",
+      "size_bytes": 6738711,
+      "sha256": "c44d7e77be93b55615f3193587420fed289469d4bd1ef5610d7103b0a30a8bca",
+      "verified_at": "2026-11-19 23:23:14 UTC",
+      "status": "EXISTING_READ_ONLY"
+    },
+    "models/policy/cm_rp.pt": {
+      "file_path": "models/policy/cm_rp.pt",
+      "normalized_path": "models\\policy\\cm_rp.pt",
+      "size_bytes": 771855,
+      "sha256": "5f8b1757d11dd0129150b722efa89d4073ebbb8ea695a1eda75b3b738436292f",
+      "verified_at": "2026-11-19 23:23:14 UTC",
+      "status": "EXISTING_READ_ONLY"
+    },
+    "models/policy/cm_rp_v2.pt": {
+      "file_path": "models/policy/cm_rp_v2.pt",
+      "normalized_path": "models\\policy\\cm_rp_v2.pt",
+      "size_bytes": 773721,
+      "sha256": "eb37cabe0d233ea3b5e96d27d033d45cb2c64528a6027a9f8275801e1f80075d",
+      "verified_at": "2026-11-19 23:23:14 UTC",
+      "status": "EXISTING_READ_ONLY"
+    },
+    "training/evidence/embedding_cache.pt": {
+      "file_path": "training/evidence/embedding_cache.pt",
+      "normalized_path": "training\\evidence\\embedding_cache.pt",
+      "size_bytes": 838685,
+      "sha256": "db70f38cdcbc7d5206e5fcb3ff720ae41e8e211238c9949d6afed0c997608965",
+      "verified_at": "2026-11-19 23:23:14 UTC",
+      "status": "EXISTING_READ_ONLY"
+    },
+    "training/structure/embedding_cache.pt": {
+      "file_path": "training/structure/embedding_cache.pt",
+      "normalized_path": "training\\structure\\embedding_cache.pt",
+      "size_bytes": 14453917,
+      "sha256": "9df584400418299b72b0e0797576e0fc224b8e1a67b2667ffc67d24992595100",
+      "verified_at": "2026-11-19 23:23:14 UTC",
+      "status": "EXISTING_READ_ONLY"
+    }
+  },
+  "post_audit_timestamp": "2026-11-19 23:38:51 UTC",
+  "post_audit_checkpoints": {
+    "models/structure/sr_edge_net.pt": {
+      "file_path": "models/structure/sr_edge_net.pt",
+      "normalized_path": "models\\structure\\sr_edge_net.pt",
+      "size_bytes": 5005767,
+      "sha256": "cc1ab954c43930d104c6eb820c7f492f59c341965723815327c38ae97fc39ad6",
+      "verified_at": "2026-11-19 23:38:51 UTC",
+      "status": "EXISTING_UNTOUCHED"
+    },
+    "models/structure/sr_edge_net_funsd_only.pt": {
+      "file_path": "models/structure/sr_edge_net_funsd_only.pt",
+      "normalized_path": "models\\structure\\sr_edge_net_funsd_only.pt",
+      "size_bytes": 5007217,
+      "sha256": "a3aea3819f9700905b04fbb9fd1374f50a9c448c234e7f3a2bb57ddaeb0e31c5",
+      "verified_at": "2026-11-19 23:38:51 UTC",
+      "status": "EXISTING_UNTOUCHED"
+    },
+    "models/structure/sr_edge_net_synth_only.pt": {
+      "file_path": "models/structure/sr_edge_net_synth_only.pt",
+      "normalized_path": "models\\structure\\sr_edge_net_synth_only.pt",
+      "size_bytes": 5007217,
+      "sha256": "235366a3e8e29180ea89929c7c7713a5842955bccd96dee7e8cf8d84057c77df",
+      "verified_at": "2026-11-19 23:38:51 UTC",
+      "status": "EXISTING_UNTOUCHED"
+    },
+    "models/evidence/er_sp.pt": {
+      "file_path": "models/evidence/er_sp.pt",
+      "normalized_path": "models\\evidence\\er_sp.pt",
+      "size_bytes": 6738711,
+      "sha256": "c44d7e77be93b55615f3193587420fed289469d4bd1ef5610d7103b0a30a8bca",
+      "verified_at": "2026-11-19 23:38:51 UTC",
+      "status": "EXISTING_UNTOUCHED"
+    },
+    "models/policy/cm_rp.pt": {
+      "file_path": "models/policy/cm_rp.pt",
+      "normalized_path": "models\\policy\\cm_rp.pt",
+      "size_bytes": 771855,
+      "sha256": "5f8b1757d11dd0129150b722efa89d4073ebbb8ea695a1eda75b3b738436292f",
+      "verified_at": "2026-11-19 23:38:51 UTC",
+      "status": "EXISTING_UNTOUCHED"
+    },
+    "models/policy/cm_rp_v2.pt": {
+      "file_path": "models/policy/cm_rp_v2.pt",
+      "normalized_path": "models\\policy\\cm_rp_v2.pt",
+      "size_bytes": 773721,
+      "sha256": "eb37cabe0d233ea3b5e96d27d033d45cb2c64528a6027a9f8275801e1f80075d",
+      "verified_at": "2026-11-19 23:38:51 UTC",
+      "status": "EXISTING_UNTOUCHED"
+    },
+    "training/evidence/embedding_cache.pt": {
+      "file_path": "training/evidence/embedding_cache.pt",
+      "normalized_path": "training\\evidence\\embedding_cache.pt",
+      "size_bytes": 838685,
+      "sha256": "db70f38cdcbc7d5206e5fcb3ff720ae41e8e211238c9949d6afed0c997608965",
+      "verified_at": "2026-11-19 23:38:51 UTC",
+      "status": "EXISTING_UNTOUCHED"
+    },
+    "training/structure/embedding_cache.pt": {
+      "file_path": "training/structure/embedding_cache.pt",
+      "normalized_path": "training\\structure\\embedding_cache.pt",
+      "size_bytes": 14453917,
+      "sha256": "9df584400418299b72b0e0797576e0fc224b8e1a67b2667ffc67d24992595100",
+      "verified_at": "2026-11-19 23:38:51 UTC",
+      "status": "EXISTING_UNTOUCHED"
+    }
+  },
+  "integrity_verified": true,
+  "discrepancies": []
+}

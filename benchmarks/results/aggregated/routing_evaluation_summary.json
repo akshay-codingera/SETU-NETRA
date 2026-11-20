@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "experiment_id": "routing_evaluation",
+    "suite_name": "Stage 6 Routing Evaluation",
+    "description": "Empirical evaluation of AdaptiveModelRouter across 20 labeled test cases.",
+    "timestamp_iso": "2026-11-13T10:00:23.466482+00:00",
+    "git_commit": "stage6-experimental-validation",
+    "hardware": {
+      "platform": "Windows-11-10.0.26200-SP0",
+      "system": "Windows",
+      "release": "11",
+      "version": "10.0.26200",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+      "cpu_count_logical": 12,
+      "total_ram_mb": 16027.7,
+      "python_version": "3.14.7",
+      "python_executable": "D:\\Projects\\Setu-Netra\\.venv\\Scripts\\python.exe"
+    },
+    "model_configs": {},
+    "scheduler_configs": {},
+    "workload_id": "labeled_routing_dataset",
+    "total_requests": 20,
+    "warmup_count": 0,
+    "repetition_count": 1,
+    "parameters": {}
+  },
+  "metrics": {
+    "total_samples": 20,
+    "overall_routing_accuracy": 1.0,
+    "status_accuracy": 1.0,
+    "unsupported_task_rejection_accuracy": 1.0,
+    "sla_fallback_accuracy": 1.0,
+    "degraded_model_fallback_verified": true,
+    "decision_latency_us": {
+      "count": 20,
+      "mean": 64.95,
+      "p50": 39.8,
+      "p90": 176.4,
+      "p95": 519.7,
+      "p99": 519.7,
+      "min": 12.1,
+      "max": 519.7,
+      "std_dev": 113.19,
+      "ci95_lower": 7.7,
+      "ci95_upper": 122.2
+    },
+    "classification_metrics": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "total_samples": 20,
+      "labels": [
+        "Classification",
+        "Embedding",
+        "Extractive QA",
+        "Generative QA",
+        "OCR",
+        "REJECTED",
+        "Reasoning",
+        "Summarization"
+      ],
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "per_class": {
+        "Classification": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 3
+        },
+        "Embedding": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 2
+        },
+        "Extractive QA": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 4
+        },
+        "Generative QA": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 2
+        },
+        "OCR": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 3
+        },
+        "REJECTED": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 4
+        },
+        "Reasoning": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        },
+        "Summarization": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        }
+      }
+    }
+  }
+}

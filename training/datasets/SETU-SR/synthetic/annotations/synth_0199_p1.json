@@ -1,0 +1,394 @@
+{
+  "doc_id": "synth_0199",
+  "page_id": "synth_0199_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "MIDTERM EXAMINATION: COMPUTER SYSTEMS & NETWORKS",
+      "bbox": [
+        60.0,
+        65.0,
+        818.0,
+        83.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        109.0,
+        410.0,
+        122.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        147.0,
+        535.0,
+        182.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "(A) O(N log N)",
+      "bbox": [
+        80.0,
+        196.0,
+        162.0,
+        209.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(B) O(N^2)",
+      "bbox": [
+        80.0,
+        215.0,
+        141.0,
+        228.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "(C) O(N)",
+      "bbox": [
+        80.0,
+        234.0,
+        128.0,
+        247.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "(D) O(2^N)",
+      "bbox": [
+        80.0,
+        253.0,
+        141.0,
+        266.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        299.0,
+        531.0,
+        334.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "[A] (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        348.0,
+        239.0,
+        361.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[B] (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        367.0,
+        182.0,
+        380.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "[C] (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        386.0,
+        203.0,
+        399.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "[D] ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        80.0,
+        405.0,
+        247.0,
+        418.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q3. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        443.0,
+        575.0,
+        478.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "(A) 1NF",
+      "bbox": [
+        80.0,
+        492.0,
+        125.0,
+        505.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(B) 2NF",
+      "bbox": [
+        80.0,
+        511.0,
+        125.0,
+        524.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "(C) 3NF",
+      "bbox": [
+        80.0,
+        530.0,
+        125.0,
+        543.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(D) BCNF",
+      "bbox": [
+        80.0,
+        549.0,
+        136.0,
+        562.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q4. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        620.0,
+        147.0,
+        1096.0,
+        182.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        640.0,
+        196.0,
+        1005.0,
+        209.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        640.0,
+        215.0,
+        910.0,
+        228.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        640.0,
+        234.0,
+        965.0,
+        247.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "[D] Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        640.0,
+        253.0,
+        945.0,
+        266.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "QUESTION",
+      "text": "Q5. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        620.0,
+        297.0,
+        1096.0,
+        332.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        639.0,
+        346.0,
+        1001.0,
+        359.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        640.0,
+        365.0,
+        906.0,
+        375.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "C. Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        640.0,
+        381.0,
+        961.0,
+        394.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "OPTION",
+      "text": "D. Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        640.0,
+        400.0,
+        941.0,
+        413.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "QUESTION",
+      "text": "Q6. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        620.0,
+        448.0,
+        1101.0,
+        483.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        629.0,
+        492.0,
+        895.0,
+        544.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "A. GROUP BY",
+      "bbox": [
+        639.0,
+        554.0,
+        726.0,
+        564.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 31,
+      "block_type": "OPTION",
+      "text": "B. HAVING",
+      "bbox": [
+        640.0,
+        570.0,
+        707.0,
+        580.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 32,
+      "block_type": "OPTION",
+      "text": "C. WHERE",
+      "bbox": [
+        640.0,
+        586.0,
+        705.0,
+        596.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 142
+}

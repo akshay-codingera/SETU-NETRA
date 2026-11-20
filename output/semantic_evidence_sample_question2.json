@@ -1,0 +1,124 @@
+{
+  "source": "sample_question2",
+  "status": "SUCCESS",
+  "embedding_engine": "neural_all-MiniLM-L6-v2",
+  "processing_time_ms": 72.28,
+  "document_domains": [
+    "Cryptography & Information Security",
+    "Political Science, Civics & Governance"
+  ],
+  "metadata": {
+    "document_id": "sample_question2",
+    "total_items_analyzed": 2,
+    "document_primary_domains": [
+      "Cryptography & Information Security",
+      "Political Science, Civics & Governance"
+    ],
+    "embedding_dimension": 384
+  },
+  "items": [
+    {
+      "source_id": "question-1",
+      "original_text": "Koh is tho pamt mi nister o Indc",
+      "normalized_text": null,
+      "primary_domain": "Cryptography & Information Security",
+      "domains": [
+        {
+          "domain_id": "cs_cryptography",
+          "domain_name": "Cryptography & Information Security",
+          "hierarchy_path": [
+            "Computing",
+            "Computer Science",
+            "Cryptography & Information Security"
+          ],
+          "similarity_score": 0.1675,
+          "is_primary": false,
+          "evidence_terms": []
+        },
+        {
+          "domain_id": "inter_image_processing",
+          "domain_name": "Signal & Digital Image Processing",
+          "hierarchy_path": [
+            "Interdisciplinary",
+            "Signal & Digital Image Processing"
+          ],
+          "similarity_score": 0.1339,
+          "is_primary": false,
+          "evidence_terms": []
+        }
+      ],
+      "primary_topic": "Cryptography & Information Security",
+      "secondary_topics": [],
+      "concepts": [],
+      "entities": [],
+      "relationships": [],
+      "question_intents": [
+        "MULTIPLE_CHOICE_SELECTION"
+      ],
+      "technical_level": "INTRODUCTORY",
+      "ambiguities": [],
+      "warnings": [
+        "Domain alignment score 0.168 is below provisional abstention threshold 0.22."
+      ],
+      "retrieved_knowledge": [],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "UNKNOWN_DOMAIN"
+    },
+    {
+      "source_id": "block-2",
+      "original_text": "Rahul Gandhi",
+      "normalized_text": null,
+      "primary_domain": "Political Science, Civics & Governance",
+      "domains": [
+        {
+          "domain_id": "social_civics_governance",
+          "domain_name": "Political Science, Civics & Governance",
+          "hierarchy_path": [
+            "Social Sciences",
+            "Political Science, Civics & Governance"
+          ],
+          "similarity_score": 0.1847,
+          "is_primary": false,
+          "evidence_terms": []
+        },
+        {
+          "domain_id": "cs_ai_ml",
+          "domain_name": "Artificial Intelligence & Machine Learning",
+          "hierarchy_path": [
+            "Computing",
+            "Computer Science",
+            "Artificial Intelligence & Machine Learning"
+          ],
+          "similarity_score": 0.1325,
+          "is_primary": false,
+          "evidence_terms": []
+        }
+      ],
+      "primary_topic": "Political Science, Civics & Governance",
+      "secondary_topics": [],
+      "concepts": [],
+      "entities": [
+        {
+          "text": "Rahul Gandhi",
+          "entity_type": "PROPER_NOUN_ENTITY",
+          "attributes": {
+            "matched_token": "Rahul Gandhi"
+          }
+        }
+      ],
+      "relationships": [],
+      "question_intents": [
+        "UNKNOWN"
+      ],
+      "technical_level": "UNKNOWN",
+      "ambiguities": [],
+      "warnings": [
+        "Domain alignment score 0.185 is below provisional abstention threshold 0.22."
+      ],
+      "retrieved_knowledge": [],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,238 @@
+{
+  "doc_id": "synth_0020",
+  "page_id": "synth_0020_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: SECTION B: SYSTEM ARCHITECTURE & ENGINEERING",
+      "bbox": [
+        60.0,
+        63.0,
+        592.0,
+        75.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q5. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        97.0,
+        832.0,
+        111.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "OPTION",
+      "text": "[A] Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        124.0,
+        484.0,
+        136.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[B] Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        141.0,
+        408.0,
+        153.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[C] Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        158.0,
+        409.0,
+        170.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "QUESTION",
+      "text": "Q6. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        196.0,
+        575.0,
+        210.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        219.0,
+        335.0,
+        271.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "(A) GROUP BY",
+      "bbox": [
+        80.0,
+        281.0,
+        162.0,
+        292.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(B) HAVING",
+      "bbox": [
+        80.0,
+        298.0,
+        145.0,
+        309.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(C) WHERE",
+      "bbox": [
+        80.0,
+        315.0,
+        145.0,
+        326.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(D) SELECT",
+      "bbox": [
+        80.0,
+        332.0,
+        148.0,
+        343.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q7. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        60.0,
+        373.0,
+        789.0,
+        387.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "A. Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        79.0,
+        400.0,
+        540.0,
+        412.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "B. Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        80.0,
+        417.0,
+        392.0,
+        429.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "QUESTION",
+      "text": "Q8. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        458.0,
+        753.0,
+        472.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "[A] Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        485.0,
+        407.0,
+        497.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[B] Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        502.0,
+        389.0,
+        514.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[C] Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        519.0,
+        356.0,
+        531.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[D] Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        536.0,
+        335.0,
+        548.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 107
+}

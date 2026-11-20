@@ -1,0 +1,250 @@
+{
+  "doc_id": "synth_0058",
+  "page_id": "synth_0058_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "ADVANCED DEGREE EXAMINATION: DISTRIBUTED COMPUTING",
+      "bbox": [
+        60.0,
+        64.0,
+        732.0,
+        80.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION C: ALGORITHMIC COMPLEXITY & REASONING",
+      "bbox": [
+        60.0,
+        103.0,
+        435.0,
+        115.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        145.0,
+        664.0,
+        158.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        171.0,
+        212.0,
+        182.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        187.0,
+        166.0,
+        198.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        203.0,
+        189.0,
+        214.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q2. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        238.0,
+        904.0,
+        251.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "A. 1NF",
+      "bbox": [
+        80.0,
+        265.0,
+        114.0,
+        273.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "B. 2NF",
+      "bbox": [
+        80.0,
+        279.0,
+        114.0,
+        287.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "C. 3NF",
+      "bbox": [
+        80.0,
+        293.0,
+        114.0,
+        301.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "D. BCNF",
+      "bbox": [
+        80.0,
+        307.0,
+        122.0,
+        315.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q3. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        349.0,
+        904.0,
+        362.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "A. 1NF",
+      "bbox": [
+        80.0,
+        376.0,
+        114.0,
+        384.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "B. 2NF",
+      "bbox": [
+        80.0,
+        390.0,
+        114.0,
+        398.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "C. 3NF",
+      "bbox": [
+        80.0,
+        404.0,
+        114.0,
+        412.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        437.0,
+        904.0,
+        450.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[A] 1NF",
+      "bbox": [
+        80.0,
+        463.0,
+        119.0,
+        474.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[B] 2NF",
+      "bbox": [
+        80.0,
+        479.0,
+        119.0,
+        490.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[C] 3NF",
+      "bbox": [
+        80.0,
+        495.0,
+        119.0,
+        506.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "[D] BCNF",
+      "bbox": [
+        80.0,
+        511.0,
+        127.0,
+        522.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 32
+}

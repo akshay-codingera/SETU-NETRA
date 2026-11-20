@@ -1,0 +1,250 @@
+{
+  "doc_id": "synth_0096",
+  "page_id": "synth_0096_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "ADVANCED DEGREE EXAMINATION: DISTRIBUTED COMPUTING",
+      "bbox": [
+        60.0,
+        63.0,
+        632.0,
+        77.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART I: OBJECTIVE CORE CONCEPTS",
+      "bbox": [
+        60.0,
+        97.0,
+        324.0,
+        108.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        139.0,
+        614.0,
+        150.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        163.0,
+        212.0,
+        174.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        179.0,
+        166.0,
+        190.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "QUESTION",
+      "text": "Q2. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        217.0,
+        931.0,
+        228.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "(A) 112x112",
+      "bbox": [
+        80.0,
+        241.0,
+        146.0,
+        252.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "(B) 110x110",
+      "bbox": [
+        80.0,
+        257.0,
+        146.0,
+        268.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(C) 114x114",
+      "bbox": [
+        80.0,
+        273.0,
+        146.0,
+        284.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(D) 111x111",
+      "bbox": [
+        80.0,
+        289.0,
+        147.0,
+        300.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q3. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        326.0,
+        728.0,
+        337.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "A. Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        350.0,
+        495.0,
+        361.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "B. Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        366.0,
+        400.0,
+        377.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "C. Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        382.0,
+        401.0,
+        393.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "D. Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        398.0,
+        361.0,
+        409.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        436.0,
+        657.0,
+        447.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "A. Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        460.0,
+        415.0,
+        471.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "B. Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        476.0,
+        390.0,
+        485.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "C. Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        490.0,
+        360.0,
+        501.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "D. Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        506.0,
+        341.0,
+        517.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 137
+}

@@ -1,0 +1,131 @@
+{
+  "dataset_summary": {
+    "path": "training/datasets/SETU-CM/splits/test_7action_independent.jsonl",
+    "total_samples": 245,
+    "samples_per_action": {
+      "ARITHMETIC_SOLVER": 35,
+      "DBMS_SOLVER": 35,
+      "FORMAL_LOGIC_SOLVER": 35,
+      "EXTRACTIVE_QA": 35,
+      "LOCAL_SLM": 35,
+      "ADDITIONAL_RETRIEVAL": 35,
+      "ABSTAIN": 35
+    }
+  },
+  "cm_rp_v2_neural_metrics": {
+    "accuracy": 94.29,
+    "macro_precision": 94.81,
+    "macro_recall": 94.29,
+    "macro_f1": 0.9433,
+    "macro_averaging_convention": "Unweighted arithmetic mean over all 7 classes (including zero-recall classes)",
+    "per_class": {
+      "ARITHMETIC_SOLVER": {
+        "precision": 94.44,
+        "recall": 97.14,
+        "f1_score": 0.9577,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "DBMS_SOLVER": {
+        "precision": 80.0,
+        "recall": 91.43,
+        "f1_score": 0.8533,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "FORMAL_LOGIC_SOLVER": {
+        "precision": 92.11,
+        "recall": 100.0,
+        "f1_score": 0.9589,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "EXTRACTIVE_QA": {
+        "precision": 100.0,
+        "recall": 82.86,
+        "f1_score": 0.9062,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "LOCAL_SLM": {
+        "precision": 97.14,
+        "recall": 97.14,
+        "f1_score": 0.9714,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "ADDITIONAL_RETRIEVAL": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 1.0,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "ABSTAIN": {
+        "precision": 100.0,
+        "recall": 91.43,
+        "f1_score": 0.9552,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      }
+    }
+  },
+  "cm_rp_v1_metrics": {
+    "accuracy": 91.02,
+    "macro_precision": 91.49,
+    "macro_recall": 91.02,
+    "macro_f1": 0.9099,
+    "macro_averaging_convention": "Unweighted arithmetic mean over all 7 classes (including zero-recall classes)",
+    "per_class": {
+      "ARITHMETIC_SOLVER": {
+        "precision": 100.0,
+        "recall": 94.29,
+        "f1_score": 0.9706,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "DBMS_SOLVER": {
+        "precision": 75.0,
+        "recall": 94.29,
+        "f1_score": 0.8354,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "FORMAL_LOGIC_SOLVER": {
+        "precision": 94.44,
+        "recall": 97.14,
+        "f1_score": 0.9577,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "EXTRACTIVE_QA": {
+        "precision": 80.0,
+        "recall": 68.57,
+        "f1_score": 0.7385,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "LOCAL_SLM": {
+        "precision": 93.75,
+        "recall": 85.71,
+        "f1_score": 0.8955,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "ADDITIONAL_RETRIEVAL": {
+        "precision": 97.22,
+        "recall": 100.0,
+        "f1_score": 0.9859,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      },
+      "ABSTAIN": {
+        "precision": 100.0,
+        "recall": 97.14,
+        "f1_score": 0.9855,
+        "support": 35,
+        "status": "VALID_SUPPORT"
+      }
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "doc_id": "synth_0149",
+  "page_id": "synth_0149_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "MIDTERM EXAMINATION: COMPUTER SYSTEMS & NETWORKS",
+      "bbox": [
+        60.0,
+        62.0,
+        622.0,
+        77.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        95.0,
+        335.0,
+        106.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        135.0,
+        626.0,
+        146.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        159.0,
+        419.0,
+        170.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        175.0,
+        331.0,
+        186.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        191.0,
+        392.0,
+        202.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "[D] Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        207.0,
+        372.0,
+        218.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        243.0,
+        626.0,
+        254.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(A) Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        267.0,
+        419.0,
+        278.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(B) Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        283.0,
+        331.0,
+        294.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(C) Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        299.0,
+        392.0,
+        310.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q3. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        338.0,
+        931.0,
+        349.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "[A] 112x112",
+      "bbox": [
+        80.0,
+        362.0,
+        146.0,
+        373.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[B] 110x110",
+      "bbox": [
+        80.0,
+        378.0,
+        146.0,
+        389.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "[C] 114x114",
+      "bbox": [
+        80.0,
+        394.0,
+        146.0,
+        405.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        430.0,
+        614.0,
+        441.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "A. (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        454.0,
+        207.0,
+        465.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "B. (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        470.0,
+        161.0,
+        481.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "C. (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        486.0,
+        184.0,
+        497.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 120
+}

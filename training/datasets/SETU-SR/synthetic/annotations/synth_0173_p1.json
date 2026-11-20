@@ -1,0 +1,382 @@
+{
+  "doc_id": "synth_0173",
+  "page_id": "synth_0173_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "SEMESTER ASSESSMENT: THEORETICAL COMPUTER SCIENCE",
+      "bbox": [
+        60.0,
+        64.0,
+        703.0,
+        80.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION C: ALGORITHMIC COMPLEXITY & REASONING",
+      "bbox": [
+        60.0,
+        103.0,
+        435.0,
+        115.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        141.0,
+        574.0,
+        173.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "A. 1NF",
+      "bbox": [
+        80.0,
+        187.0,
+        114.0,
+        195.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "B. 2NF",
+      "bbox": [
+        80.0,
+        201.0,
+        114.0,
+        209.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "C. 3NF",
+      "bbox": [
+        80.0,
+        215.0,
+        114.0,
+        223.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q2. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        253.0,
+        560.0,
+        266.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        275.0,
+        314.0,
+        321.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(A) GROUP BY",
+      "bbox": [
+        80.0,
+        330.0,
+        153.0,
+        341.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(B) HAVING",
+      "bbox": [
+        80.0,
+        346.0,
+        140.0,
+        357.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q3. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        386.0,
+        391.0,
+        399.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        408.0,
+        279.0,
+        452.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "A. 11",
+      "bbox": [
+        80.0,
+        462.0,
+        107.0,
+        470.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "B. 15",
+      "bbox": [
+        80.0,
+        476.0,
+        107.0,
+        484.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "C. 9",
+      "bbox": [
+        80.0,
+        490.0,
+        100.0,
+        498.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "D. 21",
+      "bbox": [
+        80.0,
+        504.0,
+        108.0,
+        512.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "QUESTION",
+      "text": "Q4. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        620.0,
+        141.0,
+        1066.0,
+        173.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[A] (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        640.0,
+        186.0,
+        772.0,
+        197.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[B] (P & Q) -> ~P",
+      "bbox": [
+        640.0,
+        202.0,
+        726.0,
+        213.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "[C] (P | Q) -> (P & Q)",
+      "bbox": [
+        640.0,
+        218.0,
+        749.0,
+        229.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "[D] ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        640.0,
+        234.0,
+        779.0,
+        245.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "QUESTION",
+      "text": "Q5. Consider the following recursive Python function:",
+      "bbox": [
+        620.0,
+        275.0,
+        951.0,
+        288.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        629.0,
+        297.0,
+        839.0,
+        341.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "A. 11",
+      "bbox": [
+        640.0,
+        351.0,
+        667.0,
+        359.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "B. 15",
+      "bbox": [
+        640.0,
+        365.0,
+        667.0,
+        373.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "C. 9",
+      "bbox": [
+        640.0,
+        379.0,
+        660.0,
+        387.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "QUESTION",
+      "text": "Q6. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        620.0,
+        411.0,
+        1134.0,
+        443.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "OPTION",
+      "text": "[A] 1NF",
+      "bbox": [
+        640.0,
+        456.0,
+        679.0,
+        467.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "[B] 2NF",
+      "bbox": [
+        640.0,
+        472.0,
+        679.0,
+        483.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "[C] 3NF",
+      "bbox": [
+        640.0,
+        488.0,
+        679.0,
+        499.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 31,
+      "block_type": "OPTION",
+      "text": "[D] BCNF",
+      "bbox": [
+        640.0,
+        504.0,
+        687.0,
+        515.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 70
+}

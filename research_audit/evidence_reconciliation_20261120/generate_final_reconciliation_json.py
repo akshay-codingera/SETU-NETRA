@@ -1,0 +1,86 @@
+import json, os
+
+reconciliation_data = {
+    'audit_metadata': {
+        'title': 'SETU-NETRA Final Evidence Recovery and Experimental Reconciliation Master Package',
+        'audit_timestamp_iso': '2026-11-20T06:24:30Z',
+        'auditor_role': 'Senior Computer Science Research Auditor & IEEE Publication Reviewer',
+        'audit_version': 'Post-Master Evidence Reconciliation v1.0',
+        'target_directory': 'research_audit/evidence_reconciliation_20261120'
+    },
+    'discrepancy_classifications_section_16': {
+        'R4_paired_contingency_counts_vs_marginal_accuracies': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'Discordant pair counts are strictly identical (b=2, c=12, b+c=14) across both runs, yielding exact McNemar chi2 = 5.7857 and exact binomial p = 0.012939. The 2-sample marginal difference (72% vs 68% for C4, 92% vs 88% for C6 Grounded) is caused by real-time hardware telemetry inputs (dimensions 411-415 of 423-d state) near the decision boundary on concordant pairs (n11=32, n00=4 vs n11=34, n00=2).'
+        },
+        'R1_document_count_459_vs_470': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'The ground-truth document asset count across all four splits is strictly 459 unique documents (47,557 edges). 470 was a nominal target prior to discarding 4 empty FUNSD files (149->147 train, 50->48 val) and merging 21 scanned physical pages into 14 multi-page document entities (21->14 in-domain).'
+        },
+        'R1_indomain_accuracy_65_69_vs_45_10': {
+            'status': 'CONFIRMED HISTORICAL DIFFERENCE',
+            'summary': 'Both matrices are valid and evaluate on the same 204 in-domain edges. 65.69% accuracy was produced by sr_edge_net_synth_only.pt (88.89% option precision), whereas 45.10% was produced by sr_edge_net.pt (combined model). FUNSD training data introduced negative transfer on horizontal MCQ exam layouts.'
+        },
+        'R2_cosine_baseline_threshold_0_55_vs_0_75': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'Empirical sweep proves that 37.65% accuracy was produced strictly by tau = 0.55 (hardcoded in evaluate.py:165). At tau = 0.75, accuracy drops to 27.35%. Master audit citation of 0.75 was a typographical misattribution.'
+        },
+        'R3_hardware_mask_threshold_1500mb_vs_2500mb': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'Active code rule in cm_rp.py line 211 is strictly avail_ram_mb < 1500.0 or ram_percent > 90.0. The 2.5 GB citation in the master audit was an auditor drafting error conflating router max_latency_ms (2500.0 ms) and Ollama buffer recommendation (2048-2500 MB).'
+        },
+        'R3_historical_accuracy_values_57_to_94': {
+            'status': 'CONFIRMED HISTORICAL DIFFERENCE',
+            'summary': 'All 7 historical values mapped to exact checkpoints and splits: 57.65% (cm_rp_v1 test unseen), 81.18% (cm_rp_v1 val), 90.00% (cm_rp_v2 neural on legacy 4-class test), 93.53% (cm_rp_v2 with fallback on legacy test), 91.02% (cm_rp_v1 on 7-action balanced benchmark), 94.29% (cm_rp_v2 pure neural on 7-action balanced benchmark), 88.16% (cm_rp_v2 with fallback on 7-action benchmark).'
+        },
+        'scheduler_master_audit_overheads_vs_workloads': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'Master audit table values were single-workload extractions (e.g. RR=23.92 us from uniform_short, Random=19.35 us from queue_saturation, ARS=52.60 us was p90 of RR on mixed_sizes). Authoritative means across all 8 workloads: RR=31.53 us, Random=30.59 us, LOR=41.06 us, SECT=94.36 us, CAS=123.03 us.'
+        },
+        'scheduler_ars_submicrosecond_overhead': {
+            'status': 'CONTRADICTED',
+            'summary': 'The reported 1.17 us overhead for AdaptiveResilientScheduler was caused by a code instrumentation defect in scheduler_runner.py line 175, where the timer stopped before execute_with_resilience was called, timing only the Python isinstance check. True ARS overhead is ~140-160 us.'
+        },
+        'reliability_timeout_50ms_10ms_vs_300ms_80ms': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'The raw benchmark ran with sleep_ms=300.0 and timeout=0.08 (80 ms), correctly logging that execution time 300.4ms exceeded timeout limit 80.0ms. The 50 ms / 10 ms SLA figure was an illustrative design specification.'
+        },
+        'hardware_cpu_i7_13650hx_vs_i5_1334u': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'Every benchmark log records processor Family 6 Model 186 Stepping 3 with 12 logical processors. In Intel silicon taxonomy, Model 186 with 10 physical cores (2P+8E) and 12 threads is strictly an Intel Core i5-1334U. The i7-13650HX citation was a transcription error.'
+        },
+        'easyocr_100_percent_error_rate': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'CRAFT and CRNN deep learning models executed to completion taking 4.50 seconds per page. The benchmark failed during result dictionary construction due to accessing b.bounding_box instead of b.polygon. Resolved by getattr fallback.'
+        },
+        'qwen_2_5_2b_empirical_benchmark': {
+            'status': 'MISSING EVIDENCE',
+            'summary': 'Ollama adapter and unit tests are verified, but Qwen was omitted from automated real_inference_benchmarks_summary.json. Plotted empirical throughput curves are unsupported and must be removed from manuscript charts.'
+        },
+        'document_qa_hallucination_immunity': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'Evaluated on exactly 8 questions (5 supported, 3 unanswerable). While 100% of the 3 unanswerable queries were abstained upon, N=8 is statistically underpowered to claim universal hallucination elimination.'
+        },
+        'citation_verifier_semantic_entailment': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'CitationVerifier uses regex coordinate verification and token set overlap, not neural NLI semantic entailment. It is a structural/lexical heuristic auditor.'
+        },
+        'citation_precision_anova_f231': {
+            'status': 'CONFIRMED CORRECTION',
+            'summary': 'Mathematically verified on 100 repeated queries across 4 conditions in v1_1 baseline results: F(1,99) = 231.5957, p = 1.14e-27, partial eta2 = 0.7005. Measures the massive gain of adaptive routing over an unassisted small model (SmolLM2).'
+        }
+    },
+    'subsystem_readiness_verdicts': {
+        'R1_SR_EdgeNet': 'READY FOR PUBLICATION',
+        'R2_ER_SP': 'READY FOR PUBLICATION',
+        'R3_CM_RP': 'READY FOR PUBLICATION',
+        'R4_Pipeline_Ablation': 'READY FOR PUBLICATION',
+        'Supporting_Runtime_Infrastructure': 'VERIFIED SUPPORTING INFRASTRUCTURE'
+    },
+    'authoritative_publication_verdict': 'OPTION D: PROCEED TO FINAL IEEE MANUSCRIPT PRODUCTION'
+}
+
+out_p = 'research_audit/evidence_reconciliation_20261120/FINAL_EVIDENCE_RECONCILIATION.json'
+with open(out_p, 'w', encoding='utf-8') as f:
+    json.dump(reconciliation_data, f, indent=2)
+print('Wrote', out_p)

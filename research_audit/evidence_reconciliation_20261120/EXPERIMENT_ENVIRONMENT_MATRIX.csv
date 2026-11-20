@@ -1,0 +1,8 @@
+subsystem,hardware_role,cpu_model,physical_cores,logical_cores,total_ram_gb,os_version,python_version,pytorch_version,cuda_enabled,provenance_status
+R1: SR-EdgeNet Training & Eval,Training & Benchmark Host,Intel Core i5-1334U (Family 6 Model 186 Stepping 3),10,12,15.65,Windows 11 Build 26200,3.14.7,2.14.1+cpu,False,CONFIRMED
+R2: ER-SP Training & Eval,Training & Benchmark Host,Intel Core i5-1334U (Family 6 Model 186 Stepping 3),10,12,15.65,Windows 11 Build 26200,3.14.7,2.14.1+cpu,False,CONFIRMED
+R3: CM-RP Policy Training & Eval,Training & Benchmark Host,Intel Core i5-1334U (Family 6 Model 186 Stepping 3),10,12,15.65,Windows 11 Build 26200,3.14.7,2.14.1+cpu,False,CONFIRMED
+R4: End-to-End Pipeline & Ablation,Inference Benchmark Host,Intel Core i5-1334U (Family 6 Model 186 Stepping 3),10,12,15.65,Windows 11 Build 26200,3.14.7,2.14.1+cpu,False,CONFIRMED
+Stage 5: Scheduler Microbenchmarks,Microbenchmark Host,Intel Core i5-1334U (Family 6 Model 186 Stepping 3),10,12,15.65,Windows 11 Build 26200,3.14.7,2.14.1+cpu,False,CONFIRMED
+Stage 6: Reliability & Fault Recovery,Resilience Benchmark Host,Intel Core i5-1334U (Family 6 Model 186 Stepping 3),10,12,15.65,Windows 11 Build 26200,3.14.7,2.14.1+cpu,False,CONFIRMED
+Stage 7: QA Quality Benchmark,QA Evaluation Host,Intel Core i5-1334U (Family 6 Model 186 Stepping 3),10,12,15.65,Windows 11 Build 26200,3.14.7,2.14.1+cpu,False,CONFIRMED

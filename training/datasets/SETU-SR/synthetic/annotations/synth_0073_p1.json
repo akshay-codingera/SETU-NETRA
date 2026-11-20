@@ -1,0 +1,238 @@
+{
+  "doc_id": "synth_0073",
+  "page_id": "synth_0073_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "SEMESTER ASSESSMENT: THEORETICAL COMPUTER SCIENCE",
+      "bbox": [
+        60.0,
+        63.0,
+        606.0,
+        77.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION A: FOUNDATIONAL PRINCIPLES",
+      "bbox": [
+        60.0,
+        95.0,
+        336.0,
+        106.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        138.0,
+        731.0,
+        151.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "A. Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        164.0,
+        409.0,
+        174.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "B. Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        179.0,
+        391.0,
+        187.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "C. Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        192.0,
+        361.0,
+        202.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "D. Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        207.0,
+        331.0,
+        217.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        251.0,
+        717.0,
+        264.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "A. O(N log N)",
+      "bbox": [
+        80.0,
+        277.0,
+        148.0,
+        287.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "B. O(N^2)",
+      "bbox": [
+        80.0,
+        292.0,
+        129.0,
+        302.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q3. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        330.0,
+        560.0,
+        343.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        352.0,
+        314.0,
+        398.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "A. GROUP BY",
+      "bbox": [
+        80.0,
+        407.0,
+        146.0,
+        415.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "B. HAVING",
+      "bbox": [
+        80.0,
+        420.0,
+        135.0,
+        428.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "C. WHERE",
+      "bbox": [
+        80.0,
+        433.0,
+        130.0,
+        441.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "D. SELECT",
+      "bbox": [
+        80.0,
+        446.0,
+        129.0,
+        454.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "QUESTION",
+      "text": "Q4. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        482.0,
+        692.0,
+        495.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        507.0,
+        409.0,
+        518.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        523.0,
+        320.0,
+        531.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 77
+}

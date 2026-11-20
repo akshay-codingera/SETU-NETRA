@@ -1,0 +1,238 @@
+{
+  "doc_id": "synth_0118",
+  "page_id": "synth_0118_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "NATIONAL INSTITUTE OF TECHNOLOGY: CORE ENGINEERING EXAM",
+      "bbox": [
+        60.0,
+        63.0,
+        740.0,
+        79.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION C: ALGORITHMIC COMPLEXITY & REASONING",
+      "bbox": [
+        60.0,
+        106.0,
+        462.0,
+        118.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        142.0,
+        356.0,
+        155.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        164.0,
+        279.0,
+        208.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[A] 11",
+      "bbox": [
+        80.0,
+        217.0,
+        113.0,
+        229.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[B] 15",
+      "bbox": [
+        80.0,
+        234.0,
+        113.0,
+        246.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q2. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        278.0,
+        652.0,
+        291.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "[A] O(N log N)",
+      "bbox": [
+        80.0,
+        304.0,
+        157.0,
+        317.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "[B] O(N^2)",
+      "bbox": [
+        80.0,
+        322.0,
+        139.0,
+        335.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[C] O(N)",
+      "bbox": [
+        80.0,
+        340.0,
+        124.0,
+        353.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q3. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        386.0,
+        743.0,
+        399.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "[A] Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        412.0,
+        511.0,
+        425.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "[B] Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        430.0,
+        415.0,
+        443.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[C] Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        448.0,
+        417.0,
+        461.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "QUESTION",
+      "text": "Q4. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        493.0,
+        601.0,
+        506.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "A. (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        519.0,
+        215.0,
+        532.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "B. (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        537.0,
+        166.0,
+        550.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "C. (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        555.0,
+        187.0,
+        568.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "D. ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        80.0,
+        573.0,
+        223.0,
+        586.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 97
+}

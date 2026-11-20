@@ -1,0 +1,114 @@
+[
+  {
+    "id": "dev-01-algo-quicksort",
+    "text": "Analyze the asymptotic worst-case execution time of quicksort with median-of-three partitioning.",
+    "category": "known_domain",
+    "expected_domain": "Algorithms & Computational Complexity",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-02-ml-sgd-weights",
+    "text": "How does stochastic gradient descent update the weights of a deep convolutional network during backpropagation?",
+    "category": "known_domain",
+    "expected_domain": "Artificial Intelligence & Machine Learning",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-03-os-paging-fault",
+    "text": "Describe how virtual memory paging handles a page fault in a preemptive operating system.",
+    "category": "known_domain",
+    "expected_domain": "Operating Systems & Computer Architecture",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-04-db-sql-joins",
+    "text": "What is the difference between an inner join and a left outer join in SQL relational queries?",
+    "category": "known_domain",
+    "expected_domain": "Database Systems",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-05-net-handshake",
+    "text": "Explain how the three-way handshake establishes a TCP connection between client and server.",
+    "category": "known_domain",
+    "expected_domain": "Computer Networks",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-06-crypto-rsa-asymmetric",
+    "text": "Why is RSA encryption considered an asymmetric public-key cryptosystem?",
+    "category": "known_domain",
+    "expected_domain": "Cryptography & Information Security",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-07-img-gaussian-filter",
+    "text": "How does applying a 5x5 Gaussian blur spatial filter affect high-frequency noise in an image?",
+    "category": "known_domain",
+    "expected_domain": "Signal & Digital Image Processing",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-08-civics-impeachment",
+    "text": "What is the procedure for impeachment of the President of India under the Constitution?",
+    "category": "known_domain",
+    "expected_domain": "Political Science, Civics & Governance",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-09-paraphrase-operations",
+    "text": "Determine the asymptotic bound on the number of elementary operations executed.",
+    "category": "paraphrase_unseen_wording",
+    "expected_domain": "Algorithms & Computational Complexity",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-10-everyday-lookup",
+    "text": "Can this lookup procedure run in real time without lag on a mobile device?",
+    "category": "everyday_phrasing",
+    "expected_domain": "Algorithms & Computational Complexity",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-11-disambig-mercer-kernel",
+    "text": "Explain the purpose of the Mercer condition when constructing positive semi-definite kernels in support vector machines.",
+    "category": "ambiguous_term_kernel",
+    "expected_domain": "Artificial Intelligence & Machine Learning",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-12-disambig-er-model",
+    "text": "Define the entity-relationship relational data model and its primary key constraints.",
+    "category": "ambiguous_term_model",
+    "expected_domain": "Database Systems",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-13-interdisciplinary-ballot",
+    "text": "Can automated machine learning classifiers be used for auditing public election ballots?",
+    "category": "interdisciplinary",
+    "expected_domain": "Artificial Intelligence & Machine Learning",
+    "is_abstention": false
+  },
+  {
+    "id": "dev-14-out-domain-recipe",
+    "text": "What is the best recipe and oven temperature for baking chocolate chip cookies?",
+    "category": "out_of_domain_abstention",
+    "expected_domain": "UNKNOWN_DOMAIN",
+    "is_abstention": true
+  },
+  {
+    "id": "dev-15-out-domain-literature",
+    "text": "Analyze the tragic fatal flaw of Hamlet in William Shakespeare's play.",
+    "category": "out_of_domain_abstention",
+    "expected_domain": "UNKNOWN_DOMAIN",
+    "is_abstention": true
+  },
+  {
+    "id": "dev-16-out-domain-noise",
+    "text": "zxcdfg poiuyt lkjhgf mnbvcx 987654321",
+    "category": "noise_abstention",
+    "expected_domain": "UNKNOWN_DOMAIN",
+    "is_abstention": true
+  }
+]

@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "experiment_id": "qa_quality_evaluation",
+    "suite_name": "Stage 6 Document QA Quality Evaluation",
+    "description": "Empirical evaluation of retrieval ranking, answer correctness, citation precision, and epistemic abstention.",
+    "timestamp_iso": "2026-11-13T10:01:13.188917+00:00",
+    "git_commit": "stage6-experimental-validation",
+    "hardware": {
+      "platform": "Windows-11-10.0.26200-SP0",
+      "system": "Windows",
+      "release": "11",
+      "version": "10.0.26200",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+      "cpu_count_logical": 12,
+      "total_ram_mb": 16027.7,
+      "python_version": "3.14.7",
+      "python_executable": "D:\\Projects\\Setu-Netra\\.venv\\Scripts\\python.exe"
+    },
+    "model_configs": {},
+    "scheduler_configs": {},
+    "workload_id": "real_doc_eval_set",
+    "total_requests": 8,
+    "warmup_count": 0,
+    "repetition_count": 1,
+    "parameters": {}
+  },
+  "raw_measurements": [
+    {
+      "id": "qa_01",
+      "question": "How does the Raft consensus algorithm establish consistency across nodes?",
+      "gold_answer": "replicated state machines and leader election",
+      "predicted_answer": "The Raft consensus algorithm establishes consistency through replicated state machines and leader election. [Doc: consensus.docx, Page: 1, Block: 2]",
+      "epistemic_status": "EVIDENCE_BACKED",
+      "is_supported": true,
+      "is_abstention": false,
+      "exact_match": 0.0,
+      "token_f1": 0.4615,
+      "citation_precision": 0.0,
+      "citation_completeness": 0.0,
+      "retrieved_doc_ids": [
+        "doc_consensus_8c698d88",
+        "doc_exam_questions_00f39a7e",
+        "doc_exam_questions_00f39a7e",
+        "doc_consensus_8c698d88",
+        "doc_exam_questions_00f39a7e"
+      ],
+      "citations": [
+        {
+          "document": "consensus.docx",
+          "page": 1,
+          "block_id": 2,
+          "bounding_box": [
+            50.0,
+            88.0,
+            750.0,
+            136.0
+          ],
+          "confidence": 1.0
+        }
+      ],
+      "latency_ms": 85.57
+    },
+    {
+      "id": "qa_02",
+      "question": "How does Raft divide time during system operation?",
+      "gold_answer": "terms of arbitrary length, numbered with consecutive integers",
+      "predicted_answer": "Raft divides time into terms of arbitrary length, numbered with consecutive integers. [Doc: consensus.docx, Page: 1, Block: 3]",
+      "epistemic_status": "EVIDENCE_BACKED",
+      "is_supported": true,
+      "is_abstention": false,
+      "exact_match": 0.0,
+      "token_f1": 0.5926,
+      "citation_precision": 0.0,
+      "citation_completeness": 0.0,
+      "retrieved_doc_ids": [
+        "doc_consensus_8c698d88",
+        "doc_exam_questions_00f39a7e",
+        "doc_exam_questions_00f39a7e",
+        "doc_exam_questions_00f39a7e",
+        "doc_consensus_8c698d88"
+      ],
+      "citations": [
+        {
+          "document": "consensus.docx",
+          "page": 1,
+          "block_id": 3,
+          "bounding_box": [
+            50.0,
+            150.0,
+            750.0,
+            198.0
+          ],
+          "confidence": 1.0
+        }
+      ],
+      "latency_ms": 54.37
+    },
+    {
+      "id": "qa_03",
+      "question": "What happens at the beginning of each term in Raft?",
+      "gold_answer": "an election in which one or more candidates attempt to become leader",
+      "predicted_answer": "Define the purpose of terms in the Raft consensus algorithm. [Doc: exam_questions.txt, Page: 1, Block: 3]",
+      "epistemic_status": "EVIDENCE_BACKED",
+      "is_supported": true,
+      "is_abstention": false,
+      "exact_match": 0.0,
+      "token_f1": 0.069,
+      "citation_precision": 0.0,
+      "citation_completeness": 0.0,
+      "retrieved_doc_ids": [
+        "doc_exam_questions_00f39a7e",
+        "doc_consensus_8c698d88",
+        "doc_exam_questions_00f39a7e",
+        "doc_consensus_8c698d88",
+        "doc_exam_questions_00f39a7e"
+      ],
+      "citations": [
+        {
+          "document": "exam_questions.txt",
+          "page": 1,
+          "block_id": 3,
+          "bounding_box": [
+            50.0,
+            206.0,
+            750.0,
+            228.0
+          ],
+          "confidence": 1.0
+        }
+      ],
+      "latency_ms": 51.54
+    },
+    {
+      "id": "qa_04",
+      "question": "Which option is correct in Question 1 of the distributed systems midterm regarding Raft consistency?",
+      "gold_answer": "(B) Replicated state machines and leader election",
+      "predicted_answer": "How does Raft establish consistency across distributed nodes? [Doc: exam_questions.txt, Page: 1, Block: 2]",
+      "epistemic_status": "EVIDENCE_BACKED",
+      "is_supported": true,
+      "is_abstention": false,
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "citation_precision": 0.0,
+      "citation_completeness": 0.0,
+      "retrieved_doc_ids": [
+        "doc_exam_questions_00f39a7e",
+        "doc_exam_questions_00f39a7e",
+        "doc_consensus_8c698d88",
+        "doc_exam_questions_00f39a7e",
+        "doc_consensus_8c698d88"
+      ],
+      "citations": [
+        {
+          "document": "exam_questions.txt",
+          "page": 1,
+          "block_id": 2,
+          "bounding_box": [
+            50.0,
+            84.0,
+            750.0,
+            194.0
+          ],
+          "confidence": 1.0
+        }
+      ],
+      "latency_ms": 54.02
+    },
+    {
+      "id": "qa_05",
+      "question": "What is the decoherence time of superconducting transmon qubits under dilution refrigeration?",
+      "gold_answer": "I do not contain sufficient verified evidence in the ingested documents to answer this question.",
+      "predicted_answer": "The uploaded document does not contain sufficient verified evidence to answer this question.",
+      "epistemic_status": "UNSUPPORTED",
+      "is_supported": false,
+      "is_abstention": true,
+      "exact_match": 1.0,
+      "token_f1": 1.0,
+      "citation_precision": 1.0,
+      "citation_completeness": 1.0,
+      "retrieved_doc_ids": [],
+      "citations": [],
+      "latency_ms": 40.96
+    },
+    {
+      "id": "qa_06",
+      "question": "Explain Wiles' modularity proof of Fermat's Last Theorem using Frey curves.",
+      "gold_answer": "I do not contain sufficient verified evidence in the ingested documents to answer this question.",
+      "predicted_answer": "The uploaded document does not contain sufficient verified evidence to answer this question.",
+      "epistemic_status": "UNSUPPORTED",
+      "is_supported": false,
+      "is_abstention": true,
+      "exact_match": 1.0,
+      "token_f1": 1.0,
+      "citation_precision": 1.0,
+      "citation_completeness": 1.0,
+      "retrieved_doc_ids": [],
+      "citations": [],
+      "latency_ms": 42.6
+    },
+    {
+      "id": "qa_07",
+      "question": "What is the corporate tax deduction rate for R&D expenditures in Ireland for fiscal year 2026?",
+      "gold_answer": "I do not contain sufficient verified evidence in the ingested documents to answer this question.",
+      "predicted_answer": "The uploaded document does not contain sufficient verified evidence to answer this question.",
+      "epistemic_status": "UNSUPPORTED",
+      "is_supported": false,
+      "is_abstention": true,
+      "exact_match": 1.0,
+      "token_f1": 1.0,
+      "citation_precision": 1.0,
+      "citation_completeness": 1.0,
+      "retrieved_doc_ids": [],
+      "citations": [],
+      "latency_ms": 45.78
+    },
+    {
+      "id": "qa_08",
+      "question": "What does Raft use to elect leaders?",
+      "gold_answer": "an election in which one or more candidates attempt to become leader",
+      "predicted_answer": "The Raft consensus algorithm establishes consistency through replicated state machines and leader election. [Doc: consensus.docx, Page: 1, Block: 2]",
+      "epistemic_status": "EVIDENCE_BACKED",
+      "is_supported": true,
+      "is_abstention": false,
+      "exact_match": 0.0,
+      "token_f1": 0.125,
+      "citation_precision": 0.0,
+      "citation_completeness": 0.0,
+      "retrieved_doc_ids": [
+        "doc_exam_questions_00f39a7e",
+        "doc_consensus_8c698d88",
+        "doc_consensus_8c698d88",
+        "doc_consensus_8c698d88",
+        "doc_exam_questions_00f39a7e"
+      ],
+      "citations": [
+        {
+          "document": "consensus.docx",
+          "page": 1,
+          "block_id": 2,
+          "bounding_box": [
+            50.0,
+            88.0,
+            750.0,
+            136.0
+          ],
+          "confidence": 1.0
+        }
+      ],
+      "latency_ms": 34.09
+    }
+  ]
+}

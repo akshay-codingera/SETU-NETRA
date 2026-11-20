@@ -1,0 +1,238 @@
+{
+  "doc_id": "synth_0147",
+  "page_id": "synth_0147_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "TECHNICAL EVALUATION BENCH: DATABASE & OS ARCHITECTURE",
+      "bbox": [
+        60.0,
+        67.0,
+        906.0,
+        84.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART I: OBJECTIVE CORE CONCEPTS",
+      "bbox": [
+        60.0,
+        112.0,
+        346.0,
+        124.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        150.0,
+        723.0,
+        164.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] O(N log N)",
+      "bbox": [
+        80.0,
+        179.0,
+        170.0,
+        192.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] O(N^2)",
+      "bbox": [
+        80.0,
+        199.0,
+        147.0,
+        212.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] O(N)",
+      "bbox": [
+        80.0,
+        219.0,
+        133.0,
+        232.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q2. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        265.0,
+        816.0,
+        279.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "A. Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        294.0,
+        518.0,
+        307.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "B. Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        314.0,
+        417.0,
+        327.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "C. Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        334.0,
+        418.0,
+        347.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "D. Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        354.0,
+        374.0,
+        367.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q3. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        395.0,
+        1054.0,
+        409.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "A. 112x112",
+      "bbox": [
+        80.0,
+        424.0,
+        147.0,
+        434.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "B. 110x110",
+      "bbox": [
+        80.0,
+        441.0,
+        146.0,
+        451.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "C. 114x114",
+      "bbox": [
+        80.0,
+        458.0,
+        146.0,
+        468.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        499.0,
+        578.0,
+        513.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        523.0,
+        321.0,
+        577.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[A] GROUP BY",
+      "bbox": [
+        80.0,
+        588.0,
+        174.0,
+        601.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[B] HAVING",
+      "bbox": [
+        80.0,
+        608.0,
+        158.0,
+        621.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 105
+}

@@ -1,0 +1,394 @@
+{
+  "doc_id": "synth_0245",
+  "page_id": "synth_0245_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        63.0,
+        503.0,
+        76.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q7. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        99.0,
+        573.0,
+        133.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "OPTION",
+      "text": "(A) Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        146.0,
+        424.0,
+        158.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "(B) Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        163.0,
+        332.0,
+        175.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(C) Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        180.0,
+        386.0,
+        192.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "(D) Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        197.0,
+        368.0,
+        209.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q8. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        240.0,
+        575.0,
+        254.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        263.0,
+        335.0,
+        315.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "A. GROUP BY",
+      "bbox": [
+        79.0,
+        325.0,
+        157.0,
+        334.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "B. HAVING",
+      "bbox": [
+        80.0,
+        340.0,
+        140.0,
+        349.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "C. WHERE",
+      "bbox": [
+        80.0,
+        355.0,
+        140.0,
+        364.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "D. SELECT",
+      "bbox": [
+        80.0,
+        370.0,
+        143.0,
+        379.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q9. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        413.0,
+        538.0,
+        447.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[A] Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        460.0,
+        407.0,
+        472.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "[B] Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        477.0,
+        389.0,
+        489.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "[C] Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        494.0,
+        356.0,
+        506.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[D] Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        511.0,
+        335.0,
+        523.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q10. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        620.0,
+        99.0,
+        1092.0,
+        133.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 19,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        629.0,
+        142.0,
+        895.0,
+        194.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(A) GROUP BY",
+      "bbox": [
+        640.0,
+        204.0,
+        722.0,
+        215.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(B) HAVING",
+      "bbox": [
+        640.0,
+        221.0,
+        705.0,
+        232.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "(C) WHERE",
+      "bbox": [
+        640.0,
+        238.0,
+        705.0,
+        249.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "(D) SELECT",
+      "bbox": [
+        640.0,
+        255.0,
+        708.0,
+        266.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 24,
+      "block_type": "QUESTION",
+      "text": "Q11. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        620.0,
+        295.0,
+        1125.0,
+        329.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "[A] 112x112",
+      "bbox": [
+        640.0,
+        343.0,
+        705.0,
+        354.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "[B] 110x110",
+      "bbox": [
+        640.0,
+        360.0,
+        705.0,
+        371.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 27,
+      "block_type": "OPTION",
+      "text": "[C] 114x114",
+      "bbox": [
+        640.0,
+        377.0,
+        706.0,
+        388.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 28,
+      "block_type": "QUESTION",
+      "text": "Q12. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        620.0,
+        415.0,
+        1093.0,
+        446.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "A. Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        639.0,
+        459.0,
+        1041.0,
+        471.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "B. Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        640.0,
+        476.0,
+        965.0,
+        488.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 31,
+      "block_type": "OPTION",
+      "text": "C. Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        640.0,
+        493.0,
+        966.0,
+        505.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 32,
+      "block_type": "OPTION",
+      "text": "D. Replicating at least one log entry to all followers",
+      "bbox": [
+        640.0,
+        510.0,
+        914.0,
+        522.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 170
+}

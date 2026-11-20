@@ -1,0 +1,250 @@
+{
+  "doc_id": "synth_0148",
+  "page_id": "synth_0148_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "TECHNICAL EVALUATION BENCH: DATABASE & OS ARCHITECTURE",
+      "bbox": [
+        60.0,
+        66.0,
+        834.0,
+        82.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART I: OBJECTIVE CORE CONCEPTS",
+      "bbox": [
+        60.0,
+        108.0,
+        342.0,
+        120.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        143.0,
+        750.0,
+        157.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "A. Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        172.0,
+        409.0,
+        184.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "B. Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        191.0,
+        387.0,
+        200.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "QUESTION",
+      "text": "Q2. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        228.0,
+        816.0,
+        242.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "A. Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        257.0,
+        491.0,
+        269.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "B. Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        276.0,
+        401.0,
+        288.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "C. Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        295.0,
+        404.0,
+        307.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "D. Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        314.0,
+        359.0,
+        326.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q3. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        361.0,
+        713.0,
+        375.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "(A) Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        390.0,
+        425.0,
+        402.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "(B) Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        409.0,
+        329.0,
+        421.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "(C) Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        428.0,
+        392.0,
+        440.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(D) Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        447.0,
+        366.0,
+        459.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        485.0,
+        750.0,
+        499.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "A. Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        514.0,
+        409.0,
+        526.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "B. Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        533.0,
+        387.0,
+        542.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "C. Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        549.0,
+        358.0,
+        561.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "D. Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        568.0,
+        341.0,
+        580.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 127
+}

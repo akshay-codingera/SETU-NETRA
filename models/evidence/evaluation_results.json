@@ -1,0 +1,497 @@
+{
+  "model_checkpoint": "models/evidence/er_sp.pt",
+  "evaluation_timestamp": "2026-11-17T17:48:33Z",
+  "parameters": 560134,
+  "evaluations": {
+    "test_unseen_topics": {
+      "samples": 340,
+      "ER_SP": {
+        "accuracy": 0.861764705882353,
+        "macro_precision": 0.8617234575801206,
+        "macro_recall": 0.8617647058823529,
+        "macro_f1": 0.8552700592059861,
+        "abstention_accuracy": 0.8941176470588236,
+        "abstention_precision": 0.9609375,
+        "abstention_recall": 0.9044117647058824,
+        "abstention_f1": 0.9318181818181818,
+        "ece": 0.08886963418301416,
+        "per_class": {
+          "SUFFICIENT": {
+            "precision": 0.6904761904761905,
+            "recall": 0.8529411764705882,
+            "f1": 0.7631578947368421,
+            "support": 68
+          },
+          "PARTIALLY_SUFFICIENT": {
+            "precision": 0.723404255319149,
+            "recall": 0.5,
+            "f1": 0.591304347826087,
+            "support": 68
+          },
+          "CONTRADICTORY": {
+            "precision": 1.0,
+            "recall": 0.9558823529411765,
+            "f1": 0.9774436090225563,
+            "support": 68
+          },
+          "IRRELEVANT": {
+            "precision": 0.8947368421052632,
+            "recall": 1.0,
+            "f1": 0.9444444444444444,
+            "support": 68
+          },
+          "UNVERIFIABLE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 68
+          }
+        },
+        "confusion_matrix": [
+          [
+            58,
+            10,
+            0,
+            0,
+            0
+          ],
+          [
+            26,
+            34,
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            3,
+            65,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            68,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            68
+          ]
+        ],
+        "latency_ms_mean": 0.449550588896005,
+        "latency_ms_p95": 0.6910999654792249
+      },
+      "Baseline_Cosine_Threshold": {
+        "accuracy": 0.3764705882352941,
+        "macro_precision": 0.1546931726058299,
+        "macro_recall": 0.3764705882352941,
+        "macro_f1": 0.21846565089548248,
+        "abstention_accuracy": 0.5852941176470589,
+        "abstention_precision": 0.9455782312925171,
+        "abstention_recall": 0.5110294117647058,
+        "abstention_f1": 0.6634844868735084,
+        "ece": 0.3495550136437968,
+        "per_class": {
+          "SUFFICIENT": {
+            "precision": 0.31088082901554404,
+            "recall": 0.8823529411764706,
+            "f1": 0.45977011494252873,
+            "support": 68
+          },
+          "PARTIALLY_SUFFICIENT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 68
+          },
+          "CONTRADICTORY": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 68
+          },
+          "IRRELEVANT": {
+            "precision": 0.46258503401360546,
+            "recall": 1.0,
+            "f1": 0.6325581395348837,
+            "support": 68
+          },
+          "UNVERIFIABLE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 68
+          }
+        },
+        "confusion_matrix": [
+          [
+            60,
+            0,
+            0,
+            8,
+            0
+          ],
+          [
+            49,
+            0,
+            0,
+            19,
+            0
+          ],
+          [
+            65,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            68,
+            0
+          ],
+          [
+            19,
+            0,
+            0,
+            49,
+            0
+          ]
+        ]
+      },
+      "Baseline_Rule_Lexical": {
+        "accuracy": 0.4588235294117647,
+        "macro_precision": 0.32171717171717173,
+        "macro_recall": 0.4588235294117647,
+        "macro_f1": 0.36210832122847064,
+        "abstention_accuracy": 0.7823529411764706,
+        "abstention_precision": 0.7964071856287425,
+        "abstention_recall": 0.9779411764705882,
+        "abstention_f1": 0.8778877887788779,
+        "ece": 0.3922058823529412,
+        "per_class": {
+          "SUFFICIENT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 68
+          },
+          "PARTIALLY_SUFFICIENT": {
+            "precision": 0.2222222222222222,
+            "recall": 0.29411764705882354,
+            "f1": 0.25316455696202533,
+            "support": 68
+          },
+          "CONTRADICTORY": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 68
+          },
+          "IRRELEVANT": {
+            "precision": 0.38636363636363635,
+            "recall": 1.0,
+            "f1": 0.5573770491803278,
+            "support": 68
+          },
+          "UNVERIFIABLE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 68
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            26,
+            0,
+            42,
+            0
+          ],
+          [
+            0,
+            20,
+            0,
+            48,
+            0
+          ],
+          [
+            6,
+            44,
+            0,
+            18,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            68,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            68
+          ]
+        ]
+      }
+    },
+    "test_in_domain": {
+      "samples": 12,
+      "ER_SP": {
+        "accuracy": 0.5833333333333334,
+        "macro_precision": 0.5,
+        "macro_recall": 0.5,
+        "macro_f1": 0.4666666666666666,
+        "abstention_accuracy": 0.75,
+        "abstention_precision": 0.6666666666666666,
+        "abstention_recall": 1.0,
+        "abstention_f1": 0.8,
+        "ece": 0.33668122192223865,
+        "per_class": {
+          "SUFFICIENT": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "support": 6
+          },
+          "PARTIALLY_SUFFICIENT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "CONTRADICTORY": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "IRRELEVANT": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 3
+          },
+          "UNVERIFIABLE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          }
+        },
+        "confusion_matrix": [
+          [
+            3,
+            2,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "latency_ms_mean": 0.48827500237772864,
+        "latency_ms_p95": 0.660275007248856
+      },
+      "Baseline_Cosine_Threshold": {
+        "accuracy": 0.6666666666666666,
+        "macro_precision": 0.2666666666666667,
+        "macro_recall": 0.3666666666666667,
+        "macro_f1": 0.3,
+        "abstention_accuracy": 0.8333333333333334,
+        "abstention_precision": 0.8333333333333334,
+        "abstention_recall": 0.8333333333333334,
+        "abstention_f1": 0.8333333333333334,
+        "ece": 0.11833404245165488,
+        "per_class": {
+          "SUFFICIENT": {
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1": 0.8333333333333334,
+            "support": 6
+          },
+          "PARTIALLY_SUFFICIENT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "CONTRADICTORY": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "IRRELEVANT": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 3
+          },
+          "UNVERIFIABLE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          }
+        },
+        "confusion_matrix": [
+          [
+            5,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "Baseline_Rule_Lexical": {
+        "accuracy": 0.5,
+        "macro_precision": 0.7,
+        "macro_recall": 0.6333333333333334,
+        "macro_f1": 0.5904761904761904,
+        "abstention_accuracy": 0.5833333333333334,
+        "abstention_precision": 0.5454545454545454,
+        "abstention_recall": 1.0,
+        "abstention_f1": 0.7058823529411765,
+        "ece": 0.39781746031746024,
+        "per_class": {
+          "SUFFICIENT": {
+            "precision": 1.0,
+            "recall": 0.16666666666666666,
+            "f1": 0.2857142857142857,
+            "support": 6
+          },
+          "PARTIALLY_SUFFICIENT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "CONTRADICTORY": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "IRRELEVANT": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 3
+          },
+          "UNVERIFIABLE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            3,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    }
+  }
+}

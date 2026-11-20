@@ -1,0 +1,155 @@
+{
+  "timestamp": "2026-11-10T16:51:30+0530",
+  "hardware": {
+    "cpu_percent": 0.0,
+    "ram_percent": 62.0,
+    "available_ram_mb": 5943.3,
+    "is_real": true
+  },
+  "application_validation": {
+    "root_ui": "PASSED"
+  },
+  "local_inference": {
+    "minilm": {
+      "status": "SUCCESS",
+      "vector_dim": 384,
+      "latency_ms": 66.47,
+      "execution_time_ms": 66.4
+    },
+    "grounded_extractive_qa": {
+      "status": "SUCCESS",
+      "answer": "Raft maintains leader authority through periodic heartbeats of 50ms . [Doc: raft_paper.pdf, Page: 2, Block: 4]",
+      "latency_ms": 1.01,
+      "execution_time_ms": 0.96
+    },
+    "smollm2_135m": {
+      "status": "SUCCESS",
+      "result_sample": "A state machine is a data structure that allows for the replication of state information across multiple machines, enabl",
+      "latency_ms": 1783.3,
+      "execution_time_ms": 1783.24
+    },
+    "easyocr": {
+      "status": "SUCCESS",
+      "blocks_detected": 0,
+      "latency_ms": 2416.49,
+      "execution_time_ms": 2416.42
+    }
+  },
+  "cloud_inference": {
+    "gemini": {
+      "status": "NOT TESTED",
+      "reason": "No valid API credentials configured (status=NOT_CONFIGURED)"
+    },
+    "groq": {
+      "status": "NOT TESTED",
+      "reason": "No valid API credentials configured (status=NOT_CONFIGURED)"
+    },
+    "openrouter": {
+      "status": "NOT TESTED",
+      "reason": "No valid API credentials configured (status=NOT_CONFIGURED)"
+    }
+  },
+  "privacy_validation": {
+    "local_only_active": true,
+    "blocked_before_network": true,
+    "exception_type": "PermissionError",
+    "error_message": "Local-Only Privacy Mode is active. Outgoing cloud request to 'gemini' was blocked.",
+    "zero_network_disclosure": true
+  },
+  "conversation_validation": [
+    {
+      "id": "CONV_1_PRONOUN_RESOLUTION",
+      "turn_1": {
+        "query": "What is the role of the elected leader in Raft?",
+        "status": "EVIDENCE_BACKED",
+        "answer": "Raft decomposes consensus into leader election, log replication, and safety. [Do"
+      },
+      "turn_2": {
+        "query": "What does it maintain to demonstrate cluster authority?",
+        "resolved_query": "What does it maintain to demonstrate cluster authority? (Referring to: Raft decomposes consensus into leader election, log replication, and safety)",
+        "status": "EVIDENCE_BACKED",
+        "answer": "Raft decomposes consensus into leader election, log replication, and safety. [Do"
+      },
+      "citations_verified": true
+    },
+    {
+      "id": "CONV_2_FOLLOWUP_ELABORATION",
+      "turn_1": {
+        "query": "What is the randomized timeout range in Raft?",
+        "status": "EVIDENCE_BACKED",
+        "answer": "Leader election timeout is randomly randomized between 150ms and 300ms to split "
+      },
+      "turn_2": {
+        "query": "Why is that timeout randomized?",
+        "resolved_query": "Why is that timeout randomized? (Referring to: Leader election timeout is randomly randomized between 150ms and 300ms to split votes)",
+        "status": "EVIDENCE_BACKED",
+        "answer": "Leader election timeout is randomly randomized between 150ms and 300ms to split "
+      },
+      "citations_verified": true
+    },
+    {
+      "id": "CONV_3_MULTI_DOCUMENT",
+      "turn_1": {
+        "doc_id": "doc_modern_consensus_c6ac6da9",
+        "query": "What is the periodic heartbeat of the elected Raft leader?",
+        "answer": "The elected leader maintains cluster authority through periodic heartbeats of 50",
+        "status": "EVIDENCE_BACKED"
+      },
+      "turn_2": {
+        "doc_id": "doc_legacy_consensus_0abc5f2f",
+        "query": "What is the periodic heartbeat of the legacy coordinator?",
+        "answer": "The legacy coordinator protocol enforces a periodic heartbeat of 120ms to reduce",
+        "status": "EVIDENCE_BACKED"
+      },
+      "both_documents_grounded": true
+    },
+    {
+      "id": "CONV_4_CONTRADICTORY_EVIDENCE",
+      "query": "What is the heartbeat interval for the consensus coordinator?",
+      "answer": "The elected leader maintains cluster authority through periodic heartbeats of 50ms. [Doc: modern_consensus.txt, Page: 1, Block: 3]",
+      "epistemic_status": "EVIDENCE_BACKED",
+      "citations": [
+        {
+          "document": "modern_consensus.txt",
+          "page": 1,
+          "block_id": 3,
+          "bounding_box": [
+            50.0,
+            118.0,
+            750.0,
+            140.0
+          ],
+          "confidence": 1.0
+        }
+      ],
+      "preserves_provenance": true
+    },
+    {
+      "id": "CONV_5_UNSUPPORTED_QUESTION",
+      "query": "Who won the 2026 FIFA World Cup final in New Jersey?",
+      "answer": "The uploaded document does not contain sufficient verified evidence to answer this question.",
+      "epistemic_status": "UNSUPPORTED",
+      "grounding_score": 0.0,
+      "citations": [],
+      "hallucination_prevented": true
+    }
+  ],
+  "security_validation": {
+    "path_traversal": "DEFENDED (HTTP 404)",
+    "session_isolation": "ENFORCED (HTTP 404 for invalid session ID)",
+    "api_key_masking": "SAFE (Masked)",
+    "prompt_injection_resistance": "DEFENDED (Deterministic Verifier)",
+    "upload_validation": "DEFENDED (HTTP 400 Content-Type Rejected)"
+  },
+  "performance": {
+    "startup_time_sec": 10.387,
+    "doc_ingestion_latencies_ms": [
+      44.17,
+      37.56
+    ],
+    "cpu_percent": 29.3,
+    "ram_percent": 71.0,
+    "available_ram_mb": 4509.2,
+    "api_roundtrip_latency_ms": 22.19
+  }
+}

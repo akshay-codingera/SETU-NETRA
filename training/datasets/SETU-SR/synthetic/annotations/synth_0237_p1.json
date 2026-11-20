@@ -1,0 +1,382 @@
+{
+  "doc_id": "synth_0237",
+  "page_id": "synth_0237_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "NATIONAL INSTITUTE OF TECHNOLOGY: CORE ENGINEERING EXAM",
+      "bbox": [
+        59.0,
+        65.0,
+        775.0,
+        80.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        108.0,
+        397.0,
+        122.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        150.0,
+        540.0,
+        185.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "(A) Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        199.0,
+        372.0,
+        211.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(B) Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        217.0,
+        355.0,
+        228.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "(C) Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        234.0,
+        328.0,
+        246.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "(D) Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        252.0,
+        313.0,
+        264.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        294.0,
+        518.0,
+        326.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(A) Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        340.0,
+        446.0,
+        352.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(B) Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        358.0,
+        368.0,
+        370.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(C) Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        376.0,
+        367.0,
+        388.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "(D) Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        394.0,
+        327.0,
+        406.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q3. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        440.0,
+        565.0,
+        475.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        489.0,
+        386.0,
+        501.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        507.0,
+        302.0,
+        518.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        524.0,
+        354.0,
+        536.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[D] Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        542.0,
+        329.0,
+        554.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q4. Consider the following recursive Python function:",
+      "bbox": [
+        620.0,
+        150.0,
+        959.0,
+        164.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        629.0,
+        174.0,
+        825.0,
+        223.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(A) 11",
+      "bbox": [
+        640.0,
+        233.0,
+        672.0,
+        244.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(B) 15",
+      "bbox": [
+        640.0,
+        250.0,
+        671.0,
+        261.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "(C) 9",
+      "bbox": [
+        640.0,
+        267.0,
+        665.0,
+        278.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "QUESTION",
+      "text": "Q5. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        620.0,
+        313.0,
+        1125.0,
+        348.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        640.0,
+        362.0,
+        941.0,
+        374.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        640.0,
+        380.0,
+        857.0,
+        389.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "C. Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        640.0,
+        395.0,
+        909.0,
+        407.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "QUESTION",
+      "text": "Q6. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        620.0,
+        434.0,
+        1125.0,
+        469.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        640.0,
+        483.0,
+        941.0,
+        495.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        640.0,
+        501.0,
+        857.0,
+        510.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "C. Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        640.0,
+        516.0,
+        909.0,
+        528.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 31,
+      "block_type": "OPTION",
+      "text": "D. Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        640.0,
+        534.0,
+        884.0,
+        546.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 167
+}

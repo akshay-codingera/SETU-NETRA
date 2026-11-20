@@ -1,0 +1,250 @@
+{
+  "doc_id": "synth_0054",
+  "page_id": "synth_0054_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "NATIONAL INSTITUTE OF TECHNOLOGY: CORE ENGINEERING EXAM",
+      "bbox": [
+        60.0,
+        64.0,
+        775.0,
+        80.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION C: ALGORITHMIC COMPLEXITY & REASONING",
+      "bbox": [
+        60.0,
+        102.0,
+        417.0,
+        113.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        141.0,
+        931.0,
+        152.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "(A) 112x112",
+      "bbox": [
+        80.0,
+        165.0,
+        146.0,
+        176.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(B) 110x110",
+      "bbox": [
+        80.0,
+        181.0,
+        146.0,
+        192.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "(C) 114x114",
+      "bbox": [
+        80.0,
+        197.0,
+        146.0,
+        208.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "(D) 111x111",
+      "bbox": [
+        80.0,
+        213.0,
+        147.0,
+        224.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        252.0,
+        626.0,
+        263.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        276.0,
+        414.0,
+        287.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        292.0,
+        326.0,
+        301.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q3. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        328.0,
+        495.0,
+        339.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        348.0,
+        314.0,
+        394.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "(A) GROUP BY",
+      "bbox": [
+        80.0,
+        403.0,
+        153.0,
+        414.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "(B) HAVING",
+      "bbox": [
+        80.0,
+        419.0,
+        140.0,
+        430.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(C) WHERE",
+      "bbox": [
+        80.0,
+        435.0,
+        137.0,
+        446.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        472.0,
+        614.0,
+        483.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(A) (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        496.0,
+        212.0,
+        507.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "(B) (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        512.0,
+        166.0,
+        523.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(C) (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        528.0,
+        189.0,
+        539.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(D) ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        80.0,
+        544.0,
+        219.0,
+        555.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 120
+}

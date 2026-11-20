@@ -1,0 +1,274 @@
+{
+  "doc_id": "synth_0085",
+  "page_id": "synth_0085_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: SECTION A: FOUNDATIONAL PRINCIPLES",
+      "bbox": [
+        60.0,
+        64.0,
+        537.0,
+        77.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q5. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        95.0,
+        395.0,
+        109.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        119.0,
+        281.0,
+        168.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] 11",
+      "bbox": [
+        80.0,
+        178.0,
+        111.0,
+        189.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] 15",
+      "bbox": [
+        80.0,
+        195.0,
+        111.0,
+        206.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] 9",
+      "bbox": [
+        80.0,
+        212.0,
+        105.0,
+        223.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "[D] 21",
+      "bbox": [
+        80.0,
+        229.0,
+        112.0,
+        240.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q6. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        265.0,
+        832.0,
+        279.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "[A] Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        292.0,
+        484.0,
+        304.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[B] Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        309.0,
+        408.0,
+        321.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "[C] Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        326.0,
+        409.0,
+        338.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "[D] Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        343.0,
+        357.0,
+        355.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q7. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        384.0,
+        677.0,
+        398.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "(A) (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        412.0,
+        221.0,
+        423.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(B) (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        429.0,
+        170.0,
+        440.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "(C) (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        446.0,
+        190.0,
+        457.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(D) ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        80.0,
+        463.0,
+        229.0,
+        474.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q8. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        502.0,
+        721.0,
+        516.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        529.0,
+        422.0,
+        541.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        546.0,
+        330.0,
+        558.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        563.0,
+        384.0,
+        575.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "[D] Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        580.0,
+        366.0,
+        592.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 110
+}

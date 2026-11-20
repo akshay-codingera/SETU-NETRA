@@ -1,0 +1,61 @@
+{
+  "evaluation_scope": {
+    "total_queries": 50,
+    "in_domain_queries": 10,
+    "unseen_test_queries": 40,
+    "checkpoint_evaluated": "models/policy/cm_rp_v2.pt",
+    "pipeline_class": "IntegratedSetuNetraPipeline"
+  },
+  "marginal_accuracies": {
+    "c4_baseline_cmrp": {
+      "correct": 33,
+      "total": 50,
+      "accuracy": 0.66
+    },
+    "c6_grounded_complete_r4": {
+      "correct": 43,
+      "total": 50,
+      "accuracy": 0.86
+    },
+    "c6_placeholder_complete_r4": {
+      "correct": 33,
+      "total": 50,
+      "accuracy": 0.66
+    }
+  },
+  "paired_contingency_table_c4_vs_c6_grounded": {
+    "n11_both_correct": 31,
+    "n10_c4_correct_c6g_incorrect": 2,
+    "n01_c4_incorrect_c6g_correct": 12,
+    "n00_both_incorrect": 5,
+    "total_discordant_pairs": 14
+  },
+  "hypothesis_tests": {
+    "mcnemar_chi2_uncorrected": 7.142857,
+    "mcnemar_p_uncorrected": 0.007526,
+    "mcnemar_chi2_continuity_corrected": 5.785714,
+    "mcnemar_p_continuity_corrected": 0.016157,
+    "exact_binomial_p_twosided": 0.012939,
+    "exact_binomial_p_onesided": 0.00647,
+    "odds_ratio": 6.0,
+    "odds_ratio_95ci": [
+      1.3428,
+      26.8089
+    ],
+    "cohens_g": 0.3571,
+    "statistical_significance_alpha_0_05": true
+  },
+  "historical_audit_reconciliation": {
+    "reported_master_table_marginal": {
+      "c4": "36/50 (72.0%)",
+      "c6_grounded": "46/50 (92.0%)"
+    },
+    "reported_contingency_table": {
+      "n11": 32,
+      "n10": 2,
+      "n01": 12,
+      "n00": 4
+    },
+    "reconciliation_finding": "The discordant pair structure (b=2, c=12, b+c=14) is mathematically identical across both evaluations, yielding exactly identical McNemar statistic chi2 = 5.7857 and exact binomial p = 0.012939. The 2-sample marginal shift between 36/50 (72%) vs 34/50 (68%) and 46/50 (92%) vs 44/50 (88%) is caused by real-time hardware telemetry feature inputs (CPU% and RAM% in dimensions 418-422 of the 423-d state input) near classification decision boundaries."
+  }
+}

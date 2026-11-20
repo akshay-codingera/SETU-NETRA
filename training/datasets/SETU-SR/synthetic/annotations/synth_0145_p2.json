@@ -1,0 +1,262 @@
+{
+  "doc_id": "synth_0145",
+  "page_id": "synth_0145_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: SECTION B: SYSTEM ARCHITECTURE & ENGINEERING",
+      "bbox": [
+        60.0,
+        65.0,
+        590.0,
+        77.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q5. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        104.0,
+        680.0,
+        118.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "OPTION",
+      "text": "(A) (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        133.0,
+        220.0,
+        145.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "(B) (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        152.0,
+        171.0,
+        164.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(C) (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        171.0,
+        190.0,
+        183.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "(D) ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        80.0,
+        190.0,
+        227.0,
+        202.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q6. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        232.0,
+        959.0,
+        246.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "[A] 1NF",
+      "bbox": [
+        80.0,
+        261.0,
+        123.0,
+        273.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "[B] 2NF",
+      "bbox": [
+        80.0,
+        280.0,
+        123.0,
+        292.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[C] 3NF",
+      "bbox": [
+        80.0,
+        299.0,
+        123.0,
+        311.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "[D] BCNF",
+      "bbox": [
+        80.0,
+        318.0,
+        134.0,
+        330.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q7. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        360.0,
+        578.0,
+        374.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        384.0,
+        321.0,
+        438.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "A. GROUP BY",
+      "bbox": [
+        80.0,
+        449.0,
+        160.0,
+        458.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "B. HAVING",
+      "bbox": [
+        80.0,
+        465.0,
+        145.0,
+        475.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "C. WHERE",
+      "bbox": [
+        80.0,
+        482.0,
+        141.0,
+        491.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "D. SELECT",
+      "bbox": [
+        80.0,
+        498.0,
+        143.0,
+        507.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q8. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        541.0,
+        816.0,
+        555.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(A) Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        570.0,
+        496.0,
+        582.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(B) Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        589.0,
+        406.0,
+        601.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(C) Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        608.0,
+        409.0,
+        620.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 90
+}

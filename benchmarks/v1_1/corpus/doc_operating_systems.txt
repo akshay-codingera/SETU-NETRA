@@ -1,0 +1,19 @@
+Operating Systems: Virtual Memory Architecture and Paging Systems
+
+Virtual memory decouples the programmer's logical address space from physical DRAM memory. This architectural abstraction enables processes to execute without requiring their entire address space to reside contiguously in physical RAM.
+
+The Memory Management Unit (MMU) is the dedicated hardware component that translates virtual addresses to physical addresses at runtime. Translation relies on per-process page tables structured as multi-level hierarchical trees to reduce memory overhead.
+
+The Translation Lookaside Buffer (TLB) is an associative hardware cache inside the CPU that stores recent virtual-to-physical address mappings. An effective TLB achieves hit rates exceeding 98 percent, allowing single-cycle address translation.
+
+A TLB miss triggers a page table walk. In hardware-managed architectures like x86, the MMU reads the CR3 control register to traverse page directories. In software-managed architectures like MIPS, a TLB miss raises an operating system trap to reload the entry.
+
+Demand paging is an optimization where pages are allocated in physical memory only upon the occurrence of a page fault exception. The operating system allocates an unmapped physical page frame, reads the backing page from secondary storage, updates the page table, and restarts the faulting instruction.
+
+Page replacement algorithms decide which resident page frame to evict when physical memory is fully saturated. Belady's optimal algorithm, known as MIN, evicts the page that will not be accessed for the longest duration in the future. MIN serves as an empirical theoretical benchmark but cannot be implemented in general-purpose systems because it requires prescient future knowledge.
+
+Least Recently Used (LRU) page replacement approximates Belady's optimal policy by tracking historical access order. True hardware LRU requires expensive counter timestamps or stack manipulations on every memory reference. In practice, production kernels use the Clock algorithm, also called Second-Chance, which inspects a hardware-maintained access bit in a circular linked list.
+
+Thrashing occurs when the aggregate working sets of all concurrent processes exceed total available physical RAM. In thrashing conditions, the operating system spends more CPU cycles servicing continuous page faults than executing user instructions. Throughput collapses precipitously toward zero.
+
+The Working Set Model developed by Peter Denning defines a process's working set W(t, delta) as the set of unique pages referenced during the preceding virtual time window delta. The operating system monitors process working sets and suspends active processes when aggregate working set demands exceed physical memory limits, thereby mitigating thrashing.

@@ -1,0 +1,91 @@
+{
+  "dataset_name": "SETU-ER",
+  "description": "Evidence Relevance & Multi-Premise Sufficiency Prediction Benchmark",
+  "version": "1.1.0",
+  "total_records": 2252,
+  "classes": [
+    "SUFFICIENT",
+    "PARTIALLY_SUFFICIENT",
+    "CONTRADICTORY",
+    "IRRELEVANT",
+    "UNVERIFIABLE"
+  ],
+  "topic_partitioning": {
+    "train_topics": [
+      "Raft Leader Election",
+      "Raft Log Replication",
+      "Translation Lookaside Buffer",
+      "Virtual Memory Thrashing",
+      "Strict Two-Phase Locking",
+      "Write-Ahead Logging (WAL) & ARIES",
+      "Second Normal Form (2NF)",
+      "Syllogistic Validity",
+      "2D Convolution Computational Complexity",
+      "Quicksort Worst-Case Complexity",
+      "TCP Congestion Control AIMD",
+      "Copy-on-Write Memory Management"
+    ],
+    "val_topics": [
+      "CAP Theorem Partition Tradeoff",
+      "Banker's Algorithm Safe State",
+      "Multi-Version Concurrency Control (MVCC)",
+      "Dijkstra Algorithm with Min-Heap Complexity"
+    ],
+    "test_topics": [
+      "Two-Phase Commit Protocol",
+      "B+ Tree Node Splitting Mechanism",
+      "Master Theorem Divide-and-Conquer Recurrence",
+      "DNS Recursive Resolution Protocol"
+    ],
+    "test_in_domain_sources": [
+      "quest8.png",
+      "quest9.png",
+      "Track-2 Report.pdf",
+      "consensus.docx",
+      "none",
+      "quest6.png"
+    ]
+  },
+  "splits": {
+    "train.jsonl": {
+      "total_records": 1560,
+      "distribution": {
+        "PARTIALLY_SUFFICIENT": 312,
+        "SUFFICIENT": 312,
+        "UNVERIFIABLE": 312,
+        "IRRELEVANT": 312,
+        "CONTRADICTORY": 312
+      }
+    },
+    "val.jsonl": {
+      "total_records": 340,
+      "distribution": {
+        "UNVERIFIABLE": 68,
+        "IRRELEVANT": 68,
+        "SUFFICIENT": 68,
+        "PARTIALLY_SUFFICIENT": 68,
+        "CONTRADICTORY": 68
+      }
+    },
+    "test.jsonl": {
+      "total_records": 340,
+      "distribution": {
+        "CONTRADICTORY": 68,
+        "SUFFICIENT": 68,
+        "PARTIALLY_SUFFICIENT": 68,
+        "UNVERIFIABLE": 68,
+        "IRRELEVANT": 68
+      }
+    },
+    "test_in_domain.jsonl": {
+      "total_records": 12,
+      "distribution": {
+        "SUFFICIENT": 6,
+        "IRRELEVANT": 3,
+        "CONTRADICTORY": 1,
+        "UNVERIFIABLE": 1,
+        "PARTIALLY_SUFFICIENT": 1
+      }
+    }
+  }
+}

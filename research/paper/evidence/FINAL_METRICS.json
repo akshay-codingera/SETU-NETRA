@@ -1,0 +1,785 @@
+{
+  "timestamp": "2026-11-17T20:53:44Z",
+  "milestone": "R4_FINAL_INTEGRATION",
+  "confusion_matrices": {
+    "sr_edgenet_synthetic_4x4": {
+      "classes": [
+        "PARENT_OF",
+        "OPTION_OF",
+        "CONTINUATION_OF",
+        "NONE"
+      ],
+      "raw_counts": [
+        [
+          387,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1020,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          365,
+          0
+        ],
+        [
+          0,
+          0,
+          24,
+          2627
+        ]
+      ],
+      "normalized_percent": [
+        [
+          100.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          100.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.91,
+          99.09
+        ]
+      ],
+      "total_samples": 4423
+    },
+    "sr_edgenet_indomain_4x4": {
+      "classes": [
+        "PARENT_OF",
+        "OPTION_OF",
+        "CONTINUATION_OF",
+        "NONE"
+      ],
+      "raw_counts": [
+        [
+          9,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          16,
+          0,
+          20
+        ],
+        [
+          15,
+          0,
+          0,
+          25
+        ],
+        [
+          41,
+          4,
+          0,
+          67
+        ]
+      ],
+      "normalized_percent": [
+        [
+          56.25,
+          0.0,
+          0.0,
+          43.75
+        ],
+        [
+          0.0,
+          44.44,
+          0.0,
+          55.56
+        ],
+        [
+          37.5,
+          0.0,
+          0.0,
+          62.5
+        ],
+        [
+          36.61,
+          3.57,
+          0.0,
+          59.82
+        ]
+      ],
+      "total_samples": 204
+    },
+    "er_sp_unseen_5x5": {
+      "classes": [
+        "SUFFICIENT",
+        "PARTIALLY_SUFFICIENT",
+        "CONTRADICTORY",
+        "IRRELEVANT",
+        "UNVERIFIABLE"
+      ],
+      "raw_counts": [
+        [
+          58,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          26,
+          34,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          3,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          68,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          68
+        ]
+      ],
+      "normalized_percent": [
+        [
+          85.29,
+          14.71,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          38.24,
+          50.0,
+          0.0,
+          11.76,
+          0.0
+        ],
+        [
+          0.0,
+          4.41,
+          95.59,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ]
+      ],
+      "total_samples": 340
+    },
+    "cm_rp_neural_7x7": {
+      "classes": [
+        "ARITHMETIC_SOLVER",
+        "DBMS_SOLVER",
+        "FORMAL_LOGIC_SOLVER",
+        "EXTRACTIVE_QA",
+        "LOCAL_SLM",
+        "ADDITIONAL_RETRIEVAL",
+        "ABSTAIN"
+      ],
+      "raw_counts": [
+        [
+          85,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          85,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          1,
+          51,
+          17,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          85
+        ]
+      ],
+      "normalized_percent": [
+        [
+          100.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          100.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          12.94,
+          1.18,
+          60.0,
+          20.0,
+          0.0,
+          5.88
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ]
+      ],
+      "total_samples": 340
+    },
+    "cm_rp_fallback_7x7": {
+      "classes": [
+        "ARITHMETIC_SOLVER",
+        "DBMS_SOLVER",
+        "FORMAL_LOGIC_SOLVER",
+        "EXTRACTIVE_QA",
+        "LOCAL_SLM",
+        "ADDITIONAL_RETRIEVAL",
+        "ABSTAIN"
+      ],
+      "raw_counts": [
+        [
+          85,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          85,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          63,
+          17,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          85
+        ]
+      ],
+      "normalized_percent": [
+        [
+          100.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          100.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          74.12,
+          20.0,
+          0.0,
+          5.88
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ]
+      ],
+      "total_samples": 340
+    }
+  },
+  "component_metrics": {
+    "sr_edgenet_synthetic": {
+      "accuracy": 99.46,
+      "macro_precision": 98.46,
+      "macro_recall": 99.77,
+      "macro_f1": 0.9909,
+      "per_class": {
+        "PARENT_OF": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 1.0,
+          "support": 387
+        },
+        "OPTION_OF": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 1.0,
+          "support": 1020
+        },
+        "CONTINUATION_OF": {
+          "precision": 93.83,
+          "recall": 100.0,
+          "f1_score": 0.9682,
+          "support": 365
+        },
+        "NONE": {
+          "precision": 100.0,
+          "recall": 99.09,
+          "f1_score": 0.9955,
+          "support": 2651
+        }
+      }
+    },
+    "sr_edgenet_indomain": {
+      "accuracy": 45.1,
+      "macro_precision": 37.54,
+      "macro_recall": 40.13,
+      "macro_f1": 0.3434,
+      "per_class": {
+        "PARENT_OF": {
+          "precision": 13.85,
+          "recall": 56.25,
+          "f1_score": 0.2222,
+          "support": 16
+        },
+        "OPTION_OF": {
+          "precision": 80.0,
+          "recall": 44.44,
+          "f1_score": 0.5714,
+          "support": 36
+        },
+        "CONTINUATION_OF": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 40
+        },
+        "NONE": {
+          "precision": 56.3,
+          "recall": 59.82,
+          "f1_score": 0.5801,
+          "support": 112
+        }
+      }
+    },
+    "er_sp_unseen": {
+      "accuracy": 86.18,
+      "macro_precision": 86.17,
+      "macro_recall": 86.18,
+      "macro_f1": 0.8553,
+      "per_class": {
+        "SUFFICIENT": {
+          "precision": 69.05,
+          "recall": 85.29,
+          "f1_score": 0.7632,
+          "support": 68
+        },
+        "PARTIALLY_SUFFICIENT": {
+          "precision": 72.34,
+          "recall": 50.0,
+          "f1_score": 0.5913,
+          "support": 68
+        },
+        "CONTRADICTORY": {
+          "precision": 100.0,
+          "recall": 95.59,
+          "f1_score": 0.9774,
+          "support": 68
+        },
+        "IRRELEVANT": {
+          "precision": 89.47,
+          "recall": 100.0,
+          "f1_score": 0.9444,
+          "support": 68
+        },
+        "UNVERIFIABLE": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 1.0,
+          "support": 68
+        }
+      }
+    },
+    "cm_rp_neural_only": {
+      "accuracy": 90.0,
+      "macro_precision": 63.83,
+      "macro_recall": 60.0,
+      "macro_f1": 0.6101,
+      "per_class": {
+        "ARITHMETIC_SOLVER": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 1.0,
+          "support": 85
+        },
+        "DBMS_SOLVER": {
+          "precision": 88.54,
+          "recall": 100.0,
+          "f1_score": 0.9392,
+          "support": 85
+        },
+        "FORMAL_LOGIC_SOLVER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "EXTRACTIVE_QA": {
+          "precision": 100.0,
+          "recall": 60.0,
+          "f1_score": 0.75,
+          "support": 85
+        },
+        "LOCAL_SLM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "ADDITIONAL_RETRIEVAL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "ABSTAIN": {
+          "precision": 94.44,
+          "recall": 100.0,
+          "f1_score": 0.9714,
+          "support": 85
+        }
+      }
+    },
+    "cm_rp_with_fallback": {
+      "accuracy": 93.53,
+      "macro_precision": 78.89,
+      "macro_recall": 74.82,
+      "macro_f1": 0.7646,
+      "per_class": {
+        "ARITHMETIC_SOLVER": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 1.0,
+          "support": 85
+        },
+        "DBMS_SOLVER": {
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 1.0,
+          "support": 85
+        },
+        "FORMAL_LOGIC_SOLVER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "EXTRACTIVE_QA": {
+          "precision": 100.0,
+          "recall": 74.12,
+          "f1_score": 0.8514,
+          "support": 85
+        },
+        "LOCAL_SLM": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "ADDITIONAL_RETRIEVAL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "ABSTAIN": {
+          "precision": 94.44,
+          "recall": 100.0,
+          "f1_score": 0.9714,
+          "support": 85
+        }
+      }
+    }
+  },
+  "ablation_study": {
+    "C1_Baseline_Heuristic": {
+      "accuracy": 44.0,
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "grounding_score": 0.608,
+      "citation_correctness": 44.0,
+      "solver_dispatch_rate": 55.0,
+      "mean_latency_ms": 0.29
+    },
+    "C2_Baseline_Plus_SREdgeNet": {
+      "accuracy": 42.0,
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "grounding_score": 0.594,
+      "citation_correctness": 42.0,
+      "solver_dispatch_rate": 52.5,
+      "mean_latency_ms": 0.17
+    },
+    "C3_Baseline_Plus_ERSP": {
+      "accuracy": 24.0,
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "grounding_score": 0.468,
+      "citation_correctness": 24.0,
+      "solver_dispatch_rate": 30.0,
+      "mean_latency_ms": 0.49
+    },
+    "C4_Baseline_Plus_CMRP": {
+      "accuracy": 72.0,
+      "abstention_precision": 42.11,
+      "abstention_recall": 80.0,
+      "abstention_f1": 0.5517,
+      "grounding_score": 0.932,
+      "citation_correctness": 90.32,
+      "solver_dispatch_rate": 70.0,
+      "mean_latency_ms": 0.44
+    },
+    "C5_SREdgeNet_Plus_ERSP": {
+      "accuracy": 44.0,
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "grounding_score": 0.608,
+      "citation_correctness": 44.0,
+      "solver_dispatch_rate": 55.0,
+      "mean_latency_ms": 0.36
+    },
+    "C6_Complete_SETUNETRA_R4": {
+      "accuracy": 70.0,
+      "abstention_precision": 40.0,
+      "abstention_recall": 80.0,
+      "abstention_f1": 0.5333,
+      "grounding_score": 0.93,
+      "citation_correctness": 90.0,
+      "solver_dispatch_rate": 67.5,
+      "mean_latency_ms": 117.18
+    }
+  },
+  "hardware_and_latency_profile": {
+    "host_platform": "Windows",
+    "total_physical_ram_mb": 16027.7,
+    "available_ram_mb": 5009.8,
+    "host_ram_percent": 68.0,
+    "host_cpu_percent": 95.2,
+    "process_ram_init_mb": 290.54,
+    "process_ram_peak_mb": 605.41,
+    "checkpoint_sizes": {
+      "sr_edge_net.pt": 4.77,
+      "er_sp.pt": 6.43,
+      "cm_rp.pt": 753.76,
+      "cm_rp_v2.pt": 755.59
+    },
+    "component_latency_ms": {
+      "ingestion_preprocessing": 0.0018,
+      "sr_edgenet_pairwise_prediction": 0.658,
+      "er_sp_epistemic_verification": 0.342,
+      "cm_rp_strategy_routing": 0.313,
+      "solver_dispatch": 0.195,
+      "total_cpu_e2e_ms": 1.51
+    }
+  }
+}

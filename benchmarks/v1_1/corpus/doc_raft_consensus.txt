@@ -1,0 +1,19 @@
+Distributed Systems: The Raft Consensus Algorithm Specification
+
+Raft is a consensus protocol designed for fault-tolerant state machine replication. Raft decomposes consensus into three independent subproblems: leader election, log replication, and safety guarantees.
+
+A Raft cluster typically consists of an odd number of servers, commonly five nodes, allowing the cluster to survive the failure of up to two nodes simultaneously. At any point in time, each server resides in one of three mutually exclusive states: Leader, Follower, or Candidate.
+
+Time in Raft is partitioned into arbitrary-length numerical epochs termed terms. Terms act as logical clocks, allowing servers to detect obsolete leaders and stale election communications. Each term begins with a leader election. If split votes occur, the term ends without a leader and a subsequent term starts immediately.
+
+Leader election uses randomized election timeouts to prevent split-vote deadlocks. Followers increment their term counter and transition to candidates if they fail to receive an AppendEntries heartbeat within a randomized window between 150 milliseconds and 300 milliseconds. A candidate requests votes across the cluster using RequestVote RPCs.
+
+A candidate wins a leader election if and only if it receives affirmative votes from a strict majority of servers in the cluster for that specific term. Each server votes for at most one candidate per term on a first-come-first-served basis, subject to log completeness checks.
+
+The elected leader asserts authority over the cluster by broadcasting periodic AppendEntries heartbeats with a frequency of 50 milliseconds. These empty heartbeats suppress follower election timers and maintain cluster stability.
+
+Log replication proceeds sequentially from the leader. The leader appends client command entries to its local log and propagates them to all followers via AppendEntries RPCs. An entry is considered committed once it has been durably replicated across a majority of servers.
+
+Raft enforces the Leader Completeness Property: if a log entry is committed in a given term, that entry will be present in the logs of the leaders for all higher-numbered terms. A voter denies its vote if the candidate's log is less up-to-date than its own log.
+
+Log compaction prevents disk exhaustion through snapshotting. Each server independently writes its committed state machine state to stable storage and discards the corresponding prefix of the replicated log. If a lagging follower falls behind the leader's snapshot boundary, the leader transmits the InstallSnapshot RPC to bring the follower up to date.

@@ -1,0 +1,286 @@
+{
+  "doc_id": "synth_0136",
+  "page_id": "synth_0136_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "ADVANCED DEGREE EXAMINATION: DISTRIBUTED COMPUTING",
+      "bbox": [
+        60.0,
+        63.0,
+        647.0,
+        78.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        101.0,
+        371.0,
+        114.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        142.0,
+        514.0,
+        155.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        164.0,
+        314.0,
+        210.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(A) GROUP BY",
+      "bbox": [
+        80.0,
+        219.0,
+        159.0,
+        232.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "(B) HAVING",
+      "bbox": [
+        80.0,
+        237.0,
+        146.0,
+        250.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "(C) WHERE",
+      "bbox": [
+        80.0,
+        255.0,
+        141.0,
+        268.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "(D) SELECT",
+      "bbox": [
+        80.0,
+        273.0,
+        140.0,
+        286.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "QUESTION",
+      "text": "Q2. Consider the following recursive Python function:",
+      "bbox": [
+        60.0,
+        317.0,
+        356.0,
+        330.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        69.0,
+        339.0,
+        279.0,
+        383.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "A. 11",
+      "bbox": [
+        80.0,
+        393.0,
+        109.0,
+        402.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "B. 15",
+      "bbox": [
+        80.0,
+        408.0,
+        109.0,
+        417.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "C. 9",
+      "bbox": [
+        80.0,
+        423.0,
+        101.0,
+        432.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "D. 21",
+      "bbox": [
+        80.0,
+        438.0,
+        110.0,
+        447.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "QUESTION",
+      "text": "Q3. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        479.0,
+        652.0,
+        492.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "A. O(N log N)",
+      "bbox": [
+        80.0,
+        505.0,
+        153.0,
+        518.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "B. O(N^2)",
+      "bbox": [
+        80.0,
+        523.0,
+        135.0,
+        536.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "C. O(N)",
+      "bbox": [
+        80.0,
+        541.0,
+        120.0,
+        554.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "D. O(2^N)",
+      "bbox": [
+        80.0,
+        559.0,
+        136.0,
+        572.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "QUESTION",
+      "text": "Q4. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        60.0,
+        595.0,
+        704.0,
+        608.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "A. Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        80.0,
+        621.0,
+        554.0,
+        634.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "B. Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        80.0,
+        639.0,
+        409.0,
+        652.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "C. Manage hardware interrupts generated by peripheral bus controllers",
+      "bbox": [
+        80.0,
+        657.0,
+        482.0,
+        670.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 80
+}

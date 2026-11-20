@@ -1,0 +1,181 @@
+{
+  "total_records": 16,
+  "records": [
+    {
+      "evidence_id": "EVID_R1_CKPT",
+      "claim": "SR-EdgeNet spatial-relational classifier parameter count is exactly 414,088 with 4-class output.",
+      "evidence_type": "MODEL_CHECKPOINT",
+      "file_path": "models/structure/sr_edge_net.pt",
+      "source_location": "state_dict: text_proj, spatial_proj, fusion, classifier layers",
+      "related_component": "R1: SR-EdgeNet",
+      "associated_experiment": "EXP_R1_SYNTH",
+      "verification_status": "VERIFIED",
+      "sha256": "cc1ab954c43930d104c6eb820c7f492f59c341965723815327c38ae97fc39ad6"
+    },
+    {
+      "evidence_id": "EVID_R1_DATASET",
+      "claim": "SETU-SR dataset contains 47,557 directed edges across 459 document units with zero leakage across splits.",
+      "evidence_type": "DATASET_MANIFEST",
+      "file_path": "training/datasets/SETU-SR/dataset_manifest.json",
+      "source_location": "splits: train (36,346), val (6,584), test_synthetic (4,423), test_in_domain (204)",
+      "related_component": "R1: SR-EdgeNet",
+      "associated_experiment": "EXP_R1_SYNTH",
+      "verification_status": "VERIFIED",
+      "sha256": "bd09de25dac2f4096e011267f157b0e9c6f3e26702c9dda103df522d5431271b"
+    },
+    {
+      "evidence_id": "EVID_R1_RESULTS",
+      "claim": "SR-EdgeNet achieves 99.46% accuracy on synthetic layouts and 45.10% (combined) / 65.69% (synth-only) on in-domain gold scans.",
+      "evidence_type": "EVALUATION_JSON",
+      "file_path": "models/structure/evaluation_results.json",
+      "source_location": "sr_edgenet_combined_on_synthetic_test, sr_edgenet_combined_on_indomain_gold",
+      "related_component": "R1: SR-EdgeNet",
+      "associated_experiment": "EXP_R1_SYNTH, EXP_R1_INDOMAIN_COMBINED",
+      "verification_status": "VERIFIED",
+      "sha256": "12de7a092599be5049c6be2e82a1bf2a71e64fc518361a40ea22b3efdfd390da"
+    },
+    {
+      "evidence_id": "EVID_R2_CKPT",
+      "claim": "ER-SP epistemic gating network has 560,134 parameters and operates over 1,537-d interaction features.",
+      "evidence_type": "MODEL_CHECKPOINT",
+      "file_path": "models/evidence/er_sp.pt",
+      "source_location": "state_dict: proj (256, 1537), attn_scorer, classifier head",
+      "related_component": "R2: ER-SP",
+      "associated_experiment": "EXP_R2_UNSEEN_ACC",
+      "verification_status": "VERIFIED",
+      "sha256": "c44d7e77be93b55615f3193587420fed289469d4bd1ef5610d7103b0a30a8bca"
+    },
+    {
+      "evidence_id": "EVID_R2_DATASET",
+      "claim": "SETU-ER dataset has 2,252 records partitioned across 12 train topics, 4 val topics, 4 unseen test topics, and 12 in-domain items.",
+      "evidence_type": "DATASET_MANIFEST",
+      "file_path": "training/datasets/SETU-ER/dataset_manifest.json",
+      "source_location": "splits: train.jsonl (1560), val.jsonl (340), test.jsonl (340), test_in_domain.jsonl (12)",
+      "related_component": "R2: ER-SP",
+      "associated_experiment": "EXP_R2_UNSEEN_ACC",
+      "verification_status": "VERIFIED",
+      "sha256": "4005f02474ee4d8095de461c3f3ed72550d007159a671305ca34f47b3a18e55c"
+    },
+    {
+      "evidence_id": "EVID_R2_RESULTS",
+      "claim": "ER-SP achieves 86.18% accuracy, 0.8553 macro F1, and 0.0889 ECE on unseen topics, outperforming cosine thresholding (37.65%).",
+      "evidence_type": "EVALUATION_JSON",
+      "file_path": "models/evidence/evaluation_results.json",
+      "source_location": "evaluations.test_unseen_topics.ER_SP",
+      "related_component": "R2: ER-SP",
+      "associated_experiment": "EXP_R2_UNSEEN_ACC, EXP_R2_UNSEEN_ECE",
+      "verification_status": "VERIFIED",
+      "sha256": "242f52af0851c8479e5d99fc954601288aef73f7386ece72fb3430d3b401f8c2"
+    },
+    {
+      "evidence_id": "EVID_R3_CKPT_V1",
+      "claim": "CM-RP v1 checkpoint contains 63,367 parameters mapping 423-d state vectors into 7 actions.",
+      "evidence_type": "MODEL_CHECKPOINT",
+      "file_path": "models/policy/cm_rp.pt",
+      "source_location": "state_dict: net.0 (128, 423), net.4 (64, 128), net.8 (7, 64)",
+      "related_component": "R3: CM-RP",
+      "associated_experiment": "EXP_R3_UNSEEN_V1_ANOMALY",
+      "verification_status": "VERIFIED",
+      "sha256": "5f8b1757d11dd0129150b722efa89d4073ebbb8ea695a1eda75b3b738436292f"
+    },
+    {
+      "evidence_id": "EVID_R3_CKPT_V2",
+      "claim": "CM-RP v2 checkpoint contains 63,367 parameters retrained with normalized telemetry and balanced action distribution.",
+      "evidence_type": "MODEL_CHECKPOINT",
+      "file_path": "models/policy/cm_rp_v2.pt",
+      "source_location": "state_dict: net.0 (128, 423), net.4 (64, 128), net.8 (7, 64)",
+      "related_component": "R3: CM-RP",
+      "associated_experiment": "EXP_R3_7ACT_INDEPENDENT_V2_NEURAL",
+      "verification_status": "VERIFIED",
+      "sha256": "eb37cabe0d233ea3b5e96d27d033d45cb2c64528a6027a9f8275801e1f80075d"
+    },
+    {
+      "evidence_id": "EVID_R3_INDEPENDENT_TEST",
+      "claim": "Independent 7-action benchmark contains 245 samples (35 per action) resolving the zero-support anomaly.",
+      "evidence_type": "DATASET_JSONL",
+      "file_path": "training/datasets/SETU-CM/splits/test_7action_independent.jsonl",
+      "source_location": "245 jsonl records, exactly 35 records per 7 actions",
+      "related_component": "R3: CM-RP",
+      "associated_experiment": "EXP_R3_7ACT_INDEPENDENT_V2_NEURAL",
+      "verification_status": "VERIFIED",
+      "sha256": "768ec4544c9f648d3d14120e1513a2153fa20dbb2b5c832fd5e752c11c953aa6"
+    },
+    {
+      "evidence_id": "EVID_R3_AUDIT_PREDICTIONS",
+      "claim": "Raw prediction log records individual v1, v2 neural, and v2 fallback outputs for all 245 independent test queries.",
+      "evidence_type": "EVALUATION_JSON",
+      "file_path": "research/paper/evidence/CRITICAL_AUDIT_PREDICTIONS.json",
+      "source_location": "List of 245 prediction dicts with confidence and ground truth",
+      "related_component": "R3: CM-RP",
+      "associated_experiment": "EXP_R3_7ACT_INDEPENDENT_V2_NEURAL",
+      "verification_status": "VERIFIED",
+      "sha256": "4ac6bff768b93b12c7859aa11070141da05728ae276ca1984473ff70436d23fb"
+    },
+    {
+      "evidence_id": "EVID_R4_ABLATION_METRICS",
+      "claim": "Complete R4 integration achieves 92.00% accuracy under grounded contexts vs 70.00% under placeholder contexts.",
+      "evidence_type": "EVALUATION_JSON",
+      "file_path": "research/paper/evidence/CRITICAL_AUDIT_METRICS.json",
+      "source_location": "ablation_investigation.C6_GroundedContext, C6_PlaceholderContext",
+      "related_component": "R4: Integrated Pipeline",
+      "associated_experiment": "EXP_R4_ABLATION_C6_GROUNDED",
+      "verification_status": "VERIFIED",
+      "sha256": "fb48e3e32dadc0faeda033a5cc7c332f44084d46aebf51c8a9a08834d0f8a40e"
+    },
+    {
+      "evidence_id": "EVID_ROUTER_BENCHMARK",
+      "claim": "AdaptiveModelRouter classifies 20 labeled test cases across 8 categories with 100% accuracy and 64.95 us latency.",
+      "evidence_type": "EVALUATION_JSON",
+      "file_path": "benchmarks/results/aggregated/routing_evaluation_summary.json",
+      "source_location": "metrics: total_samples=20, overall_accuracy=1.0, mean_latency_us=64.95",
+      "related_component": "AdaptiveModelRouter",
+      "associated_experiment": "EXP_ROUTING_STAGE6",
+      "verification_status": "VERIFIED",
+      "sha256": "4c87cf839f2e74ee35ecc91026e04843937f8f9330c13b3684aa31306df8b653"
+    },
+    {
+      "evidence_id": "EVID_SCHEDULER_BENCHMARK",
+      "claim": "Scheduler microbenchmark evaluated 1,920 requests across 6 algorithms and 8 workload profiles.",
+      "evidence_type": "EVALUATION_JSON",
+      "file_path": "benchmarks/results/aggregated/scheduler_microbenchmarks_summary.json",
+      "source_location": "metrics: uniform_short, uniform_long, mixed_sizes, burst, saturation, degradation, failure",
+      "related_component": "Schedulers Suite",
+      "associated_experiment": "EXP_SCHEDULER_MICROBENCHMARKS",
+      "verification_status": "VERIFIED",
+      "sha256": "d296964b40c119a51e223be936b3bc036e8be0cc28a3c29b12582d32c4eb4a85"
+    },
+    {
+      "evidence_id": "EVID_RELIABILITY_BENCHMARK",
+      "claim": "Automated fault-injection suite confirms 6/6 tests passing (worker failover, timeouts, backpressure, circuit breaker, idempotency guard, stale telemetry).",
+      "evidence_type": "EVALUATION_JSON",
+      "file_path": "benchmarks/results/aggregated/reliability_evaluation_summary.json",
+      "source_location": "metrics: total_reliability_tests=6, passed_tests=6, pass_rate_percent=100.0",
+      "related_component": "AdaptiveResilientScheduler",
+      "associated_experiment": "EXP_RELIABILITY_STAGE6",
+      "verification_status": "VERIFIED",
+      "sha256": "211cbb0b689d207b3f87a3009b30ce19c3036e4e474f5b597106ad54856b1fb8"
+    },
+    {
+      "evidence_id": "EVID_EASYOCR_BUG_RAW",
+      "claim": "EasyOCR 100% error rate in benchmark runner was caused by an AttributeError looking for bounding_box attribute on OCRBox.",
+      "evidence_type": "RAW_LOG_JSON",
+      "file_path": "benchmarks/results/raw/real_inference_benchmarks_raw.json",
+      "source_location": "raw_measurements[0:3].error: OCRBox attribute error",
+      "related_component": "Real Inference Runner",
+      "associated_experiment": "EXP_REAL_INFERENCE_EASYOCR",
+      "verification_status": "VERIFIED",
+      "sha256": "dc02c21b48230a21352c133d41e68ed5335c8a1258777605aa0429c3dbec8389"
+    },
+    {
+      "evidence_id": "EVID_QA_QUALITY_BENCHMARK",
+      "claim": "Real document QA evaluation across 8 questions achieved MRR 0.80 and 100% abstention on unsupported queries.",
+      "evidence_type": "EVALUATION_JSON",
+      "file_path": "benchmarks/results/aggregated/qa_quality_evaluation_summary.json",
+      "source_location": "metrics: mrr=0.8, precision@1=0.6, unsupported_abstention_accuracy=100.0",
+      "related_component": "Document QA & Citation Verifier",
+      "associated_experiment": "EXP_QA_QUALITY_STAGE6",
+      "verification_status": "VERIFIED",
+      "sha256": "f9ea857d2ecbf03588055b49764dc37f10f38e2732efe60de9152a4c38653566"
+    }
+  ]
+}

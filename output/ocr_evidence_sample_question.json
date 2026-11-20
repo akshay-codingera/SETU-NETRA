@@ -1,0 +1,374 @@
+{
+  "source_file": "D:\\Projects\\Setu-Netra\\sample_data\\sample_question.png",
+  "engine": "easyocr",
+  "engine_version": "1.7.2",
+  "processing_time_ms": 6744.43,
+  "status": "SUCCESS",
+  "detections": [
+    {
+      "text": "SETU-NETRA TEST BENCH: SAMPLE",
+      "confidence": 0.9919,
+      "polygon": [
+        [
+          59.0,
+          65.0
+        ],
+        [
+          223.0,
+          65.0
+        ],
+        [
+          223.0,
+          79.0
+        ],
+        [
+          59.0,
+          79.0
+        ]
+      ],
+      "bbox_xyxy": [
+        59.0,
+        65.0,
+        223.0,
+        79.0
+      ]
+    },
+    {
+      "text": "QUESTION",
+      "confidence": 0.9998,
+      "polygon": [
+        [
+          227.0,
+          65.0
+        ],
+        [
+          281.0,
+          65.0
+        ],
+        [
+          281.0,
+          79.0
+        ],
+        [
+          227.0,
+          79.0
+        ]
+      ],
+      "bbox_xyxy": [
+        227.0,
+        65.0,
+        281.0,
+        79.0
+      ]
+    },
+    {
+      "text": "What e",
+      "confidence": 0.2381,
+      "polygon": [
+        [
+          89.0,
+          151.0
+        ],
+        [
+          119.0,
+          151.0
+        ],
+        [
+          119.0,
+          163.0
+        ],
+        [
+          89.0,
+          163.0
+        ]
+      ],
+      "bbox_xyxy": [
+        89.0,
+        151.0,
+        119.0,
+        163.0
+      ]
+    },
+    {
+      "text": "the computationa",
+      "confidence": 0.95,
+      "polygon": [
+        [
+          125.0,
+          151.0
+        ],
+        [
+          207.0,
+          151.0
+        ],
+        [
+          207.0,
+          163.0
+        ],
+        [
+          125.0,
+          163.0
+        ]
+      ],
+      "bbox_xyxy": [
+        125.0,
+        151.0,
+        207.0,
+        163.0
+      ]
+    },
+    {
+      "text": "complexit",
+      "confidence": 0.2963,
+      "polygon": [
+        [
+          212.0,
+          152.0
+        ],
+        [
+          262.0,
+          152.0
+        ],
+        [
+          262.0,
+          160.0
+        ],
+        [
+          212.0,
+          160.0
+        ]
+      ],
+      "bbox_xyxy": [
+        212.0,
+        152.0,
+        262.0,
+        160.0
+      ]
+    },
+    {
+      "text": "of performing",
+      "confidence": 0.8995,
+      "polygon": [
+        [
+          263.0,
+          151.0
+        ],
+        [
+          329.0,
+          151.0
+        ],
+        [
+          329.0,
+          165.0
+        ],
+        [
+          263.0,
+          165.0
+        ]
+      ],
+      "bbox_xyxy": [
+        263.0,
+        151.0,
+        329.0,
+        165.0
+      ]
+    },
+    {
+      "text": "convolution",
+      "confidence": 0.3133,
+      "polygon": [
+        [
+          344.0,
+          152.0
+        ],
+        [
+          398.0,
+          152.0
+        ],
+        [
+          398.0,
+          160.0
+        ],
+        [
+          344.0,
+          160.0
+        ]
+      ],
+      "bbox_xyxy": [
+        344.0,
+        152.0,
+        398.0,
+        160.0
+      ]
+    },
+    {
+      "text": "onan imaqe",
+      "confidence": 0.3715,
+      "polygon": [
+        [
+          80.0,
+          198.0
+        ],
+        [
+          136.0,
+          198.0
+        ],
+        [
+          136.0,
+          206.0
+        ],
+        [
+          80.0,
+          206.0
+        ]
+      ],
+      "bbox_xyxy": [
+        80.0,
+        198.0,
+        136.0,
+        206.0
+      ]
+    },
+    {
+      "text": "ofsize HxWwitha kernelofsize KxK?",
+      "confidence": 0.8139,
+      "polygon": [
+        [
+          137.0,
+          195.0
+        ],
+        [
+          323.0,
+          195.0
+        ],
+        [
+          323.0,
+          209.0
+        ],
+        [
+          137.0,
+          209.0
+        ]
+      ],
+      "bbox_xyxy": [
+        137.0,
+        195.0,
+        323.0,
+        209.0
+      ]
+    },
+    {
+      "text": "[A] OH -",
+      "confidence": 0.5025,
+      "polygon": [
+        [
+          77.0,
+          283.0
+        ],
+        [
+          121.0,
+          283.0
+        ],
+        [
+          121.0,
+          299.0
+        ],
+        [
+          77.0,
+          299.0
+        ]
+      ],
+      "bbox_xyxy": [
+        77.0,
+        283.0,
+        121.0,
+        299.0
+      ]
+    },
+    {
+      "text": "[C] OH",
+      "confidence": 0.9271,
+      "polygon": [
+        [
+          79.0,
+          375.0
+        ],
+        [
+          123.0,
+          375.0
+        ],
+        [
+          123.0,
+          389.0
+        ],
+        [
+          79.0,
+          389.0
+        ]
+      ],
+      "bbox_xyxy": [
+        79.0,
+        375.0,
+        123.0,
+        389.0
+      ]
+    },
+    {
+      "text": "IDJ O(K 4",
+      "confidence": 0.5853,
+      "polygon": [
+        [
+          79.0,
+          421.0
+        ],
+        [
+          131.0,
+          421.0
+        ],
+        [
+          131.0,
+          433.0
+        ],
+        [
+          79.0,
+          433.0
+        ]
+      ],
+      "bbox_xyxy": [
+        79.0,
+        421.0,
+        131.0,
+        433.0
+      ]
+    },
+    {
+      "text": "Note: Assume stride 1and standard direct spatialdomaincomputation:",
+      "confidence": 0.8085,
+      "polygon": [
+        [
+          69.0,
+          511.0
+        ],
+        [
+          389.0,
+          511.0
+        ],
+        [
+          389.0,
+          523.0
+        ],
+        [
+          69.0,
+          523.0
+        ]
+      ],
+      "bbox_xyxy": [
+        69.0,
+        511.0,
+        389.0,
+        523.0
+      ]
+    }
+  ],
+  "raw_transcript": "SETU-NETRA TEST BENCH: SAMPLE\nQUESTION\nWhat e\nthe computationa\ncomplexit\nof performing\nconvolution\nonan imaqe\nofsize HxWwitha kernelofsize KxK?\n[A] OH -\n[C] OH\nIDJ O(K 4\nNote: Assume stride 1and standard direct spatialdomaincomputation:"
+}

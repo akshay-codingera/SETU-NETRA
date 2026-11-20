@@ -1,0 +1,358 @@
+{
+  "doc_id": "synth_0189",
+  "page_id": "synth_0189_p1",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "TITLE",
+      "text": "TECHNICAL EVALUATION BENCH: DATABASE & OS ARCHITECTURE",
+      "bbox": [
+        60.0,
+        64.0,
+        784.0,
+        80.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "SECTION C: ALGORITHMIC COMPLEXITY & REASONING",
+      "bbox": [
+        60.0,
+        99.0,
+        491.0,
+        111.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 3,
+      "block_type": "QUESTION",
+      "text": "Q1. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        138.0,
+        573.0,
+        172.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        186.0,
+        445.0,
+        199.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        205.0,
+        350.0,
+        218.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        224.0,
+        405.0,
+        237.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "[D] Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        243.0,
+        385.0,
+        256.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q2. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        289.0,
+        575.0,
+        323.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(A) 1NF",
+      "bbox": [
+        80.0,
+        337.0,
+        125.0,
+        350.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(B) 2NF",
+      "bbox": [
+        80.0,
+        356.0,
+        125.0,
+        369.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q3. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        397.0,
+        514.0,
+        431.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "(A) O(N log N)",
+      "bbox": [
+        80.0,
+        445.0,
+        162.0,
+        458.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "(B) O(N^2)",
+      "bbox": [
+        80.0,
+        464.0,
+        141.0,
+        477.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "(C) O(N)",
+      "bbox": [
+        80.0,
+        483.0,
+        128.0,
+        496.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "(D) O(2^N)",
+      "bbox": [
+        80.0,
+        502.0,
+        141.0,
+        515.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q4. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        620.0,
+        138.0,
+        1133.0,
+        172.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        640.0,
+        186.0,
+        1005.0,
+        199.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        640.0,
+        205.0,
+        910.0,
+        218.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        640.0,
+        224.0,
+        965.0,
+        237.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 20,
+      "block_type": "QUESTION",
+      "text": "Q5. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        620.0,
+        266.0,
+        1135.0,
+        280.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 21,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        629.0,
+        289.0,
+        895.0,
+        341.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "[A] GROUP BY",
+      "bbox": [
+        640.0,
+        351.0,
+        730.0,
+        364.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "[B] HAVING",
+      "bbox": [
+        640.0,
+        370.0,
+        711.0,
+        383.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "[C] WHERE",
+      "bbox": [
+        640.0,
+        389.0,
+        709.0,
+        402.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 25,
+      "block_type": "QUESTION",
+      "text": "Q6. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        620.0,
+        427.0,
+        1085.0,
+        458.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "(A) Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        640.0,
+        472.0,
+        1086.0,
+        485.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 27,
+      "block_type": "OPTION",
+      "text": "(B) Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        640.0,
+        491.0,
+        992.0,
+        504.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 28,
+      "block_type": "OPTION",
+      "text": "(C) Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        640.0,
+        510.0,
+        989.0,
+        523.0
+      ],
+      "page_num": 1
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "(D) Replicating at least one log entry to all followers",
+      "bbox": [
+        640.0,
+        529.0,
+        938.0,
+        542.0
+      ],
+      "page_num": 1
+    }
+  ],
+  "edges_count": 142
+}

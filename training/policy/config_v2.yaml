@@ -1,0 +1,30 @@
+# Training Configuration for CM-RP v2 (Generalized Contextual Reasoning Policy)
+
+dataset:
+  data_dir: "training/datasets/SETU-CM/splits"
+  train_file: "train.jsonl"
+  val_file: "val.jsonl"
+  test_file: "test.jsonl"
+  test_in_domain_file: "test_in_domain.jsonl"
+  manifest_path: "training/datasets/SETU-CM/dataset_manifest.json"
+
+model:
+  input_dim: 423
+  hidden_dim1: 128
+  hidden_dim2: 64
+  num_actions: 7
+  dropout: 0.20
+
+training:
+  seed: 42
+  device: "cpu"
+  batch_size: 32
+  epochs: 35
+  learning_rate: 0.001
+  weight_decay: 0.0003
+  focal_gamma: 1.5
+  lr_patience: 3
+  lr_factor: 0.5
+  early_stopping_patience: 8
+  output_dir: "models/policy"
+  model_save_path: "models/policy/cm_rp_v2.pt"

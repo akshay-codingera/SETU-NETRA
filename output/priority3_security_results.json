@@ -1,0 +1,50 @@
+{
+  "local_only_mode_enforcement": {
+    "gemini": {
+      "status": "BLOCKED_BY_PERMISSION_ERROR",
+      "error_cited": "Local-Only Privacy Mode is active. Outgoing cloud request to 'gemini' was blocked.",
+      "pre_execution_blocked": true
+    },
+    "groq": {
+      "status": "BLOCKED_BY_PERMISSION_ERROR",
+      "error_cited": "Local-Only Privacy Mode is active. Outgoing cloud request to 'groq' was blocked.",
+      "pre_execution_blocked": true
+    },
+    "openrouter": {
+      "status": "BLOCKED_BY_PERMISSION_ERROR",
+      "error_cited": "Local-Only Privacy Mode is active. Outgoing cloud request to 'openrouter' was blocked.",
+      "pre_execution_blocked": true
+    }
+  },
+  "network_isolation_socket_audit": {
+    "outbound_connections_count": 0,
+    "status": "PASSED (0 Sockets Opened)"
+  },
+  "remote_daemon_rejection": {
+    "remote_host": "http://192.168.1.150:11434",
+    "is_available_result": false,
+    "execute_status": "REJECTED",
+    "rejection_message": "Local-Only Privacy Mode blocked non-loopback Ollama host 'http://192.168.1.150:11434'."
+  },
+  "upload_security_and_traversal": {
+    "size_ceiling_enforced_413": true,
+    "path_traversal_sanitized": true,
+    "sanitized_filename": "malicious_payload.pdf"
+  },
+  "sql_injection_defense": {
+    "tested_payloads": [
+      "1' OR '1'='1",
+      "doc_1'; DROP TABLE documents; --",
+      "admin' UNION SELECT 1, 2, 3, 4 --"
+    ],
+    "parameterization_intact": true,
+    "table_integrity_preserved": true
+  },
+  "credential_masking_audit": {
+    "gemini_masked": "AIza****2345",
+    "groq_masked": "gsk_****7890",
+    "openrouter_masked": "sk-o****CDEF",
+    "leak_detected": false
+  },
+  "audit_verdict": "VERIFIED_SECURE"
+}

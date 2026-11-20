@@ -1,0 +1,226 @@
+{
+  "doc_id": "synth_0050",
+  "page_id": "synth_0050_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        64.0,
+        553.0,
+        78.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q5. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        97.0,
+        773.0,
+        111.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "OPTION",
+      "text": "A. Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        79.0,
+        124.0,
+        404.0,
+        136.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "B. Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        141.0,
+        386.0,
+        151.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "QUESTION",
+      "text": "Q6. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        176.0,
+        752.0,
+        190.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        79.0,
+        203.0,
+        419.0,
+        215.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        220.0,
+        327.0,
+        230.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "C. Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        235.0,
+        381.0,
+        247.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "QUESTION",
+      "text": "Q7. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        281.0,
+        981.0,
+        295.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "A. 1NF",
+      "bbox": [
+        79.0,
+        309.0,
+        117.0,
+        318.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "B. 2NF",
+      "bbox": [
+        80.0,
+        324.0,
+        117.0,
+        333.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "C. 3NF",
+      "bbox": [
+        80.0,
+        339.0,
+        118.0,
+        348.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "D. BCNF",
+      "bbox": [
+        80.0,
+        354.0,
+        128.0,
+        363.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "QUESTION",
+      "text": "Q8. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        388.0,
+        591.0,
+        402.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        411.0,
+        335.0,
+        463.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "[A] GROUP BY",
+      "bbox": [
+        80.0,
+        473.0,
+        160.0,
+        484.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[B] HAVING",
+      "bbox": [
+        80.0,
+        490.0,
+        143.0,
+        501.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[C] WHERE",
+      "bbox": [
+        80.0,
+        507.0,
+        143.0,
+        518.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 67
+}

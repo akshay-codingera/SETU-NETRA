@@ -1,0 +1,8 @@
+condition,name,accuracy,grounding_score,latency_ms
+C1,Baseline Heuristic,44.0,0.608,0.29
+C2,Baseline + SR-EdgeNet,42.0,0.594,0.17
+C3,Baseline + ER-SP,24.0,0.468,0.49
+C4,Baseline + CM-RP v2,72.0,0.932,0.44
+C5,SR-EdgeNet + ER-SP,44.0,0.608,0.36
+C6_Placeholder,Complete R4 (Dummy Passages),70.0,0.93,135.99
+C6_Grounded,Complete R4 (Grounded Passages),92.0,0.946,24.44

@@ -1,0 +1,470 @@
+{
+  "combined": {
+    "condition": "Combined (FUNSD + Synthetic)",
+    "checkpoint_path": "models/structure/sr_edge_net.pt",
+    "parameters": 414088,
+    "best_epoch": 4,
+    "best_macro_f1": 0.9781,
+    "best_metrics": {
+      "accuracy": 0.9759,
+      "macro_precision": 0.973,
+      "macro_recall": 0.9835,
+      "macro_f1": 0.9781,
+      "per_class": {
+        "PARENT_OF": {
+          "precision": 0.9399,
+          "recall": 0.9593,
+          "f1": 0.9495,
+          "support": 1451
+        },
+        "OPTION_OF": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 868
+        },
+        "CONTINUATION_OF": {
+          "precision": 0.9671,
+          "recall": 1.0,
+          "f1": 0.9833,
+          "support": 323
+        },
+        "NONE": {
+          "precision": 0.9849,
+          "recall": 0.9746,
+          "f1": 0.9797,
+          "support": 3942
+        }
+      },
+      "confusion_matrix": [
+        [
+          1392,
+          0,
+          0,
+          59
+        ],
+        [
+          0,
+          868,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          323,
+          0
+        ],
+        [
+          89,
+          0,
+          11,
+          3842
+        ]
+      ]
+    },
+    "training_duration_sec": 53.06,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.0285,
+        "val_loss": 0.0103,
+        "val_acc": 0.9013,
+        "val_macro_f1": 0.8977,
+        "lr": 0.001
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.0074,
+        "val_loss": 0.0226,
+        "val_acc": 0.9107,
+        "val_macro_f1": 0.8698,
+        "lr": 0.001
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.0059,
+        "val_loss": 0.0087,
+        "val_acc": 0.9658,
+        "val_macro_f1": 0.9703,
+        "lr": 0.001
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.0066,
+        "val_loss": 0.016,
+        "val_acc": 0.9759,
+        "val_macro_f1": 0.9781,
+        "lr": 0.001
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.0038,
+        "val_loss": 0.0177,
+        "val_acc": 0.9739,
+        "val_macro_f1": 0.9765,
+        "lr": 0.001
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.0036,
+        "val_loss": 0.013,
+        "val_acc": 0.9649,
+        "val_macro_f1": 0.9705,
+        "lr": 0.001
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.0041,
+        "val_loss": 0.0236,
+        "val_acc": 0.9751,
+        "val_macro_f1": 0.9778,
+        "lr": 0.0005
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.0017,
+        "val_loss": 0.0206,
+        "val_acc": 0.976,
+        "val_macro_f1": 0.9778,
+        "lr": 0.0005
+      }
+    ]
+  },
+  "funsd_only": {
+    "condition": "FUNSD Only",
+    "checkpoint_path": "models/structure/sr_edge_net_funsd_only.pt",
+    "parameters": 414088,
+    "best_epoch": 12,
+    "best_macro_f1": 0.4766,
+    "best_metrics": {
+      "accuracy": 0.955,
+      "macro_precision": 0.4765,
+      "macro_recall": 0.4768,
+      "macro_f1": 0.4766,
+      "per_class": {
+        "PARENT_OF": {
+          "precision": 0.942,
+          "recall": 0.9464,
+          "f1": 0.9442,
+          "support": 1064
+        },
+        "OPTION_OF": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "CONTINUATION_OF": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "NONE": {
+          "precision": 0.9638,
+          "recall": 0.9608,
+          "f1": 0.9623,
+          "support": 1581
+        }
+      },
+      "confusion_matrix": [
+        [
+          1007,
+          0,
+          0,
+          57
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          62,
+          0,
+          0,
+          1519
+        ]
+      ]
+    },
+    "training_duration_sec": 33.07,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.0424,
+        "val_loss": 0.019,
+        "val_acc": 0.7974,
+        "val_macro_f1": 0.3987,
+        "lr": 0.001
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.0152,
+        "val_loss": 0.0176,
+        "val_acc": 0.9119,
+        "val_macro_f1": 0.4552,
+        "lr": 0.001
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.01,
+        "val_loss": 0.0193,
+        "val_acc": 0.9331,
+        "val_macro_f1": 0.4658,
+        "lr": 0.001
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.0077,
+        "val_loss": 0.0196,
+        "val_acc": 0.9259,
+        "val_macro_f1": 0.4621,
+        "lr": 0.001
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.0071,
+        "val_loss": 0.0217,
+        "val_acc": 0.9327,
+        "val_macro_f1": 0.4656,
+        "lr": 0.001
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.0064,
+        "val_loss": 0.0215,
+        "val_acc": 0.9353,
+        "val_macro_f1": 0.4668,
+        "lr": 0.001
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.0055,
+        "val_loss": 0.0253,
+        "val_acc": 0.9285,
+        "val_macro_f1": 0.4634,
+        "lr": 0.001
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.0047,
+        "val_loss": 0.0237,
+        "val_acc": 0.944,
+        "val_macro_f1": 0.4712,
+        "lr": 0.001
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.0036,
+        "val_loss": 0.0476,
+        "val_acc": 0.9482,
+        "val_macro_f1": 0.4732,
+        "lr": 0.001
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.0032,
+        "val_loss": 0.0267,
+        "val_acc": 0.9429,
+        "val_macro_f1": 0.4706,
+        "lr": 0.001
+      },
+      {
+        "epoch": 11,
+        "train_loss": 0.003,
+        "val_loss": 0.0438,
+        "val_acc": 0.9467,
+        "val_macro_f1": 0.4725,
+        "lr": 0.001
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.0028,
+        "val_loss": 0.0315,
+        "val_acc": 0.955,
+        "val_macro_f1": 0.4766,
+        "lr": 0.001
+      },
+      {
+        "epoch": 13,
+        "train_loss": 0.0026,
+        "val_loss": 0.0213,
+        "val_acc": 0.91,
+        "val_macro_f1": 0.4543,
+        "lr": 0.001
+      },
+      {
+        "epoch": 14,
+        "train_loss": 0.0027,
+        "val_loss": 0.0385,
+        "val_acc": 0.955,
+        "val_macro_f1": 0.4766,
+        "lr": 0.001
+      },
+      {
+        "epoch": 15,
+        "train_loss": 0.0017,
+        "val_loss": 0.038,
+        "val_acc": 0.9516,
+        "val_macro_f1": 0.475,
+        "lr": 0.0005
+      }
+    ]
+  },
+  "synthetic_only": {
+    "condition": "Synthetic Only",
+    "checkpoint_path": "models/structure/sr_edge_net_synth_only.pt",
+    "parameters": 414088,
+    "best_epoch": 6,
+    "best_macro_f1": 0.9957,
+    "best_metrics": {
+      "accuracy": 0.9975,
+      "macro_precision": 0.9925,
+      "macro_recall": 0.9989,
+      "macro_f1": 0.9957,
+      "per_class": {
+        "PARENT_OF": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 387
+        },
+        "OPTION_OF": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 868
+        },
+        "CONTINUATION_OF": {
+          "precision": 0.97,
+          "recall": 1.0,
+          "f1": 0.9848,
+          "support": 323
+        },
+        "NONE": {
+          "precision": 1.0,
+          "recall": 0.9958,
+          "f1": 0.9979,
+          "support": 2361
+        }
+      },
+      "confusion_matrix": [
+        [
+          387,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          868,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          323,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          2351
+        ]
+      ]
+    },
+    "training_duration_sec": 57.85,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.0231,
+        "val_loss": 0.0084,
+        "val_acc": 0.984,
+        "val_macro_f1": 0.9752,
+        "lr": 0.001
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.0026,
+        "val_loss": 0.0044,
+        "val_acc": 0.9962,
+        "val_macro_f1": 0.9936,
+        "lr": 0.001
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.0019,
+        "val_loss": 0.0024,
+        "val_acc": 0.9802,
+        "val_macro_f1": 0.969,
+        "lr": 0.001
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.0023,
+        "val_loss": 0.001,
+        "val_acc": 0.9954,
+        "val_macro_f1": 0.9925,
+        "lr": 0.001
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.0008,
+        "val_loss": 0.0013,
+        "val_acc": 0.9817,
+        "val_macro_f1": 0.9711,
+        "lr": 0.0005
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.0008,
+        "val_loss": 0.0006,
+        "val_acc": 0.9975,
+        "val_macro_f1": 0.9957,
+        "lr": 0.0005
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.0007,
+        "val_loss": 0.0007,
+        "val_acc": 0.9975,
+        "val_macro_f1": 0.9957,
+        "lr": 0.0005
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.0017,
+        "val_loss": 0.0043,
+        "val_acc": 0.983,
+        "val_macro_f1": 0.9727,
+        "lr": 0.0005
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.001,
+        "val_loss": 0.0006,
+        "val_acc": 0.9975,
+        "val_macro_f1": 0.9957,
+        "lr": 0.00025
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.0006,
+        "val_loss": 0.0006,
+        "val_acc": 0.9975,
+        "val_macro_f1": 0.9957,
+        "lr": 0.00025
+      }
+    ]
+  }
+}

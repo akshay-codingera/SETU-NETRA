@@ -1,0 +1,36 @@
+{
+  "adapter_no_think": {
+    "status": "SUCCESS",
+    "latency_ms": 5080.82,
+    "result_chars": 357,
+    "prompt_tokens": 25,
+    "completion_tokens": 59,
+    "tokens_per_second": 13.49,
+    "has_answer": true
+  },
+  "adapter_think": {
+    "status": "SUCCESS",
+    "latency_ms": 23464.79,
+    "has_answer": true,
+    "has_thinking_trace": true,
+    "thinking_chars": 1026,
+    "tokens_per_second": 11.01
+  },
+  "pipeline_execution": {
+    "status": "SUCCESS",
+    "model_id": "ollama/qwen3.5:2b",
+    "worker_id": "ollama/qwen3.5:2b_w1",
+    "latency_ms": 14944.62,
+    "has_answer": true
+  },
+  "timeout_handling": {
+    "status": "FAILED",
+    "error": "Unexpected error executing Ollama request: timed out",
+    "handled_gracefully": true
+  },
+  "memory_protection": {
+    "smollm_unloaded": false,
+    "low_mem_blocked": true,
+    "low_mem_message": "Critically low host RAM (500.0 MB available, minimum 1000 MB required for Ollama)."
+  }
+}

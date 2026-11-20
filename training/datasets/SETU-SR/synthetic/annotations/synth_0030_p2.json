@@ -1,0 +1,226 @@
+{
+  "doc_id": "synth_0030",
+  "page_id": "synth_0030_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 1,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        64.0,
+        553.0,
+        78.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q5. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        60.0,
+        96.0,
+        591.0,
+        110.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        69.0,
+        119.0,
+        335.0,
+        171.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "(A) GROUP BY",
+      "bbox": [
+        80.0,
+        181.0,
+        170.0,
+        194.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(B) HAVING",
+      "bbox": [
+        80.0,
+        200.0,
+        151.0,
+        213.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "(C) WHERE",
+      "bbox": [
+        80.0,
+        219.0,
+        149.0,
+        232.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "OPTION",
+      "text": "(D) SELECT",
+      "bbox": [
+        80.0,
+        238.0,
+        152.0,
+        251.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "QUESTION",
+      "text": "Q6. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        277.0,
+        847.0,
+        291.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(A) Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        305.0,
+        526.0,
+        318.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(B) Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        324.0,
+        432.0,
+        337.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(C) Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        343.0,
+        429.0,
+        356.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "(D) Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        362.0,
+        378.0,
+        375.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "QUESTION",
+      "text": "Q7. In convolutional neural network architecture, what is the spatial output size of a 224x224 input image convolved with a 7x7 filter, stride 2, and padding 3?",
+      "bbox": [
+        60.0,
+        403.0,
+        1071.0,
+        417.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "A. 112x112",
+      "bbox": [
+        79.0,
+        431.0,
+        146.0,
+        441.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "B. 110x110",
+      "bbox": [
+        80.0,
+        447.0,
+        146.0,
+        457.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q8. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        485.0,
+        697.0,
+        499.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "(A) (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        513.0,
+        239.0,
+        526.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "(B) (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        532.0,
+        182.0,
+        545.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 90
+}

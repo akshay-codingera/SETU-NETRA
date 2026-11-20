@@ -1,0 +1,307 @@
+{
+  "audit_metadata": {
+    "session_id": "complete_audit_20261120_045130",
+    "timestamp_iso": "2026-11-20T05:07:00Z",
+    "auditor_role": "Senior Software Architect, CS Research Scientist, ML Engineer, Reproducibility Auditor, and IEEE Reviewer",
+    "project_name": "SETU-NETRA",
+    "scope": "Full Research Codebase, Checkpoints, Datasets, Benchmarks, Runtimes, Figures, and IEEE Manuscript Audit",
+    "overall_verdict": "EXPERIMENTALLY SUPPORTED, MANUSCRIPT NEEDS CORRECTION"
+  },
+  "repository": {
+    "root_path": "d:\\Projects\\Setu-Netra",
+    "git_repository_status": "UNINITIALIZED (No .git folder present in workspace root)",
+    "tracked_directories": [
+      "src",
+      "models",
+      "training",
+      "benchmarks",
+      "research",
+      "tests",
+      "reports",
+      "frontend",
+      "sample_data"
+    ],
+    "total_source_files_python": 112,
+    "total_test_files": 40
+  },
+  "environment": {
+    "os_platform": "Windows-11-10.0.26200-SP0",
+    "architecture": "AMD64",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cores_physical": 10,
+    "cores_logical": 12,
+    "total_ram_gb": 15.65,
+    "total_ram_mb": 16027.7,
+    "python_version": "3.14.7",
+    "pytorch_version": "2.14.1+cpu",
+    "cuda_available": false,
+    "execution_constraint_verified": "Strict 16 GB RAM and CPU-only execution confirmed"
+  },
+  "architecture": {
+    "pipeline_flow": "Document Ingestion -> OCR -> Block Framing -> SR-EdgeNet (R1) -> Hybrid Retrieval -> ER-SP (R2) -> CM-RP Policy (R3) -> Specialized Solvers -> CitationVerifier -> Answer / Abstention",
+    "r1_parameters": 414088,
+    "r2_parameters": 560134,
+    "r3_parameters": 63367,
+    "total_trainable_parameters": 1037589
+  },
+  "r1_sr_edge_net": {
+    "class_name": "SREdgeClassifier",
+    "source_file": "src/setu_netra/structure/sr_edge_net.py",
+    "checkpoint": "models/structure/sr_edge_net.pt",
+    "parameters": 414088,
+    "classes": [
+      "PARENT_OF",
+      "OPTION_OF",
+      "CONTINUATION_OF",
+      "NONE"
+    ],
+    "input_dimensions": {
+      "text_embeddings": 768,
+      "spatial_features": 15
+    },
+    "dataset_edges": 47557,
+    "dataset_documents": 459,
+    "metrics": {
+      "synthetic_test_accuracy": 0.9946,
+      "synthetic_test_macro_f1": 0.9909,
+      "funsd_only_accuracy": 0.5962,
+      "indomain_gold_combined_accuracy": 0.451,
+      "indomain_gold_synth_only_accuracy": 0.6569
+    },
+    "audit_finding": "Synthetic-only checkpoint outperforms combined checkpoint on in-domain gold scans because FUNSD introduced label noise on MCQ document structures."
+  },
+  "r2_er_sp": {
+    "class_name": "ERSPClassifier",
+    "source_file": "src/setu_netra/evidence/er_sp.py",
+    "checkpoint": "models/evidence/er_sp.pt",
+    "parameters": 560134,
+    "classes": [
+      "SUFFICIENT",
+      "PARTIALLY_SUFFICIENT",
+      "CONTRADICTORY",
+      "IRRELEVANT",
+      "UNVERIFIABLE"
+    ],
+    "interaction_tensor_dim": 1537,
+    "dataset_records": 2252,
+    "metrics": {
+      "unseen_topic_accuracy": 0.8618,
+      "unseen_topic_macro_f1": 0.8553,
+      "unseen_topic_ece": 0.0889,
+      "contradiction_precision": 1.0,
+      "contradiction_recall": 0.9559,
+      "baseline_cosine_accuracy": 0.3765,
+      "indomain_gold_accuracy": 0.5833,
+      "indomain_gold_samples": 12
+    },
+    "audit_finding": "Contradiction precision is 100.0%, but recall is 95.59% due to 3 contradictory examples predicted as PARTIALLY_SUFFICIENT. In-domain gold set is statistically limited (N=12)."
+  },
+  "r3_cm_rp": {
+    "class_name": "CMPolicyNetwork",
+    "source_file": "src/setu_netra/policy/cm_rp.py",
+    "checkpoint_v1": "models/policy/cm_rp.pt",
+    "checkpoint_v2": "models/policy/cm_rp_v2.pt",
+    "parameters": 63367,
+    "state_vector_dimension": 423,
+    "actions": [
+      "ARITHMETIC_SOLVER",
+      "DBMS_SOLVER",
+      "FORMAL_LOGIC_SOLVER",
+      "EXTRACTIVE_QA",
+      "LOCAL_SLM",
+      "ADDITIONAL_RETRIEVAL",
+      "ABSTAIN"
+    ],
+    "metrics": {
+      "historical_unseen_v1_accuracy": 0.5765,
+      "historical_zero_support_classes": [
+        "FORMAL_LOGIC_SOLVER",
+        "LOCAL_SLM",
+        "ADDITIONAL_RETRIEVAL"
+      ],
+      "independent_7action_v1_accuracy": 0.9102,
+      "independent_7action_v2_neural_accuracy": 0.9429,
+      "independent_7action_v2_neural_macro_f1": 0.9433,
+      "independent_7action_v2_fallback_accuracy": 0.8816,
+      "independent_sample_count": 245
+    },
+    "audit_finding": "The 340-sample unseen test set had an evaluation defect (3 zero-support actions). The independent 245-sample test set (35/action) proved pure neural CM-RP v2 achieves 94.29% accuracy."
+  },
+  "r4_integration": {
+    "pipeline_class": "IntegratedSetuNetraPipeline",
+    "source_file": "src/setu_netra/pipeline/integrated_pipeline.py",
+    "ablation_study_suite_size": 50,
+    "configurations": {
+      "C1_Baseline_RAG": {
+        "accuracy": 0.44,
+        "latency_ms": 0.35
+      },
+      "C2_Baseline_SREdgeNet": {
+        "accuracy": 0.42,
+        "latency_ms": 0.19
+      },
+      "C3_Baseline_ERSP": {
+        "accuracy": 0.24,
+        "latency_ms": 0.67
+      },
+      "C4_Baseline_CMRP": {
+        "accuracy": 0.72,
+        "latency_ms": 0.32
+      },
+      "C5_SREdgeNet_ERSP": {
+        "accuracy": 0.44,
+        "latency_ms": 0.66
+      },
+      "C6_PlaceholderContext": {
+        "accuracy": 0.7,
+        "abstention_f1": 0.5333,
+        "grounding_score": 0.93,
+        "latency_ms": 135.99
+      },
+      "C6_GroundedContext": {
+        "accuracy": 0.92,
+        "abstention_f1": 0.9524,
+        "grounding_score": 0.946,
+        "latency_ms": 24.44
+      }
+    },
+    "statistical_tests": {
+      "mcnemar_chi2_continuity_corrected": 5.7857,
+      "mcnemar_p_value": 0.016157,
+      "exact_binomial_p_value": 0.012939,
+      "statistically_significant": true
+    },
+    "audit_finding": "The complete R4 pipeline scores 70% under placeholder contexts because the CitationVerifier triggers anti-hallucination refusals on dummy strings; it surges to 92% under genuine grounded contexts."
+  },
+  "adaptive_model_router": {
+    "source_file": "src/setu_netra/routing/router.py",
+    "samples_evaluated": 20,
+    "routing_accuracy": 1.0,
+    "decision_latency_us": 64.95,
+    "sla_fallback_accuracy": 1.0,
+    "audit_finding": "100% accuracy verified on 20 synthetic cases, but benchmark has regex alignment and small sample limitation."
+  },
+  "schedulers": {
+    "source_directory": "src/setu_netra/routing/schedulers/",
+    "algorithms_implemented": [
+      "ROUND_ROBIN",
+      "RANDOM",
+      "LEAST_OUTSTANDING",
+      "SECT",
+      "CAPACITY_AWARE",
+      "RESILIENT_CAPACITY_AWARE"
+    ],
+    "sect_expansion_verified": "Shortest Estimated Completion Time",
+    "total_microbenchmark_requests": 1920,
+    "workloads_evaluated": 8,
+    "mean_overheads_us": {
+      "ROUND_ROBIN": 23.92,
+      "RANDOM": 19.35,
+      "LEAST_OUTSTANDING": 31.2,
+      "SECT": 38.45,
+      "CAPACITY_AWARE": 44.12,
+      "RESILIENT_CAPACITY_AWARE": 52.6
+    }
+  },
+  "resilient_capacity_aware": {
+    "source_file": "src/setu_netra/routing/schedulers/adaptive_resilient.py",
+    "circuit_breaking": true,
+    "cooldown_sec": 5.0,
+    "max_retries": 2,
+    "idempotency_guard": true,
+    "audit_finding": "Prevents non-idempotent task retries and maintains 100% request completion under single-worker crash."
+  },
+  "reliability_tests": {
+    "source_file": "tests/test_reliability_suite.py",
+    "total_tests": 6,
+    "passed_tests": 6,
+    "failed_tests": 0,
+    "pass_rate_percent": 100.0,
+    "scenarios": [
+      "worker_crash_failover",
+      "execution_timeout",
+      "queue_saturation",
+      "circuit_breaker",
+      "idempotency_guard",
+      "stale_telemetry"
+    ]
+  },
+  "real_inference": {
+    "source_file": "benchmarks/runners/inference_runner.py",
+    "summary_file": "benchmarks/results/aggregated/real_inference_benchmarks_summary.json",
+    "minilm_latency_ms": 8.57,
+    "offline_hash_latency_ms": 0.64,
+    "smollm2_latency_ms": 1208.14,
+    "easyocr_error_rate_percent": 100.0,
+    "easyocr_defect_cause": "AttributeError looking for box.bounding_box instead of box.polygon",
+    "qwen_presence_status": "Omitted from aggregated inference benchmark file"
+  },
+  "document_qa": {
+    "summary_file": "benchmarks/results/aggregated/qa_quality_evaluation_summary.json",
+    "samples_evaluated": 8,
+    "mrr": 0.8,
+    "precision_at_1": 0.6,
+    "unsupported_abstention_accuracy": 100.0,
+    "hallucination_rate_percent": 0.0,
+    "audit_finding": "Small sample size limitation (N=8) causes wide 95% confidence intervals."
+  },
+  "figure_audit": [
+    {
+      "path": "research/paper/figures/setu_netra_platform_vision.png",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "research/paper/figures/architecture_pipeline.png",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "research/paper/figures/confusion_matrices.png",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "research/paper/figures/ablation_barchart.png",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "research/paper/figures/execution_trace_demo.png",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "benchmarks/results/charts/worker_utilization.png",
+      "status": "VERIFIED_MISNOMER"
+    }
+  ],
+  "manuscript_audit": {
+    "manuscript_path": "research/paper/IEEE_SETU_NETRA_PAPER.md",
+    "pdf_path": "research/paper/IEEE_SETU_NETRA_PAPER.pdf",
+    "author": "Akshat Sharma",
+    "affiliation": "Document Intelligence & AI Systems Architecture Laboratory, Department of Computer Science & Engineering, Project SETU-NETRA",
+    "page_count": 5,
+    "references_count": 16,
+    "audit_status": "EXCELLENT_TECHNICAL_PRECISION, NEEDS_EMPIRICAL_CAVEATS_ON_REAL_SCANS_AND_EASYOCR"
+  },
+  "final_assessment": {
+    "repository_inspection": "PASS",
+    "architecture_verification": "PASS",
+    "r1_implementation": "PASS",
+    "r1_experimental_validity": "PASS WITH LIMITATIONS (Domain shift on warped camera scans)",
+    "r2_implementation": "PASS",
+    "r2_experimental_validity": "PASS WITH LIMITATIONS (In-domain gold set size N=12)",
+    "r3_implementation": "PASS",
+    "r3_experimental_validity": "PASS (Validated via independent 245-sample test)",
+    "r4_integration": "PASS",
+    "r4_experimental_validity": "PASS (Grounded ablation verified, McNemar p=0.0129)",
+    "adaptive_model_router": "PASS WITH LIMITATIONS (Synthetic test cases N=20)",
+    "scheduler_implementation": "PASS",
+    "scheduler_experimental_validity": "PASS",
+    "fault_recovery_implementation": "PASS",
+    "reliability_experimental_validity": "PASS",
+    "local_inference_evaluation": "PARTIAL (EasyOCR harness bug, Qwen missing from aggregated JSON)",
+    "document_qa": "PASS WITH LIMITATIONS (Small sample N=8)",
+    "citation_verification": "PASS",
+    "figure_integrity": "PASS WITH LIMITATIONS (worker_utilization misnomer)",
+    "manuscript_integrity": "PASS",
+    "reproducibility": "PASS WITH LIMITATIONS",
+    "publication_readiness_decision": "C. EXPERIMENTALLY SUPPORTED, MANUSCRIPT NEEDS CORRECTION"
+  }
+}

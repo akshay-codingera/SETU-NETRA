@@ -1,0 +1,1121 @@
+<USER_REQUEST>
+# TASK: COMPLETE SETU-NETRA EVIDENCE RECOVERY, EXPERIMENTAL RECONCILIATION AND SOURCE-TO-CLAIM VERIFICATION
+
+## 1. ROLE
+
+Act as a senior Computer Science research auditor, software architect, ML systems engineer, statistical reviewer, experimental reproducibility engineer and IEEE research reviewer.
+
+You have already produced the master audit:
+
+`research_audit/complete_audit_20261120_045130/`
+
+The researcher and research assistant have reviewed your master report and identified several remaining numerical, statistical, architectural and provenance questions.
+
+Your new task is to recover the actual supporting evidence, reconcile every outstanding discrepancy and prepare one complete evidence package.
+
+This is a continuation of the existing audit.
+
+**Do not repeat the previous audit from the beginning. Investigate the specific unresolved issues listed below and provide the missing supporting evidence.**
+
+The primary research contribution is:
+
+- R1: SR-EdgeNet — document structure understanding.
+- R2: ER-SP — evidence relevance and sufficiency assessment.
+- R3: CM-RP — context-aware reasoning strategy selection.
+- R4: full-system integration and validation.
+
+AdaptiveModelRouter, worker scheduling and reliability mechanisms are supporting runtime infrastructure unless their actual source code and execution traces demonstrate a stronger connection to the primary R1–R4 methodology.
+
+Do not change this research scope.
+
+---
+
+# 2. ABSOLUTE PRESERVATION REQUIREMENTS
+
+This is an evidence-recovery and reconciliation task.
+
+You MUST:
+
+1. Preserve every existing checkpoint.
+2. Preserve historical experimental JSON files.
+3. Preserve raw predictions.
+4. Preserve datasets and labels.
+5. Preserve benchmark scripts.
+6. Preserve existing source code.
+7. Preserve old figures.
+8. Preserve the original IEEE manuscript.
+9. Record existing contradictions before suggesting corrections.
+10. Store newly generated reports separately.
+
+Do not:
+
+- Retrain models.
+- Replace checkpoints.
+- Modify existing predictions.
+- Rewrite evaluation scripts.
+- Change dataset labels.
+- Modify existing metric summaries.
+- Regenerate historical experiment records.
+- Overwrite existing graphs.
+- Modify the production application.
+- Silently change manuscript figures.
+- Fabricate missing data.
+
+Create a new directory:
+
+`research_audit/evidence_reconciliation_20261120/`
+
+Use a unique alternative directory name if this one already exists.
+
+All newly generated material must be stored there.
+
+If any requested evidence is unavailable, report it as missing. Do not fabricate a replacement.
+
+---
+
+# 3. RECOVER THE COMPLETE PREVIOUS AUDIT PACKAGE
+
+First locate:
+
+`research_audit/complete_audit_20261120_045130/`
+
+Inventory every file in that directory.
+
+Return the complete original files, including:
+
+- MASTER_AUDIT_REPORT.md
+- COMPLETE_AUDIT.json
+- IMPLEMENTATION_INVENTORY.csv
+- EXPERIMENT_RECONCILIATION.csv
+- FIGURE_AUDIT.csv
+- MISSING_EVIDENCE.md
+- RESEARCH_CONTRIBUTION_MATRIX.md
+- REPRODUCIBILITY_REPORT.md
+- ADDITIONAL_EXPERIMENT_PLAN.md
+- AUDIT_EVIDENCE_INDEX.json
+- AUDIT_EXECUTION_LOG.md
+- CHECKPOINT_PRESERVATION.json
+
+Also include any additional supporting artifacts that were generated.
+
+For each expected file, classify it:
+
+- PRESENT AND COMPLETE
+- PRESENT BUT INCOMPLETE
+- PRESENT BUT INVALID
+- MISSING
+
+Do not recreate missing original audit files without clearly marking the replacement as newly generated.
+
+Create a manifest containing:
+
+- Relative path.
+- File size.
+- SHA-256.
+- File type.
+- Whether it is original or newly generated.
+
+---
+
+# 4. R4 — RESOLVE THE PAIRED-COUNT DISCREPANCY
+
+This is a priority investigation.
+
+The previous audit reports:
+
+C4:
+- Correct = 36/50.
+- Accuracy = 72%.
+
+C6 grounded:
+- Correct = 46/50.
+- Accuracy = 92%.
+
+However, its paired contingency counts are:
+
+- Both correct = 32.
+- C4 correct, C6 incorrect = 2.
+- C4 incorrect, C6 correct = 12.
+- Both incorrect = 4.
+
+These paired counts imply:
+
+C4 = 34/50 = 68%.
+
+C6 = 44/50 = 88%.
+
+They therefore contradict the reported 72% and 92% marginal accuracies.
+
+## Required investigation
+
+Recover the exact query-level predictions for:
+
+- C4.
+- C6 grounded.
+- C6 placeholder, if preserved.
+
+Recover:
+
+- Query IDs.
+- Ground-truth labels.
+- Predicted answers.
+- Correctness indicators.
+- Abstention indicators.
+- Citation-verification outcomes.
+- Evidence-context identifiers.
+- Prediction timestamps where available.
+
+Reconstruct the paired 2×2 contingency table directly from those records.
+
+Verify the four counts:
+
+- Both correct.
+- C4 correct and C6 incorrect.
+- C4 incorrect and C6 correct.
+- Both incorrect.
+
+Recalculate both marginal accuracies.
+
+## Required statistical calculations
+
+Where both systems were evaluated on identical queries, calculate:
+
+- McNemar test.
+- Exact binomial test on discordant pairs.
+- Continuity-corrected statistic.
+- Exact p-value.
+- Effect size.
+- 95% confidence intervals.
+
+Identify the exact statistical implementation and whether the test was one-sided or two-sided.
+
+The earlier report gives:
+
+- McNemar statistic: 5.7857.
+- Continuity-corrected p-value: 0.016157.
+- Exact binomial p-value: 0.012939.
+
+Verify these values from the actual paired predictions.
+
+Do not modify the original contingency table.
+
+If the records support a different table, show the difference and explain the cause.
+
+Also inspect whether C4 and C6 use:
+
+- The same 50 questions.
+- The same ground-truth labels.
+- The same document corpus.
+- The same passage-selection rules.
+- Equivalent context quality.
+- The same scoring function.
+- The same model checkpoints.
+- Comparable execution configurations.
+
+## Placeholder versus grounded context
+
+Recover the original placeholder-context experiment and grounded-context experiment.
+
+Verify whether the placeholder passages were exactly:
+
+`Sample document passage context`
+
+Inspect the CitationVerifier decisions and determine why abstentions occurred.
+
+Recover stage-level timing data for:
+
+- C4.
+- C6 placeholder.
+- C6 grounded.
+
+Investigate the reported latency difference:
+
+- Placeholder: 135.99 ms.
+- Grounded: 24.44 ms.
+
+Explain the difference only when the timing traces establish its cause.
+
+Required output:
+
+`R4_PAIRED_STATISTICAL_RECONCILIATION.md`
+
+`R4_PAIRED_PREDICTIONS.csv`
+
+`R4_PAIRED_CONFUSION.json`
+
+`R4_STATISTICAL_RECALCULATION.json`
+
+---
+
+# 5. R1 — RECONCILE DOCUMENT COUNTS AND PERFORMANCE
+
+Investigate the SETU-SR manifest and all four dataset splits.
+
+Previously reported split information:
+
+- Train: 349 document units.
+- Validation: 75 units.
+- Synthetic test: 25 units.
+- In-domain test: 21 units.
+
+These counts sum to 470.
+
+However, the master audit reports 459 total document units.
+
+## Required investigation
+
+Recover:
+
+- `dataset_manifest.json`
+- `train.jsonl`
+- `val.jsonl`
+- `test_synthetic.jsonl`
+- `test_in_domain.jsonl`
+- Dataset-generation scripts.
+- Document ID registry.
+- Split-generation scripts.
+- Original R1 training report.
+- `models/structure/evaluation_results.json`
+- Checkpoint provenance.
+
+Recalculate:
+
+1. Total edges.
+2. Total records per split.
+3. Unique document IDs per split.
+4. Unique source files.
+5. Unique page IDs.
+6. Duplicate and overlapping IDs.
+7. Total distinct document units.
+
+Explain whether 459 refers to unique source documents while 470 refers to document units, pages or generated units.
+
+Do not assume that explanation is correct. Verify it.
+
+## Performance reconciliation
+
+Recover raw predictions for:
+
+- Synthetic-only SR-EdgeNet.
+- FUNSD-only SR-EdgeNet.
+- Combined SR-EdgeNet.
+- In-domain camera-scan evaluation.
+
+Reconstruct the metrics and confusion matrices.
+
+Verify:
+
+- 99.46% synthetic accuracy.
+- 0.9909 synthetic Macro F1.
+- 59.62% FUNSD-only result, if supported by the relevant experiment.
+- 65.69% synthetic-only in-domain accuracy.
+- 0.4715 synthetic-only in-domain Macro F1.
+- 45.10% combined in-domain accuracy.
+- 0.3434 combined in-domain Macro F1.
+- 88.89% OPTION_OF precision.
+
+Investigate the difference between the two earlier confusion matrices.
+
+Identify the exact checkpoint and evaluation dataset for every matrix.
+
+Do not combine the following metrics unless they share the same test examples and label definitions:
+
+- Reading-order accuracy.
+- Reading-order Kendall's tau.
+- Semantic graph relation accuracy.
+- Pairwise classification Macro F1.
+
+Required output:
+
+`R1_DATASET_AND_METRIC_RECONCILIATION.md`
+
+`R1_DATASET_ID_AUDIT.csv`
+
+`R1_CONFUSION_MATRIX_RECALCULATION.json`
+
+---
+
+# 6. R2 — VERIFY THE COSINE BASELINE AND CLASS-WISE RESULTS
+
+Investigate the cosine-threshold baseline.
+
+The earlier manuscript uses:
+
+`tau = 0.55`
+
+The master audit uses:
+
+`tau = 0.75`
+
+Both have been associated with 37.65% accuracy.
+
+Recover:
+
+- Baseline implementation.
+- Threshold configuration.
+- Threshold-selection script.
+- Evaluation script.
+- Prediction records.
+- Dataset split.
+- Original experiment output.
+- Manuscript source values.
+
+Determine which threshold produced the published result.
+
+Establish whether either threshold was selected using test data.
+
+Recalculate:
+
+- Accuracy.
+- Macro precision.
+- Macro recall.
+- Macro F1.
+- ECE.
+- Per-class precision and recall.
+
+## Confusion matrix
+
+Recover the complete N=340 prediction records.
+
+Reconstruct the five-class matrix.
+
+Verify these reported results:
+
+- Accuracy: 86.18%.
+- Macro F1: 0.8553.
+- ECE: 0.0889.
+- Contradiction precision: 100%.
+- Contradiction recall: 95.59%.
+
+Investigate every previously supplied ER-SP heatmap and determine exactly which checkpoint and prediction set produced it.
+
+Generate a corrected matrix only as a new audit artifact.
+
+Do not overwrite the historical figures.
+
+Required output:
+
+`R2_BASELINE_AND_CONFUSION_RECONCILIATION.md`
+
+`R2_THRESHOLD_EXPERIMENTS.csv`
+
+`R2_AUTHORITATIVE_CONFUSION_MATRIX.json`
+
+---
+
+# 7. R3 — RAM MASKING, FALLBACK AND HISTORICAL RESULTS
+
+## A. Hardware masking
+
+Previous R3 documentation reports that LOCAL_SLM is masked when:
+
+- Available RAM < 1,500 MB, or
+- RAM utilization > 90%.
+
+The master audit reports an available-RAM threshold of 2.5 GB.
+
+Recover:
+
+- `cm_rp.py`
+- Predictor implementation.
+- Dispatcher implementation.
+- Hardware telemetry module.
+- Configuration files.
+- Environment variables where relevant.
+- Unit tests.
+- Integration tests.
+- Historical configuration records.
+
+Identify the actual current rule.
+
+Determine whether:
+
+- The threshold changed intentionally.
+- Different model configurations use different thresholds.
+- Documentation is outdated.
+- Audit reporting is incorrect.
+
+Create a versioned configuration table.
+
+Do not modify the active configuration.
+
+## B. Rule fallback threshold
+
+Previous reports refer to a confidence threshold of 0.85.
+
+The independent seven-action benchmark describes a fallback configuration with threshold 0.60.
+
+Recover:
+
+- Exact command or script used.
+- Configuration.
+- Policy predictions.
+- Fallback activation records.
+- Model checkpoint.
+- Test-set hash.
+
+Explain whether these are separate experiments.
+
+Do not merge results from different fallback thresholds.
+
+## C. Historical CM-RP performance
+
+Resolve the mapping between:
+
+- 57.65%.
+- 81.18%.
+- 90.00%.
+- 93.53%.
+- 91.02%.
+- 94.29%.
+- 88.16%.
+
+For each result record:
+
+- Checkpoint.
+- Model version.
+- Dataset.
+- Test-set hash.
+- Test size.
+- Class support.
+- Fallback state.
+- Confidence threshold.
+- Accuracy.
+- Macro F1.
+- Evaluation date.
+
+Required output:
+
+`R3_CONFIGURATION_AND_HISTORY_RECONCILIATION.md`
+
+`R3_POLICY_VERSION_RESULTS.csv`
+
+`R3_HARDWARE_MASK_VERIFICATION.md`
+
+---
+
+# 8. SCHEDULER — RECONCILE DISPATCH OVERHEAD AND AGGREGATION
+
+Investigate:
+
+`benchmarks/results/aggregated/scheduler_microbenchmarks_summary.json`
+
+And its raw source records.
+
+The six schedulers are:
+
+1. ROUND_ROBIN
+2. RANDOM
+3. LEAST_OUTSTANDING
+4. SECT
+5. CAPACITY_AWARE
+6. RESILIENT_CAPACITY_AWARE
+
+The master audit reports mean overhead values:
+
+| Scheduler | Reported master-audit overhead |
+|---|---:|
+| Round Robin | 23.92 μs |
+| Random | 19.35 μs |
+| Least Outstanding | 31.20 μs |
+| SECT | 38.45 μs |
+| Capacity Aware | 44.12 μs |
+| Adaptive Resilient | 52.60 μs |
+
+However, workload-level records contain substantially different values.
+
+For example, uniform-short workload values were reported as:
+
+| Scheduler | Workload-specific overhead |
+|---|---:|
+| Round Robin | 23.92 μs |
+| Random | 36.30 μs |
+| Least Outstanding | 54.34 μs |
+| SECT | 124.10 μs |
+| Capacity Aware | 140.91 μs |
+| Resilient Capacity Aware | 1.73 μs |
+
+These values require reconciliation.
+
+## Required investigation
+
+Recover:
+
+- Raw scheduler timing files.
+- Per-dispatch measurements.
+- Per-run summaries.
+- Eight workload definitions.
+- Benchmark runner.
+- Aggregation script.
+- Plot-generation script.
+- Warm-up configuration.
+- Repetition configuration.
+- Timer implementation.
+- Hardware telemetry logs.
+
+Explain precisely how every master-audit mean was calculated.
+
+Determine whether the master values represent:
+
+- A separate benchmark run.
+- A specific workload.
+- An average across workload profiles.
+- A pooled sample-level average.
+- A median.
+- A different scheduler configuration.
+- An incorrect aggregation.
+
+Do not invent an aggregation rule.
+
+## Request-level accounting
+
+Reconcile the reported:
+
+- Six schedulers.
+- Eight workload profiles.
+- 40 submitted requests.
+- Two repetitions.
+- 1,920 total requests.
+
+Explain whether request counts are recorded per repetition or aggregated.
+
+Separate:
+
+- Requests submitted.
+- Requests accepted.
+- Requests completed.
+- Requests rejected.
+- Requests failed.
+- Requests timed out.
+
+Do not equate successful admission with successful completion.
+
+## Dispatch timing integrity
+
+Investigate the extremely low reported overhead values for RESILIENT_CAPACITY_AWARE, including sub-microsecond measurements.
+
+Inspect:
+
+- Timer resolution.
+- Timestamp collection.
+- Unit conversion.
+- Empty or bypassed code paths.
+- Measurement boundaries.
+- Instrumentation overhead.
+
+Determine whether the values are comparable to those of other schedulers.
+
+Required output:
+
+`SCHEDULER_OVERHEAD_RECONCILIATION.md`
+
+`SCHEDULER_PER_WORKLOAD_METRICS.csv`
+
+`SCHEDULER_AGGREGATION_AUDIT.json`
+
+---
+
+# 9. WORKER FAILURE, RELIABILITY AND TIMEOUT DISCREPANCIES
+
+Inspect:
+
+- `reliability_evaluation_summary.json`
+- `tests/test_reliability_suite.py`
+- Scheduler fault-injection scripts.
+- Worker implementations.
+- Circuit breaker.
+- Retry handling.
+- Timeout handling.
+- Queue management.
+
+The master audit reports six tests passing.
+
+Investigate the timeout discrepancy:
+
+One report describes:
+
+- Task duration: 50 ms.
+- SLA: 10 ms.
+
+The raw reliability summary describes:
+
+- Execution duration: 300.4 ms.
+- Timeout threshold: 80 ms.
+
+Identify the exact source of each configuration and execution result.
+
+For all six tests recover:
+
+- Test name.
+- Test configuration.
+- Fault injected.
+- Expected state.
+- Observed state.
+- Assertions.
+- Output logs.
+- Request identifiers.
+- Worker identifiers.
+- Execution timestamps.
+
+Explicitly distinguish:
+
+- Test passed because failure was detected correctly.
+- Request completed successfully.
+- Request was rejected.
+- Request timed out.
+- Retry was suppressed.
+
+Do not describe every passing test as successful request processing.
+
+Verify that the implementation supports the reliability claims made in the master report.
+
+In particular, do not claim production-grade distributed resilience or exactly-once execution unless the source code and tests establish those properties.
+
+Required output:
+
+`RELIABILITY_TIMEOUT_RECONCILIATION.md`
+
+`RELIABILITY_TEST_EVIDENCE.csv`
+
+`CIRCUIT_BREAKER_STATE_AUDIT.md`
+
+---
+
+# 10. HARDWARE AND EXPERIMENT ENVIRONMENT
+
+The master report identifies:
+
+- Intel Core i7-13650HX.
+- 10 physical cores.
+- 12 logical processors.
+- Approximately 16 GB RAM.
+
+However, 10 cores and 12 logical processors conflict with the reported processor identity and match the earlier reported i5-1334U configuration more closely.
+
+Do not decide this from historical memory.
+
+Recover the actual experiment-time hardware output.
+
+Include:
+
+- Processor name.
+- Processor identifier.
+- Physical core count.
+- Logical processor count.
+- Total RAM.
+- Available RAM.
+- OS version.
+- Python version.
+- CPU architecture.
+- PyTorch version.
+- Relevant library versions.
+
+For each benchmark identify whether it ran on this same machine.
+
+Distinguish:
+
+- Development hardware.
+- Training hardware.
+- Benchmark hardware.
+- Deployment target.
+
+Recover hardware data from original logs wherever possible.
+
+If experiment-time hardware cannot be established, mark it unconfirmed.
+
+Required output:
+
+`HARDWARE_PROVENANCE_RECONCILIATION.md`
+
+`EXPERIMENT_ENVIRONMENT_MATRIX.csv`
+
+---
+
+# 11. LOCAL INFERENCE AND QWEN EVIDENCE
+
+## A. EasyOCR
+
+Recover:
+
+- Benchmark harness.
+- OCR adapter.
+- `OCRBox` definition.
+- Attribute access used by the harness.
+- Original traceback.
+- OCR model execution logs.
+- Input image identifiers.
+- Raw OCR outputs where available.
+
+The master audit attributes the 100% error rate to:
+
+`'OCRBox' object has no attribute 'bounding_box'`
+
+Verify whether OCR itself executed successfully before the wrapper failed.
+
+Distinguish:
+
+- Model loading.
+- Image preprocessing.
+- Text detection.
+- Text recognition.
+- Result-object conversion.
+- Benchmark scoring.
+
+Do not remove the historical error result.
+
+If a corrected diagnostic run is safe, execute it only in an isolated copy and label it as a new experiment. Never modify historical records.
+
+## B. Qwen 3.5 2B
+
+Recover:
+
+- Ollama model identifier.
+- Model availability.
+- Ollama version.
+- Unit-test output.
+- Actual inference logs.
+- Input and output records.
+- Cold load time.
+- Warm inference latency.
+- Tokens generated.
+- Tokens per second.
+- CPU usage.
+- RAM usage.
+- Error and timeout counts.
+
+Determine whether the plotted Qwen latency and throughput can be supported by actual measurements.
+
+A passing unit test does not establish benchmark throughput.
+
+If raw benchmark evidence is unavailable, keep the graph values classified as unsupported.
+
+Required output:
+
+`LOCAL_INFERENCE_EVIDENCE_RECONCILIATION.md`
+
+`EASYOCR_HARNESS_FORENSIC_AUDIT.md`
+
+`QWEN_INFERENCE_EVIDENCE.md`
+
+---
+
+# 12. DOCUMENT QA, RETRIEVAL AND CITATION EVIDENCE
+
+Recover all eight QA evaluation records.
+
+For each query, preserve:
+
+- Query ID.
+- Query text.
+- Supported or unsupported status.
+- Ground-truth answer.
+- Generated answer.
+- Retrieved passages.
+- Ranking.
+- Citation coordinates.
+- Citation correctness.
+- Abstention decision.
+- Scoring output.
+
+Recalculate:
+
+- MRR.
+- Recall@1.
+- Recall@3.
+- Precision@1.
+- Exact Match.
+- Token F1.
+- Citation Precision.
+- Citation Completeness.
+- Unsupported Abstention Accuracy.
+- Observed Hallucination Rate.
+
+Check the exact denominator for every metric.
+
+Investigate whether the retrieval-window graph represents these same eight questions or another evaluation.
+
+Inspect the CitationVerifier source and determine whether its evidence check is lexical, structural or semantic.
+
+Do not describe lexical overlap as proof of semantic entailment.
+
+Do not claim zero general hallucination risk from eight evaluated queries.
+
+Required output:
+
+`QA_QUERY_LEVEL_RECONCILIATION.csv`
+
+`QA_METRIC_RECALCULATION.json`
+
+`CITATION_VERIFIER_SCOPE.md`
+
+---
+
+# 13. FIGURE AND GRAPH EVIDENCE RECOVERY
+
+Investigate all previously identified figures.
+
+Recover the exact JSON, CSV, log or prediction file used to generate each figure.
+
+Priority figures:
+
+1. R1 synthetic and in-domain confusion matrices.
+2. R2 unseen-topic confusion matrix.
+3. CM-RP seven-action confusion matrix.
+4. Grounded-context ablation graph.
+5. Scheduler dispatch-overhead graph.
+6. Worker-failure comparison graph.
+7. Latency-percentile graph.
+8. Queue-wait graph.
+9. Throughput graph.
+10. Routing confusion matrix.
+11. QA retrieval and citation graph.
+12. Hallucination and abstention graph.
+13. Model execution frontier.
+14. Hardware resource footprint.
+15. Latency-collapse graph.
+16. Citation precision ANOVA graph.
+17. Retrieval-window trade-off graph.
+
+For the ANOVA figure claiming:
+
+- F = 231.6.
+- p < 1e-26.
+
+Recover the complete repeated observations, experiment design and statistical script.
+
+Verify the validity of the statistical model.
+
+If the raw data are missing, classify the figure as unsupported.
+
+For the latency-collapse figure, recover all 100-query measurements and four condition definitions.
+
+For the hardware footprint figure, recover the underlying RAM and CPU measurement records.
+
+For each figure, create a source-to-value traceability table.
+
+Do not overwrite the original figure files.
+
+Required output:
+
+`COMPLETE_FIGURE_SOURCE_RECONCILIATION.csv`
+
+`UNSUPPORTED_FIGURE_CLAIMS.md`
+
+`CORRECTED_FIGURE_DATA/`
+
+---
+
+# 14. SOURCE-TO-CLAIM VERIFICATION
+
+Build a complete table for the current IEEE manuscript.
+
+For every major claim, include:
+
+- Claim ID.
+- Manuscript section and page.
+- Exact claim text.
+- Research component.
+- Source file.
+- Source code location.
+- Experimental output.
+- Raw evidence.
+- Recalculated result.
+- Verification status.
+- Required correction.
+
+Cover:
+
+- R1 architecture and performance.
+- R2 architecture, sufficiency and calibration.
+- R3 context representation and policy selection.
+- R4 integration and ablation.
+- Seven-action generalization.
+- Runtime scheduling.
+- Fault recovery.
+- Local inference.
+- Document QA.
+- Citation verification.
+- Hardware limitations.
+- Statistical significance.
+- Research contribution claims.
+
+Use exactly these evidence statuses:
+
+- VERIFIED
+- VERIFIED WITH LIMITATIONS
+- REPORTED
+- PARTIALLY VERIFIED
+- UNRESOLVED
+- CONTRADICTED
+- UNSUPPORTED
+
+Do not describe a correction as confirmed unless the supporting evidence establishes it.
+
+Required output:
+
+`SOURCE_TO_CLAIM_MATRIX.csv`
+
+---
+
+# 15. CHECKPOINT PRESERVATION
+
+Recover the original before-and-after checkpoint hash records.
+
+At minimum:
+
+- `models/structure/sr_edge_net.pt`
+- `models/evidence/er_sp.pt`
+- `models/policy/cm_rp.pt`
+- `models/policy/cm_rp_v2.pt`
+
+Include:
+
+- File path.
+- File size.
+- SHA-256 before audit.
+- SHA-256 after audit.
+- Tensor names and shapes.
+- Model parameter count.
+- Checkpoint loading status.
+
+Do not modify checkpoints to generate these records.
+
+If before-audit hashes were not recorded, state that limitation. Do not pretend they were.
+
+Required output:
+
+`FINAL_CHECKPOINT_PRESERVATION.json`
+
+---
+
+# 16. FINAL RECONCILIATION CLASSIFICATION
+
+For every discrepancy listed in this task, assign exactly one of these statuses:
+
+1. CONFIRMED CORRECTION — Primary evidence establishes the correct value or explanation.
+2. CONFIRMED HISTORICAL DIFFERENCE — Both results are valid but belong to different experiments.
+3. UNRESOLVED — Available evidence cannot establish the explanation.
+4. CONTRADICTED — Current evidence disproves an earlier statement.
+5. MISSING EVIDENCE — Required original records are unavailable.
+6. NOT APPLICABLE — The suspected discrepancy does not apply after examining the actual implementation.
+
+Provide a concise explanation.
+
+Do not force every discrepancy into a confirmed correction.
+
+---
+
+# 17. REQUIRED FINAL DELIVERABLES
+
+Store all new evidence in:
+
+`research_audit/evidence_reconciliation_20261120/`
+
+Produce:
+
+1. `FINAL_EVIDENCE_RECONCILIATION_REPORT.md`
+2. `FINAL_EVIDENCE_RECONCILIATION.json`
+3. `SOURCE_TO_CLAIM_MATRIX.csv`
+4. `R4_PAIRED_PREDICTIONS.csv`
+5. `R4_STATISTICAL_RECALCULATION.json`
+6. `R1_DATASET_AND_METRIC_RECONCILIATION.md`
+7. `R2_BASELINE_AND_CONFUSION_RECONCILIATION.md`
+8. `R3_CONFIGURATION_AND_HISTORY_RECONCILIATION.md`
+9. `SCHEDULER_OVERHEAD_RECONCILIATION.md`
+10. `SCHEDULER_PER_WORKLOAD_METRICS.csv`
+11. `RELIABILITY_TIMEOUT_RECONCILIATION.md`
+12. `HARDWARE_PROVENANCE_RECONCILIATION.md`
+13. `LOCAL_INFERENCE_EVIDENCE_RECONCILIATION.md`
+14. `QA_METRIC_RECALCULATION.json`
+15. `COMPLETE_FIGURE_SOURCE_RECONCILIATION.csv`
+16. `UNSUPPORTED_FIGURE_CLAIMS.md`
+17. `FINAL_CHECKPOINT_PRESERVATION.json`
+18. `FINAL_OUTSTANDING_QUESTIONS.md`
+19. `FINAL_RESEARCH_READINESS_ASSESSMENT.md`
+20. `EVIDENCE_PACKAGE_MANIFEST.json`
+
+Include all original audit files and source references required to understand the findings.
+
+Produce one ZIP archive containing:
+
+- The complete previous audit directory.
+- The new evidence-reconciliation directory.
+- Relevant source files.
+- Relevant configurations.
+- Raw predictions.
+- Benchmark scripts.
+- Required execution logs.
+- Figure source data.
+- Checkpoint preservation records.
+
+Name the ZIP:
+
+`SETU_NETRA_COMPLETE_EVIDENCE_PACKAGE.zip`
+
+Also provide its SHA-256 checksum.
+
+Do not include virtual environments, caches, private credentials or unrelated large generated files.
+
+---
+
+# 18. FINAL RESEARCH READINESS DECISION
+
+Assess the project using the following hierarchy:
+
+## Primary research
+
+- R1 — SR-EdgeNet.
+- R2 — ER-SP.
+- R3 — CM-RP.
+- R4 — Integrated document intelligence and evidence-grounded reasoning.
+
+## Supporting infrastructure
+
+- AdaptiveModelRouter.
+- Worker scheduling.
+- Capacity-aware execution.
+- Fault recovery.
+- Circuit breakers.
+- Runtime telemetry.
+
+The supporting infrastructure must not be used to inflate the methodological contribution of R1–R4.
+
+Provide an individual verdict for every primary module and supporting subsystem.
+
+Determine whether the complete evidence supports:
+
+A. Continue implementation and experimentation.
+
+B. Complete targeted experimental validation.
+
+C. Freeze the implementation and correct the manuscript.
+
+D. Proceed to final IEEE manuscript production.
+
+Do not select D unless all critical numerical and source-to-claim discrepancies are resolved or explicitly excluded from the manuscript.
+
+---
+
+# 19. FINAL EXECUTION DIRECTIVE
+
+This is an evidence recovery task, not a model improvement task.
+
+Do not retrain.
+
+Do not rewrite.
+
+Do not replace results.
+
+Do not change historical files.
+
+Do not hide failures.
+
+Recover the evidence, recalculate the results, resolve the discrepancies where possible and clearly document what cannot be established.
+
+The final output must allow an independent researcher to trace each important SETU-NETRA manuscript claim to its actual source code, dataset, checkpoint, prediction record or execution log.
+
+**We need a defensible research record, not a more impressive audit report.**
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-20T05:55:04+05:30.
+</ADDITIONAL_METADATA>

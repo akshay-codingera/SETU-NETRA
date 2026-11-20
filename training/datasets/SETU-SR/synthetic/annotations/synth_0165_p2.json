@@ -1,0 +1,370 @@
+{
+  "doc_id": "synth_0165",
+  "page_id": "synth_0165_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        65.0,
+        549.0,
+        80.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q7. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        102.0,
+        555.0,
+        135.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "OPTION",
+      "text": "[A] Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        80.0,
+        150.0,
+        443.0,
+        163.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[B] Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        170.0,
+        342.0,
+        183.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[C] Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        190.0,
+        411.0,
+        203.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[D] Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        210.0,
+        381.0,
+        223.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q8. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        255.0,
+        569.0,
+        288.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "[A] Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        303.0,
+        433.0,
+        316.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "[B] Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        323.0,
+        410.0,
+        336.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "[C] Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        343.0,
+        381.0,
+        356.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "QUESTION",
+      "text": "Q9. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        386.0,
+        569.0,
+        419.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "A. Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        434.0,
+        427.0,
+        447.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "B. Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        454.0,
+        404.0,
+        464.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "C. Immediate commit without write-ahead log flush",
+      "bbox": [
+        80.0,
+        471.0,
+        375.0,
+        484.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "D. Optimistic non-blocking concurrency control",
+      "bbox": [
+        80.0,
+        491.0,
+        353.0,
+        504.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "QUESTION",
+      "text": "Q10. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        620.0,
+        102.0,
+        1136.0,
+        135.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "A. Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        640.0,
+        150.0,
+        987.0,
+        163.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "B. Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        640.0,
+        170.0,
+        964.0,
+        180.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "C. Immediate commit without write-ahead log flush",
+      "bbox": [
+        640.0,
+        187.0,
+        935.0,
+        200.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 20,
+      "block_type": "QUESTION",
+      "text": "Q11. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        620.0,
+        232.0,
+        1139.0,
+        265.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(A) Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        640.0,
+        280.0,
+        1120.0,
+        293.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "(B) Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        640.0,
+        300.0,
+        984.0,
+        313.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "(C) Manage hardware interrupts generated by peripheral bus controllers",
+      "bbox": [
+        640.0,
+        320.0,
+        1045.0,
+        333.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "(D) Maintain execution state frames during thread context switching",
+      "bbox": [
+        640.0,
+        340.0,
+        1026.0,
+        353.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 25,
+      "block_type": "QUESTION",
+      "text": "Q12. Analyze the following SQL statement executed on an ACID-compliant engine:",
+      "bbox": [
+        620.0,
+        387.0,
+        1098.0,
+        400.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 26,
+      "block_type": "CODE",
+      "text": "SELECT dept_id, COUNT(*) FROM employees\nWHERE salary > 50000\nGROUP BY dept_id HAVING COUNT(*) >= 5;",
+      "bbox": [
+        629.0,
+        410.0,
+        881.0,
+        464.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 27,
+      "block_type": "OPTION",
+      "text": "A. GROUP BY",
+      "bbox": [
+        640.0,
+        475.0,
+        728.0,
+        485.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 28,
+      "block_type": "OPTION",
+      "text": "B. HAVING",
+      "bbox": [
+        640.0,
+        492.0,
+        712.0,
+        503.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "C. WHERE",
+      "bbox": [
+        640.0,
+        510.0,
+        707.0,
+        520.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "D. SELECT",
+      "bbox": [
+        640.0,
+        527.0,
+        711.0,
+        537.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 162
+}

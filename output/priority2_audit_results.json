@@ -1,0 +1,30 @@
+{
+  "gemini": {
+    "adapter_reported_status": "NOT_CONFIGURED",
+    "is_available": false,
+    "has_credential": false,
+    "classification": "NOT_CONFIGURED",
+    "inference_verified": false,
+    "evidence": "No API key configured in environment or application settings."
+  },
+  "groq": {
+    "adapter_reported_status": "NOT_CONFIGURED",
+    "is_available": false,
+    "has_credential": false,
+    "classification": "NOT_CONFIGURED",
+    "inference_verified": false,
+    "evidence": "No API key configured in environment or application settings."
+  },
+  "openrouter": {
+    "adapter_reported_status": "NOT_CONFIGURED",
+    "is_available": false,
+    "has_credential": false,
+    "classification": "NOT_CONFIGURED",
+    "inference_verified": false,
+    "evidence": "No API key configured in environment or application settings."
+  },
+  "credential_leak_audit": {
+    "leaks_detected": 0,
+    "zero_leaks_confirmed": true
+  }
+}

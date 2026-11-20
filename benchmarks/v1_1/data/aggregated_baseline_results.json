@@ -1,0 +1,715 @@
+{
+  "timestamp": "2026-11-10T16:04:08Z",
+  "manifest_path": "benchmarks/v1_1/manifest.json",
+  "conditions": {
+    "Condition_A": {
+      "condition_id": "Condition_A",
+      "name": "Fixed Model + Round Robin",
+      "description": "Baseline condition with fixed generative model (smollm2-135m-instruct) and Round Robin worker scheduling.",
+      "routing_policy": "fixed",
+      "fixed_model_id": "smollm2-135m-instruct",
+      "scheduler": "ROUND_ROBIN"
+    },
+    "Condition_B": {
+      "condition_id": "Condition_B",
+      "name": "Fixed Model + Capacity-Aware Scheduling",
+      "description": "Condition with fixed generative model (smollm2-135m-instruct) and Capacity-Aware Scheduling (CAS).",
+      "routing_policy": "fixed",
+      "fixed_model_id": "smollm2-135m-instruct",
+      "scheduler": "CAPACITY_AWARE"
+    },
+    "Condition_C": {
+      "condition_id": "Condition_C",
+      "name": "Adaptive Model Routing + Round Robin",
+      "description": "Condition with Adaptive Model Routing (auto intent dispatching) and Round Robin worker scheduling.",
+      "routing_policy": "adaptive",
+      "fixed_model_id": null,
+      "scheduler": "ROUND_ROBIN"
+    },
+    "Condition_D": {
+      "condition_id": "Condition_D",
+      "name": "Adaptive Model Routing + Capacity-Aware Scheduling",
+      "description": "Full SETU-NETRA decoupled condition with Adaptive Model Routing and Capacity-Aware Scheduling (CAS).",
+      "routing_policy": "adaptive",
+      "fixed_model_id": null,
+      "scheduler": "CAPACITY_AWARE"
+    }
+  },
+  "corpus_doc_mapping": {
+    "doc_operating_systems.txt": "doc_doc_operating_systems_0121833a",
+    "doc_raft_consensus.txt": "doc_doc_raft_consensus_d343ae3a",
+    "doc_database_concurrency.txt": "doc_doc_database_concurrency_580892e7"
+  },
+  "qa_quality_benchmark": {
+    "summaries": {
+      "Condition_A": {
+        "condition": "Condition_A",
+        "total_queries": 100,
+        "routing_policy": "fixed",
+        "scheduler_type": "ROUND_ROBIN",
+        "mean_exact_match": 0.0,
+        "mean_token_f1": 0.1386,
+        "mean_citation_precision": 0.1,
+        "mean_retrieval_recall_at_3": 0.94,
+        "mean_ndcg_at_3": 0.8981,
+        "mean_mrr": 0.8767,
+        "mean_total_latency_ms": 2593.62,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 2924.0,
+            "ci_lower": 2857.75,
+            "ci_upper": 3038.65
+          },
+          "p95": {
+            "value": 3507.56,
+            "ci_lower": 3447.69,
+            "ci_upper": 3550.91
+          },
+          "p99": {
+            "value": 3560.56,
+            "ci_lower": 3506.75,
+            "ci_upper": 3625.44
+          }
+        },
+        "rejection_rate": 0.0
+      },
+      "Condition_B": {
+        "condition": "Condition_B",
+        "total_queries": 100,
+        "routing_policy": "fixed",
+        "scheduler_type": "CAPACITY_AWARE",
+        "mean_exact_match": 0.0,
+        "mean_token_f1": 0.1386,
+        "mean_citation_precision": 0.1,
+        "mean_retrieval_recall_at_3": 0.94,
+        "mean_ndcg_at_3": 0.8981,
+        "mean_mrr": 0.8767,
+        "mean_total_latency_ms": 6003.94,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 3558.61,
+            "ci_lower": 3490.18,
+            "ci_upper": 3625.64
+          },
+          "p95": {
+            "value": 20105.99,
+            "ci_lower": 14153.32,
+            "ci_upper": 21928.7
+          },
+          "p99": {
+            "value": 28947.26,
+            "ci_lower": 20086.29,
+            "ci_upper": 29465.1
+          }
+        },
+        "rejection_rate": 0.0
+      },
+      "Condition_C": {
+        "condition": "Condition_C",
+        "total_queries": 100,
+        "routing_policy": "adaptive",
+        "scheduler_type": "ROUND_ROBIN",
+        "mean_exact_match": 0.0,
+        "mean_token_f1": 0.2122,
+        "mean_citation_precision": 0.82,
+        "mean_retrieval_recall_at_3": 0.94,
+        "mean_ndcg_at_3": 0.8981,
+        "mean_mrr": 0.8767,
+        "mean_total_latency_ms": 289.78,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 14.11,
+            "ci_lower": 13.55,
+            "ci_upper": 16.98
+          },
+          "p95": {
+            "value": 2027.12,
+            "ci_lower": 260.51,
+            "ci_upper": 2368.05
+          },
+          "p99": {
+            "value": 3189.67,
+            "ci_lower": 2032.46,
+            "ci_upper": 10213.41
+          }
+        },
+        "rejection_rate": 0.0
+      },
+      "Condition_D": {
+        "condition": "Condition_D",
+        "total_queries": 100,
+        "routing_policy": "adaptive",
+        "scheduler_type": "CAPACITY_AWARE",
+        "mean_exact_match": 0.0,
+        "mean_token_f1": 0.2122,
+        "mean_citation_precision": 0.82,
+        "mean_retrieval_recall_at_3": 0.94,
+        "mean_ndcg_at_3": 0.8981,
+        "mean_mrr": 0.8767,
+        "mean_total_latency_ms": 104.64,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 12.82,
+            "ci_lower": 12.51,
+            "ci_upper": 13.18
+          },
+          "p95": {
+            "value": 72.78,
+            "ci_lower": 17.65,
+            "ci_upper": 2050.48
+          },
+          "p99": {
+            "value": 2331.48,
+            "ci_lower": 92.1,
+            "ci_upper": 2598.2
+          }
+        },
+        "rejection_rate": 0.0
+      }
+    },
+    "statistical_tests": {
+      "anova_exact_match": {
+        "metric": "Exact_Match",
+        "sample_size_n": 100,
+        "df_numerator": 1,
+        "df_denominator": 99,
+        "main_effect_routing": {
+          "contrast_mean": 0.0,
+          "f_statistic": NaN,
+          "p_value": NaN,
+          "partial_eta_squared": 0.0,
+          "significant_at_05": false
+        },
+        "main_effect_scheduling": {
+          "contrast_mean": 0.0,
+          "f_statistic": NaN,
+          "p_value": NaN,
+          "partial_eta_squared": 0.0,
+          "significant_at_05": false
+        },
+        "interaction_effect": {
+          "contrast_mean": 0.0,
+          "f_statistic": NaN,
+          "p_value": NaN,
+          "partial_eta_squared": 0.0,
+          "significant_at_05": false
+        }
+      },
+      "anova_token_f1": {
+        "metric": "Token_F1",
+        "sample_size_n": 100,
+        "df_numerator": 1,
+        "df_denominator": 99,
+        "main_effect_routing": {
+          "contrast_mean": 0.07358899999999999,
+          "f_statistic": 11.6754,
+          "p_value": 0.0009201987508918718,
+          "partial_eta_squared": 0.1055,
+          "significant_at_05": true
+        },
+        "main_effect_scheduling": {
+          "contrast_mean": 0.0,
+          "f_statistic": NaN,
+          "p_value": NaN,
+          "partial_eta_squared": 0.0,
+          "significant_at_05": false
+        },
+        "interaction_effect": {
+          "contrast_mean": 0.0,
+          "f_statistic": NaN,
+          "p_value": NaN,
+          "partial_eta_squared": 0.0,
+          "significant_at_05": false
+        }
+      },
+      "anova_citation_precision": {
+        "metric": "Citation_Precision",
+        "sample_size_n": 100,
+        "df_numerator": 1,
+        "df_denominator": 99,
+        "main_effect_routing": {
+          "contrast_mean": 0.72,
+          "f_statistic": 231.5957,
+          "p_value": 1.1408340456410658e-27,
+          "partial_eta_squared": 0.7005,
+          "significant_at_05": true
+        },
+        "main_effect_scheduling": {
+          "contrast_mean": 0.0,
+          "f_statistic": NaN,
+          "p_value": NaN,
+          "partial_eta_squared": 0.0,
+          "significant_at_05": false
+        },
+        "interaction_effect": {
+          "contrast_mean": 0.0,
+          "f_statistic": NaN,
+          "p_value": NaN,
+          "partial_eta_squared": 0.0,
+          "significant_at_05": false
+        }
+      },
+      "anova_total_latency": {
+        "metric": "Total_Latency_ms",
+        "sample_size_n": 100,
+        "df_numerator": 1,
+        "df_denominator": 99,
+        "main_effect_routing": {
+          "contrast_mean": -4101.56875,
+          "f_statistic": 142.1265,
+          "p_value": 7.545431172716266e-21,
+          "partial_eta_squared": 0.5894,
+          "significant_at_05": true
+        },
+        "main_effect_scheduling": {
+          "contrast_mean": 1612.5948500000002,
+          "f_statistic": 28.7422,
+          "p_value": 5.414871321187991e-07,
+          "partial_eta_squared": 0.225,
+          "significant_at_05": true
+        },
+        "interaction_effect": {
+          "contrast_mean": -3595.4585,
+          "f_statistic": 37.007,
+          "p_value": 2.225798977720755e-08,
+          "partial_eta_squared": 0.2721,
+          "significant_at_05": true
+        }
+      },
+      "mcnemar_exact_match": {
+        "a_vs_c": {
+          "statistic_chi2": 0.0,
+          "p_value": 1.0,
+          "contingency_table": {
+            "both_correct": 0,
+            "cond1_only": 0,
+            "cond2_only": 0,
+            "both_incorrect": 100
+          },
+          "significant_at_05": false,
+          "note": "Zero discordant pairs; distributions are identical."
+        },
+        "a_vs_d": {
+          "statistic_chi2": 0.0,
+          "p_value": 1.0,
+          "contingency_table": {
+            "both_correct": 0,
+            "cond1_only": 0,
+            "cond2_only": 0,
+            "both_incorrect": 100
+          },
+          "significant_at_05": false,
+          "note": "Zero discordant pairs; distributions are identical."
+        }
+      },
+      "wilcoxon_token_f1": {
+        "a_vs_c": {
+          "metric": "Token_F1",
+          "statistic": 935.5,
+          "p_value": 0.001026787264403032,
+          "mean_difference": -0.07358899999999999,
+          "median_difference": -0.034450000000000036,
+          "significant_at_05": true
+        }
+      },
+      "wilcoxon_latency": {
+        "a_vs_d": {
+          "metric": "Total_Latency_ms",
+          "statistic": 0.0,
+          "p_value": 3.896559845095909e-18,
+          "mean_difference": 2488.9739,
+          "median_difference": 2887.265,
+          "significant_at_05": true
+        }
+      }
+    }
+  },
+  "synthetic_load_benchmark": {
+    "summaries": {
+      "Condition_A": {
+        "condition": "Condition_A",
+        "total_requests": 1000,
+        "target_arrival_rate_lambda": 25.0,
+        "total_bench_duration_sec": 42.39,
+        "success_count": 1000,
+        "rejection_count": 0,
+        "timeout_count": 0,
+        "rejection_rate": 0.0,
+        "failure_rate": 0.0,
+        "slo_violations": 63,
+        "slo_violation_rate": 0.063,
+        "throughput_req_per_sec": 23.59,
+        "goodput_req_per_sec": 23.59,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 312.7,
+            "ci_lower": 299.81,
+            "ci_upper": 324.47
+          },
+          "p95": {
+            "value": 512.99,
+            "ci_lower": 496.66,
+            "ci_upper": 519.87
+          },
+          "p99": {
+            "value": 559.55,
+            "ci_lower": 539.46,
+            "ci_upper": 567.18
+          }
+        },
+        "queue_wait_percentiles_ms": {
+          "p50": {
+            "value": 191.88,
+            "ci_lower": 179.56,
+            "ci_upper": 200.36
+          },
+          "p95": {
+            "value": 388.04,
+            "ci_lower": 376.21,
+            "ci_upper": 394.44
+          },
+          "p99": {
+            "value": 430.59,
+            "ci_lower": 418.58,
+            "ci_upper": 441.6
+          }
+        },
+        "mean_latency_ms": 314.64,
+        "mean_queue_wait_ms": 191.29,
+        "mean_execution_ms": 123.35
+      },
+      "Condition_B": {
+        "condition": "Condition_B",
+        "total_requests": 1000,
+        "target_arrival_rate_lambda": 25.0,
+        "total_bench_duration_sec": 61.43,
+        "success_count": 1000,
+        "rejection_count": 0,
+        "timeout_count": 0,
+        "rejection_rate": 0.0,
+        "failure_rate": 0.0,
+        "slo_violations": 471,
+        "slo_violation_rate": 0.471,
+        "throughput_req_per_sec": 16.28,
+        "goodput_req_per_sec": 16.28,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 488.8,
+            "ci_lower": 469.42,
+            "ci_upper": 500.33
+          },
+          "p95": {
+            "value": 750.07,
+            "ci_lower": 733.7,
+            "ci_upper": 763.57
+          },
+          "p99": {
+            "value": 827.11,
+            "ci_lower": 795.91,
+            "ci_upper": 861.57
+          }
+        },
+        "queue_wait_percentiles_ms": {
+          "p50": {
+            "value": 363.8,
+            "ci_lower": 347.78,
+            "ci_upper": 377.72
+          },
+          "p95": {
+            "value": 625.32,
+            "ci_lower": 598.49,
+            "ci_upper": 645.05
+          },
+          "p99": {
+            "value": 693.38,
+            "ci_lower": 680.91,
+            "ci_upper": 724.67
+          }
+        },
+        "mean_latency_ms": 486.1,
+        "mean_queue_wait_ms": 362.9,
+        "mean_execution_ms": 123.2
+      },
+      "Condition_C": {
+        "condition": "Condition_C",
+        "total_requests": 1000,
+        "target_arrival_rate_lambda": 25.0,
+        "total_bench_duration_sec": 39.84,
+        "success_count": 1000,
+        "rejection_count": 0,
+        "timeout_count": 0,
+        "rejection_rate": 0.0,
+        "failure_rate": 0.0,
+        "slo_violations": 0,
+        "slo_violation_rate": 0.0,
+        "throughput_req_per_sec": 25.1,
+        "goodput_req_per_sec": 25.1,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 2.96,
+            "ci_lower": 2.88,
+            "ci_upper": 3.08
+          },
+          "p95": {
+            "value": 150.41,
+            "ci_lower": 145.91,
+            "ci_upper": 152.85
+          },
+          "p99": {
+            "value": 170.12,
+            "ci_lower": 163.64,
+            "ci_upper": 174.76
+          }
+        },
+        "queue_wait_percentiles_ms": {
+          "p50": {
+            "value": 0.47,
+            "ci_lower": 0.46,
+            "ci_upper": 0.48
+          },
+          "p95": {
+            "value": 1.01,
+            "ci_lower": 0.91,
+            "ci_upper": 1.09
+          },
+          "p99": {
+            "value": 1.43,
+            "ci_lower": 1.32,
+            "ci_upper": 1.65
+          }
+        },
+        "mean_latency_ms": 39.72,
+        "mean_queue_wait_ms": 0.61,
+        "mean_execution_ms": 39.11
+      },
+      "Condition_D": {
+        "condition": "Condition_D",
+        "total_requests": 1000,
+        "target_arrival_rate_lambda": 25.0,
+        "total_bench_duration_sec": 39.88,
+        "success_count": 1000,
+        "rejection_count": 0,
+        "timeout_count": 0,
+        "rejection_rate": 0.0,
+        "failure_rate": 0.0,
+        "slo_violations": 15,
+        "slo_violation_rate": 0.015,
+        "throughput_req_per_sec": 25.08,
+        "goodput_req_per_sec": 25.08,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 3.07,
+            "ci_lower": 2.98,
+            "ci_upper": 3.16
+          },
+          "p95": {
+            "value": 385.75,
+            "ci_lower": 350.36,
+            "ci_upper": 418.43
+          },
+          "p99": {
+            "value": 540.48,
+            "ci_lower": 491.02,
+            "ci_upper": 597.34
+          }
+        },
+        "queue_wait_percentiles_ms": {
+          "p50": {
+            "value": 0.63,
+            "ci_lower": 0.61,
+            "ci_upper": 0.65
+          },
+          "p95": {
+            "value": 258.26,
+            "ci_lower": 228.17,
+            "ci_upper": 276.7
+          },
+          "p99": {
+            "value": 423.72,
+            "ci_lower": 367.96,
+            "ci_upper": 491.22
+          }
+        },
+        "mean_latency_ms": 80.62,
+        "mean_queue_wait_ms": 42.31,
+        "mean_execution_ms": 38.32
+      }
+    },
+    "statistical_tests": {
+      "anova_load_latency": {
+        "metric": "Synthetic_Load_Latency_ms",
+        "sample_size_n": 900,
+        "df_numerator": 1,
+        "df_denominator": 899,
+        "main_effect_routing": {
+          "contrast_mean": -339.53125,
+          "f_statistic": 5752.802,
+          "p_value": 0.0,
+          "partial_eta_squared": 0.8648,
+          "significant_at_05": true
+        },
+        "main_effect_scheduling": {
+          "contrast_mean": 105.47707222222223,
+          "f_statistic": 920.6649,
+          "p_value": 8.341661861623229e-140,
+          "partial_eta_squared": 0.506,
+          "significant_at_05": true
+        },
+        "interaction_effect": {
+          "contrast_mean": -132.90176666666667,
+          "f_statistic": 379.9829,
+          "p_value": 7.35583444719493e-71,
+          "partial_eta_squared": 0.2971,
+          "significant_at_05": true
+        }
+      },
+      "anova_load_queue_wait": {
+        "metric": "Synthetic_Queue_Wait_ms",
+        "sample_size_n": 900,
+        "df_numerator": 1,
+        "df_denominator": 899,
+        "main_effect_routing": {
+          "contrast_mean": -254.90101666666664,
+          "f_statistic": 5351.7889,
+          "p_value": 0.0,
+          "partial_eta_squared": 0.8562,
+          "significant_at_05": true
+        },
+        "main_effect_scheduling": {
+          "contrast_mean": 105.87205,
+          "f_statistic": 930.1994,
+          "p_value": 7.942419304290997e-141,
+          "partial_eta_squared": 0.5085,
+          "significant_at_05": true
+        },
+        "interaction_effect": {
+          "contrast_mean": -132.4143888888889,
+          "f_statistic": 380.3236,
+          "p_value": 6.523912414487278e-71,
+          "partial_eta_squared": 0.2973,
+          "significant_at_05": true
+        }
+      }
+    }
+  },
+  "e2e_qa_load_benchmark": {
+    "summaries": {
+      "Condition_A": {
+        "condition": "Condition_A",
+        "total_requests": 20,
+        "total_duration_sec": 51.58,
+        "success_count": 20,
+        "rejection_count": 0,
+        "rejection_rate": 0.0,
+        "throughput_req_per_sec": 0.39,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 5235.5,
+            "ci_lower": 4702.67,
+            "ci_upper": 5483.6
+          },
+          "p95": {
+            "value": 5704.3,
+            "ci_lower": 5675.45,
+            "ci_upper": 5725.71
+          },
+          "p99": {
+            "value": 5721.43,
+            "ci_lower": 5684.79,
+            "ci_upper": 5725.71
+          }
+        },
+        "mean_total_latency_ms": 5013.44,
+        "mean_retrieval_time_ms": 31.21,
+        "mean_execution_time_ms": 4981.73
+      },
+      "Condition_B": {
+        "condition": "Condition_B",
+        "total_requests": 20,
+        "total_duration_sec": 51.62,
+        "success_count": 20,
+        "rejection_count": 0,
+        "rejection_rate": 0.0,
+        "throughput_req_per_sec": 0.39,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 5421.25,
+            "ci_lower": 4537.89,
+            "ci_upper": 5517.62
+          },
+          "p95": {
+            "value": 5735.77,
+            "ci_lower": 5548.12,
+            "ci_upper": 5743.72
+          },
+          "p99": {
+            "value": 5742.13,
+            "ci_lower": 5604.69,
+            "ci_upper": 5743.72
+          }
+        },
+        "mean_total_latency_ms": 5031.77,
+        "mean_retrieval_time_ms": 27.75,
+        "mean_execution_time_ms": 5003.5
+      },
+      "Condition_C": {
+        "condition": "Condition_C",
+        "total_requests": 20,
+        "total_duration_sec": 0.25,
+        "success_count": 20,
+        "rejection_count": 0,
+        "rejection_rate": 0.0,
+        "throughput_req_per_sec": 79.64,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 24.56,
+            "ci_lower": 23.32,
+            "ci_upper": 26.09
+          },
+          "p95": {
+            "value": 34.04,
+            "ci_lower": 26.48,
+            "ci_upper": 37.8
+          },
+          "p99": {
+            "value": 37.05,
+            "ci_lower": 27.79,
+            "ci_upper": 37.8
+          }
+        },
+        "mean_total_latency_ms": 24.55,
+        "mean_retrieval_time_ms": 23.44,
+        "mean_execution_time_ms": 0.85
+      },
+      "Condition_D": {
+        "condition": "Condition_D",
+        "total_requests": 20,
+        "total_duration_sec": 0.22,
+        "success_count": 20,
+        "rejection_count": 0,
+        "rejection_rate": 0.0,
+        "throughput_req_per_sec": 91.3,
+        "latency_percentiles_ms": {
+          "p50": {
+            "value": 21.41,
+            "ci_lower": 20.77,
+            "ci_upper": 21.99
+          },
+          "p95": {
+            "value": 24.35,
+            "ci_lower": 22.84,
+            "ci_upper": 24.42
+          },
+          "p99": {
+            "value": 24.41,
+            "ci_lower": 23.64,
+            "ci_upper": 24.42
+          }
+        },
+        "mean_total_latency_ms": 21.5,
+        "mean_retrieval_time_ms": 20.53,
+        "mean_execution_time_ms": 0.73
+      }
+    }
+  }
+}

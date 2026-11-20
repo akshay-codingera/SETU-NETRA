@@ -1,0 +1,219 @@
+{
+  "source": "sample_question",
+  "status": "SUCCESS",
+  "document_type_hint": "MULTIPLE_CHOICE_ASSESSMENT",
+  "reconstruction_latency_ms": 1.34,
+  "metadata": {
+    "document_type_hint": "MULTIPLE_CHOICE_ASSESSMENT",
+    "total_blocks": 6,
+    "total_lines": 7,
+    "total_questions": 1,
+    "block_type_counts": {
+      "HEADING": 1,
+      "QUESTION": 1,
+      "OPTION": 3,
+      "NOTE": 1
+    }
+  },
+  "reading_order_box_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "SETU-NETRA TEST BENCH: SAMPLE QUESTION",
+      "bbox_xyxy": [
+        59.0,
+        65.0,
+        281.0,
+        79.0
+      ],
+      "mean_confidence": 0.9959,
+      "min_confidence": 0.9919,
+      "source_detection_indices": [
+        0,
+        1
+      ],
+      "role_metadata": {},
+      "warnings": []
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "What e the computationa complexit of performing convolution\nonan imaqe ofsize HxWwitha kernelofsize KxK?",
+      "bbox_xyxy": [
+        80.0,
+        151.0,
+        398.0,
+        209.0
+      ],
+      "mean_confidence": 0.566,
+      "min_confidence": 0.2381,
+      "source_detection_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "role_metadata": {},
+      "warnings": []
+    },
+    {
+      "block_id": 3,
+      "block_type": "OPTION",
+      "text": "[A] OH -",
+      "bbox_xyxy": [
+        77.0,
+        283.0,
+        121.0,
+        299.0
+      ],
+      "mean_confidence": 0.5025,
+      "min_confidence": 0.5025,
+      "source_detection_indices": [
+        9
+      ],
+      "role_metadata": {
+        "option_label": "A",
+        "option_text": "OH -",
+        "parent_question_id": 2
+      },
+      "warnings": []
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[C] OH",
+      "bbox_xyxy": [
+        79.0,
+        375.0,
+        123.0,
+        389.0
+      ],
+      "mean_confidence": 0.9271,
+      "min_confidence": 0.9271,
+      "source_detection_indices": [
+        10
+      ],
+      "role_metadata": {
+        "option_label": "C",
+        "option_text": "OH",
+        "parent_question_id": 2
+      },
+      "warnings": []
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "IDJ O(K 4",
+      "bbox_xyxy": [
+        79.0,
+        421.0,
+        131.0,
+        433.0
+      ],
+      "mean_confidence": 0.5853,
+      "min_confidence": 0.5853,
+      "source_detection_indices": [
+        11
+      ],
+      "role_metadata": {
+        "option_label": "D",
+        "option_text": "O(K 4",
+        "parent_question_id": 2
+      },
+      "warnings": []
+    },
+    {
+      "block_id": 6,
+      "block_type": "NOTE",
+      "text": "Note: Assume stride 1and standard direct spatialdomaincomputation:",
+      "bbox_xyxy": [
+        69.0,
+        511.0,
+        389.0,
+        523.0
+      ],
+      "mean_confidence": 0.8085,
+      "min_confidence": 0.8085,
+      "source_detection_indices": [
+        12
+      ],
+      "role_metadata": {
+        "note_body": "Assume stride 1and standard direct spatialdomaincomputation:"
+      },
+      "warnings": []
+    }
+  ],
+  "questions": [
+    {
+      "question_block_id": 2,
+      "question_number": null,
+      "question_text": "What e the computationa complexit of performing convolution\nonan imaqe ofsize HxWwitha kernelofsize KxK?",
+      "bbox_xyxy": [
+        77.0,
+        151.0,
+        398.0,
+        433.0
+      ],
+      "options": [
+        {
+          "option_label": "A",
+          "option_text": "OH -",
+          "block_id": 3,
+          "confidence": 0.5025,
+          "bbox_xyxy": [
+            77.0,
+            283.0,
+            121.0,
+            299.0
+          ]
+        },
+        {
+          "option_label": "C",
+          "option_text": "OH",
+          "block_id": 4,
+          "confidence": 0.9271,
+          "bbox_xyxy": [
+            79.0,
+            375.0,
+            123.0,
+            389.0
+          ]
+        },
+        {
+          "option_label": "D",
+          "option_text": "O(K 4",
+          "block_id": 5,
+          "confidence": 0.5853,
+          "bbox_xyxy": [
+            79.0,
+            421.0,
+            131.0,
+            433.0
+          ]
+        }
+      ],
+      "warnings": [
+        "Non-consecutive options: missing label(s) ['B']"
+      ]
+    }
+  ],
+  "warnings": []
+}

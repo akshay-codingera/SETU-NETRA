@@ -1,0 +1,76 @@
+{
+  "source": "sample_question3",
+  "status": "SUCCESS",
+  "embedding_engine": "neural_all-MiniLM-L6-v2",
+  "processing_time_ms": 52.34,
+  "document_domains": [
+    "Database Systems"
+  ],
+  "metadata": {
+    "document_id": "sample_question3",
+    "total_items_analyzed": 1,
+    "document_primary_domains": [
+      "Database Systems"
+    ],
+    "embedding_dimension": 384
+  },
+  "items": [
+    {
+      "source_id": "block-1",
+      "original_text": "Gle re xhe queY Put 2\nSELEcT FRom mountainc\n4 give all row< af the tble\nb2 None 0f theabove",
+      "normalized_text": null,
+      "primary_domain": "Database Systems",
+      "domains": [
+        {
+          "domain_id": "cs_databases",
+          "domain_name": "Database Systems",
+          "hierarchy_path": [
+            "Computing",
+            "Computer Science",
+            "Database Systems"
+          ],
+          "similarity_score": 0.1767,
+          "is_primary": false,
+          "evidence_terms": []
+        },
+        {
+          "domain_id": "inter_image_processing",
+          "domain_name": "Signal & Digital Image Processing",
+          "hierarchy_path": [
+            "Interdisciplinary",
+            "Signal & Digital Image Processing"
+          ],
+          "similarity_score": 0.0455,
+          "is_primary": false,
+          "evidence_terms": []
+        }
+      ],
+      "primary_topic": "Database Systems",
+      "secondary_topics": [],
+      "concepts": [],
+      "entities": [
+        {
+          "text": "re xhe",
+          "entity_type": "GRID_DIMENSION",
+          "attributes": {
+            "axis_1": "re",
+            "axis_2": "he"
+          }
+        }
+      ],
+      "relationships": [],
+      "question_intents": [
+        "UNKNOWN"
+      ],
+      "technical_level": "INTRODUCTORY",
+      "ambiguities": [],
+      "warnings": [
+        "Domain alignment score 0.177 is below provisional abstention threshold 0.22."
+      ],
+      "retrieved_knowledge": [],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "UNKNOWN_DOMAIN"
+    }
+  ],
+  "warnings": []
+}

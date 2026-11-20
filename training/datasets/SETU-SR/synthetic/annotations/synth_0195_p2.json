@@ -1,0 +1,334 @@
+{
+  "doc_id": "synth_0195",
+  "page_id": "synth_0195_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: SECTION B: SYSTEM ARCHITECTURE & ENGINEERING",
+      "bbox": [
+        60.0,
+        65.0,
+        590.0,
+        77.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q7. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        60.0,
+        98.0,
+        566.0,
+        133.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "OPTION",
+      "text": "A. 1NF",
+      "bbox": [
+        80.0,
+        148.0,
+        123.0,
+        159.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "B. 2NF",
+      "bbox": [
+        80.0,
+        166.0,
+        122.0,
+        177.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "C. 3NF",
+      "bbox": [
+        80.0,
+        184.0,
+        122.0,
+        195.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "D. BCNF",
+      "bbox": [
+        80.0,
+        202.0,
+        134.0,
+        213.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q8. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        60.0,
+        244.0,
+        575.0,
+        279.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "[A] Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        80.0,
+        294.0,
+        560.0,
+        307.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "[B] Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        80.0,
+        314.0,
+        424.0,
+        327.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "QUESTION",
+      "text": "Q9. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        59.0,
+        353.0,
+        522.0,
+        388.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "A. (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        403.0,
+        241.0,
+        416.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "B. (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        423.0,
+        181.0,
+        436.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "C. (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        443.0,
+        204.0,
+        456.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "D. ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        80.0,
+        463.0,
+        249.0,
+        476.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "QUESTION",
+      "text": "Q10. What is the primary architectural function of the Translation Lookaside Buffer (TLB) in virtual memory systems?",
+      "bbox": [
+        620.0,
+        98.0,
+        1098.0,
+        133.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "[A] Cache recent virtual-to-physical address translations to accelerate memory access",
+      "bbox": [
+        640.0,
+        148.0,
+        1120.0,
+        161.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "[B] Store dirty cache lines waiting to be written back to disk",
+      "bbox": [
+        640.0,
+        168.0,
+        984.0,
+        181.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "QUESTION",
+      "text": "Q11. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        620.0,
+        215.0,
+        1086.0,
+        247.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "(A) Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        640.0,
+        262.0,
+        1084.0,
+        275.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(B) Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        640.0,
+        282.0,
+        983.0,
+        295.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(C) Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        640.0,
+        302.0,
+        984.0,
+        315.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 22,
+      "block_type": "QUESTION",
+      "text": "Q12. Consider the following recursive Python function:",
+      "bbox": [
+        620.0,
+        344.0,
+        967.0,
+        358.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 23,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        629.0,
+        368.0,
+        825.0,
+        417.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "A. 11",
+      "bbox": [
+        640.0,
+        428.0,
+        672.0,
+        438.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "B. 15",
+      "bbox": [
+        640.0,
+        445.0,
+        671.0,
+        455.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "C. 9",
+      "bbox": [
+        640.0,
+        462.0,
+        664.0,
+        472.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 27,
+      "block_type": "OPTION",
+      "text": "D. 21",
+      "bbox": [
+        640.0,
+        479.0,
+        672.0,
+        489.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 100
+}

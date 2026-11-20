@@ -1,0 +1,36 @@
+# SR-EdgeNet Training Configuration
+model:
+  text_dim: 384
+  text_proj_dim: 64
+  spatial_dim: 15
+  spatial_proj_dim: 64
+  num_classes: 4
+  dropout_rate: 0.20
+
+training:
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  epochs: 15
+  early_stopping_patience: 4
+  lr_scheduler_factor: 0.5
+  lr_scheduler_patience: 2
+  loss_type: "focal"
+  focal_gamma: 2.0
+  # Focal/CrossEntropy class weights for [PARENT_OF, OPTION_OF, CONTINUATION_OF, NONE]
+  class_weights: [1.2, 1.0, 1.5, 0.4]
+  device: "cpu"
+  seed: 42
+  num_workers: 0
+
+data:
+  train_split: "training/datasets/SETU-SR/splits/train.jsonl"
+  val_split: "training/datasets/SETU-SR/splits/val.jsonl"
+  test_synthetic: "training/datasets/SETU-SR/splits/test_synthetic.jsonl"
+  test_in_domain: "training/datasets/SETU-SR/splits/test_in_domain.jsonl"
+
+checkpoints:
+  save_dir: "models/structure"
+  primary_checkpoint: "models/structure/sr_edge_net.pt"
+  funsd_only_checkpoint: "models/structure/sr_edge_net_funsd_only.pt"
+  synth_only_checkpoint: "models/structure/sr_edge_net_synth_only.pt"

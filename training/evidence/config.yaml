@@ -1,0 +1,30 @@
+# Training Configuration for ER-SP (Evidence Relevance & Sufficiency Predictor)
+
+dataset:
+  data_dir: "training/datasets/SETU-ER/splits"
+  train_file: "train.jsonl"
+  val_file: "val.jsonl"
+  test_file: "test.jsonl"
+  test_in_domain_file: "test_in_domain.jsonl"
+  embedding_cache: "training/evidence/embedding_cache.pt"
+
+model:
+  interaction_dim: 1537
+  proj_dim: 256
+  hidden_dim: 128
+  num_classes: 5
+  dropout: 0.2
+
+training:
+  seed: 42
+  device: "cpu"
+  batch_size: 32
+  epochs: 30
+  learning_rate: 0.0008
+  weight_decay: 0.0001
+  focal_gamma: 2.0
+  lr_patience: 3
+  lr_factor: 0.5
+  early_stopping_patience: 7
+  output_dir: "models/evidence"
+  model_save_path: "models/evidence/er_sp.pt"

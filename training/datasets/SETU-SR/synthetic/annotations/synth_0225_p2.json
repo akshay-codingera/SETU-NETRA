@@ -1,0 +1,394 @@
+{
+  "doc_id": "synth_0225",
+  "page_id": "synth_0225_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: SECTION C: ALGORITHMIC COMPLEXITY & REASONING",
+      "bbox": [
+        60.0,
+        61.0,
+        527.0,
+        73.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q7. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        99.0,
+        550.0,
+        124.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "OPTION",
+      "text": "[A] Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        137.0,
+        494.0,
+        147.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "[B] Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        152.0,
+        404.0,
+        162.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "[C] Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        167.0,
+        407.0,
+        177.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "[D] Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        182.0,
+        367.0,
+        192.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q8. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        60.0,
+        219.0,
+        549.0,
+        244.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "(A) (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        80.0,
+        257.0,
+        208.0,
+        267.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "(B) (P & Q) -> ~P",
+      "bbox": [
+        80.0,
+        272.0,
+        162.0,
+        282.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "OPTION",
+      "text": "(C) (P | Q) -> (P & Q)",
+      "bbox": [
+        80.0,
+        287.0,
+        183.0,
+        297.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "(D) ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        80.0,
+        302.0,
+        215.0,
+        312.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "QUESTION",
+      "text": "Q9. In the Raft consensus algorithm, under what precise condition does a candidate node transition into the Leader state?",
+      "bbox": [
+        60.0,
+        342.0,
+        550.0,
+        367.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "[A] Receiving votes from a strict majority of nodes in the cluster for that term",
+      "bbox": [
+        80.0,
+        380.0,
+        494.0,
+        390.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "[B] Broadcasting Heartbeat AppendEntries RPCs to all peers",
+      "bbox": [
+        80.0,
+        395.0,
+        404.0,
+        405.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "OPTION",
+      "text": "[C] Receiving an acknowledgement from the previous leader",
+      "bbox": [
+        80.0,
+        410.0,
+        407.0,
+        420.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "[D] Replicating at least one log entry to all followers",
+      "bbox": [
+        80.0,
+        425.0,
+        367.0,
+        435.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "QUESTION",
+      "text": "Q10. Which of the following formal logic assertions is valid under classical propositional semantics?",
+      "bbox": [
+        620.0,
+        99.0,
+        1116.0,
+        124.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "[A] (P -> Q) <-> (~Q -> ~P)",
+      "bbox": [
+        640.0,
+        137.0,
+        768.0,
+        147.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 19,
+      "block_type": "OPTION",
+      "text": "[B] (P & Q) -> ~P",
+      "bbox": [
+        640.0,
+        152.0,
+        722.0,
+        162.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "[C] (P | Q) -> (P & Q)",
+      "bbox": [
+        640.0,
+        167.0,
+        743.0,
+        177.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "[D] ~(P -> Q) <-> (~P -> ~Q)",
+      "bbox": [
+        640.0,
+        182.0,
+        775.0,
+        192.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 22,
+      "block_type": "QUESTION",
+      "text": "Q11. Consider the following recursive Python function:",
+      "bbox": [
+        620.0,
+        225.0,
+        920.0,
+        236.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 23,
+      "block_type": "CODE",
+      "text": "def solve(n):\n    if n <= 1: return 1\n    return solve(n - 1) + 2 * solve(n - 2)",
+      "bbox": [
+        629.0,
+        245.0,
+        839.0,
+        289.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 24,
+      "block_type": "OPTION",
+      "text": "(A) 11",
+      "bbox": [
+        640.0,
+        298.0,
+        670.0,
+        308.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "(B) 15",
+      "bbox": [
+        640.0,
+        313.0,
+        670.0,
+        323.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "(C) 9",
+      "bbox": [
+        640.0,
+        328.0,
+        663.0,
+        338.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 27,
+      "block_type": "OPTION",
+      "text": "(D) 21",
+      "bbox": [
+        640.0,
+        343.0,
+        671.0,
+        353.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 28,
+      "block_type": "QUESTION",
+      "text": "Q12. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        620.0,
+        382.0,
+        1110.0,
+        409.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 29,
+      "block_type": "OPTION",
+      "text": "A. 1NF",
+      "bbox": [
+        640.0,
+        422.0,
+        673.0,
+        430.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 30,
+      "block_type": "OPTION",
+      "text": "B. 2NF",
+      "bbox": [
+        640.0,
+        435.0,
+        673.0,
+        443.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 31,
+      "block_type": "OPTION",
+      "text": "C. 3NF",
+      "bbox": [
+        640.0,
+        448.0,
+        672.0,
+        456.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 32,
+      "block_type": "OPTION",
+      "text": "D. BCNF",
+      "bbox": [
+        640.0,
+        461.0,
+        681.0,
+        469.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 120
+}

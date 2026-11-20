@@ -1,0 +1,245 @@
+{
+  "source": "sample_question",
+  "status": "SUCCESS",
+  "embedding_engine": "neural_all-MiniLM-L6-v2",
+  "processing_time_ms": 95.62,
+  "document_domains": [
+    "Signal & Digital Image Processing"
+  ],
+  "metadata": {
+    "document_id": "sample_question",
+    "total_items_analyzed": 3,
+    "document_primary_domains": [
+      "Signal & Digital Image Processing"
+    ],
+    "embedding_dimension": 384
+  },
+  "items": [
+    {
+      "source_id": "question-2",
+      "original_text": "What e the computationa complexit of performing convolution\nonan imaqe ofsize HxWwitha kernelofsize KxK?",
+      "normalized_text": "Computational Complexity",
+      "primary_domain": "Signal & Digital Image Processing",
+      "domains": [
+        {
+          "domain_id": "inter_image_processing",
+          "domain_name": "Signal & Digital Image Processing",
+          "hierarchy_path": [
+            "Interdisciplinary",
+            "Signal & Digital Image Processing"
+          ],
+          "similarity_score": 0.945,
+          "is_primary": true,
+          "evidence_terms": [
+            "convolutional kernel",
+            "stride"
+          ]
+        }
+      ],
+      "primary_topic": "Computational Complexity",
+      "secondary_topics": [
+        "Time Complexity",
+        "Computational Cost",
+        "2D Convolution"
+      ],
+      "concepts": [
+        {
+          "text": "computational complexity",
+          "normalized_form": "Computational Complexity",
+          "concept_type": "METRIC",
+          "span": null,
+          "confidence": 0.85
+        },
+        {
+          "text": "time complexity",
+          "normalized_form": "Time Complexity",
+          "concept_type": "METRIC",
+          "span": null,
+          "confidence": 0.85
+        },
+        {
+          "text": "computational cost",
+          "normalized_form": "Computational Cost",
+          "concept_type": "METRIC",
+          "span": null,
+          "confidence": 0.85
+        },
+        {
+          "text": "convolution",
+          "normalized_form": "2D Convolution",
+          "concept_type": "ALGORITHM_OPERATION",
+          "span": [
+            48,
+            59
+          ],
+          "confidence": 0.95
+        },
+        {
+          "text": "kernel",
+          "normalized_form": "Convolutional / Transformation Kernel",
+          "concept_type": "DATA_STRUCTURE",
+          "span": [
+            87,
+            93
+          ],
+          "confidence": 0.95
+        }
+      ],
+      "entities": [
+        {
+          "text": "complexit",
+          "entity_type": "GRID_DIMENSION",
+          "attributes": {
+            "axis_1": "comple",
+            "axis_2": "it"
+          }
+        },
+        {
+          "text": "HxWwitha",
+          "entity_type": "GRID_DIMENSION",
+          "attributes": {
+            "axis_1": "H",
+            "axis_2": "Wwitha"
+          }
+        },
+        {
+          "text": "KxK",
+          "entity_type": "GRID_DIMENSION",
+          "attributes": {
+            "axis_1": "K",
+            "axis_2": "K"
+          }
+        }
+      ],
+      "relationships": [
+        {
+          "source": "2D Convolution",
+          "relation": "OPERATES_ON_SPATIAL_GRID",
+          "target": "Image Dimensions"
+        }
+      ],
+      "question_intents": [
+        "MULTIPLE_CHOICE_SELECTION"
+      ],
+      "technical_level": "INTERMEDIATE",
+      "ambiguities": [],
+      "warnings": [
+        "Non-consecutive options: missing label(s) ['B']"
+      ],
+      "retrieved_knowledge": [
+        {
+          "source_id": "ref_convolution_complexity",
+          "title": "2D Spatial Convolution Computational Complexity (Digital Image Processing (Gonzalez & Woods, 4th Ed.))",
+          "passage": "For an image of spatial dimensions H x W and a 2D filter kernel of size K x K with unit stride and no padding, each of the ~H*W output pixels requires K*K multiplications and additions, yielding an asymptotic computational complexity of O(H * W * K^2).",
+          "similarity_score": 0.5665
+        }
+      ],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "ANALYZED"
+    },
+    {
+      "source_id": "block-1",
+      "original_text": "SETU-NETRA TEST BENCH: SAMPLE QUESTION",
+      "normalized_text": null,
+      "primary_domain": "Signal & Digital Image Processing",
+      "domains": [
+        {
+          "domain_id": "inter_image_processing",
+          "domain_name": "Signal & Digital Image Processing",
+          "hierarchy_path": [
+            "Interdisciplinary",
+            "Signal & Digital Image Processing"
+          ],
+          "similarity_score": 0.6027,
+          "is_primary": true,
+          "evidence_terms": [
+            "stride"
+          ]
+        },
+        {
+          "domain_id": "cs_algorithms",
+          "domain_name": "Algorithms & Computational Complexity",
+          "hierarchy_path": [
+            "Computing",
+            "Computer Science",
+            "Algorithms & Computational Complexity"
+          ],
+          "similarity_score": 0.4103,
+          "is_primary": false,
+          "evidence_terms": [
+            "computational complexity"
+          ]
+        }
+      ],
+      "primary_topic": "Signal & Digital Image Processing",
+      "secondary_topics": [],
+      "concepts": [],
+      "entities": [],
+      "relationships": [],
+      "question_intents": [
+        "UNKNOWN"
+      ],
+      "technical_level": "INTRODUCTORY",
+      "ambiguities": [],
+      "warnings": [],
+      "retrieved_knowledge": [],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "ANALYZED"
+    },
+    {
+      "source_id": "block-6",
+      "original_text": "Note: Assume stride 1and standard direct spatialdomaincomputation:",
+      "normalized_text": "Convolution Stride",
+      "primary_domain": "Signal & Digital Image Processing",
+      "domains": [
+        {
+          "domain_id": "inter_image_processing",
+          "domain_name": "Signal & Digital Image Processing",
+          "hierarchy_path": [
+            "Interdisciplinary",
+            "Signal & Digital Image Processing"
+          ],
+          "similarity_score": 0.7268,
+          "is_primary": true,
+          "evidence_terms": [
+            "stride"
+          ]
+        }
+      ],
+      "primary_topic": "Convolution Stride",
+      "secondary_topics": [],
+      "concepts": [
+        {
+          "text": "stride",
+          "normalized_form": "Convolution Stride",
+          "concept_type": "HYPERPARAMETER",
+          "span": [
+            13,
+            19
+          ],
+          "confidence": 0.95
+        }
+      ],
+      "entities": [
+        {
+          "text": "Assume stride 1and standard direct spatialdomaincomputation",
+          "entity_type": "OPERATIONAL_CONSTRAINT",
+          "attributes": {
+            "constraint_phrase": "Assume stride 1and standard direct spatialdomaincomputation"
+          }
+        }
+      ],
+      "relationships": [],
+      "question_intents": [
+        "UNKNOWN"
+      ],
+      "technical_level": "INTERMEDIATE",
+      "ambiguities": [],
+      "warnings": [],
+      "retrieved_knowledge": [],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "ANALYZED"
+    }
+  ],
+  "warnings": []
+}

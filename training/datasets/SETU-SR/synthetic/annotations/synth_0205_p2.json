@@ -1,0 +1,346 @@
+{
+  "doc_id": "synth_0205",
+  "page_id": "synth_0205_p2",
+  "page_width": 1200,
+  "page_height": 1600,
+  "num_columns": 2,
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "CONTINUED: PART II: ADVANCED PRACTICAL INQUIRIES",
+      "bbox": [
+        60.0,
+        64.0,
+        519.0,
+        77.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 2,
+      "block_type": "QUESTION",
+      "text": "Q7. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        60.0,
+        104.0,
+        514.0,
+        138.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 3,
+      "block_type": "OPTION",
+      "text": "(A) O(N log N)",
+      "bbox": [
+        80.0,
+        153.0,
+        171.0,
+        166.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "(B) O(N^2)",
+      "bbox": [
+        80.0,
+        173.0,
+        149.0,
+        186.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "(C) O(N)",
+      "bbox": [
+        80.0,
+        193.0,
+        135.0,
+        206.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 6,
+      "block_type": "OPTION",
+      "text": "(D) O(2^N)",
+      "bbox": [
+        80.0,
+        213.0,
+        150.0,
+        226.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 7,
+      "block_type": "QUESTION",
+      "text": "Q8. Strict Two-Phase Locking (Strict 2PL) guarantees which of the following transaction execution properties?",
+      "bbox": [
+        60.0,
+        253.0,
+        538.0,
+        287.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 8,
+      "block_type": "OPTION",
+      "text": "[A] Conflict serializability and freedom from cascading aborts",
+      "bbox": [
+        80.0,
+        301.0,
+        462.0,
+        315.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 9,
+      "block_type": "OPTION",
+      "text": "[B] Freedom from deadlocks without timeout mechanisms",
+      "bbox": [
+        80.0,
+        321.0,
+        444.0,
+        335.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 10,
+      "block_type": "QUESTION",
+      "text": "Q9. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        60.0,
+        367.0,
+        573.0,
+        401.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 11,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        79.0,
+        415.0,
+        475.0,
+        429.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 12,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        80.0,
+        435.0,
+        367.0,
+        446.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 13,
+      "block_type": "OPTION",
+      "text": "C. Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        80.0,
+        452.0,
+        433.0,
+        466.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 14,
+      "block_type": "OPTION",
+      "text": "D. Immediate kernel panic halting thread schedulers",
+      "bbox": [
+        80.0,
+        472.0,
+        410.0,
+        486.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 15,
+      "block_type": "QUESTION",
+      "text": "Q10. What occurs when the working set of concurrent processes exceeds physical system RAM capacity?",
+      "bbox": [
+        620.0,
+        104.0,
+        1086.0,
+        138.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 16,
+      "block_type": "OPTION",
+      "text": "A. Thrashing: excessive paging I/O degrading CPU throughput",
+      "bbox": [
+        639.0,
+        152.0,
+        1035.0,
+        166.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 17,
+      "block_type": "OPTION",
+      "text": "B. Deadlock across CPU instruction decoders",
+      "bbox": [
+        640.0,
+        172.0,
+        927.0,
+        183.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 18,
+      "block_type": "OPTION",
+      "text": "C. Buffer overflow corrupting the page table root pointer",
+      "bbox": [
+        640.0,
+        189.0,
+        993.0,
+        203.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 19,
+      "block_type": "QUESTION",
+      "text": "Q11. What is the worst-case asymptotic time complexity of Quicksort with median-of-three pivot selection?",
+      "bbox": [
+        620.0,
+        228.0,
+        1082.0,
+        262.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 20,
+      "block_type": "OPTION",
+      "text": "(A) O(N log N)",
+      "bbox": [
+        640.0,
+        277.0,
+        731.0,
+        290.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 21,
+      "block_type": "OPTION",
+      "text": "(B) O(N^2)",
+      "bbox": [
+        640.0,
+        297.0,
+        709.0,
+        310.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 22,
+      "block_type": "OPTION",
+      "text": "(C) O(N)",
+      "bbox": [
+        640.0,
+        317.0,
+        695.0,
+        330.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 23,
+      "block_type": "OPTION",
+      "text": "(D) O(2^N)",
+      "bbox": [
+        640.0,
+        337.0,
+        710.0,
+        350.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 24,
+      "block_type": "QUESTION",
+      "text": "Q12. Consider relation R(A, B, C, D) with functional dependencies F = {A -> B, B -> C, C -> D}. What is the highest normal form satisfied by R?",
+      "bbox": [
+        620.0,
+        376.0,
+        1126.0,
+        410.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 25,
+      "block_type": "OPTION",
+      "text": "A. 1NF",
+      "bbox": [
+        639.0,
+        425.0,
+        684.0,
+        435.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 26,
+      "block_type": "OPTION",
+      "text": "B. 2NF",
+      "bbox": [
+        640.0,
+        442.0,
+        684.0,
+        452.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 27,
+      "block_type": "OPTION",
+      "text": "C. 3NF",
+      "bbox": [
+        640.0,
+        459.0,
+        685.0,
+        469.0
+      ],
+      "page_num": 2
+    },
+    {
+      "block_id": 28,
+      "block_type": "OPTION",
+      "text": "D. BCNF",
+      "bbox": [
+        640.0,
+        476.0,
+        696.0,
+        486.0
+      ],
+      "page_num": 2
+    }
+  ],
+  "edges_count": 130
+}

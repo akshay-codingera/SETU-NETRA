@@ -1,0 +1,98 @@
+[
+  {
+    "id": "qa_01",
+    "question": "How does the Raft consensus algorithm establish consistency across nodes?",
+    "document_id": "doc_consensus_8c698d88",
+    "document_source": "consensus.docx",
+    "page_number": 1,
+    "block_id": 2,
+    "reference_answer": "replicated state machines and leader election",
+    "supporting_evidence": "The Raft consensus algorithm establishes consistency through replicated state machines and leader election.",
+    "expected_epistemic_status": "EVIDENCE_BACKED",
+    "is_supported": true
+  },
+  {
+    "id": "qa_02",
+    "question": "How does Raft divide time during system operation?",
+    "document_id": "doc_consensus_8c698d88",
+    "document_source": "consensus.docx",
+    "page_number": 1,
+    "block_id": 3,
+    "reference_answer": "terms of arbitrary length, numbered with consecutive integers",
+    "supporting_evidence": "Raft divides time into terms of arbitrary length, numbered with consecutive integers.",
+    "expected_epistemic_status": "EVIDENCE_BACKED",
+    "is_supported": true
+  },
+  {
+    "id": "qa_03",
+    "question": "What happens at the beginning of each term in Raft?",
+    "document_id": "doc_consensus_8c698d88",
+    "document_source": "consensus.docx",
+    "page_number": 1,
+    "block_id": 4,
+    "reference_answer": "an election in which one or more candidates attempt to become leader",
+    "supporting_evidence": "Each term begins with an election in which one or more candidates attempt to become leader.",
+    "expected_epistemic_status": "EVIDENCE_BACKED",
+    "is_supported": true
+  },
+  {
+    "id": "qa_04",
+    "question": "Which option is correct in Question 1 of the distributed systems midterm regarding Raft consistency?",
+    "document_id": "doc_exam_questions_00f39a7e",
+    "document_source": "exam_questions.txt",
+    "page_number": 1,
+    "block_id": 2,
+    "reference_answer": "(B) Replicated state machines and leader election",
+    "supporting_evidence": "Q1. How does Raft establish consistency across distributed nodes? (A) Centralized coordinator (B) Replicated state machines and leader election (C) Broadcast gossip without leaders (D) Proof of work",
+    "expected_epistemic_status": "EVIDENCE_BACKED",
+    "is_supported": true
+  },
+  {
+    "id": "qa_05",
+    "question": "What is the decoherence time of superconducting transmon qubits under dilution refrigeration?",
+    "document_id": null,
+    "document_source": null,
+    "page_number": null,
+    "block_id": null,
+    "reference_answer": "I do not contain sufficient verified evidence in the ingested documents to answer this question.",
+    "supporting_evidence": null,
+    "expected_epistemic_status": "UNSUPPORTED",
+    "is_supported": false
+  },
+  {
+    "id": "qa_06",
+    "question": "Explain Wiles' modularity proof of Fermat's Last Theorem using Frey curves.",
+    "document_id": null,
+    "document_source": null,
+    "page_number": null,
+    "block_id": null,
+    "reference_answer": "I do not contain sufficient verified evidence in the ingested documents to answer this question.",
+    "supporting_evidence": null,
+    "expected_epistemic_status": "UNSUPPORTED",
+    "is_supported": false
+  },
+  {
+    "id": "qa_07",
+    "question": "What is the corporate tax deduction rate for R&D expenditures in Ireland for fiscal year 2026?",
+    "document_id": null,
+    "document_source": null,
+    "page_number": null,
+    "block_id": null,
+    "reference_answer": "I do not contain sufficient verified evidence in the ingested documents to answer this question.",
+    "supporting_evidence": null,
+    "expected_epistemic_status": "UNSUPPORTED",
+    "is_supported": false
+  },
+  {
+    "id": "qa_08",
+    "question": "What does Raft use to elect leaders?",
+    "document_id": "doc_consensus_8c698d88",
+    "document_source": "consensus.docx",
+    "page_number": 1,
+    "block_id": 4,
+    "reference_answer": "an election in which one or more candidates attempt to become leader",
+    "supporting_evidence": "Each term begins with an election in which one or more candidates attempt to become leader.",
+    "expected_epistemic_status": "EVIDENCE_BACKED",
+    "is_supported": true
+  }
+]

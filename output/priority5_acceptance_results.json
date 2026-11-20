@@ -1,0 +1,85 @@
+{
+  "steps": {
+    "step_01_document_ingestion": {
+      "status": "PASS",
+      "doc_id": "doc_e2e_acceptance_multipage_1e8d9a1b",
+      "page_count": 2,
+      "ingestion_status": "PROCESSED",
+      "elapsed_ms": 23334.55
+    },
+    "step_02_layout_reconstruction": {
+      "status": "PASS",
+      "total_blocks_indexed": 8,
+      "pages_indexed": [
+        1,
+        2
+      ],
+      "bounding_boxes_validated": true
+    },
+    "step_03_question_extraction": {
+      "status": "PASS",
+      "extracted_count": 2,
+      "sample_extracted_questions": [
+        "ExtractedQuestion(question_id=1, prompt='Question 1: What are the two primary tiers of the SETU-NETRA architecture? The execution engine does not bypass hardware telemetry verification. Persistence and Evidence Grounding The system persists layout blocks in SQLite with normalized coordinates for precise visual citation highlighting:', intent='DEFINITION', is_mcq=False, options=[], page_number=1, bounding_box=(50.0, 50.0, 750.0, 150.0), confidence=0.98, metadata={})",
+        "ExtractedQuestion(question_id=2, prompt='Question 2: Which database engine stores layout blocks and citation coordinates? While earlier specifications allowed unsecured external requests, current specifications strictly prohibit external egress under local-only privacy mode.', intent='OPEN_ENDED', is_mcq=False, options=[], page_number=1, bounding_box=(50.0, 50.0, 750.0, 150.0), confidence=0.98, metadata={})"
+      ]
+    },
+    "step_04_multi_passage_retrieval": {
+      "status": "PASS",
+      "query": "What are the two primary tiers of the SETU-NETRA architecture?",
+      "top_passage_snippet": "Question 1: What are the two primary tiers of the SETU-NETRA architecture?",
+      "top_passage_score": 0.9688,
+      "retrieved_count": 3
+    },
+    "step_05_contradictory_evidence_verification": {
+      "status": "PASS",
+      "query": "Does the execution engine bypass hardware telemetry verification?",
+      "negation_detected_in_evidence": true,
+      "retrieved_evidence_snippet": "The execution engine does not bypass hardware telemetry verification."
+    },
+    "step_06_citation_spatial_bounds": {
+      "status": "PASS",
+      "page_num": 1,
+      "block_id": 2,
+      "bounding_box": [
+        77.0,
+        195.0,
+        887.0,
+        231.0
+      ],
+      "width": 810.0,
+      "height": 36.0,
+      "spatial_projection_verified": true
+    },
+    "step_07_grounded_extractive_qa": {
+      "status": "PASS",
+      "epistemic_status": "EVIDENCE_BACKED",
+      "answer_preview": "Question 1: What are the two primary tiers of the SETU-NETRA architecture? [Doc: e2e_acceptance_mult",
+      "citations_count": 1,
+      "executing_model": "grounded-extractive-qa-v1",
+      "execution_time_ms": 14.19
+    },
+    "step_08_generative_slm_synthesis": {
+      "status": "PASS",
+      "executing_model": "ollama/qwen3.5:2b",
+      "execution_time_ms": 5323.18,
+      "answer_preview": "The two-tier architecture of SETU-NETRA consists of a decoupled system comprising an upper tier for high-level control a",
+      "epistemic_status": "EVIDENCE_BACKED"
+    },
+    "step_09_adaptive_routing_and_scheduling": {
+      "status": "PASS",
+      "active_scheduler": "CapacityAwareScheduler",
+      "factual_routed_to": "grounded-extractive-qa-v1",
+      "reasoning_routed_to": "ollama/qwen3.5:2b",
+      "worker_count": 9
+    },
+    "step_10_local_only_boundary": {
+      "status": "PASS",
+      "outbound_connections_count": 0,
+      "non_loopback_calls": 0,
+      "zero_egress_verified": true
+    }
+  },
+  "verdict": "ACCEPTED_READY_FOR_DEMO",
+  "execution_timestamp": "2026-11-11T07:23:53Z"
+}

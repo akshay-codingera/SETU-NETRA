@@ -1,0 +1,19 @@
+Database Systems: Concurrency Control, Isolation Levels, and Recovery
+
+Database management systems ensure reliable transaction execution by upholding the four fundamental ACID properties: Atomicity, Consistency, Isolation, and Durability.
+
+Atomicity guarantees that all operations within a transaction execute completely or none take effect. Consistency ensures transitions between valid database states complying with integrity constraints. Isolation prevents concurrent transactions from observing intermediate states. Durability ensures committed modifications survive system failures.
+
+Two-Phase Locking (2PL) is a pessimistic concurrency control protocol that guarantees conflict serializability. Under 2PL, a transaction must acquire locks in a growing phase and cannot acquire new locks once it begins releasing locks in a shrinking phase.
+
+Strict Two-Phase Locking (Strict 2PL) mitigates cascading aborts by requiring transactions to hold all exclusive write locks until the transaction commits or aborts. Rigorous 2PL holds both shared read locks and exclusive write locks until transaction completion.
+
+Deadlocks occur when two or more concurrent transactions form a cyclical wait-for graph, each waiting for locks held by another. Modern database engines resolve deadlocks using wait-for cycle detection algorithms (such as Tarjan's strongly connected components) or lock timeout heuristics, aborting the youngest victim transaction.
+
+ANSI SQL defines four standard transaction isolation levels: Read Uncommitted, Read Committed, Repeatable Read, and Serializable. Each isolation level disallows a specific set of concurrency anomalies, including dirty reads, non-repeatable reads, and phantom reads.
+
+Snapshot Isolation (SI) and Multi-Version Concurrency Control (MVCC) eliminate read-write contention by allowing readers to access point-in-time snapshots of data without acquiring shared locks. Writers create new versions of records with transaction timestamps, ensuring readers never block writers and writers never block readers.
+
+Write-Ahead Logging (WAL) ensures database durability and recovery correctness. Under the ARIES recovery algorithm, log records describing database modifications must be flushed to non-volatile disk storage before the corresponding dirty data pages are written to disk.
+
+The ARIES recovery algorithm operates in three sequential phases following a crash: the Analysis phase identifies dirty pages and active transactions, the Redo phase replays all logged operations to restore state, and the Undo phase reverses uncommitted transactions.

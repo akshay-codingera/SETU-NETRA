@@ -1,0 +1,99 @@
+{
+  "dataset_name": "SETU-CM",
+  "description": "Contextual Multi-Strategy Reasoning Policy (CM-RP) Training Benchmark",
+  "version": "1.0.0",
+  "total_records": 2160,
+  "actions": [
+    "ARITHMETIC_SOLVER",
+    "DBMS_SOLVER",
+    "FORMAL_LOGIC_SOLVER",
+    "EXTRACTIVE_QA",
+    "LOCAL_SLM",
+    "ADDITIONAL_RETRIEVAL",
+    "ABSTAIN"
+  ],
+  "feature_dim": 423,
+  "topic_partitioning": {
+    "train_topics": [
+      "Basic Arithmetic Expressions",
+      "Linear Formula Evaluation",
+      "Relational Functional Dependencies & 2NF",
+      "SQL Query Clause Precedence",
+      "Categorical Syllogisms & Counter-Models",
+      "Propositional Implication & Contrapositives",
+      "Raft Consensus Protocol Factoids",
+      "Virtual Memory Hardware Cache Factoids",
+      "Distributed Consensus vs 2PC Synthesis",
+      "Pessimistic vs Optimistic Concurrency Tradeoffs",
+      "Ablated Protocol Premise Requiring Expansion",
+      "Multi-Page Continuation Layouts",
+      "Direct Polarity Inversions & Contradictions",
+      "Speculative Inquiries & Resource Exhaustion"
+    ],
+    "val_topics": [
+      "Banker's Algorithm Resource Vector Math",
+      "Relational BCNF Decomposition & Join Losslessness",
+      "CAP Theorem Partition Guarantees",
+      "CAP Theorem Contradiction Detection"
+    ],
+    "test_topics": [
+      "Master Theorem Recurrence Calculation",
+      "B+ Tree Index Structural Node Rebalancing",
+      "Two-Phase Commit Coordinator Crash Factoid",
+      "DNS Hierarchy Resolution Contradiction"
+    ],
+    "test_in_domain_sources": [
+      "quest6.png",
+      "quest8.png",
+      "quest10.txt",
+      "quest7.png",
+      "Track-2 Report.pdf",
+      "consensus.docx",
+      "quest9.png"
+    ]
+  },
+  "splits": {
+    "train.jsonl": {
+      "total_records": 1470,
+      "distribution": {
+        "LOCAL_SLM": 188,
+        "ADDITIONAL_RETRIEVAL": 210,
+        "EXTRACTIVE_QA": 210,
+        "ABSTAIN": 232,
+        "ARITHMETIC_SOLVER": 210,
+        "DBMS_SOLVER": 210,
+        "FORMAL_LOGIC_SOLVER": 210
+      }
+    },
+    "val.jsonl": {
+      "total_records": 340,
+      "distribution": {
+        "DBMS_SOLVER": 85,
+        "EXTRACTIVE_QA": 85,
+        "ARITHMETIC_SOLVER": 85,
+        "ABSTAIN": 85
+      }
+    },
+    "test.jsonl": {
+      "total_records": 340,
+      "distribution": {
+        "ARITHMETIC_SOLVER": 85,
+        "EXTRACTIVE_QA": 85,
+        "ABSTAIN": 85,
+        "DBMS_SOLVER": 85
+      }
+    },
+    "test_in_domain.jsonl": {
+      "total_records": 10,
+      "distribution": {
+        "ARITHMETIC_SOLVER": 1,
+        "DBMS_SOLVER": 3,
+        "FORMAL_LOGIC_SOLVER": 1,
+        "EXTRACTIVE_QA": 2,
+        "LOCAL_SLM": 1,
+        "ADDITIONAL_RETRIEVAL": 1,
+        "ABSTAIN": 1
+      }
+    }
+  }
+}

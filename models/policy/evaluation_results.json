@@ -1,0 +1,736 @@
+{
+  "model_checkpoint": "models/policy/cm_rp.pt",
+  "evaluation_timestamp": "2026-11-17T18:48:52Z",
+  "parameters": 63367,
+  "evaluations": {
+    "test_unseen_topics": {
+      "samples": 340,
+      "CM_RP": {
+        "accuracy": 0.5764705882352941,
+        "macro_precision": 0.582422182821119,
+        "macro_recall": 0.38431372549019605,
+        "macro_f1": 0.36164666958210406,
+        "abstention_accuracy": 0.9735294117647059,
+        "abstention_precision": 0.9042553191489362,
+        "abstention_recall": 1.0,
+        "abstention_f1": 0.9497206703910615,
+        "per_action": {
+          "ARITHMETIC_SOLVER": {
+            "precision": 0.5902777777777778,
+            "recall": 1.0,
+            "f1": 0.74235807860262,
+            "support": 85
+          },
+          "DBMS_SOLVER": {
+            "precision": 1.0,
+            "recall": 0.29411764705882354,
+            "f1": 0.45454545454545453,
+            "support": 85
+          },
+          "FORMAL_LOGIC_SOLVER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "EXTRACTIVE_QA": {
+            "precision": 1.0,
+            "recall": 0.011764705882352941,
+            "f1": 0.023255813953488372,
+            "support": 85
+          },
+          "LOCAL_SLM": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "ADDITIONAL_RETRIEVAL": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "ABSTAIN": {
+            "precision": 0.9042553191489362,
+            "recall": 1.0,
+            "f1": 0.9497206703910615,
+            "support": 85
+          }
+        },
+        "confusion_matrix": [
+          [
+            85,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            59,
+            25,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            20,
+            1,
+            56,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            85
+          ]
+        ],
+        "latency_ms_mean": 0.38781588407479883,
+        "latency_ms_p95": 0.6299449683865532
+      },
+      "Baseline_Static_Domain_Router": {
+        "accuracy": 0.4,
+        "macro_precision": 0.2676767676767677,
+        "macro_recall": 0.32,
+        "macro_f1": 0.27392042586388876,
+        "abstention_accuracy": 0.75,
+        "abstention_precision": 0.0,
+        "abstention_recall": 0.0,
+        "abstention_f1": 0.0,
+        "per_action": {
+          "ARITHMETIC_SOLVER": {
+            "precision": 1.0,
+            "recall": 0.8117647058823529,
+            "f1": 0.8961038961038961,
+            "support": 85
+          },
+          "DBMS_SOLVER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 85
+          },
+          "FORMAL_LOGIC_SOLVER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "EXTRACTIVE_QA": {
+            "precision": 0.3383838383838384,
+            "recall": 0.788235294117647,
+            "f1": 0.4734982332155477,
+            "support": 85
+          },
+          "LOCAL_SLM": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "ADDITIONAL_RETRIEVAL": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "ABSTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 85
+          }
+        },
+        "confusion_matrix": [
+          [
+            69,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            21,
+            64,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            18,
+            67,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            18,
+            67,
+            0,
+            0,
+            0
+          ]
+        ],
+        "latency_ms_mean": 0.24584029297864832
+      },
+      "Baseline_Rule_Based_Selector": {
+        "accuracy": 0.7235294117647059,
+        "macro_precision": 0.5484906580615356,
+        "macro_recall": 0.7235294117647059,
+        "macro_f1": 0.6225667803353225,
+        "abstention_accuracy": 0.9588235294117647,
+        "abstention_precision": 0.8585858585858586,
+        "abstention_recall": 1.0,
+        "abstention_f1": 0.9239130434782609,
+        "per_action": {
+          "ARITHMETIC_SOLVER": {
+            "precision": 0.6967213114754098,
+            "recall": 1.0,
+            "f1": 0.821256038647343,
+            "support": 85
+          },
+          "DBMS_SOLVER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 85
+          },
+          "FORMAL_LOGIC_SOLVER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "EXTRACTIVE_QA": {
+            "precision": 0.6386554621848739,
+            "recall": 0.8941176470588236,
+            "f1": 0.7450980392156863,
+            "support": 85
+          },
+          "LOCAL_SLM": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "ADDITIONAL_RETRIEVAL": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "ABSTAIN": {
+            "precision": 0.8585858585858586,
+            "recall": 1.0,
+            "f1": 0.9239130434782609,
+            "support": 85
+          }
+        },
+        "confusion_matrix": [
+          [
+            85,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            37,
+            0,
+            0,
+            43,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            76,
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            85
+          ]
+        ],
+        "latency_ms_mean": 0.007140294217285426
+      }
+    },
+    "test_in_domain": {
+      "samples": 10,
+      "CM_RP": {
+        "accuracy": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1": 1.0,
+        "abstention_accuracy": 1.0,
+        "abstention_precision": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_f1": 1.0,
+        "per_action": {
+          "ARITHMETIC_SOLVER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "DBMS_SOLVER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          },
+          "FORMAL_LOGIC_SOLVER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "EXTRACTIVE_QA": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2
+          },
+          "LOCAL_SLM": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "ADDITIONAL_RETRIEVAL": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "ABSTAIN": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "latency_ms_mean": 0.42803999967873096,
+        "latency_ms_p95": 0.6972599978325886,
+        "dispatch_execution_success_rate": 0.8
+      },
+      "Baseline_Static_Domain_Router": {
+        "accuracy": 0.7,
+        "macro_precision": 0.4857142857142857,
+        "macro_recall": 0.5714285714285714,
+        "macro_f1": 0.5102040816326531,
+        "abstention_accuracy": 0.9,
+        "abstention_precision": 0.0,
+        "abstention_recall": 0.0,
+        "abstention_f1": 0.0,
+        "per_action": {
+          "ARITHMETIC_SOLVER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "DBMS_SOLVER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          },
+          "FORMAL_LOGIC_SOLVER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "EXTRACTIVE_QA": {
+            "precision": 0.4,
+            "recall": 1.0,
+            "f1": 0.5714285714285714,
+            "support": 2
+          },
+          "LOCAL_SLM": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "ADDITIONAL_RETRIEVAL": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "ABSTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "latency_ms_mean": 0.1873199944384396
+      },
+      "Baseline_Rule_Based_Selector": {
+        "accuracy": 0.9,
+        "macro_precision": 0.9523809523809523,
+        "macro_recall": 0.9523809523809523,
+        "macro_f1": 0.9428571428571428,
+        "abstention_accuracy": 1.0,
+        "abstention_precision": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_f1": 1.0,
+        "per_action": {
+          "ARITHMETIC_SOLVER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "DBMS_SOLVER": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "support": 3
+          },
+          "FORMAL_LOGIC_SOLVER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "EXTRACTIVE_QA": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 2
+          },
+          "LOCAL_SLM": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "ADDITIONAL_RETRIEVAL": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "ABSTAIN": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "latency_ms_mean": 0.007539993384853005
+      }
+    }
+  }
+}

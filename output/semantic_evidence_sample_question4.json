@@ -1,0 +1,209 @@
+{
+  "source": "sample_question4",
+  "status": "SUCCESS",
+  "embedding_engine": "neural_all-MiniLM-L6-v2",
+  "processing_time_ms": 181.32,
+  "document_domains": [
+    "Calculus & Mathematical Analysis"
+  ],
+  "metadata": {
+    "document_id": "sample_question4",
+    "total_items_analyzed": 4,
+    "document_primary_domains": [
+      "Calculus & Mathematical Analysis"
+    ],
+    "embedding_dimension": 384
+  },
+  "items": [
+    {
+      "source_id": "block-1",
+      "original_text": "Integev 2 10 ;",
+      "normalized_text": null,
+      "primary_domain": "Calculus & Mathematical Analysis",
+      "domains": [
+        {
+          "domain_id": "math_calculus",
+          "domain_name": "Calculus & Mathematical Analysis",
+          "hierarchy_path": [
+            "Mathematics",
+            "Calculus & Mathematical Analysis"
+          ],
+          "similarity_score": 0.1711,
+          "is_primary": false,
+          "evidence_terms": []
+        },
+        {
+          "domain_id": "math_linear_algebra",
+          "domain_name": "Linear Algebra",
+          "hierarchy_path": [
+            "Mathematics",
+            "Linear Algebra"
+          ],
+          "similarity_score": 0.1613,
+          "is_primary": false,
+          "evidence_terms": []
+        }
+      ],
+      "primary_topic": "Calculus & Mathematical Analysis",
+      "secondary_topics": [],
+      "concepts": [],
+      "entities": [],
+      "relationships": [],
+      "question_intents": [
+        "UNKNOWN"
+      ],
+      "technical_level": "INTRODUCTORY",
+      "ambiguities": [],
+      "warnings": [
+        "Domain alignment score 0.171 is below provisional abstention threshold 0.22."
+      ],
+      "retrieved_knowledge": [],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "UNKNOWN_DOMAIN"
+    },
+    {
+      "source_id": "block-2",
+      "original_text": "Intege b = 30 ;",
+      "normalized_text": null,
+      "primary_domain": "Calculus & Mathematical Analysis",
+      "domains": [
+        {
+          "domain_id": "math_calculus",
+          "domain_name": "Calculus & Mathematical Analysis",
+          "hierarchy_path": [
+            "Mathematics",
+            "Calculus & Mathematical Analysis"
+          ],
+          "similarity_score": 0.1695,
+          "is_primary": false,
+          "evidence_terms": []
+        },
+        {
+          "domain_id": "cs_algorithms",
+          "domain_name": "Algorithms & Computational Complexity",
+          "hierarchy_path": [
+            "Computing",
+            "Computer Science",
+            "Algorithms & Computational Complexity"
+          ],
+          "similarity_score": 0.1575,
+          "is_primary": false,
+          "evidence_terms": []
+        }
+      ],
+      "primary_topic": "Calculus & Mathematical Analysis",
+      "secondary_topics": [],
+      "concepts": [],
+      "entities": [],
+      "relationships": [],
+      "question_intents": [
+        "UNKNOWN"
+      ],
+      "technical_level": "INTRODUCTORY",
+      "ambiguities": [],
+      "warnings": [
+        "Domain alignment score 0.170 is below provisional abstention threshold 0.22."
+      ],
+      "retrieved_knowledge": [],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "UNKNOWN_DOMAIN"
+    },
+    {
+      "source_id": "block-3",
+      "original_text": "sum b-a;\nValue ek Sum 2",
+      "normalized_text": null,
+      "primary_domain": "Calculus & Mathematical Analysis",
+      "domains": [
+        {
+          "domain_id": "math_calculus",
+          "domain_name": "Calculus & Mathematical Analysis",
+          "hierarchy_path": [
+            "Mathematics",
+            "Calculus & Mathematical Analysis"
+          ],
+          "similarity_score": 0.1682,
+          "is_primary": false,
+          "evidence_terms": []
+        },
+        {
+          "domain_id": "math_linear_algebra",
+          "domain_name": "Linear Algebra",
+          "hierarchy_path": [
+            "Mathematics",
+            "Linear Algebra"
+          ],
+          "similarity_score": 0.1645,
+          "is_primary": false,
+          "evidence_terms": []
+        }
+      ],
+      "primary_topic": "Calculus & Mathematical Analysis",
+      "secondary_topics": [],
+      "concepts": [],
+      "entities": [],
+      "relationships": [],
+      "question_intents": [
+        "UNKNOWN"
+      ],
+      "technical_level": "INTRODUCTORY",
+      "ambiguities": [],
+      "warnings": [
+        "Domain alignment score 0.168 is below provisional abstention threshold 0.22."
+      ],
+      "retrieved_knowledge": [],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "UNKNOWN_DOMAIN"
+    },
+    {
+      "source_id": "block-6",
+      "original_text": "50",
+      "normalized_text": null,
+      "primary_domain": "Calculus & Mathematical Analysis",
+      "domains": [
+        {
+          "domain_id": "math_calculus",
+          "domain_name": "Calculus & Mathematical Analysis",
+          "hierarchy_path": [
+            "Mathematics",
+            "Calculus & Mathematical Analysis"
+          ],
+          "similarity_score": 0.159,
+          "is_primary": false,
+          "evidence_terms": []
+        },
+        {
+          "domain_id": "cs_algorithms",
+          "domain_name": "Algorithms & Computational Complexity",
+          "hierarchy_path": [
+            "Computing",
+            "Computer Science",
+            "Algorithms & Computational Complexity"
+          ],
+          "similarity_score": 0.1365,
+          "is_primary": false,
+          "evidence_terms": []
+        }
+      ],
+      "primary_topic": "Calculus & Mathematical Analysis",
+      "secondary_topics": [],
+      "concepts": [],
+      "entities": [],
+      "relationships": [],
+      "question_intents": [
+        "UNKNOWN"
+      ],
+      "technical_level": "UNKNOWN",
+      "ambiguities": [],
+      "warnings": [
+        "Domain alignment score 0.159 is below provisional abstention threshold 0.22."
+      ],
+      "retrieved_knowledge": [],
+      "classification_method": "neural_all-MiniLM-L6-v2",
+      "status": "UNKNOWN_DOMAIN"
+    }
+  ],
+  "warnings": [
+    "Orphaned option label 'C' in block 4 with no preceding question.",
+    "Orphaned option label 'B' in block 5 with no preceding question."
+  ]
+}

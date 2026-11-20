@@ -1,0 +1,184 @@
+[
+  {
+    "id": "route_01",
+    "task_type": "ocr",
+    "input_payload": "scanned_exam_page_1.png",
+    "metadata": {},
+    "expected_model": "easyocr-craft-crnn",
+    "expected_status": "ROUTED",
+    "category": "OCR"
+  },
+  {
+    "id": "route_02",
+    "task_type": "text_extraction",
+    "input_payload": "receipt_image.jpg",
+    "metadata": {},
+    "expected_model": "easyocr-craft-crnn",
+    "expected_status": "ROUTED",
+    "category": "OCR"
+  },
+  {
+    "id": "route_03",
+    "task_type": "embedding",
+    "input_payload": ["Vectorize this sentence for dense indexing."],
+    "metadata": {},
+    "expected_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "expected_status": "ROUTED",
+    "category": "Embedding"
+  },
+  {
+    "id": "route_04",
+    "task_type": "similarity",
+    "input_payload": ["Compare document representations."],
+    "metadata": {},
+    "expected_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "expected_status": "ROUTED",
+    "category": "Embedding"
+  },
+  {
+    "id": "route_05",
+    "task_type": "classification",
+    "input_payload": "Theorem 4.1: If A is a symmetric positive-definite matrix, then all its eigenvalues are strictly positive.",
+    "metadata": {},
+    "expected_model": "academic-domain-classifier-v1",
+    "expected_status": "ROUTED",
+    "category": "Classification"
+  },
+  {
+    "id": "route_06",
+    "task_type": "domain_detection",
+    "input_payload": "Dynamic programming formulation for sequence alignment using Needleman-Wunsch algorithm.",
+    "metadata": {},
+    "expected_model": "academic-domain-classifier-v1",
+    "expected_status": "ROUTED",
+    "category": "Classification"
+  },
+  {
+    "id": "route_07",
+    "task_type": "extractive_qa",
+    "input_payload": "What is the maximum operating temperature of the CPU?",
+    "context": "The thermal design specification states the maximum operating temperature is 105 degrees Celsius [Doc: spec.pdf, Page: 2, Block: 4].",
+    "metadata": {"evidence_requirement": "REQUIRE_VERIFIED_CITATIONS"},
+    "expected_model": "grounded-extractive-qa-v1",
+    "expected_status": "ROUTED",
+    "category": "Extractive QA"
+  },
+  {
+    "id": "route_08",
+    "task_type": "qa",
+    "input_payload": "According to the protocol, what port is used for encrypted DNS?",
+    "context": "DNS over HTTPS utilizes TCP port 443, whereas DNS over TLS uses port 853 [Doc: rfc.pdf, Page: 1, Block: 3].",
+    "metadata": {"evidence_requirement": "REQUIRE_VERIFIED_CITATIONS", "quality_requirement": "HIGH_PRECISION"},
+    "expected_model": "grounded-extractive-qa-v1",
+    "expected_status": "ROUTED",
+    "category": "Extractive QA"
+  },
+  {
+    "id": "route_09",
+    "task_type": "generative_qa",
+    "input_payload": "Explain the trade-offs between optimistic concurrency control and two-phase locking in distributed transactions.",
+    "metadata": {"timeout_ms": 5000},
+    "expected_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "expected_status": "ROUTED",
+    "category": "Generative QA"
+  },
+  {
+    "id": "route_10",
+    "task_type": "summarization",
+    "input_payload": "Summarize the key differences between monolithic kernels and microkernels in modern operating systems design.",
+    "metadata": {"timeout_ms": 5000},
+    "expected_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "expected_status": "ROUTED",
+    "category": "Summarization"
+  },
+  {
+    "id": "route_11",
+    "task_type": "reasoning",
+    "input_payload": "If Process A holds Resource 1 and requests Resource 2, while Process B holds Resource 2 and requests Resource 1, deduce whether a deadlock exists.",
+    "metadata": {"timeout_ms": 5000},
+    "expected_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "expected_status": "ROUTED",
+    "category": "Reasoning"
+  },
+  {
+    "id": "route_12",
+    "task_type": "qa",
+    "input_payload": "Compare the asymptotic complexity of MergeSort and QuickSort in the worst case.",
+    "metadata": {"intent": "COMPARISON", "timeout_ms": 4000},
+    "expected_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "expected_status": "ROUTED",
+    "category": "Generative QA"
+  },
+  {
+    "id": "route_13",
+    "task_type": "generative_qa",
+    "input_payload": "Provide a detailed comparison of Paxos versus Raft.",
+    "metadata": {"timeout_ms": 300},
+    "expected_model": "grounded-extractive-qa-v1",
+    "expected_status": "FALLBACK",
+    "category": "SLA Fallback"
+  },
+  {
+    "id": "route_14",
+    "task_type": "quantum_teleportation",
+    "input_payload": "Teleport qubit state across Bell state channel.",
+    "metadata": {},
+    "expected_model": null,
+    "expected_status": "REJECTED",
+    "category": "Unsupported Task"
+  },
+  {
+    "id": "route_15",
+    "task_type": "video_generation",
+    "input_payload": "Generate 4K 60fps video of sunset.",
+    "metadata": {},
+    "expected_model": null,
+    "expected_status": "REJECTED",
+    "category": "Unsupported Task"
+  },
+  {
+    "id": "route_16",
+    "task_type": "audio_transcription",
+    "input_payload": "audio_recording.wav",
+    "metadata": {},
+    "expected_model": null,
+    "expected_status": "REJECTED",
+    "category": "Unsupported Task"
+  },
+  {
+    "id": "route_17",
+    "task_type": "protein_folding",
+    "input_payload": "MKTLLILAVALLAPAYA",
+    "metadata": {},
+    "expected_model": null,
+    "expected_status": "REJECTED",
+    "category": "Unsupported Task"
+  },
+  {
+    "id": "route_18",
+    "task_type": "qa",
+    "input_payload": "What is the capital of France?",
+    "metadata": {},
+    "expected_model": "grounded-extractive-qa-v1",
+    "expected_status": "ROUTED",
+    "category": "Extractive QA"
+  },
+  {
+    "id": "route_19",
+    "task_type": "intent_classification",
+    "input_payload": "How does the cache controller resolve write-back conflicts?",
+    "metadata": {},
+    "expected_model": "academic-domain-classifier-v1",
+    "expected_status": "ROUTED",
+    "category": "Classification"
+  },
+  {
+    "id": "route_20",
+    "task_type": "image_ocr",
+    "input_payload": "handwritten_notes.png",
+    "metadata": {},
+    "expected_model": "easyocr-craft-crnn",
+    "expected_status": "ROUTED",
+    "category": "OCR"
+  }
+]

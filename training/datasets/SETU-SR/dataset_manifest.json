@@ -1,0 +1,58 @@
+{
+  "dataset_name": "SETU-SR",
+  "description": "Spatial-Relational Edge Classification Dataset for SETU-NETRA",
+  "version": "1.0.0",
+  "total_documents": 459,
+  "total_edges": 47557,
+  "splits": {
+    "train": {
+      "file": "splits/train.jsonl",
+      "edges_count": 36346,
+      "distribution": {
+        "PARENT_OF": 6300,
+        "NONE": 21768,
+        "CONTINUATION_OF": 1999,
+        "OPTION_OF": 6279
+      }
+    },
+    "val": {
+      "file": "splits/val.jsonl",
+      "edges_count": 6584,
+      "distribution": {
+        "PARENT_OF": 1451,
+        "NONE": 3942,
+        "CONTINUATION_OF": 323,
+        "OPTION_OF": 868
+      }
+    },
+    "test_synthetic": {
+      "file": "splits/test_synthetic.jsonl",
+      "edges_count": 4423,
+      "distribution": {
+        "PARENT_OF": 387,
+        "OPTION_OF": 1020,
+        "CONTINUATION_OF": 365,
+        "NONE": 2651
+      }
+    },
+    "test_in_domain": {
+      "file": "splits/test_in_domain.jsonl",
+      "edges_count": 204,
+      "distribution": {
+        "OPTION_OF": 36,
+        "CONTINUATION_OF": 40,
+        "PARENT_OF": 16,
+        "NONE": 112
+      },
+      "note": "Held-out gold evaluation set. Zero leakage into training."
+    }
+  },
+  "quality_audit": {
+    "train_val_leakage": 0,
+    "train_test_leakage": 0,
+    "train_indomain_leakage": 0,
+    "invalid_coordinates": 0,
+    "self_loops": 0,
+    "feature_vector_dimension": 15
+  }
+}

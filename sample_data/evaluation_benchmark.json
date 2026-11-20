@@ -1,0 +1,194 @@
+[
+  {
+    "id": "eval-01-def-basic",
+    "text": "What is meant by the definition of an algorithm in computer science?",
+    "category": "basic_definition",
+    "expected_domain": "Algorithms & Computational Complexity",
+    "expected_intents": ["DEFINITION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-02-everyday-phrasing",
+    "text": "How long does this sorting procedure take to finish running on a laptop?",
+    "category": "everyday_language",
+    "expected_domain": "Algorithms & Computational Complexity",
+    "expected_intents": ["COMPLEXITY_ANALYSIS"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-03-adv-technical",
+    "text": "Derive the asymptotic worst-case running-time bound for 2D convolution over an HxW image with a KxK kernel.",
+    "category": "advanced_technical",
+    "expected_domain": "Signal & Digital Image Processing",
+    "expected_intents": ["DERIVATION", "COMPLEXITY_ANALYSIS"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-04-paraphrase-runtime",
+    "text": "Estimate the computational cost and time complexity of the procedure.",
+    "category": "paraphrase",
+    "expected_domain": "Algorithms & Computational Complexity",
+    "expected_intents": ["COMPLEXITY_ANALYSIS"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-05-space-complexity",
+    "text": "What is the auxiliary space complexity and memory footprint of the recursive algorithm?",
+    "category": "distinct_concept_space",
+    "expected_domain": "Algorithms & Computational Complexity",
+    "expected_intents": ["COMPLEXITY_ANALYSIS"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-06-train-accuracy",
+    "text": "Evaluate the training accuracy and training loss of the neural network during backpropagation.",
+    "category": "distinct_concept_train",
+    "expected_domain": "Artificial Intelligence & Machine Learning",
+    "expected_intents": ["EVALUATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-07-test-accuracy",
+    "text": "Assess the test accuracy and generalization performance on unseen test data.",
+    "category": "distinct_concept_test",
+    "expected_domain": "Artificial Intelligence & Machine Learning",
+    "expected_intents": ["EVALUATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-08-crypt-encryption",
+    "text": "How do you encrypt a confidential message using an AES secret key cipher?",
+    "category": "distinct_concept_encryption",
+    "expected_domain": "Cryptography & Information Security",
+    "expected_intents": ["EXPLANATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-09-crypt-hashing",
+    "text": "Compute the cryptographic hash digest of the file using SHA-256 for integrity verification.",
+    "category": "distinct_concept_hashing",
+    "expected_domain": "Cryptography & Information Security",
+    "expected_intents": ["CALCULATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-10-stat-correlation",
+    "text": "Calculate the Pearson correlation coefficient between variables X and Y.",
+    "category": "distinct_concept_correlation",
+    "expected_domain": "Probability & Statistics",
+    "expected_intents": ["CALCULATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-11-stat-causation",
+    "text": "Discuss why statistical correlation does not necessarily imply a causal relationship.",
+    "category": "distinct_concept_causation",
+    "expected_domain": "Probability & Statistics",
+    "expected_intents": ["EXPLANATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-12-disambig-kernel-os",
+    "text": "Explain the role of the Linux operating system kernel in process scheduling and handling system calls.",
+    "category": "disambiguation_os",
+    "expected_domain": "Operating Systems & Computer Architecture",
+    "expected_intents": ["EXPLANATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-13-disambig-kernel-image",
+    "text": "Apply a 3x3 spatial convolution filter kernel to the input image for edge detection.",
+    "category": "disambiguation_image",
+    "expected_domain": "Signal & Digital Image Processing",
+    "expected_intents": ["OTHER"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-14-disambig-kernel-svm",
+    "text": "How does the RBF kernel trick map input features into a higher dimensional Hilbert space in SVM?",
+    "category": "disambiguation_ml",
+    "expected_domain": "Artificial Intelligence & Machine Learning",
+    "expected_intents": ["EXPLANATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-15-interdisciplinary-bio-cs",
+    "text": "Which dynamic programming algorithm is used for biological DNA sequence alignment?",
+    "category": "interdisciplinary",
+    "expected_domain": "Algorithms & Computational Complexity",
+    "expected_intents": ["IDENTIFICATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-16-civics-head-state",
+    "text": "Who is the Prime Minister of India and what executive powers are vested in the cabinet?",
+    "category": "civics_governance",
+    "expected_domain": "Political Science, Civics & Governance",
+    "expected_intents": ["IDENTIFICATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-17-networking-protocol",
+    "text": "Which transport layer protocol is connection-oriented and guarantees reliable packet delivery?",
+    "category": "networking",
+    "expected_domain": "Computer Networks",
+    "expected_intents": ["IDENTIFICATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-18-database-normalization",
+    "text": "Explain why decomposing a relational table into Boyce-Codd Normal Form (BCNF) eliminates redundancy.",
+    "category": "database",
+    "expected_domain": "Database Systems",
+    "expected_intents": ["EXPLANATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-19-linear-algebra-eigen",
+    "text": "Calculate the eigenvalues and eigenvectors of the 2x2 symmetric matrix.",
+    "category": "mathematics",
+    "expected_domain": "Linear Algebra",
+    "expected_intents": ["CALCULATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-20-bio-cell-membrane",
+    "text": "Describe the structure and function of the biological cell membrane and phospholipid bilayer.",
+    "category": "biology",
+    "expected_domain": "Cellular Biology & Genetics",
+    "expected_intents": ["EXPLANATION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-21-ocr-corrupted-sample1",
+    "text": "What e the computationa complexit of performing convolution onan imaqe ofsize HxWwitha kernelofsize KxK?",
+    "category": "ocr_corrupted",
+    "expected_domain": "Signal & Digital Image Processing",
+    "expected_intents": ["DEFINITION"],
+    "is_abstention": false
+  },
+  {
+    "id": "eval-22-unknown-astrophysics",
+    "text": "Calculate the relativistic frame-dragging magnetosphere precession around a Kerr black hole.",
+    "category": "unknown_domain_abstain",
+    "expected_domain": "UNKNOWN_DOMAIN",
+    "expected_intents": ["CALCULATION"],
+    "is_abstention": true
+  },
+  {
+    "id": "eval-23-unknown-gibberish",
+    "text": "qwjkle rtyui opasdf ghjkl zxcvbnm 1234567890",
+    "category": "gibberish_abstain",
+    "expected_domain": "UNKNOWN_DOMAIN",
+    "expected_intents": ["UNKNOWN"],
+    "is_abstention": true
+  },
+  {
+    "id": "eval-24-compound-intent",
+    "text": "Explain why the algorithm has logarithmic time complexity and calculate the number of steps for N=1024.",
+    "category": "compound_multi_intent",
+    "expected_domain": "Algorithms & Computational Complexity",
+    "expected_intents": ["EXPLANATION", "CALCULATION", "COMPLEXITY_ANALYSIS"],
+    "is_abstention": false
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "experiment_id": "reliability_evaluation",
+    "suite_name": "Stage 6 Reliability & Fault Recovery Evaluation",
+    "description": "Automated failure injection, circuit breaking, idempotency, and timeout tests.",
+    "timestamp_iso": "2026-11-10T09:31:16.166208+00:00",
+    "git_commit": "stage6-experimental-validation",
+    "hardware": {
+      "platform": "Windows-11-10.0.26200-SP0",
+      "system": "Windows",
+      "release": "11",
+      "version": "10.0.26200",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+      "cpu_count_logical": 12,
+      "total_ram_mb": 16027.7,
+      "python_version": "3.14.7",
+      "python_executable": "D:\\Projects\\Setu-Netra\\.venv\\Scripts\\python.exe"
+    },
+    "model_configs": {},
+    "scheduler_configs": {},
+    "workload_id": "reliability_suite",
+    "total_requests": 6,
+    "warmup_count": 0,
+    "repetition_count": 1,
+    "parameters": {}
+  },
+  "raw_measurements": [
+    {
+      "test_name": "worker_crash_and_failover",
+      "passed": true,
+      "servicing_worker": "w_backup",
+      "latency_ms": 0.43,
+      "correlation_id_preserved": true
+    },
+    {
+      "test_name": "execution_and_queue_timeouts",
+      "passed": true,
+      "status": "TIMEOUT",
+      "error": "Total execution time (300.4ms) exceeded timeout limit of 80.0ms."
+    },
+    {
+      "test_name": "queue_saturation_backpressure",
+      "passed": true,
+      "backpressure_caught": true
+    },
+    {
+      "test_name": "circuit_breaker_tripping_and_recovery",
+      "passed": true,
+      "circuit_breaker_tripped": true,
+      "circuit_breaker_recovered": true
+    },
+    {
+      "test_name": "non_idempotent_task_retry_prevention",
+      "passed": true,
+      "attempts_performed": 1,
+      "status": "FAILED"
+    },
+    {
+      "test_name": "stale_telemetry_detection",
+      "passed": true,
+      "stale_sample_flagged": true,
+      "fresh_sample_accepted": true
+    }
+  ]
+}

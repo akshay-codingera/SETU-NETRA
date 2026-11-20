@@ -1,0 +1,473 @@
+{
+  "benchmark_file": "sample_data\\evaluation_benchmark.json",
+  "total_cases": 24,
+  "embedding_engine": "offline_semantic_tfidf",
+  "metrics": {
+    "domain_accuracy": 0.9545,
+    "macro_precision": 0.9773,
+    "macro_recall": 0.9697,
+    "macro_f1": 0.9688,
+    "intent_accuracy": 0.75,
+    "abstention_accuracy": 1.0,
+    "mean_latency_ms": 0.92
+  },
+  "per_class_f1": {
+    "Algorithms & Computational Complexity": 1.0,
+    "Artificial Intelligence & Machine Learning": 0.8,
+    "Cellular Biology & Genetics": 1.0,
+    "Computer Networks": 1.0,
+    "Cryptography & Information Security": 1.0,
+    "Database Systems": 1.0,
+    "Linear Algebra": 1.0,
+    "Operating Systems & Computer Architecture": 1.0,
+    "Political Science, Civics & Governance": 1.0,
+    "Probability & Statistics": 1.0,
+    "Signal & Digital Image Processing": 0.8571
+  },
+  "detailed_results": [
+    {
+      "id": "eval-01-def-basic",
+      "category": "basic_definition",
+      "text": "What is meant by the definition of an algorithm in computer science?",
+      "expected_domain": "Algorithms & Computational Complexity",
+      "predicted_domain": "Algorithms & Computational Complexity",
+      "expected_intents": [
+        "DEFINITION"
+      ],
+      "predicted_intents": [
+        "DEFINITION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 2.97,
+      "concepts": [
+        "Computational Cost"
+      ]
+    },
+    {
+      "id": "eval-02-everyday-phrasing",
+      "category": "everyday_language",
+      "text": "How long does this sorting procedure take to finish running on a laptop?",
+      "expected_domain": "Algorithms & Computational Complexity",
+      "predicted_domain": "Algorithms & Computational Complexity",
+      "expected_intents": [
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "predicted_intents": [
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.75,
+      "concepts": []
+    },
+    {
+      "id": "eval-03-adv-technical",
+      "category": "advanced_technical",
+      "text": "Derive the asymptotic worst-case running-time bound for 2D convolution over an HxW image with a KxK kernel.",
+      "expected_domain": "Signal & Digital Image Processing",
+      "predicted_domain": "Signal & Digital Image Processing",
+      "expected_intents": [
+        "DERIVATION",
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "predicted_intents": [
+        "DERIVATION",
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.82,
+      "concepts": [
+        "Asymptotic Runtime",
+        "Asymptotic Bound",
+        "Running-Time Bound",
+        "2D Convolution",
+        "Convolutional / Transformation Kernel"
+      ]
+    },
+    {
+      "id": "eval-04-paraphrase-runtime",
+      "category": "paraphrase",
+      "text": "Estimate the computational cost and time complexity of the procedure.",
+      "expected_domain": "Algorithms & Computational Complexity",
+      "predicted_domain": "Algorithms & Computational Complexity",
+      "expected_intents": [
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "predicted_intents": [
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.69,
+      "concepts": [
+        "Computational Complexity",
+        "Time Complexity",
+        "Computational Cost"
+      ]
+    },
+    {
+      "id": "eval-05-space-complexity",
+      "category": "distinct_concept_space",
+      "text": "What is the auxiliary space complexity and memory footprint of the recursive algorithm?",
+      "expected_domain": "Algorithms & Computational Complexity",
+      "predicted_domain": "Algorithms & Computational Complexity",
+      "expected_intents": [
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "predicted_intents": [
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.82,
+      "concepts": [
+        "Time Complexity",
+        "Space Complexity"
+      ]
+    },
+    {
+      "id": "eval-06-train-accuracy",
+      "category": "distinct_concept_train",
+      "text": "Evaluate the training accuracy and training loss of the neural network during backpropagation.",
+      "expected_domain": "Artificial Intelligence & Machine Learning",
+      "predicted_domain": "Artificial Intelligence & Machine Learning",
+      "expected_intents": [
+        "EVALUATION"
+      ],
+      "predicted_intents": [
+        "UNKNOWN"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.79,
+      "concepts": [
+        "Training Accuracy",
+        "Test Accuracy"
+      ]
+    },
+    {
+      "id": "eval-07-test-accuracy",
+      "category": "distinct_concept_test",
+      "text": "Assess the test accuracy and generalization performance on unseen test data.",
+      "expected_domain": "Artificial Intelligence & Machine Learning",
+      "predicted_domain": "Artificial Intelligence & Machine Learning",
+      "expected_intents": [
+        "EVALUATION"
+      ],
+      "predicted_intents": [
+        "UNKNOWN"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.77,
+      "concepts": [
+        "Test Accuracy"
+      ]
+    },
+    {
+      "id": "eval-08-crypt-encryption",
+      "category": "distinct_concept_encryption",
+      "text": "How do you encrypt a confidential message using an AES secret key cipher?",
+      "expected_domain": "Cryptography & Information Security",
+      "predicted_domain": "Cryptography & Information Security",
+      "expected_intents": [
+        "EXPLANATION"
+      ],
+      "predicted_intents": [
+        "EXPLANATION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.72,
+      "concepts": [
+        "Data Encryption"
+      ]
+    },
+    {
+      "id": "eval-09-crypt-hashing",
+      "category": "distinct_concept_hashing",
+      "text": "Compute the cryptographic hash digest of the file using SHA-256 for integrity verification.",
+      "expected_domain": "Cryptography & Information Security",
+      "predicted_domain": "Cryptography & Information Security",
+      "expected_intents": [
+        "CALCULATION"
+      ],
+      "predicted_intents": [
+        "CALCULATION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.77,
+      "concepts": [
+        "Computational Cost"
+      ]
+    },
+    {
+      "id": "eval-10-stat-correlation",
+      "category": "distinct_concept_correlation",
+      "text": "Calculate the Pearson correlation coefficient between variables X and Y.",
+      "expected_domain": "Probability & Statistics",
+      "predicted_domain": "Probability & Statistics",
+      "expected_intents": [
+        "CALCULATION"
+      ],
+      "predicted_intents": [
+        "CALCULATION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.99,
+      "concepts": [
+        "Statistical Correlation"
+      ]
+    },
+    {
+      "id": "eval-11-stat-causation",
+      "category": "distinct_concept_causation",
+      "text": "Discuss why statistical correlation does not necessarily imply a causal relationship.",
+      "expected_domain": "Probability & Statistics",
+      "predicted_domain": "Probability & Statistics",
+      "expected_intents": [
+        "EXPLANATION"
+      ],
+      "predicted_intents": [
+        "EXPLANATION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.85,
+      "concepts": [
+        "Statistical Correlation",
+        "Causal Relationship"
+      ]
+    },
+    {
+      "id": "eval-12-disambig-kernel-os",
+      "category": "disambiguation_os",
+      "text": "Explain the role of the Linux operating system kernel in process scheduling and handling system calls.",
+      "expected_domain": "Operating Systems & Computer Architecture",
+      "predicted_domain": "Operating Systems & Computer Architecture",
+      "expected_intents": [
+        "EXPLANATION"
+      ],
+      "predicted_intents": [
+        "EXPLANATION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.87,
+      "concepts": [
+        "Convolutional / Transformation Kernel"
+      ]
+    },
+    {
+      "id": "eval-13-disambig-kernel-image",
+      "category": "disambiguation_image",
+      "text": "Apply a 3x3 spatial convolution filter kernel to the input image for edge detection.",
+      "expected_domain": "Signal & Digital Image Processing",
+      "predicted_domain": "Signal & Digital Image Processing",
+      "expected_intents": [
+        "OTHER"
+      ],
+      "predicted_intents": [
+        "UNKNOWN"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.78,
+      "concepts": [
+        "2D Convolution",
+        "Spatial Filtering",
+        "Convolutional / Transformation Kernel",
+        "Digital Filter"
+      ]
+    },
+    {
+      "id": "eval-14-disambig-kernel-svm",
+      "category": "disambiguation_ml",
+      "text": "How does the RBF kernel trick map input features into a higher dimensional Hilbert space in SVM?",
+      "expected_domain": "Artificial Intelligence & Machine Learning",
+      "predicted_domain": "Signal & Digital Image Processing",
+      "expected_intents": [
+        "EXPLANATION"
+      ],
+      "predicted_intents": [
+        "EXPLANATION"
+      ],
+      "status": "UNKNOWN_DOMAIN",
+      "latency_ms": 0.8,
+      "concepts": [
+        "Convolutional / Transformation Kernel"
+      ]
+    },
+    {
+      "id": "eval-15-interdisciplinary-bio-cs",
+      "category": "interdisciplinary",
+      "text": "Which dynamic programming algorithm is used for biological DNA sequence alignment?",
+      "expected_domain": "Algorithms & Computational Complexity",
+      "predicted_domain": "Algorithms & Computational Complexity",
+      "expected_intents": [
+        "IDENTIFICATION"
+      ],
+      "predicted_intents": [
+        "OTHER"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 1.03,
+      "concepts": []
+    },
+    {
+      "id": "eval-16-civics-head-state",
+      "category": "civics_governance",
+      "text": "Who is the Prime Minister of India and what executive powers are vested in the cabinet?",
+      "expected_domain": "Political Science, Civics & Governance",
+      "predicted_domain": "Political Science, Civics & Governance",
+      "expected_intents": [
+        "IDENTIFICATION"
+      ],
+      "predicted_intents": [
+        "IDENTIFICATION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 1.03,
+      "concepts": [
+        "Prime Minister"
+      ]
+    },
+    {
+      "id": "eval-17-networking-protocol",
+      "category": "networking",
+      "text": "Which transport layer protocol is connection-oriented and guarantees reliable packet delivery?",
+      "expected_domain": "Computer Networks",
+      "predicted_domain": "Computer Networks",
+      "expected_intents": [
+        "IDENTIFICATION"
+      ],
+      "predicted_intents": [
+        "OTHER"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.87,
+      "concepts": [
+        "Connection-Oriented Transport",
+        "Connectionless Transport"
+      ]
+    },
+    {
+      "id": "eval-18-database-normalization",
+      "category": "database",
+      "text": "Explain why decomposing a relational table into Boyce-Codd Normal Form (BCNF) eliminates redundancy.",
+      "expected_domain": "Database Systems",
+      "predicted_domain": "Database Systems",
+      "expected_intents": [
+        "EXPLANATION"
+      ],
+      "predicted_intents": [
+        "EXPLANATION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.94,
+      "concepts": []
+    },
+    {
+      "id": "eval-19-linear-algebra-eigen",
+      "category": "mathematics",
+      "text": "Calculate the eigenvalues and eigenvectors of the 2x2 symmetric matrix.",
+      "expected_domain": "Linear Algebra",
+      "predicted_domain": "Linear Algebra",
+      "expected_intents": [
+        "CALCULATION"
+      ],
+      "predicted_intents": [
+        "CALCULATION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.75,
+      "concepts": [
+        "Eigenvalue",
+        "Eigenvector"
+      ]
+    },
+    {
+      "id": "eval-20-bio-cell-membrane",
+      "category": "biology",
+      "text": "Describe the structure and function of the biological cell membrane and phospholipid bilayer.",
+      "expected_domain": "Cellular Biology & Genetics",
+      "predicted_domain": "Cellular Biology & Genetics",
+      "expected_intents": [
+        "EXPLANATION"
+      ],
+      "predicted_intents": [
+        "EXPLANATION"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.91,
+      "concepts": []
+    },
+    {
+      "id": "eval-21-ocr-corrupted-sample1",
+      "category": "ocr_corrupted",
+      "text": "What e the computationa complexit of performing convolution onan imaqe ofsize HxWwitha kernelofsize KxK?",
+      "expected_domain": "Signal & Digital Image Processing",
+      "predicted_domain": "Signal & Digital Image Processing",
+      "expected_intents": [
+        "DEFINITION"
+      ],
+      "predicted_intents": [
+        "OTHER"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 1.0,
+      "concepts": [
+        "Computational Complexity",
+        "Time Complexity",
+        "Computational Cost",
+        "2D Convolution",
+        "Convolutional / Transformation Kernel"
+      ]
+    },
+    {
+      "id": "eval-22-unknown-astrophysics",
+      "category": "unknown_domain_abstain",
+      "text": "Calculate the relativistic frame-dragging magnetosphere precession around a Kerr black hole.",
+      "expected_domain": "UNKNOWN_DOMAIN",
+      "predicted_domain": "Database Systems",
+      "expected_intents": [
+        "CALCULATION"
+      ],
+      "predicted_intents": [
+        "CALCULATION"
+      ],
+      "status": "UNKNOWN_DOMAIN",
+      "latency_ms": 0.84,
+      "concepts": []
+    },
+    {
+      "id": "eval-23-unknown-gibberish",
+      "category": "gibberish_abstain",
+      "text": "qwjkle rtyui opasdf ghjkl zxcvbnm 1234567890",
+      "expected_domain": "UNKNOWN_DOMAIN",
+      "predicted_domain": "Calculus & Mathematical Analysis",
+      "expected_intents": [
+        "UNKNOWN"
+      ],
+      "predicted_intents": [
+        "UNKNOWN"
+      ],
+      "status": "UNKNOWN_DOMAIN",
+      "latency_ms": 0.44,
+      "concepts": []
+    },
+    {
+      "id": "eval-24-compound-intent",
+      "category": "compound_multi_intent",
+      "text": "Explain why the algorithm has logarithmic time complexity and calculate the number of steps for N=1024.",
+      "expected_domain": "Algorithms & Computational Complexity",
+      "predicted_domain": "Algorithms & Computational Complexity",
+      "expected_intents": [
+        "CALCULATION",
+        "EXPLANATION",
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "predicted_intents": [
+        "CALCULATION",
+        "EXPLANATION",
+        "COMPLEXITY_ANALYSIS"
+      ],
+      "status": "ANALYZED",
+      "latency_ms": 0.85,
+      "concepts": [
+        "Time Complexity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "exp_id": "EXP_0_BASELINE",
+    "label": "Existing Baseline (Grayscale + Contrast 1.30, Default OCR)",
+    "ocr_kwargs": {},
+    "latency_ms": 9104.6,
+    "boxes_count": 11,
+    "mean_conf": 0.5599,
+    "cer": 0.3558,
+    "wer": 0.7895,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Koh is tho mi nister o Indc Rahul Gandhi b) Narendra Mod; () Dra upcti_Mur Mvv d2 ShaxUkh Patel pamt"
+  },
+  {
+    "exp_id": "EXP_1_RAW_RGB",
+    "label": "Raw RGB (No Grayscale, Contrast 1.0, Default OCR)",
+    "ocr_kwargs": {},
+    "latency_ms": 10472.5,
+    "boxes_count": 11,
+    "mean_conf": 0.5244,
+    "cer": 0.3846,
+    "wer": 0.8947,
+    "entities": {
+      "Rahul Gandhi": false,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Koho is ths mc nister o Inddc Rahul 6andhi b) Narendro Mod; () Dra upoti_Mur Mvv d2 ShaxUkh Patel paimce"
+  },
+  {
+    "exp_id": "EXP_2_GRAY_NO_CONTRAST",
+    "label": "Grayscale Only (Contrast 1.0, Default OCR)",
+    "ocr_kwargs": {},
+    "latency_ms": 11044.7,
+    "boxes_count": 10,
+    "mean_conf": 0.5788,
+    "cer": 0.375,
+    "wer": 0.8421,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Koho i tho mi nister 6f Indlo Rahul Gandhi b Narendra Mod; () Dra upoti_Mur Mvy d) ShaxUkh Patel pamnce"
+  },
+  {
+    "exp_id": "EXP_3_MILD_CONTRAST",
+    "label": "Grayscale + Mild Contrast (1.15, Default OCR)",
+    "ocr_kwargs": {},
+    "latency_ms": 10482.3,
+    "boxes_count": 11,
+    "mean_conf": 0.518,
+    "cer": 0.3942,
+    "wer": 0.9474,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Koho i tho mi nister o Indb Rahul Gandhi b Narendya Mod; () Dra upoti_Mur Mwv d2 ShaxUkh Patel pamnct"
+  },
+  {
+    "exp_id": "EXP_4_HIGH_CONTRAST",
+    "label": "Grayscale + High Contrast (1.50, Default OCR)",
+    "ocr_kwargs": {},
+    "latency_ms": 9633.9,
+    "boxes_count": 11,
+    "mean_conf": 0.5485,
+    "cer": 0.3654,
+    "wer": 0.8421,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Koho i thi mi nister o Indc Rahul Gandhi b Narendra Mod; C) Dra upati_Mur Mwv d) ShaxUkh Patel pamncc"
+  },
+  {
+    "exp_id": "EXP_5_OCR_MARGIN_0_20",
+    "label": "Grayscale Only + add_margin=0.20",
+    "ocr_kwargs": {
+      "add_margin": 0.2
+    },
+    "latency_ms": 10095.9,
+    "boxes_count": 10,
+    "mean_conf": 0.4799,
+    "cer": 0.3942,
+    "wer": 0.8947,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Kohv i tho mcnister c Inda Rahul Gandhi b) Narendya Mod; () Dra upoti_Mvr Mwy d)_Sharukh PateL Paime"
+  },
+  {
+    "exp_id": "EXP_6_OCR_MAG_RATIO_1_5",
+    "label": "Grayscale Only + mag_ratio=1.5",
+    "ocr_kwargs": {
+      "mag_ratio": 1.5
+    },
+    "latency_ms": 20994.0,
+    "boxes_count": 14,
+    "mean_conf": 0.6318,
+    "cer": 0.25,
+    "wer": 0.8421,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Kh is thb Paimt mi nister o Indo 9 Rahul Gandhi b Narendya Moc; C) Draupati Mur Muv d) ShaxUkh Patel"
+  },
+  {
+    "exp_id": "EXP_7_OCR_LOW_LINK_THS",
+    "label": "Grayscale Only + link_threshold=0.25",
+    "ocr_kwargs": {
+      "link_threshold": 0.25
+    },
+    "latency_ms": 10903.4,
+    "boxes_count": 10,
+    "mean_conf": 0.5957,
+    "cer": 0.3846,
+    "wer": 0.7895,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "koho is tho mi nister & Incb Rahul Gandhi b Narendra Mod; () Dra upoti_Mur Mvy d) ShaxUkh Patel pamnce"
+  },
+  {
+    "exp_id": "EXP_8_OCR_LOW_TEXT_THS",
+    "label": "Grayscale Only + text_threshold=0.50, low_text=0.30",
+    "ocr_kwargs": {
+      "text_threshold": 0.5,
+      "low_text": 0.3
+    },
+    "latency_ms": 11596.9,
+    "boxes_count": 10,
+    "mean_conf": 0.4867,
+    "cer": 0.3942,
+    "wer": 0.8947,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Koho i tho mcnister ot Inco Rahul Gandhi b) Narendya Mod; 0) Dra upoti_Mur Mvv d2 Shaxukh Patel paimne"
+  },
+  {
+    "exp_id": "EXP_9_OCR_PARAGRAPH",
+    "label": "Grayscale Only + paragraph=True",
+    "ocr_kwargs": {
+      "paragraph": true
+    },
+    "latency_ms": 11086.0,
+    "boxes_count": 1,
+    "mean_conf": 1.0,
+    "cer": 0.3173,
+    "wer": 0.7895,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Koho i tho pamnce mi nister 6f Indlo Rahul Gandhi b Narendra Mod; () Dra upoti_Mur Mvy d) ShaxUkh Patel"
+  },
+  {
+    "exp_id": "EXP_10_OPTIMIZED_COMBINED",
+    "label": "Optimized: Gray(1.0) + mag_ratio=1.5 + add_margin=0.20 + link_ths=0.25",
+    "ocr_kwargs": {
+      "mag_ratio": 1.5,
+      "add_margin": 0.2,
+      "link_threshold": 0.25
+    },
+    "latency_ms": 20499.1,
+    "boxes_count": 13,
+    "mean_conf": 0.6175,
+    "cer": 0.3462,
+    "wer": 0.9474,
+    "entities": {
+      "Rahul Gandhi": true,
+      "Narendra Modi": false,
+      "Droupadi Murmu": false,
+      "Shahrukh Patel": false
+    },
+    "transcript": "Kho is tho minister o Indo ? RahulL Gandhi b Narendya Mod; C) Dra upati Mur Muv_ d) ShazUkh Patel Paimce"
+  }
+]

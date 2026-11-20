@@ -1,0 +1,166 @@
+{
+  "source": "sample_question4",
+  "status": "SUCCESS",
+  "document_type_hint": "GENERAL_TEXT_DOCUMENT",
+  "reconstruction_latency_ms": 2.61,
+  "metadata": {
+    "document_type_hint": "GENERAL_TEXT_DOCUMENT",
+    "total_blocks": 6,
+    "total_lines": 7,
+    "total_questions": 0,
+    "block_type_counts": {
+      "HEADING": 3,
+      "OPTION": 2,
+      "PARAGRAPH": 1
+    }
+  },
+  "reading_order_box_indices": [
+    0,
+    1,
+    13,
+    2,
+    3,
+    4,
+    14,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    15,
+    11,
+    12
+  ],
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "HEADING",
+      "text": "Integev 2 10 ;",
+      "bbox_xyxy": [
+        63.0,
+        -8.927939443282586,
+        589.6812827735332,
+        86.0
+      ],
+      "mean_confidence": 0.7452,
+      "min_confidence": 0.6144,
+      "source_detection_indices": [
+        0,
+        1,
+        13
+      ],
+      "role_metadata": {},
+      "warnings": []
+    },
+    {
+      "block_id": 2,
+      "block_type": "HEADING",
+      "text": "Intege b = 30 ;",
+      "bbox_xyxy": [
+        52.0,
+        58.0,
+        585.576849668604,
+        167.0
+      ],
+      "mean_confidence": 0.5636,
+      "min_confidence": 0.2717,
+      "source_detection_indices": [
+        2,
+        3,
+        4,
+        14
+      ],
+      "role_metadata": {},
+      "warnings": []
+    },
+    {
+      "block_id": 3,
+      "block_type": "HEADING",
+      "text": "sum b-a;\nValue ek Sum 2",
+      "bbox_xyxy": [
+        56.0,
+        180.0,
+        617.0,
+        414.0
+      ],
+      "mean_confidence": 0.6248,
+      "min_confidence": 0.2859,
+      "source_detection_indices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "role_metadata": {},
+      "warnings": []
+    },
+    {
+      "block_id": 4,
+      "block_type": "OPTION",
+      "text": "0) 2 0",
+      "bbox_xyxy": [
+        193.0,
+        421.8688646691549,
+        475.6929979439493,
+        499.0
+      ],
+      "mean_confidence": 0.9192,
+      "min_confidence": 0.8393,
+      "source_detection_indices": [
+        10,
+        15
+      ],
+      "role_metadata": {
+        "option_label": "C",
+        "option_text": "2 0"
+      },
+      "warnings": []
+    },
+    {
+      "block_id": 5,
+      "block_type": "OPTION",
+      "text": "b)",
+      "bbox_xyxy": [
+        191.0,
+        511.0,
+        279.0,
+        575.0
+      ],
+      "mean_confidence": 0.8781,
+      "min_confidence": 0.8781,
+      "source_detection_indices": [
+        11
+      ],
+      "role_metadata": {
+        "option_label": "B",
+        "option_text": ""
+      },
+      "warnings": []
+    },
+    {
+      "block_id": 6,
+      "block_type": "PARAGRAPH",
+      "text": "50",
+      "bbox_xyxy": [
+        385.0,
+        583.0,
+        485.0,
+        647.0
+      ],
+      "mean_confidence": 0.8242,
+      "min_confidence": 0.8242,
+      "source_detection_indices": [
+        12
+      ],
+      "role_metadata": {},
+      "warnings": []
+    }
+  ],
+  "questions": [],
+  "warnings": [
+    "Orphaned option label 'C' in block 4 with no preceding question.",
+    "Orphaned option label 'B' in block 5 with no preceding question."
+  ]
+}

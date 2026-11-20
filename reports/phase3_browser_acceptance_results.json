@@ -1,0 +1,98 @@
+[
+  {
+    "scenario": 1,
+    "name": "Landing Page & Kora Kaagaz Identity",
+    "status": "PASSED",
+    "screenshot": "01_landing_page.png"
+  },
+  {
+    "scenario": 2,
+    "name": "User Registration & Session Initialization",
+    "status": "PASSED",
+    "screenshot": "02_registered_and_logged_in.png"
+  },
+  {
+    "scenario": 3,
+    "name": "Workspace Desk Inspection",
+    "status": "PASSED",
+    "screenshot": "03_workspace_desk.png"
+  },
+  {
+    "scenario": 4,
+    "name": "Isolated Workspace Provisioning",
+    "status": "PASSED",
+    "screenshot": "04_new_workspace_created.png"
+  },
+  {
+    "scenario": 5,
+    "name": "Document Ingestion & Multi-Page PDF Extraction",
+    "status": "PASSED",
+    "screenshot": "05_document_ingested.png"
+  },
+  {
+    "scenario": 6,
+    "name": "Spatial Canvas & Reconstructed Bounding Boxes",
+    "status": "PASSED",
+    "screenshot": "06_spatial_canvas.png"
+  },
+  {
+    "scenario": 7,
+    "name": "Interactive Block Inspector",
+    "status": "PASSED",
+    "screenshot": "07_block_inspector.png"
+  },
+  {
+    "scenario": 8,
+    "name": "Responsive Canvas Zoom & Coordinate Scaling",
+    "status": "PASSED",
+    "screenshot": "08_zoom_scaled.png"
+  },
+  {
+    "scenario": 9,
+    "name": "Grounded QA Execution with Qwen 3.5 2B",
+    "status": "PASSED",
+    "screenshot": "09_grounded_qa_result.png"
+  },
+  {
+    "scenario": 10,
+    "name": "Qwen 3.5 Thinking Trace Disclosure",
+    "status": "PASSED",
+    "screenshot": "skipped"
+  },
+  {
+    "scenario": 11,
+    "name": "Direct Citation Jump to Spatial Canvas",
+    "status": "PASSED",
+    "screenshot": "skipped"
+  },
+  {
+    "scenario": 12,
+    "name": "Image-Based Question Ingestion & OCR",
+    "status": "PASSED",
+    "screenshot": "12_image_question_ocr_result.png"
+  },
+  {
+    "scenario": 13,
+    "name": "Handwriting Question Evaluation",
+    "status": "PASSED",
+    "screenshot": "13_handwriting_ocr_evaluation.png"
+  },
+  {
+    "scenario": 14,
+    "name": "Report Studio Dossier Authoring",
+    "status": "PASSED",
+    "screenshot": "14_report_studio_dossier.png"
+  },
+  {
+    "scenario": 15,
+    "name": "Markdown Dossier Export Event",
+    "status": "PASSED",
+    "file": "SETU_NETRA_DOSSIER_1794416892736.md"
+  },
+  {
+    "scenario": 16,
+    "name": "Secure Logout & Session Invalidation",
+    "status": "PASSED",
+    "screenshot": "15_logged_out_landing.png"
+  }
+]

@@ -1,0 +1,426 @@
+{
+  "audit_metadata": {
+    "timestamp": "2026-11-20T06:23:30Z",
+    "preservation_protocol": "Zero-Retraining / Zero-Modification Immutable Integrity Check",
+    "audit_result": "ALL CHECKPOINTS FULLY PRESERVED AND VERIFIED"
+  },
+  "checkpoints": {
+    "sr_edge_net": {
+      "path": "models/structure/sr_edge_net.pt",
+      "size_bytes": 5005767,
+      "sha256_before_audit": "cc1ab954c43930d104c6eb820c7f492f59c341965723815327c38ae97fc39ad6",
+      "sha256_after_audit": "cc1ab954c43930d104c6eb820c7f492f59c341965723815327c38ae97fc39ad6",
+      "integrity_verified": true,
+      "epoch": 4,
+      "total_parameters": 414088,
+      "tensor_count": 30,
+      "tensors": {
+        "text_proj.0.weight": [
+          172,
+          384
+        ],
+        "text_proj.0.bias": [
+          172
+        ],
+        "text_proj.1.weight": [
+          172
+        ],
+        "text_proj.1.bias": [
+          172
+        ],
+        "text_proj.3.weight": [
+          64,
+          172
+        ],
+        "text_proj.3.bias": [
+          64
+        ],
+        "text_proj.4.weight": [
+          64
+        ],
+        "text_proj.4.bias": [
+          64
+        ],
+        "spatial_proj.0.weight": [
+          64,
+          15
+        ],
+        "spatial_proj.0.bias": [
+          64
+        ],
+        "spatial_proj.1.weight": [
+          64
+        ],
+        "spatial_proj.1.bias": [
+          64
+        ],
+        "spatial_proj.3.weight": [
+          64,
+          64
+        ],
+        "spatial_proj.3.bias": [
+          64
+        ],
+        "spatial_proj.4.weight": [
+          64
+        ],
+        "spatial_proj.4.bias": [
+          64
+        ],
+        "classifier.0.weight": [
+          512,
+          320
+        ],
+        "classifier.0.bias": [
+          512
+        ],
+        "classifier.1.weight": [
+          512
+        ],
+        "classifier.1.bias": [
+          512
+        ],
+        "classifier.4.weight": [
+          256,
+          512
+        ],
+        "classifier.4.bias": [
+          256
+        ],
+        "classifier.5.weight": [
+          256
+        ],
+        "classifier.5.bias": [
+          256
+        ],
+        "classifier.8.weight": [
+          128,
+          256
+        ],
+        "classifier.8.bias": [
+          128
+        ],
+        "classifier.9.weight": [
+          128
+        ],
+        "classifier.9.bias": [
+          128
+        ],
+        "classifier.12.weight": [
+          4,
+          128
+        ],
+        "classifier.12.bias": [
+          4
+        ]
+      },
+      "config": {
+        "model": {
+          "text_dim": 384,
+          "text_proj_dim": 64,
+          "spatial_dim": 15,
+          "spatial_proj_dim": 64,
+          "num_classes": 4,
+          "dropout_rate": 0.2
+        },
+        "training": {
+          "batch_size": 64,
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001,
+          "epochs": 15,
+          "early_stopping_patience": 4,
+          "lr_scheduler_factor": 0.5,
+          "lr_scheduler_patience": 2,
+          "loss_type": "focal",
+          "focal_gamma": 2.0,
+          "class_weights": [
+            1.2,
+            1.0,
+            1.5,
+            0.4
+          ],
+          "device": "cpu",
+          "seed": 42,
+          "num_workers": 0
+        },
+        "data": {
+          "train_split": "training/datasets/SETU-SR/splits/train.jsonl",
+          "val_split": "training/datasets/SETU-SR/splits/val.jsonl",
+          "test_synthetic": "training/datasets/SETU-SR/splits/test_synthetic.jsonl",
+          "test_in_domain": "training/datasets/SETU-SR/splits/test_in_domain.jsonl"
+        },
+        "checkpoints": {
+          "save_dir": "models/structure",
+          "primary_checkpoint": "models/structure/sr_edge_net.pt",
+          "funsd_only_checkpoint": "models/structure/sr_edge_net_funsd_only.pt",
+          "synth_only_checkpoint": "models/structure/sr_edge_net_synth_only.pt"
+        }
+      },
+      "metrics_recorded_at_train_time": {
+        "metrics": "{'accuracy': 0.9759, 'macro_precision': 0.973, 'macro_recall': 0.9835, 'macro_f1': 0.9781, 'per_class': {'PARENT_OF': {'precision': 0.9399, 'recall': 0.9593, 'f1': 0.9495, 'support': 1451}, 'OPTION_OF': {'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'support': 868}, 'CONTINUATION_OF': {'precision': 0.9671, 'recall': 1.0, 'f1': 0.9833, 'support': 323}, 'NONE': {'precision': 0.9849, 'recall': 0.9746, 'f1': 0.9797, 'support': 3942}}, 'confusion_matrix': [[1392, 0, 0, 59], [0, 868, 0, 0], [0, 0, 323, 0], [89, 0, 11, 3842]]}",
+        "condition": "Combined (FUNSD + Synthetic)"
+      }
+    },
+    "er_sp": {
+      "path": "models/evidence/er_sp.pt",
+      "size_bytes": 6738711,
+      "sha256_before_audit": "c44d7e77be93b55615f3193587420fed289469d4bd1ef5610d7103b0a30a8bca",
+      "sha256_after_audit": "c44d7e77be93b55615f3193587420fed289469d4bd1ef5610d7103b0a30a8bca",
+      "integrity_verified": true,
+      "epoch": 7,
+      "total_parameters": 560134,
+      "tensor_count": 16,
+      "tensors": {
+        "proj.0.weight": [
+          256,
+          1537
+        ],
+        "proj.0.bias": [
+          256
+        ],
+        "proj.1.weight": [
+          256
+        ],
+        "proj.1.bias": [
+          256
+        ],
+        "attn_scorer.weight": [
+          1,
+          256
+        ],
+        "attn_scorer.bias": [
+          1
+        ],
+        "classifier.0.weight": [
+          256,
+          512
+        ],
+        "classifier.0.bias": [
+          256
+        ],
+        "classifier.1.weight": [
+          256
+        ],
+        "classifier.1.bias": [
+          256
+        ],
+        "classifier.4.weight": [
+          128,
+          256
+        ],
+        "classifier.4.bias": [
+          128
+        ],
+        "classifier.5.weight": [
+          128
+        ],
+        "classifier.5.bias": [
+          128
+        ],
+        "classifier.8.weight": [
+          5,
+          128
+        ],
+        "classifier.8.bias": [
+          5
+        ]
+      },
+      "config": {
+        "dataset": {
+          "data_dir": "training/datasets/SETU-ER/splits",
+          "train_file": "train.jsonl",
+          "val_file": "val.jsonl",
+          "test_file": "test.jsonl",
+          "test_in_domain_file": "test_in_domain.jsonl",
+          "embedding_cache": "training/evidence/embedding_cache.pt"
+        },
+        "model": {
+          "interaction_dim": 1537,
+          "proj_dim": 256,
+          "hidden_dim": 128,
+          "num_classes": 5,
+          "dropout": 0.2
+        },
+        "training": {
+          "seed": 42,
+          "device": "cpu",
+          "batch_size": 32,
+          "epochs": 30,
+          "learning_rate": 0.0008,
+          "weight_decay": 0.0001,
+          "focal_gamma": 2.0,
+          "lr_patience": 3,
+          "lr_factor": 0.5,
+          "early_stopping_patience": 7,
+          "output_dir": "models/evidence",
+          "model_save_path": "models/evidence/er_sp.pt"
+        }
+      },
+      "metrics_recorded_at_train_time": {
+        "val_macro_f1": 0.753247687943451,
+        "val_acc": 0.7617647058823529
+      }
+    },
+    "cm_rp": {
+      "path": "models/policy/cm_rp.pt",
+      "size_bytes": 771855,
+      "sha256_before_audit": "5f8b1757d11dd0129150b722efa89d4073ebbb8ea695a1eda75b3b738436292f",
+      "sha256_after_audit": "5f8b1757d11dd0129150b722efa89d4073ebbb8ea695a1eda75b3b738436292f",
+      "integrity_verified": true,
+      "epoch": 9,
+      "total_parameters": 63367,
+      "tensor_count": 10,
+      "tensors": {
+        "net.0.weight": [
+          128,
+          423
+        ],
+        "net.0.bias": [
+          128
+        ],
+        "net.1.weight": [
+          128
+        ],
+        "net.1.bias": [
+          128
+        ],
+        "net.4.weight": [
+          64,
+          128
+        ],
+        "net.4.bias": [
+          64
+        ],
+        "net.5.weight": [
+          64
+        ],
+        "net.5.bias": [
+          64
+        ],
+        "net.8.weight": [
+          7,
+          64
+        ],
+        "net.8.bias": [
+          7
+        ]
+      },
+      "config": {
+        "dataset": {
+          "data_dir": "training/datasets/SETU-CM/splits",
+          "train_file": "train.jsonl",
+          "val_file": "val.jsonl",
+          "test_file": "test.jsonl",
+          "test_in_domain_file": "test_in_domain.jsonl",
+          "manifest_path": "training/datasets/SETU-CM/dataset_manifest.json"
+        },
+        "model": {
+          "input_dim": 423,
+          "hidden_dim1": 128,
+          "hidden_dim2": 64,
+          "num_actions": 7,
+          "dropout": 0.15
+        },
+        "training": {
+          "seed": 42,
+          "device": "cpu",
+          "batch_size": 32,
+          "epochs": 35,
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001,
+          "focal_gamma": 1.5,
+          "lr_patience": 3,
+          "lr_factor": 0.5,
+          "early_stopping_patience": 8,
+          "output_dir": "models/policy",
+          "model_save_path": "models/policy/cm_rp.pt"
+        }
+      },
+      "metrics_recorded_at_train_time": {
+        "val_macro_f1": 0.6089331856773718,
+        "val_acc": 0.8794117647058823
+      }
+    },
+    "cm_rp_v2": {
+      "path": "models/policy/cm_rp_v2.pt",
+      "size_bytes": 773721,
+      "sha256_before_audit": "eb37cabe0d233ea3b5e96d27d033d45cb2c64528a6027a9f8275801e1f80075d",
+      "sha256_after_audit": "eb37cabe0d233ea3b5e96d27d033d45cb2c64528a6027a9f8275801e1f80075d",
+      "integrity_verified": true,
+      "epoch": 9,
+      "total_parameters": 63367,
+      "tensor_count": 10,
+      "tensors": {
+        "net.0.weight": [
+          128,
+          423
+        ],
+        "net.0.bias": [
+          128
+        ],
+        "net.1.weight": [
+          128
+        ],
+        "net.1.bias": [
+          128
+        ],
+        "net.4.weight": [
+          64,
+          128
+        ],
+        "net.4.bias": [
+          64
+        ],
+        "net.5.weight": [
+          64
+        ],
+        "net.5.bias": [
+          64
+        ],
+        "net.8.weight": [
+          7,
+          64
+        ],
+        "net.8.bias": [
+          7
+        ]
+      },
+      "config": {
+        "dataset": {
+          "data_dir": "training/datasets/SETU-CM/splits",
+          "train_file": "train.jsonl",
+          "val_file": "val.jsonl",
+          "test_file": "test.jsonl",
+          "test_in_domain_file": "test_in_domain.jsonl",
+          "manifest_path": "training/datasets/SETU-CM/dataset_manifest.json"
+        },
+        "model": {
+          "input_dim": 423,
+          "hidden_dim1": 128,
+          "hidden_dim2": 64,
+          "num_actions": 7,
+          "dropout": 0.2
+        },
+        "training": {
+          "seed": 42,
+          "device": "cpu",
+          "batch_size": 32,
+          "epochs": 35,
+          "learning_rate": 0.001,
+          "weight_decay": 0.0003,
+          "focal_gamma": 1.5,
+          "lr_patience": 3,
+          "lr_factor": 0.5,
+          "early_stopping_patience": 8,
+          "output_dir": "models/policy",
+          "model_save_path": "models/policy/cm_rp_v2.pt"
+        }
+      },
+      "metrics_recorded_at_train_time": {
+        "val_macro_f1": 0.7327472527472528,
+        "val_acc": 0.8823529411764706,
+        "version": "v2"
+      }
+    }
+  }
+}

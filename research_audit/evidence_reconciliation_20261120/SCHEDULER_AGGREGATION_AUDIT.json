@@ -1,0 +1,457 @@
+{
+  "audit_metadata": {
+    "suite": "Scheduler Microbenchmarks",
+    "workload_count": 8,
+    "scheduler_count": 6,
+    "requests_per_rep": 40,
+    "repetitions": 2,
+    "total_requests_per_workload_sched": 80,
+    "grand_total_requests": 3840
+  },
+  "per_scheduler_mean_overhead_us": {
+    "ROUND_ROBIN": {
+      "mean_us": 31.53,
+      "min_workload_us": 18.27,
+      "max_workload_us": 45.22,
+      "mean_throughput_req_s": 0.0
+    },
+    "RANDOM": {
+      "mean_us": 30.59,
+      "min_workload_us": 19.0,
+      "max_workload_us": 41.71,
+      "mean_throughput_req_s": 0.0
+    },
+    "LEAST_OUTSTANDING": {
+      "mean_us": 41.06,
+      "min_workload_us": 21.35,
+      "max_workload_us": 61.77,
+      "mean_throughput_req_s": 0.0
+    },
+    "SECT": {
+      "mean_us": 94.36,
+      "min_workload_us": 47.04,
+      "max_workload_us": 127.43,
+      "mean_throughput_req_s": 0.0
+    },
+    "CAPACITY_AWARE": {
+      "mean_us": 123.03,
+      "min_workload_us": 65.25,
+      "max_workload_us": 173.4,
+      "mean_throughput_req_s": 0.0
+    },
+    "RESILIENT_CAPACITY_AWARE": {
+      "mean_us": 1.17,
+      "min_workload_us": 0.69,
+      "max_workload_us": 1.73,
+      "mean_throughput_req_s": 0.0
+    }
+  },
+  "discovered_instrumentation_defect": {
+    "location": "benchmarks/runners/scheduler_runner.py lines 174-178",
+    "code_snippet": "if isinstance(scheduler, AdaptiveResilientScheduler): t_sched_us = (time.perf_counter() - t0) * 1e6; resp = scheduler.execute_with_resilience(request, workers)",
+    "verdict": "Timer stopped BEFORE calling execute_with_resilience. The reported 1.17 us overhead for AdaptiveResilientScheduler is the latency of a Python isinstance check, not the scheduler algorithm.",
+    "status": "CONTRADICTED"
+  },
+  "workloads": {
+    "uniform_short": {
+      "ROUND_ROBIN": {
+        "overhead_mean_us": 23.92,
+        "overhead_p90_us": 48.2,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RANDOM": {
+        "overhead_mean_us": 36.3,
+        "overhead_p90_us": 52.1,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "LEAST_OUTSTANDING": {
+        "overhead_mean_us": 54.34,
+        "overhead_p90_us": 73.7,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "SECT": {
+        "overhead_mean_us": 124.1,
+        "overhead_p90_us": 161.7,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "CAPACITY_AWARE": {
+        "overhead_mean_us": 140.91,
+        "overhead_p90_us": 193.2,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RESILIENT_CAPACITY_AWARE": {
+        "overhead_mean_us": 1.73,
+        "overhead_p90_us": 1.5,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      }
+    },
+    "uniform_long": {
+      "ROUND_ROBIN": {
+        "overhead_mean_us": 42.77,
+        "overhead_p90_us": 58.8,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RANDOM": {
+        "overhead_mean_us": 39.2,
+        "overhead_p90_us": 48.4,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "LEAST_OUTSTANDING": {
+        "overhead_mean_us": 61.77,
+        "overhead_p90_us": 75.7,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "SECT": {
+        "overhead_mean_us": 115.81,
+        "overhead_p90_us": 155.9,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "CAPACITY_AWARE": {
+        "overhead_mean_us": 173.4,
+        "overhead_p90_us": 305.5,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RESILIENT_CAPACITY_AWARE": {
+        "overhead_mean_us": 0.75,
+        "overhead_p90_us": 1.1,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      }
+    },
+    "mixed_sizes": {
+      "ROUND_ROBIN": {
+        "overhead_mean_us": 35.9,
+        "overhead_p90_us": 52.6,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RANDOM": {
+        "overhead_mean_us": 39.26,
+        "overhead_p90_us": 49.8,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "LEAST_OUTSTANDING": {
+        "overhead_mean_us": 57.72,
+        "overhead_p90_us": 76.6,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "SECT": {
+        "overhead_mean_us": 127.43,
+        "overhead_p90_us": 162.7,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "CAPACITY_AWARE": {
+        "overhead_mean_us": 145.98,
+        "overhead_p90_us": 204.6,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RESILIENT_CAPACITY_AWARE": {
+        "overhead_mean_us": 1.41,
+        "overhead_p90_us": 2.0,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      }
+    },
+    "burst": {
+      "ROUND_ROBIN": {
+        "overhead_mean_us": 19.55,
+        "overhead_p90_us": 32.1,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RANDOM": {
+        "overhead_mean_us": 23.59,
+        "overhead_p90_us": 33.5,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "LEAST_OUTSTANDING": {
+        "overhead_mean_us": 25.64,
+        "overhead_p90_us": 52.0,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "SECT": {
+        "overhead_mean_us": 88.62,
+        "overhead_p90_us": 147.6,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "CAPACITY_AWARE": {
+        "overhead_mean_us": 112.92,
+        "overhead_p90_us": 154.2,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RESILIENT_CAPACITY_AWARE": {
+        "overhead_mean_us": 1.07,
+        "overhead_p90_us": 1.5,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      }
+    },
+    "queue_saturation": {
+      "ROUND_ROBIN": {
+        "overhead_mean_us": 18.27,
+        "overhead_p90_us": 35.6,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RANDOM": {
+        "overhead_mean_us": 19.0,
+        "overhead_p90_us": 35.7,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "LEAST_OUTSTANDING": {
+        "overhead_mean_us": 21.35,
+        "overhead_p90_us": 38.5,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "SECT": {
+        "overhead_mean_us": 47.04,
+        "overhead_p90_us": 75.9,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "CAPACITY_AWARE": {
+        "overhead_mean_us": 65.25,
+        "overhead_p90_us": 99.5,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RESILIENT_CAPACITY_AWARE": {
+        "overhead_mean_us": 0.69,
+        "overhead_p90_us": 1.3,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      }
+    },
+    "unequal_worker_capacity": {
+      "ROUND_ROBIN": {
+        "overhead_mean_us": 45.22,
+        "overhead_p90_us": 55.9,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RANDOM": {
+        "overhead_mean_us": 24.63,
+        "overhead_p90_us": 46.6,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "LEAST_OUTSTANDING": {
+        "overhead_mean_us": 52.48,
+        "overhead_p90_us": 69.1,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "SECT": {
+        "overhead_mean_us": 108.98,
+        "overhead_p90_us": 153.6,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "CAPACITY_AWARE": {
+        "overhead_mean_us": 103.58,
+        "overhead_p90_us": 222.2,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RESILIENT_CAPACITY_AWARE": {
+        "overhead_mean_us": 1.39,
+        "overhead_p90_us": 1.9,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      }
+    },
+    "worker_degradation": {
+      "ROUND_ROBIN": {
+        "overhead_mean_us": 39.78,
+        "overhead_p90_us": 50.5,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RANDOM": {
+        "overhead_mean_us": 41.71,
+        "overhead_p90_us": 52.2,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "LEAST_OUTSTANDING": {
+        "overhead_mean_us": 28.97,
+        "overhead_p90_us": 58.7,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "SECT": {
+        "overhead_mean_us": 86.78,
+        "overhead_p90_us": 153.2,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "CAPACITY_AWARE": {
+        "overhead_mean_us": 164.59,
+        "overhead_p90_us": 235.0,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RESILIENT_CAPACITY_AWARE": {
+        "overhead_mean_us": 1.48,
+        "overhead_p90_us": 2.2,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      }
+    },
+    "worker_failure_and_recovery": {
+      "ROUND_ROBIN": {
+        "overhead_mean_us": 26.83,
+        "overhead_p90_us": 46.2,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RANDOM": {
+        "overhead_mean_us": 21.01,
+        "overhead_p90_us": 25.3,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "LEAST_OUTSTANDING": {
+        "overhead_mean_us": 26.21,
+        "overhead_p90_us": 29.8,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "SECT": {
+        "overhead_mean_us": 56.13,
+        "overhead_p90_us": 78.4,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "CAPACITY_AWARE": {
+        "overhead_mean_us": 77.6,
+        "overhead_p90_us": 78.8,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      },
+      "RESILIENT_CAPACITY_AWARE": {
+        "overhead_mean_us": 0.8,
+        "overhead_p90_us": 1.1,
+        "throughput_mean": 0.0,
+        "accepted": 0,
+        "failed": 0,
+        "dropped": 0
+      }
+    }
+  }
+}

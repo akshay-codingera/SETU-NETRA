@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --paper-bg: #FBF9F5;
+    --paper-card: #FDFDFB;
+    --paper-elevated: #F5F1E6;
+    --paper-border: #E8E2D5;
+    --paper-border-strong: #D5CCA8;
+    --ink-black: #1A1918;
+    --ink-charcoal: #3D3B38;
+    --ink-muted: #7A766F;
+    --ink-faint: #B5B0A6;
+    --vermilion: #C24136;
+    --vermilion-soft: #FDF1F0;
+    --vermilion-border: #F0B8B4;
+    --sage-grounded: #2D6A4F;
+    --sage-soft: #EBF7EE;
+    --amber-contradicted: #B57314;
+    --amber-soft: #FFF9EB;
+  }
+
+  body {
+    background-color: var(--paper-bg);
+    color: var(--ink-black);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    background-image: 
+      radial-gradient(#E8E2D5 0.5px, transparent 0.5px),
+      radial-gradient(#E8E2D5 0.5px, #FBF9F5 0.5px);
+    background-size: 24px 24px;
+    background-position: 0 0, 12px 12px;
+  }
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Kora Kaagaz Japanese Hanko Seal */
+.hanko-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid #C24136;
+  border-radius: 3px;
+  color: #C24136;
+  padding: 1px 5px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background-color: #FDF1F0;
+  user-select: none;
+}
+
+.hanko-seal-sm {
+  border: 1px solid #C24136;
+  border-radius: 2px;
+  color: #C24136;
+  padding: 0px 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  background-color: #FDF1F0;
+}
+
+/* Tripartite Status Seals */
+.seal-supported {
+  background-color: #EBF7EE;
+  color: #2D6A4F;
+  border: 1.5px solid #40916C;
+}
+
+.seal-contradicted {
+  background-color: #FFF9EB;
+  color: #B57314;
+  border: 1.5px solid #D48B28;
+}
+
+.seal-unsupported {
+  background-color: #F3F1EC;
+  color: #6E6A64;
+  border: 1.5px solid #9E9A92;
+}
+
+/* Subtle Sakura Page Animation */
+@keyframes sakura-fall {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px) rotate(0deg);
+  }
+  20% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(16px) rotate(45deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

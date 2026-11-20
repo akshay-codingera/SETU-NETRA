@@ -1,0 +1,11 @@
+Midterm Examination: Distributed Systems
+
+Q1. How does Raft establish consistency across distributed nodes?
+(A) Centralized coordinator
+(B) Replicated state machines and leader election
+(C) Broadcast gossip without leaders
+(D) Proof of work
+
+Q2. Define the purpose of terms in the Raft consensus algorithm.
+
+Q3. Compare Paxos and Raft regarding understandability and state machine safety.

@@ -1,0 +1,33 @@
+{
+  "table_name": "R4_Paired_Contingency_Matrix",
+  "matrix_2x2": [
+    [
+      31,
+      2
+    ],
+    [
+      12,
+      5
+    ]
+  ],
+  "row_labels": [
+    "C6_Grounded_Correct",
+    "C6_Grounded_Incorrect"
+  ],
+  "col_labels": [
+    "C4_Correct",
+    "C4_Incorrect"
+  ],
+  "cell_counts": {
+    "both_correct_n11": 31,
+    "c4_correct_c6_incorrect_n10": 2,
+    "c4_incorrect_c6_correct_n01": 12,
+    "both_incorrect_n00": 5
+  },
+  "marginal_totals": {
+    "c4_correct_total": 33,
+    "c4_incorrect_total": 17,
+    "c6g_correct_total": 43,
+    "c6g_incorrect_total": 7
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "case1_empty_page": {
+    "status": "PASS",
+    "block_count": 0,
+    "notes": "Handles cleanly without crashing; produces 0 blocks"
+  },
+  "case2_corrupt_pdf": {
+    "status": "EXPECTED_FAILURE",
+    "error_type": "PdfiumError",
+    "error_message": "Failed to load document (PDFium: Data format error).",
+    "notes": "Defensively rejected before corrupted execution"
+  },
+  "case3_rotated_page": {
+    "status": "DEGRADED",
+    "recognized": false,
+    "detected_text": "0",
+    "notes": "Without orientation normalization, sideways text causes OCR failure or word scrambling"
+  },
+  "case4_low_resolution": {
+    "status": "PASS",
+    "block_count": 1,
+    "detected_text": "Lowv Pes Text",
+    "notes": "Tiny fonts / low resolution result in near-zero character recognition"
+  },
+  "case5_multi_column": {
+    "status": "PASS",
+    "merged_columns": false,
+    "block_count": 1,
+    "notes": "Pure horizontal projection / line grouping merges lines horizontally across column gutters if vertical coordinates overlap"
+  },
+  "case6_table": {
+    "status": "LIMITATION_IDENTIFIED",
+    "block_count": 3,
+    "notes": "Tables are linearized into standard paragraph blocks rather than structured grid/cells"
+  },
+  "case7_multilingual": {
+    "status": "LIMITATION_IDENTIFIED",
+    "hindi_detected": false,
+    "detected_text": "English Header Setu-Netra",
+    "notes": "EasyOCR initialized with ['en'] only. Non-Latin scripts (Devanagari) are dropped or rendered as gibberish without explicit language config"
+  },
+  "case8_digital_pdf": {
+    "status": "PASS",
+    "pages": 3,
+    "blocks": 6,
+    "latency_s": 10.23
+  },
+  "case9_scanned_pdf": {
+    "status": "DEGRADED",
+    "blocks": 3,
+    "has_question": false,
+    "has_options": false,
+    "latency_s": 6.29,
+    "detected_text": "SCANNED EXAM DOCUMENT 01whatis the primarY memory component IAl Cacha Memory\nIBI Hard Disl Driva"
+  },
+  "case10_large_doc": {
+    "status": "PASS",
+    "page_count": 10,
+    "total_blocks": 10,
+    "total_time_s": 28.34,
+    "time_per_page_s": 2.83,
+    "notes": "CPU-bound sequential OCR scales linearly with page count (~2-4s per page on CPU)"
+  }
+}

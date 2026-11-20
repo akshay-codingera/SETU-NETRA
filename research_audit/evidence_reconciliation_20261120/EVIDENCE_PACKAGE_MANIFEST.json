@@ -1,0 +1,495 @@
+{
+  "package_metadata": {
+    "title": "SETU-NETRA Complete Evidence Package",
+    "timestamp_iso": "2026-11-20T06:26:30Z",
+    "creator": "Senior Research Auditor",
+    "description": "Cryptographically verified evidence recovery, reconciliation reports, raw predictions, and source matrices"
+  },
+  "previous_audit_artifacts": [
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\ADDITIONAL_EXPERIMENT_PLAN.md",
+      "filename": "ADDITIONAL_EXPERIMENT_PLAN.md",
+      "size_bytes": 9357,
+      "sha256": "bcd04eb459507ede6183820be169f7f3660e81120387b10533b77ed2e6178a38",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\AUDIT_EVIDENCE_INDEX.json",
+      "filename": "AUDIT_EVIDENCE_INDEX.json",
+      "size_bytes": 10240,
+      "sha256": "32f411d33a9d76ea4bff90ecf7307cf99a4c0612df137bd94b47a8817a5327d7",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\AUDIT_EXECUTION_LOG.md",
+      "filename": "AUDIT_EXECUTION_LOG.md",
+      "size_bytes": 5189,
+      "sha256": "e51b8c645e2447c6df1d2cdf43ccba901af3da85b6e0a3743c26612b44756523",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\CHECKPOINT_PRESERVATION.json",
+      "filename": "CHECKPOINT_PRESERVATION.json",
+      "size_bytes": 6272,
+      "sha256": "a0f036c9a031ecb9a1326404fd6221197371c86989a3012f75b9f85d8b00ea27",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\COMPLETE_AUDIT.json",
+      "filename": "COMPLETE_AUDIT.json",
+      "size_bytes": 11360,
+      "sha256": "f35429b90f0128bb69267cd9aaaee812d0e59dc0c2557b3a42942dcf4a7a4cac",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\EXPERIMENT_RECONCILIATION.csv",
+      "filename": "EXPERIMENT_RECONCILIATION.csv",
+      "size_bytes": 10454,
+      "sha256": "95054a59abdf27915146ded5c4cd650ba6efc385884b3220844cfe327f5caace",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\FIGURE_AUDIT.csv",
+      "filename": "FIGURE_AUDIT.csv",
+      "size_bytes": 4628,
+      "sha256": "8a391fd948b4eb602cbd60308c707e6ee7d26ffb960a188d9be46c0ed0ce4624",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\IMPLEMENTATION_INVENTORY.csv",
+      "filename": "IMPLEMENTATION_INVENTORY.csv",
+      "size_bytes": 9433,
+      "sha256": "28c4241a37742a68d47a917724bb12e5d38622dd698d1bb888d99390a9b8a702",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\MASTER_AUDIT_REPORT.md",
+      "filename": "MASTER_AUDIT_REPORT.md",
+      "size_bytes": 31434,
+      "sha256": "8351e12c5f2c06b901ad4c458146bb3cee35da7e4e4aa8a6e8e127d33dc6b288",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\MISSING_EVIDENCE.md",
+      "filename": "MISSING_EVIDENCE.md",
+      "size_bytes": 7269,
+      "sha256": "f2f56f80d8999ce5602f7059fe401f93f40693309e5a58d98fa5ca7ad5a73df9",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\REPRODUCIBILITY_REPORT.md",
+      "filename": "REPRODUCIBILITY_REPORT.md",
+      "size_bytes": 6992,
+      "sha256": "ceee46633ec0565191ab99f441c82ad21070d7df242b3ff6c8a4475d62731b7b",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\RESEARCH_CONTRIBUTION_MATRIX.md",
+      "filename": "RESEARCH_CONTRIBUTION_MATRIX.md",
+      "size_bytes": 6977,
+      "sha256": "210414028511353468e087c2958cf2f9a8075a91a13290f449a8608fcfe2777a",
+      "classification": "PRESENT AND COMPLETE"
+    },
+    {
+      "relative_path": "research_audit\\complete_audit_20261120_045130\\python_packages.txt",
+      "filename": "python_packages.txt",
+      "size_bytes": 5362,
+      "sha256": "6ad40877cca8ecb52842e279f9a2f6bf473a9fe2983d2371448d7b570a36d1ea",
+      "classification": "PRESENT AND COMPLETE"
+    }
+  ],
+  "new_reconciliation_artifacts": [
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\CIRCUIT_BREAKER_STATE_AUDIT.md",
+      "filename": "CIRCUIT_BREAKER_STATE_AUDIT.md",
+      "size_bytes": 4410,
+      "sha256": "88285ef33344471e333cc8a65adbd6e31e83428b4bbdc3322825c406cf9f63d8",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\CITATION_VERIFIER_SCOPE.md",
+      "filename": "CITATION_VERIFIER_SCOPE.md",
+      "size_bytes": 4915,
+      "sha256": "81c3aa419be3f7932b38544332e6e5c0874f6e101ac91e3539c588af87ecd293",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\COMPLETE_FIGURE_SOURCE_RECONCILIATION.csv",
+      "filename": "COMPLETE_FIGURE_SOURCE_RECONCILIATION.csv",
+      "size_bytes": 4450,
+      "sha256": "c24bd2aeb2dd5c9343b15c3929124e23ed7a06a4875698a42a2ca3cee8b073f0",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\EASYOCR_HARNESS_FORENSIC_AUDIT.md",
+      "filename": "EASYOCR_HARNESS_FORENSIC_AUDIT.md",
+      "size_bytes": 3589,
+      "sha256": "c763aa359c771a9172e3969665885010e1de1966ae5ba486e03092d6891aab8d",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\EXPERIMENT_ENVIRONMENT_MATRIX.csv",
+      "filename": "EXPERIMENT_ENVIRONMENT_MATRIX.csv",
+      "size_bytes": 1400,
+      "sha256": "f9a74d0c046a1548e694249c2f654ba3ae0a927350a4690fd8d5c1f531616a43",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\FINAL_CHECKPOINT_PRESERVATION.json",
+      "filename": "FINAL_CHECKPOINT_PRESERVATION.json",
+      "size_bytes": 11569,
+      "sha256": "3c8536483c83908ec37a9d35c05a74538931b0d7598f1202034fbc6c2ff907ee",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\FINAL_EVIDENCE_RECONCILIATION.json",
+      "filename": "FINAL_EVIDENCE_RECONCILIATION.json",
+      "size_bytes": 6610,
+      "sha256": "7ac953a27db2fbe02be1ed1e5753a7a8dff1012b94eeff4e85d899ad8607b078",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\FINAL_EVIDENCE_RECONCILIATION_REPORT.md",
+      "filename": "FINAL_EVIDENCE_RECONCILIATION_REPORT.md",
+      "size_bytes": 21659,
+      "sha256": "4162c4e45ea7c84694ec727e693d10bbb65ae6c54ab94045fe2bb687cc5b0572",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\FINAL_OUTSTANDING_QUESTIONS.md",
+      "filename": "FINAL_OUTSTANDING_QUESTIONS.md",
+      "size_bytes": 4305,
+      "sha256": "43a20affd0bea629e97e39e2af40602d96c56f8c31056d3c4aabc17081dab997",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\FINAL_RESEARCH_READINESS_ASSESSMENT.md",
+      "filename": "FINAL_RESEARCH_READINESS_ASSESSMENT.md",
+      "size_bytes": 8095,
+      "sha256": "6173028c7e8f7d1eccbb088807055a521f161e20ce9ee731eb3a16fa1b6dc136",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\HARDWARE_PROVENANCE_RECONCILIATION.md",
+      "filename": "HARDWARE_PROVENANCE_RECONCILIATION.md",
+      "size_bytes": 5114,
+      "sha256": "515a20dd2177c668c5cc00cd923d551cd325e0c884878619a172af941f1adbc3",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\LOCAL_INFERENCE_EVIDENCE_RECONCILIATION.md",
+      "filename": "LOCAL_INFERENCE_EVIDENCE_RECONCILIATION.md",
+      "size_bytes": 2499,
+      "sha256": "396c99f18b282296ee68e7ec5e7edf77ab77058f34c5ffb70bc1b0b07e3fcdfb",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\QA_METRIC_RECALCULATION.json",
+      "filename": "QA_METRIC_RECALCULATION.json",
+      "size_bytes": 1265,
+      "sha256": "edbd6f676c6e5cd3698a579d19aedd1e7840eec682b66c9b0faeb1d81df5202e",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\QA_QUERY_LEVEL_RECONCILIATION.csv",
+      "filename": "QA_QUERY_LEVEL_RECONCILIATION.csv",
+      "size_bytes": 2781,
+      "sha256": "ca926159373912a74833853876fb8ebcfe2c686ee827ec4fda9053fc99362af6",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\QWEN_INFERENCE_EVIDENCE.md",
+      "filename": "QWEN_INFERENCE_EVIDENCE.md",
+      "size_bytes": 3869,
+      "sha256": "833cd5a1fd72753f29ced0b06a4e4faa0d1b782f1fc1fcb3f25460862bc534e2",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R1_CONFUSION_MATRIX_RECALCULATION.json",
+      "filename": "R1_CONFUSION_MATRIX_RECALCULATION.json",
+      "size_bytes": 6863,
+      "sha256": "fe9ff1e749fe68661421f068aa03989e57b429d7b72833c1a0b725d8dab4f53e",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R1_DATASET_AND_METRIC_RECONCILIATION.md",
+      "filename": "R1_DATASET_AND_METRIC_RECONCILIATION.md",
+      "size_bytes": 8010,
+      "sha256": "0c1dfa322668daac7f96bad79bf9e864323072b0739ac765bcb7a46c46cf1f87",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R1_DATASET_ID_AUDIT.csv",
+      "filename": "R1_DATASET_ID_AUDIT.csv",
+      "size_bytes": 27235,
+      "sha256": "3a7cd2e0a521c6cb40fa6806c17dc34cf00ebbc68b7a28dd609e88d77bc4f0cf",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R2_AUTHORITATIVE_CONFUSION_MATRIX.json",
+      "filename": "R2_AUTHORITATIVE_CONFUSION_MATRIX.json",
+      "size_bytes": 11027,
+      "sha256": "b2010de23121e516a82bff10f770b2c4582823af19b804eb90c0a80cfaf44c5e",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R2_BASELINE_AND_CONFUSION_RECONCILIATION.md",
+      "filename": "R2_BASELINE_AND_CONFUSION_RECONCILIATION.md",
+      "size_bytes": 6988,
+      "sha256": "646ff39cdddda57d5740309067398c0f1afa986f603ff6aa9470014d2d1ad1d7",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R2_THRESHOLD_EXPERIMENTS.csv",
+      "filename": "R2_THRESHOLD_EXPERIMENTS.csv",
+      "size_bytes": 867,
+      "sha256": "ab052890329b460cc7121484914df6e334b2bc1edadcea11f55f2f016d5968a0",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R3_CONFIGURATION_AND_HISTORY_RECONCILIATION.md",
+      "filename": "R3_CONFIGURATION_AND_HISTORY_RECONCILIATION.md",
+      "size_bytes": 4791,
+      "sha256": "f35af44d46e578dc0be43a5edb1e1e9390677021be16794b50fac94c8b091a02",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R3_HARDWARE_MASK_VERIFICATION.md",
+      "filename": "R3_HARDWARE_MASK_VERIFICATION.md",
+      "size_bytes": 4650,
+      "sha256": "a4aeb97f366fc62a7810e307693e16102b18daee35df93660d93c224cda2a389",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R3_POLICY_VERSION_RESULTS.csv",
+      "filename": "R3_POLICY_VERSION_RESULTS.csv",
+      "size_bytes": 1936,
+      "sha256": "764a737a87412fc28e3d16c0f167123d24a6ee551f06ed5440a2987f574627a9",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R4_PAIRED_CONFUSION.json",
+      "filename": "R4_PAIRED_CONFUSION.json",
+      "size_bytes": 605,
+      "sha256": "729ae5a167ebf5e549d8ad4cfa3f79c89355977182732b4947d67b61e8f4c43d",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R4_PAIRED_PREDICTIONS.csv",
+      "filename": "R4_PAIRED_PREDICTIONS.csv",
+      "size_bytes": 13275,
+      "sha256": "221969a7fee6c2475fcdd28eb85051a423f710f5865f8799e16d58359dc4f668",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R4_PAIRED_STATISTICAL_RECONCILIATION.md",
+      "filename": "R4_PAIRED_STATISTICAL_RECONCILIATION.md",
+      "size_bytes": 11338,
+      "sha256": "04f619fe26d9e1a2b21ed7f093d1090466bab108075cef1731e4bf7048240d7a",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\R4_STATISTICAL_RECALCULATION.json",
+      "filename": "R4_STATISTICAL_RECALCULATION.json",
+      "size_bytes": 2041,
+      "sha256": "cafacf6b0cc2fc0ed0a5d618d955d8ecf1cb42a46df5de70d814f5e12ce55a28",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\RELIABILITY_TEST_EVIDENCE.csv",
+      "filename": "RELIABILITY_TEST_EVIDENCE.csv",
+      "size_bytes": 2332,
+      "sha256": "d5ddbdacaa254a079ce343f009507e306a3ff37bd48cba82ec412a0227db7db2",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\RELIABILITY_TIMEOUT_RECONCILIATION.md",
+      "filename": "RELIABILITY_TIMEOUT_RECONCILIATION.md",
+      "size_bytes": 4729,
+      "sha256": "62e1e696dfb3507c4b02915d502fabf3d54efd7eaede1389ecbff065993d4782",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\SCHEDULER_AGGREGATION_AUDIT.json",
+      "filename": "SCHEDULER_AGGREGATION_AUDIT.json",
+      "size_bytes": 12007,
+      "sha256": "c2ddca2bfb26472971f5a306b24e16e1c17966c620ea163d276a5888340580c5",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\SCHEDULER_OVERHEAD_RECONCILIATION.md",
+      "filename": "SCHEDULER_OVERHEAD_RECONCILIATION.md",
+      "size_bytes": 7161,
+      "sha256": "d3742f6553761e6ef869ef3ec812eea5a1a8b6899de586383b1e8bd5264ec7be",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\SCHEDULER_PER_WORKLOAD_METRICS.csv",
+      "filename": "SCHEDULER_PER_WORKLOAD_METRICS.csv",
+      "size_bytes": 3322,
+      "sha256": "29a7f4d0298a27b733fd41b9297c19d7fc150adf3bc4bedb302f3881f8b61bea",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\SOURCE_TO_CLAIM_MATRIX.csv",
+      "filename": "SOURCE_TO_CLAIM_MATRIX.csv",
+      "size_bytes": 11464,
+      "sha256": "548aaf3111aa601cd60272cf2e079298f8a5aad1ef67fe6318bb9df15f3a93fb",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\UNSUPPORTED_FIGURE_CLAIMS.md",
+      "filename": "UNSUPPORTED_FIGURE_CLAIMS.md",
+      "size_bytes": 5354,
+      "sha256": "f881b15994984fc78cdb2d4e594f481f2fde3e1f27c10662d1882088117e9ed3",
+      "file_type": ".md",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\check_r1_ids.py",
+      "filename": "check_r1_ids.py",
+      "size_bytes": 1054,
+      "sha256": "c8d686e2c27bd844a390bd459caa34308fa4e340716f4945027f48dd017e5eca",
+      "file_type": ".py",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\generate_checkpoint_preservation.py",
+      "filename": "generate_checkpoint_preservation.py",
+      "size_bytes": 2435,
+      "sha256": "8af1142bb6caba91a72bf96b64ec13fe782d769d11739a1f284801aae65480cd",
+      "file_type": ".py",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\generate_final_reconciliation_json.py",
+      "filename": "generate_final_reconciliation_json.py",
+      "size_bytes": 7136,
+      "sha256": "b4b0e275d530b4b35b690af4aeb16ea3ba9092b77c403b0ab1359dda8fb6c724",
+      "file_type": ".py",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\generate_r4_artifacts.py",
+      "filename": "generate_r4_artifacts.py",
+      "size_bytes": 8325,
+      "sha256": "9c9e537fd9da3fdc1ae5500242f6d24ca76a99ab8100d4cc735aa2854d7e5254",
+      "file_type": ".py",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\generate_source_matrix.py",
+      "filename": "generate_source_matrix.py",
+      "size_bytes": 18984,
+      "sha256": "14e58b7d6241bbefb0fb063e712c99f4176c13afea3d243449194cb53cab7409",
+      "file_type": ".py",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\last_prompt.txt",
+      "filename": "last_prompt.txt",
+      "size_bytes": 27457,
+      "sha256": "eb1a1f72477b8c2e811e085a9e62d4eb09c8a10d0abbe8957dc60097fbd252b0",
+      "file_type": ".txt",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\package_evidence.py",
+      "filename": "package_evidence.py",
+      "size_bytes": 4858,
+      "sha256": "f83edd108420aecfe944873e9aca3d323c47d9b3bf33761086db568e42161d94",
+      "file_type": ".py",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\reproduce_ablation.py",
+      "filename": "reproduce_ablation.py",
+      "size_bytes": 3482,
+      "sha256": "e661c28c4645ff24f1567abdc1cb35708bbe3c085bd09e0cf20cdd9b1ee32d47",
+      "file_type": ".py",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\CORRECTED_FIGURE_DATA\\figure_01_r1_confusion_matrices.json",
+      "filename": "figure_01_r1_confusion_matrices.json",
+      "size_bytes": 3300,
+      "sha256": "36f6cbadb865292071a66b94f01693040abc33f05e4e37a6bcf20c7457ce2c20",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\CORRECTED_FIGURE_DATA\\figure_02_r2_unseen_confusion_matrix.json",
+      "filename": "figure_02_r2_unseen_confusion_matrix.json",
+      "size_bytes": 4937,
+      "sha256": "c5587f1399b0c255b13bea6c598edca35fcb1cb34a69bbf8df5548fc315bb04a",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\CORRECTED_FIGURE_DATA\\figure_03_cmrp_7action_confusion_matrix.json",
+      "filename": "figure_03_cmrp_7action_confusion_matrix.json",
+      "size_bytes": 3455,
+      "sha256": "f478bb9a495c73e888f456648f0b0929b00376211c1ea3e56ba7b3d570fa1cbf",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\CORRECTED_FIGURE_DATA\\figure_04_r4_ablation_benchmarks.csv",
+      "filename": "figure_04_r4_ablation_benchmarks.csv",
+      "size_bytes": 373,
+      "sha256": "e9803e3c7111588a456bd7ee48c83ad38eac9df466b6cdd0f182c716bd2609cf",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\CORRECTED_FIGURE_DATA\\figure_06_anova_repeated_measures_100q.json",
+      "filename": "figure_06_anova_repeated_measures_100q.json",
+      "size_bytes": 4231,
+      "sha256": "7140a1d53476a2fbcc369d764b0a637185e09afe1c5b58c54b5c0cdbeeded61e",
+      "file_type": ".json",
+      "status": "NEWLY GENERATED"
+    },
+    {
+      "relative_path": "research_audit\\evidence_reconciliation_20261120\\CORRECTED_FIGURE_DATA\\figure_07_real_local_model_latencies.csv",
+      "filename": "figure_07_real_local_model_latencies.csv",
+      "size_bytes": 378,
+      "sha256": "d90ab98af287a6f4c06a3a995e5e022140b235cf128b54698a8ed9f2a457b3a2",
+      "file_type": ".csv",
+      "status": "NEWLY GENERATED"
+    }
+  ]
+}

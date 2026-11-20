@@ -1,0 +1,76 @@
+{
+  "source": "sample_question3",
+  "status": "SUCCESS",
+  "document_type_hint": "GENERAL_TEXT_DOCUMENT",
+  "reconstruction_latency_ms": 2.82,
+  "metadata": {
+    "document_type_hint": "GENERAL_TEXT_DOCUMENT",
+    "total_blocks": 1,
+    "total_lines": 4,
+    "total_questions": 0,
+    "block_type_counts": {
+      "PARAGRAPH": 1
+    }
+  },
+  "reading_order_box_indices": [
+    0,
+    1,
+    16,
+    2,
+    17,
+    3,
+    4,
+    5,
+    6,
+    7,
+    18,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "blocks": [
+    {
+      "block_id": 1,
+      "block_type": "PARAGRAPH",
+      "text": "Gle re xhe queY Put 2\nSELEcT FRom mountainc\n4 give all row< af the tble\nb2 None 0f theabove",
+      "bbox_xyxy": [
+        144.0,
+        119.06781290100707,
+        1484.0,
+        728.0
+      ],
+      "mean_confidence": 0.6798,
+      "min_confidence": 0.3739,
+      "source_detection_indices": [
+        0,
+        1,
+        16,
+        2,
+        17,
+        3,
+        4,
+        5,
+        6,
+        7,
+        18,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "role_metadata": {},
+      "warnings": []
+    }
+  ],
+  "questions": [],
+  "warnings": []
+}

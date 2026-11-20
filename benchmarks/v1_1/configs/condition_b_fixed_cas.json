@@ -1,0 +1,8 @@
+{
+  "condition_id": "Condition_B",
+  "name": "Fixed Model + Capacity-Aware Scheduling",
+  "description": "Condition with fixed generative model (smollm2-135m-instruct) and Capacity-Aware Scheduling (CAS).",
+  "routing_policy": "fixed",
+  "fixed_model_id": "smollm2-135m-instruct",
+  "scheduler": "CAPACITY_AWARE"
+}

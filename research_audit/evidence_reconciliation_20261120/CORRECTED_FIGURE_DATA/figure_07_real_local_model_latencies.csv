@@ -1,0 +1,6 @@
+model,category,warm_latency_ms,throughput,error_rate
+easyocr-craft-crnn,OCR,4497.32,0.22 pps,100% (attribute mismatch in log)
+all-MiniLM-L6-v2,Dense Embedding,8.57,116.64 req/s,0.0%
+offline-semantic-hash-512,Deduplication,0.64,1554.41 req/s,0.0%
+grounded-extractive-qa-v1,Extractive QA,0.05,10000.0 req/s,0.0%
+SmolLM2-135M-Instruct,Generative SLM,1208.14,24.83 tok/s,0.0%

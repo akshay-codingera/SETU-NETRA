@@ -1,0 +1,112 @@
+[
+  {
+    "scenario": 1,
+    "name": "Mathematical Question (2D Convolution Complexity)",
+    "dimensions": "1200x800",
+    "format": "PNG",
+    "domain": "MATHEMATICAL",
+    "selected_option": "B",
+    "final_answer": "Option B: O(H , W ^ K2)",
+    "latency_ms": 5858.31319999852,
+    "status": "LOGIC_VERIFIED"
+  },
+  {
+    "scenario": 2,
+    "name": "Handwritten SQL MCQ Question",
+    "dimensions": "1600x900",
+    "format": "JPEG",
+    "domain": "SQL",
+    "selected_option": "A",
+    "final_answer": "Option A: all rows of the table mountains",
+    "latency_ms": 5621.7281999997795,
+    "status": "LOGIC_VERIFIED"
+  },
+  {
+    "scenario": 3,
+    "name": "Printed SQL Question",
+    "dimensions": "1200x700",
+    "format": "PNG",
+    "domain": "SQL",
+    "selected_option": "A",
+    "final_answer": "Option A: WHERE",
+    "latency_ms": 3981.8238000007113,
+    "status": "LOGIC_VERIFIED"
+  },
+  {
+    "scenario": 4,
+    "name": "Portrait-Oriented Image (700x1300)",
+    "dimensions": "700x1300",
+    "format": "PNG",
+    "domain": "MATHEMATICAL",
+    "selected_option": "A",
+    "final_answer": "Option A: 6*x + 5",
+    "latency_ms": 3774.5255999980145,
+    "status": "LOGIC_VERIFIED"
+  },
+  {
+    "scenario": 5,
+    "name": "Landscape-Oriented Image (1600x900)",
+    "dimensions": "1600x900",
+    "format": "JPEG",
+    "domain": "SQL",
+    "selected_option": "A",
+    "final_answer": "Option A: all rows of the table mountains",
+    "latency_ms": 6630.587600004219,
+    "status": "LOGIC_VERIFIED"
+  },
+  {
+    "scenario": 6,
+    "name": "High-Resolution Image (>2500px, 3000x2200)",
+    "dimensions": "3000x2200",
+    "format": "PNG",
+    "domain": "MATHEMATICAL",
+    "selected_option": "B",
+    "final_answer": "Option B: O(H W K^2)",
+    "latency_ms": 8279.007099998125,
+    "status": "LOGIC_VERIFIED"
+  },
+  {
+    "scenario": 7,
+    "name": "Low-Resolution Image (<400px, 380x240)",
+    "dimensions": "380x240",
+    "format": "PNG",
+    "domain": "GENERAL",
+    "selected_option": "A",
+    "final_answer": "Option A: 20 b) 50",
+    "latency_ms": 614.245500000834,
+    "status": "LOGIC_VERIFIED"
+  },
+  {
+    "scenario": 8,
+    "name": "Rotated Image (90 deg EXIF Tag 6)",
+    "dimensions": "700x1000",
+    "format": "JPEG",
+    "domain": "PROGRAMMING",
+    "selected_option": "D",
+    "final_answer": "Option D: 30",
+    "latency_ms": 3024.987600001623,
+    "status": "LOGIC_VERIFIED"
+  },
+  {
+    "scenario": 9,
+    "name": "Multi-Region Document (Header + Query + Options)",
+    "dimensions": "1400x900",
+    "format": "PNG",
+    "domain": "SQL",
+    "selected_option": "A",
+    "final_answer": "Option A: all rows of the table mountains",
+    "latency_ms": 6271.884300003876,
+    "status": "LOGIC_VERIFIED"
+  },
+  {
+    "scenario": 10,
+    "name": "Uncertain Handwriting Image",
+    "dimensions": "1600x900",
+    "format": "JPEG",
+    "domain": "GENERAL",
+    "selected_option": "B",
+    "final_answer": "Option B: Narendro Mod;\n()",
+    "latency_ms": 6030.48989999661,
+    "status": "LOGIC_VERIFIED"
+  }
+]
